@@ -16,13 +16,15 @@ python3 -m blockreel render examples/demo_three_formats.json --start 0 --end 8.3
 python3 -m blockreel avatar main            # resolved look + fingerprint
 python3 -m blockreel parts check            # validate all parts
 python3 -m blockreel part-preview faces ld_3626bp05 --out face.png
-python3 -m unittest discover tests          # 30 tests, about 45 s
+python3 -m unittest discover tests          # 88 tests, about 75 s
+python3 -m blockreel preflight reels/x.json --sheet out/x_sheet.png   # pre-render checks + contact sheet (run BEFORE any full render)
+python3 -m blockreel check-video out/x.mp4 --scene reels/x.json       # verify a finished MP4
 python3 examples/make_demo_scene.py         # regenerates examples/demo_three_formats.json
 ```
 Needs ffmpeg. Python 3.13, numpy, Pillow.
 
 ### Setup after a git clone (important)
-`ldraw/` (130 MB of parts) is NOT in git. Download https://library.ldraw.org/library/updates/complete.zip, unzip it, then `python3 tools/ldraw_bundle.py <unzipped>/ldraw --list tools/ldraw_names.txt` and `python3 -m blockreel parts check`. The licence files and LDConfig.ldr are in git.
+`ldraw/` (130 MB of parts) is NOT in git. Download https://library.ldraw.org/library/updates/complete.zip, unzip it, then `python3 tools/ldraw_bundle.py <unzipped>/ldraw --from-parts` (derives the part list from `parts/`; the old `--list tools/ldraw_names.txt` is stale and misses 111 accessory parts) and `python3 -m blockreel parts check`. The licence files and LDConfig.ldr are in git.
 
 ### Render speed and how to run long renders
 About 3 to 4 s per frame at full quality on 2 cores (the 987-frame demo takes about 50 to 65 minutes). Foreground tool calls cap at 10 minutes and background processes are killed when a chat reply ends, so: render in chunks of about 8 s with `--start/--end` (frame boundaries must be multiples of 1/30), run them with `nohup` from a script while the turn is still going, poll with `sleep`, then join with `ffmpeg -f concat -safe 0 -i list.txt -c copy out.mp4`. Always check `ffprobe -count_frames` (987 frames expected for the demo).
@@ -39,6 +41,9 @@ Key facts:
 - Ground: `meta.ground.geo_studs` builds real raised studs on the lattice (pitch = `tile` = 1.164, radius = `studs` x tile) near the camera; the flat painted circles still cover the distance. Zones must use the same tile.
 - House style rules (`styles/house.json`): one fixed camera per shot, no shake, loader refuses violations. Text must be readable (the validator warns if words per second is too high: roughly 3.5 words per second at most).
 - Scene generation for the demo is in `examples/make_demo_scene.py` (three formats: EDIT RUN, REVEAL SKIT, CUP CHALLENGE, with a made-up "Bluebox" product). It is a sample, not a template for the owner's real promos.
+
+## Pre-render checks (blockreel/preflight.py, tests/test_preflight.py)
+A full render costs ~40 minutes, so `render` now runs the static preflight first and refuses on errors (`--skip-preflight` overrides). Three layers: static (timing, text speed / safe zone / overlap / brand words / contrast, characters framed and facing camera, props through characters, camera variety, end hold), stills (`--stills`/`--sheet`: half-size frames per shot, blank/dark/bright, cuts that do not change the picture, determinism; the sheet draws the safe zone in red and lists shot and time, look at it), and `check-video` (frame count, size, fps, black or frozen frames). Findings are error / warn / info; fades to black are exempt from the blank check. Workflow for a new reel: write scene, `validate`, `preflight --sheet`, look at the sheet, fix, then chunked full render, then `check-video`.
 
 ## Licensing and IP (tell the owner every time it matters)
 - `ldraw/` is CC BY 4.0: keep `CAlicense.txt` / `CAreadme.txt` and credit LDraw when publishing.

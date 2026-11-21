@@ -1,7 +1,7 @@
 """Copy the part files a list of LDraw parts needs (and everything they reference) from a full LDraw
 library into the project's ldraw/ folder.
 
-    python3 tools/ldraw_bundle.py /path/to/full/ldraw part1 part2 ...   (or --list file.txt)
+    python3 tools/ldraw_bundle.py /path/to/full/ldraw part1 part2 ...   (or --list file.txt, or --from-parts to bundle every part the parts/ templates use)
 
 The LDraw library is (c) its contributors and licensed CC BY 4.0 (see ldraw/CAreadme.txt, CAlicense.txt).
 """
@@ -53,7 +53,10 @@ if __name__ == "__main__":
     src = args[0]
     names = []
     rest = args[1:]
-    if rest and rest[0] == "--list":
+    if rest and rest[0] == "--from-parts":
+        # every LDraw number the shipped part templates point at (parts/<folder>/ld_<n>[_back].json)
+        names = sorted({re.sub(r"_back$", "", f.stem)[3:] for f in (DEST.parent / "parts").glob("*/ld_*.json")})
+    elif rest and rest[0] == "--list":
         names = [l.strip() for l in Path(rest[1]).read_text().splitlines() if l.strip()]
     else:
         names = rest

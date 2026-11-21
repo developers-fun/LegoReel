@@ -265,6 +265,7 @@ class Scene:
     def _load_characters(self, chars):
         if not isinstance(chars, dict) or not chars:
             raise SceneError("'characters' must be an object with at least one character")
+        self.raw_characters = chars
         self.appearances = {}
         self.rigs = {}
         self.avatars = {}

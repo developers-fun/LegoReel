@@ -29,6 +29,20 @@ def build_parser():
     r.add_argument("--crf", type=int, default=None, help="x264 quality, lower is better (default 18)")
     r.add_argument("--preset", default=None, help="x264 preset (default medium)")
     r.add_argument("--quiet", action="store_true")
+    r.add_argument("--skip-preflight", action="store_true",
+                   help="render even if the pre-render checks find errors (they run first by default)")
+
+    pf = sub.add_parser("preflight", help="pre-render checks: timing, text, framing, props, stills; renders at most a few cheap frames")
+    pf.add_argument("scene")
+    pf.add_argument("--stills", action="store_true", help="also render a few half-size stills per shot and check them")
+    pf.add_argument("--sheet", default=None, help="write a contact sheet PNG (implies --stills) with the safe zone drawn on")
+    pf.add_argument("--json", action="store_true", help="print findings as JSON")
+    pf.add_argument("--strict", action="store_true", help="exit non-zero on warnings too")
+
+    cv = sub.add_parser("check-video", help="verify a rendered MP4: size, fps, frame count, no black or frozen frames")
+    cv.add_argument("video")
+    cv.add_argument("--scene", default=None, help="scene file; the expected frame count is taken from it")
+    cv.add_argument("--frames", type=int, default=None, help="expected frame count (for a chunk)")
 
     sub.add_parser("appearance", help="print the default character appearance as JSON")
 
@@ -111,6 +125,26 @@ def main(argv=None):
             print(json.dumps(av.raw_appearance, indent=2))
             return 0
 
+        if args.cmd == "preflight":
+            from .preflight import preflight
+            rep = preflight(args.scene, stills=args.stills or bool(args.sheet), sheet=args.sheet)
+            print(rep.to_json() if args.json else rep.text())
+            if args.sheet and not args.json and rep.sheet:
+                print(f"contact sheet: {rep.sheet}")
+            return 2 if rep.errors else (1 if args.strict and rep.warnings else 0)
+
+        if args.cmd == "check-video":
+            from .preflight import check_video
+            from .scene import Scene
+            frames, size, fps = args.frames, (1080, 1920), 30.0
+            if args.scene:
+                sc = Scene.load(args.scene)
+                frames = frames if frames is not None else sc.frame_count
+                size, fps = (sc.width, sc.height), float(sc.fps)
+            rep = check_video(args.video, expect_frames=frames, expect_size=size, expect_fps=fps)
+            print(rep.text() if rep.findings else "check-video: ok")
+            return 2 if rep.errors else 0
+
         from .scene import Scene
 
         if args.cmd == "validate":
@@ -121,6 +155,15 @@ def main(argv=None):
         from pathlib import Path
         from .render import render_scene
 
+        if not args.skip_preflight:
+            from .preflight import preflight
+            rep = preflight(args.scene)
+            if rep.errors:
+                print(rep.text(), file=sys.stderr)
+                print("error: pre-render checks failed; fix the errors above (or pass --skip-preflight)", file=sys.stderr)
+                return 2
+            if rep.warnings and not args.quiet:
+                print(rep.text())
         out = args.out
         if out is None and not args.frames_only:
             out = Path("out") / (Path(args.scene).stem + ".mp4")
