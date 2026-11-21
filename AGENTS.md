@@ -51,6 +51,15 @@ Two notes in the Notes data source (`collection://41ec4c50-5ccf-81d7-91a9-000b77
 ## Notion brain
 Brain root: https://app.notion.com/p/41ec4c505ccf81bab83fd3d6a89aebd6. Spec page for this project: "Spec - Brick figure and part templates (blockreel)" (updated with the minifig and expression sections). Old R6 notes are archived as "OLD notes - ...". The Notion free-plan block grace period ends 2026-11-23; after that writes need a paid plan, so keep important notes in this repo.
 
+## Green-screen promo reels (2026-11-21)
+`reels/make_promo_reels.py` writes `reels/sand_blast_cover_reveal.json` and `reels/lazy_blocks_row_clear.json`. Both end on the same fixed straight-on iPad shot whose screen is a flat green box, so the owner can lay a gameplay recording over it.
+- Keep the green flat: `meta.look` vignette 0, bloom 0, gloss 0, dof None, tint [1,1,1], and `light.spec_strength` 0. The screen prop uses bevel 0 and no shadow. Measured result: the rectangle is x 168 to 911, y 502 to 1491 (744 x 990 px, 3:4) in a 1080 x 1920 frame, RGB about (6, 228, 8) after H.264. Identical in both reels.
+- Overlay with ffmpeg: scale the recording to 744 x 990 (crop to fit, do not stretch), `overlay=168:502:enable='gte(t,START)'`. Green starts at 6.3 s in Sand Blast! and 7.5 s in Lazy Blocks.
+- Render only the moving part, then loop one still frame: the held shot is static, so make the hold with `ffmpeg -loop 1 -framerate 30 -i frame.png -frames:v N` using the same flags as the renderer (`scale=out_color_matrix=bt709:out_range=tv,format=yuv420p`, libx264 crf 18, bt709 tags), then `concat -c copy`. This cut a 36 minute render to about 16 minutes. Check that two frames a few tenths apart are pixel-identical first: hook text animates in for about 0.5 s after it starts, and a still taken during that fade freezes a half-faded caption.
+- `--workers 2` was used; about 2.2 s per frame at 1080 x 1920, supersample 2.
+- A prop `track` can include keys later than its shot's length (they are ignored), but times are relative to the named shot, so put follow-up motion in the shot where you want to see it.
+- To clear a character out of a held shot, `teleport` it at t 0 of that shot (the hero in the Sand Blast! reel goes to x 9).
+
 ## Known issues and not done
 - Not tested on Windows. Audio muxing (`meta.audio`) never exercised.
 - Held items and the Minifig Accessory category (826 LDraw parts) are not imported; orientation per part is unknown.

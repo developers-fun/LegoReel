@@ -1,0 +1,312 @@
+{
+ "meta": {
+  "title": "Sand Blast! cover reveal",
+  "style": "house",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "supersample": 2,
+  "ground": {
+   "zones": [
+    {
+     "rect": [
+      -17,
+      -3.0,
+      17,
+      16
+     ],
+     "colors": [
+      "#d3d5db",
+      "#c9ccd3"
+     ],
+     "tile": 1.164,
+     "variation": 0.01,
+     "line_strength": 0.0,
+     "studs": 0.3
+    }
+   ]
+  },
+  "look": {
+   "vignette": 0.0,
+   "bloom": 0.0,
+   "dof": null,
+   "saturation": 1.0,
+   "contrast": 1.0,
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "gloss": 0.0
+  },
+  "light": {
+   "spec_strength": 0.0
+  },
+  "export": {
+   "crf": 18,
+   "preset": "medium"
+  }
+ },
+ "characters": {
+  "hero": {
+   "avatar": "main",
+   "position": [
+    3.3,
+    0,
+    1.4
+   ],
+   "yaw": -35
+  }
+ },
+ "props": [
+  {
+   "id": "wall",
+   "position": [
+    0,
+    8,
+    -3.2
+   ],
+   "size": [
+    40,
+    16,
+    0.5
+   ],
+   "color": "#2b2d33",
+   "cast_shadow": false
+  },
+  {
+   "id": "stripe",
+   "position": [
+    0,
+    1.7,
+    -2.9
+   ],
+   "size": [
+    40,
+    0.5,
+    0.1
+   ],
+   "color": "#ff5e4d",
+   "cast_shadow": false
+  },
+  {
+   "id": "pedestal",
+   "position": [
+    0,
+    0.5,
+    0.0
+   ],
+   "size": [
+    2.8,
+    1.0,
+    2.0
+   ],
+   "color": "#fff4e0",
+   "studs": true
+  },
+  {
+   "id": "ipad",
+   "position": [
+    0,
+    3.25,
+    0.0
+   ],
+   "size": [
+    3.4,
+    4.5,
+    0.4
+   ],
+   "color": "#2a2a30",
+   "bevel": 0.1
+  },
+  {
+   "id": "screen",
+   "position": [
+    0,
+    3.25,
+    0.22
+   ],
+   "size": [
+    3.0,
+    4.0,
+    0.05
+   ],
+   "color": "#00ff00",
+   "bevel": 0.0,
+   "cast_shadow": false
+  },
+  {
+   "id": "sheet",
+   "position": [
+    0,
+    3.3,
+    0.12
+   ],
+   "size": [
+    3.9,
+    5.0,
+    0.9
+   ],
+   "color": "#aeb3bd",
+   "bevel": 0.12,
+   "track": {
+    "shot": "a_final",
+    "keys": [
+     {
+      "t": 0,
+      "position": [
+       0,
+       3.3,
+       0.12
+      ]
+     },
+     {
+      "t": 1.0,
+      "position": [
+       0,
+       3.3,
+       0.12
+      ]
+     },
+     {
+      "t": 1.9,
+      "position": [
+       -7.5,
+       6.2,
+       1.2
+      ],
+      "ease": "ease_in"
+     }
+    ]
+   }
+  }
+ ],
+ "shots": [
+  {
+   "id": "a_hook",
+   "duration": 2.4,
+   "camera": {
+    "preset": "wide",
+    "focus": [
+     1.4,
+     0,
+     0
+    ],
+    "yaw": 0.0
+   },
+   "actions": [
+    {
+     "t": 0,
+     "character": "hero",
+     "look": "camera"
+    },
+    {
+     "t": 0.4,
+     "character": "hero",
+     "pose": "point"
+    }
+   ],
+   "overlays": [
+    {
+     "t": 0.1,
+     "duration": 2.2,
+     "text": "WATCH WHAT'S UNDER THE SHEET.",
+     "style": "hook"
+    }
+   ]
+  },
+  {
+   "id": "a_three",
+   "duration": 1.0,
+   "camera": {
+    "preset": "low",
+    "focus": [
+     1.0,
+     0,
+     0
+    ],
+    "yaw": 18
+   },
+   "actions": [],
+   "overlays": [
+    {
+     "t": 0.0,
+     "duration": 1.0,
+     "text": "3",
+     "style": "hook"
+    }
+   ]
+  },
+  {
+   "id": "a_two",
+   "duration": 1.0,
+   "camera": {
+    "preset": "medium",
+    "focus": [
+     0.9,
+     0,
+     0
+    ],
+    "yaw": -16
+   },
+   "actions": [],
+   "overlays": [
+    {
+     "t": 0.0,
+     "duration": 1.0,
+     "text": "2",
+     "style": "hook"
+    }
+   ]
+  },
+  {
+   "id": "a_final",
+   "duration": 13.9,
+   "camera": {
+    "position": [
+     0,
+     3.45,
+     11.5
+    ],
+    "look_at": [
+     0,
+     3.4,
+     0.0
+    ],
+    "fov": 38
+   },
+   "actions": [
+    {
+     "t": 0,
+     "character": "hero",
+     "teleport": [
+      9.0,
+      0,
+      1.4
+     ]
+    }
+   ],
+   "overlays": [
+    {
+     "t": 0.0,
+     "duration": 1.0,
+     "text": "1",
+     "style": "hook"
+    },
+    {
+     "t": 1.9,
+     "duration": 12.0,
+     "text": "HOW MANY LINES?",
+     "style": "hook"
+    },
+    {
+     "t": 1.9,
+     "duration": 12.0,
+     "text": "SAND BLAST!",
+     "style": "label",
+     "y": 0.075
+    }
+   ]
+  }
+ ]
+}

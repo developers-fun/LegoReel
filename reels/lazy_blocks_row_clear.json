@@ -1,0 +1,512 @@
+{
+ "meta": {
+  "title": "Lazy Blocks row clear",
+  "style": "house",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "supersample": 2,
+  "ground": {
+   "zones": [
+    {
+     "rect": [
+      -17,
+      -3.0,
+      17,
+      16
+     ],
+     "colors": [
+      "#d3d5db",
+      "#c9ccd3"
+     ],
+     "tile": 1.164,
+     "variation": 0.01,
+     "line_strength": 0.0,
+     "studs": 0.3
+    },
+    {
+     "rect": [
+      -17,
+      -303.0,
+      17,
+      -284.0
+     ],
+     "colors": [
+      "#d3d5db",
+      "#c9ccd3"
+     ],
+     "tile": 1.164,
+     "variation": 0.01,
+     "line_strength": 0.0,
+     "studs": 0.3
+    }
+   ]
+  },
+  "look": {
+   "vignette": 0.0,
+   "bloom": 0.0,
+   "dof": null,
+   "saturation": 1.0,
+   "contrast": 1.0,
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "gloss": 0.0
+  },
+  "light": {
+   "spec_strength": 0.0
+  },
+  "export": {
+   "crf": 18,
+   "preset": "medium"
+  }
+ },
+ "characters": {
+  "hero": {
+   "avatar": "main",
+   "position": [
+    0,
+    -0.8,
+    -3.0
+   ],
+   "yaw": 0
+  }
+ },
+ "props": [
+  {
+   "id": "wall",
+   "position": [
+    0,
+    8,
+    -6.4
+   ],
+   "size": [
+    40,
+    16,
+    0.5
+   ],
+   "color": "#2b2d33",
+   "cast_shadow": false
+  },
+  {
+   "id": "stripe",
+   "position": [
+    0,
+    1.7,
+    -6.1
+   ],
+   "size": [
+    40,
+    0.5,
+    0.1
+   ],
+   "color": "#ff5e4d",
+   "cast_shadow": false
+  },
+  {
+   "id": "beanbag",
+   "position": [
+    0,
+    0.6,
+    -3.2
+   ],
+   "size": [
+    3.4,
+    1.2,
+    3.0
+   ],
+   "color": "#8a8f99",
+   "bevel": 0.35,
+   "studs": true
+  },
+  {
+   "id": "rb0",
+   "position": [
+    -2.25,
+    0.7,
+    1.5
+   ],
+   "size": [
+    1.4,
+    1.4,
+    1.4
+   ],
+   "color": "#2f6fe4",
+   "bevel": 0.1,
+   "studs": true,
+   "track": {
+    "shot": "b_pop",
+    "keys": [
+     {
+      "t": 0,
+      "position": [
+       -2.25,
+       0.7,
+       1.5
+      ]
+     },
+     {
+      "t": 0.4,
+      "position": [
+       -2.25,
+       0.7,
+       1.5
+      ]
+     },
+     {
+      "t": 1.0,
+      "position": [
+       -2.25,
+       18.0,
+       1.5
+      ],
+      "ease": "ease_in"
+     }
+    ]
+   }
+  },
+  {
+   "id": "rb1",
+   "position": [
+    -0.75,
+    0.7,
+    1.5
+   ],
+   "size": [
+    1.4,
+    1.4,
+    1.4
+   ],
+   "color": "#4f86ee",
+   "bevel": 0.1,
+   "studs": true,
+   "track": {
+    "shot": "b_pop",
+    "keys": [
+     {
+      "t": 0,
+      "position": [
+       -0.75,
+       0.7,
+       1.5
+      ]
+     },
+     {
+      "t": 0.4,
+      "position": [
+       -0.75,
+       0.7,
+       1.5
+      ]
+     },
+     {
+      "t": 1.0,
+      "position": [
+       -0.75,
+       18.0,
+       1.5
+      ],
+      "ease": "ease_in"
+     }
+    ]
+   }
+  },
+  {
+   "id": "rb3",
+   "position": [
+    2.25,
+    0.7,
+    1.5
+   ],
+   "size": [
+    1.4,
+    1.4,
+    1.4
+   ],
+   "color": "#2f6fe4",
+   "bevel": 0.1,
+   "studs": true,
+   "track": {
+    "shot": "b_pop",
+    "keys": [
+     {
+      "t": 0,
+      "position": [
+       2.25,
+       0.7,
+       1.5
+      ]
+     },
+     {
+      "t": 0.4,
+      "position": [
+       2.25,
+       0.7,
+       1.5
+      ]
+     },
+     {
+      "t": 1.0,
+      "position": [
+       2.25,
+       18.0,
+       1.5
+      ],
+      "ease": "ease_in"
+     }
+    ]
+   }
+  },
+  {
+   "id": "falling",
+   "position": [
+    0.75,
+    11.0,
+    1.5
+   ],
+   "size": [
+    1.4,
+    1.4,
+    1.4
+   ],
+   "color": "#ff5e4d",
+   "bevel": 0.1,
+   "studs": true,
+   "track": {
+    "shot": "b_drop",
+    "keys": [
+     {
+      "t": 0,
+      "position": [
+       0.75,
+       11.0,
+       1.5
+      ]
+     },
+     {
+      "t": 0.2,
+      "position": [
+       0.75,
+       11.0,
+       1.5
+      ]
+     },
+     {
+      "t": 2.3,
+      "position": [
+       0.75,
+       0.7,
+       1.5
+      ]
+     },
+     {
+      "t": 3.0,
+      "position": [
+       0.75,
+       0.7,
+       1.5
+      ]
+     },
+     {
+      "t": 3.6,
+      "position": [
+       0.75,
+       18.0,
+       1.5
+      ],
+      "ease": "ease_in"
+     }
+    ]
+   }
+  },
+  {
+   "id": "g_wall",
+   "position": [
+    0,
+    8,
+    -303.2
+   ],
+   "size": [
+    40,
+    16,
+    0.5
+   ],
+   "color": "#2b2d33",
+   "cast_shadow": false
+  },
+  {
+   "id": "g_stripe",
+   "position": [
+    0,
+    1.7,
+    -302.9
+   ],
+   "size": [
+    40,
+    0.5,
+    0.1
+   ],
+   "color": "#ff5e4d",
+   "cast_shadow": false
+  },
+  {
+   "id": "g_pedestal",
+   "position": [
+    0,
+    0.5,
+    -300.0
+   ],
+   "size": [
+    2.8,
+    1.0,
+    2.0
+   ],
+   "color": "#fff4e0",
+   "studs": true
+  },
+  {
+   "id": "g_ipad",
+   "position": [
+    0,
+    3.25,
+    -300.0
+   ],
+   "size": [
+    3.4,
+    4.5,
+    0.4
+   ],
+   "color": "#2a2a30",
+   "bevel": 0.1
+  },
+  {
+   "id": "g_screen",
+   "position": [
+    0,
+    3.25,
+    -299.78
+   ],
+   "size": [
+    3.0,
+    4.0,
+    0.05
+   ],
+   "color": "#00ff00",
+   "bevel": 0.0,
+   "cast_shadow": false
+  }
+ ],
+ "shots": [
+  {
+   "id": "b_hook",
+   "duration": 2.4,
+   "camera": {
+    "preset": "wide",
+    "focus": [
+     0,
+     0,
+     0
+    ],
+    "yaw": 0.0
+   },
+   "actions": [
+    {
+     "t": 0,
+     "character": "hero",
+     "pose": "sit"
+    },
+    {
+     "t": 0,
+     "character": "hero",
+     "expression": "sleepy"
+    }
+   ],
+   "overlays": [
+    {
+     "t": 0.1,
+     "duration": 2.2,
+     "text": "TOO TIRED FOR A HARD GAME?",
+     "style": "hook"
+    }
+   ]
+  },
+  {
+   "id": "b_drop",
+   "duration": 2.6,
+   "camera": {
+    "preset": "wide",
+    "focus": [
+     0,
+     0,
+     1.0
+    ],
+    "yaw": 24
+   },
+   "actions": [],
+   "overlays": [
+    {
+     "t": 0.1,
+     "duration": 2.4,
+     "text": "ONE BLOCK AT A TIME.",
+     "style": "hook"
+    }
+   ]
+  },
+  {
+   "id": "b_pop",
+   "duration": 1.6,
+   "camera": {
+    "preset": "wide",
+    "focus": [
+     0,
+     0,
+     1.5
+    ],
+    "yaw": -12
+   },
+   "actions": [
+    {
+     "t": 0.3,
+     "character": "hero",
+     "expression": "happy"
+    }
+   ],
+   "overlays": [
+    {
+     "t": 0.5,
+     "duration": 1.0,
+     "text": "SATISFYING, RIGHT?",
+     "style": "hook"
+    }
+   ]
+  },
+  {
+   "id": "b_final",
+   "duration": 11.5,
+   "camera": {
+    "position": [
+     0,
+     3.45,
+     -288.5
+    ],
+    "look_at": [
+     0,
+     3.4,
+     -300.0
+    ],
+    "fov": 38
+   },
+   "actions": [],
+   "overlays": [
+    {
+     "t": 0.1,
+     "duration": 11.0,
+     "text": "THIS IS LAZY BLOCKS.",
+     "style": "hook"
+    }
+   ]
+  }
+ ]
+}
