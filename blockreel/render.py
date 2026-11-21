@@ -240,7 +240,7 @@ def render_frame(scene, idx):
         text = t.text
         if scene.show_speaker and t.speaker:
             text = f"{t.speaker}: {text}"
-        draw_text(img, text, scene.text_styles[t.style], scene.font_path, t.y, age=T - t.t0)
+        draw_text(img, text, scene.text_styles[t.style], scene.font_path, t.y, age=T - t.t0, x_override=t.x, size_override=t.size)
     return img
 
 

@@ -153,6 +153,22 @@ def _shake_head(t, p):
     return {"head_yaw": 22.0 * math.sin(t * TWO_PI * 2.5)}
 
 
+def _dig(t, p):
+    # Pickaxe chop: both arms swing up and down together, torso leans into the downstroke.
+    hz = float(p.get("speed", 1.6))
+    ph = t * TWO_PI * hz
+    s = math.sin(ph)
+    return {"r_arm_pitch": 125.0 + 45.0 * s, "l_arm_pitch": 125.0 + 45.0 * s,
+            "r_arm_roll": 6.0, "l_arm_roll": 6.0,
+            "torso_pitch": 12.0 - 10.0 * s, "head_pitch": 8.0, "root_y": 0.12 * abs(s)}
+
+
+def _phone(t, p):
+    # Seated, head down, both forearms out in front as if holding a phone.
+    return {"r_leg_pitch": 90.0, "l_leg_pitch": 90.0, "r_arm_pitch": 62.0, "l_arm_pitch": 62.0,
+            "r_arm_roll": -6.0, "l_arm_roll": -6.0, "head_pitch": 14.0, "torso_pitch": 4.0}
+
+
 @dataclass(frozen=True)
 class Clip:
     fn: Callable
@@ -170,6 +186,8 @@ CLIPS = {
     "think": Clip(_think, "hold"),
     "sit": Clip(_sit, "hold"),
     "look_down": Clip(_look_down, "hold"),
+    "dig": Clip(_dig, "loop"),
+    "phone": Clip(_phone, "hold"),
     "jump": Clip(_jump, "oneshot", 0.8),
     "surprised": Clip(_surprised, "oneshot", 1.0),
     "shrug": Clip(_shrug, "oneshot", 1.2),

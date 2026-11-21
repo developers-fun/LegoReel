@@ -72,13 +72,13 @@ def _resolve_font(style, default_path):
     return str(p if p.is_absolute() else root / p)
 
 
-def draw_text(img, text, style, font_path, y_override=None, age=1.0):
+def draw_text(img, text, style, font_path, y_override=None, age=1.0, x_override=None, size_override=None):
     """Draw one text block, centred. Style keys beyond the basics (all optional):
     font (path, relative to the project folder), shadow {dx, dy, blur, color} (fractions of size),
     pill {color, pad_x, pad_y, dot} (rounded box behind the text, padding as fractions of size),
     highlight (colour of the last line, or of `highlight_words` words), pop (seconds of pop-in)."""
     W, H = img.size
-    size = max(8, int(round(style["size"] * W)))
+    size = max(8, int(round((size_override if size_override is not None else style["size"]) * W)))
     font = load_font(_resolve_font(style, font_path), size)
     probe = ImageDraw.Draw(img, "RGBA")
     max_w = style["max_width"] * W
@@ -139,6 +139,6 @@ def draw_text(img, text, style, font_path, y_override=None, age=1.0):
         nw, nh = max(1, int(lw * k)), max(1, int(lh * k))
         layer = layer.resize((nw, nh), Image.LANCZOS)
         lw, lh = nw, nh
-    ox = int((W - lw) / 2)
+    ox = int((W - lw) / 2) if x_override is None else int(x_override * W - lw / 2)
     oy = int(cy - lh / 2)
     img.paste(layer, (ox, oy), layer)

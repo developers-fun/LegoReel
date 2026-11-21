@@ -57,7 +57,7 @@ DEFAULT_META = {
 }
 
 _ACTION_KEYS = {
-    "pose": {"t", "character", "pose", "duration", "hand", "speed"},
+    "pose": {"t", "character", "pose", "duration", "hand", "speed", "snap"},
     "move_to": {"t", "character", "move_to", "speed", "duration", "face", "pose", "then_pose"},
     "teleport": {"t", "character", "teleport"},
     "face": {"t", "character", "face", "turn"},
@@ -101,6 +101,8 @@ class Text:
     style: str
     y: object
     speaker: object
+    x: object = None      # optional centre x as a fraction of the frame width (default centred)
+    size: object = None   # optional text size override, fraction of frame width
 
 
 @dataclass
@@ -395,7 +397,7 @@ class Scene:
                 t = _num(d, "t", c2, default=0.0, minimum=0.0)
                 dd = _num(d, "duration", c2, minimum=0.1)
                 self.texts.append(Text(start + t, start + t + dd, str(d.get("text", "")),
-                                       d.get("style", "hook"), d.get("y"), None))
+                                       d.get("style", "hook"), d.get("y"), None, d.get("x"), d.get("size")))
         for t in self.texts:
             if t.style not in self.text_styles:
                 raise SceneError(f"unknown text style '{t.style}'. Options: {', '.join(self.text_styles)}")
@@ -527,6 +529,8 @@ class Scene:
                     params["hand"] = a["hand"]
                 if "speed" in a:
                     params["speed"] = _num(a, "speed", c2, minimum=0.1)
+                if a.get("snap"):
+                    params["snap"] = True   # no 0.2 s blend: use right after a hard cut / teleport
                 tl.add_pose(t, a["pose"], params)
             elif kind == "move_to":
                 tgt = a["move_to"]

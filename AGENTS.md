@@ -79,3 +79,11 @@ Brain root: https://app.notion.com/p/41ec4c505ccf81bab83fd3d6a89aebd6. Spec page
 2. Ask the owner which app (Sand Blast! or Lazy Blocks) a real promo is for, then build scenes for it in the studied structure (hook, one escalation, product or app reveal, 20 to 25 s) using the `main` avatar and expression faces.
 3. Have the owner watch the top 5 Wants and Needs videos (or approve a frame-grab pass) to confirm the visual notes.
 4. Import held items; add a `parts/` browser contact sheet script; test on Windows; speed work.
+
+## Dig skit reel (2026-11-21)
+`reels/make_dig_skit.py` writes `reels/sand_blast_dig_skit.json` (15 s: side cutaway dig skit, both sit, behind, held green phone).
+- New renderer options: overlay `x` / `size` (screen fraction, for labels pinned to world points), pose `snap: true` (skips the 0.2 s pose blend right after a cut/teleport), poses `dig` (loop, `speed` = chops/s) and `phone` (hold, seated).
+- Props cannot rotate or scale, so digging progress is faked with dirt-coloured slices that jump away (track to y -60) as the digger steps forward (`move_to` with `then_pose`). Pickaxe = two box props whose tracks are sampled every 0.05 s from the same hand formula as the `dig` pose; during a step the hand uses phase 0.
+- In an action, `move_to` cannot also carry `pose` or `face` (they count as separate kinds); use `then_pose` only.
+- Avatar variant `guest` needs LDraw part 2524, which is not in the bundled library; use `jacket` for the second character.
+- Render chunks 0-3.7, 3.7-7.5, 7.5-10 s (about 1.6 s per frame), hold = one still at t 10.0 looped 5 s. Green rectangle measured x 279-800, y 255-1407 (522 x 1153, 9:19.8), inside Instagram's top 230 / bottom 1440 safe zone. Sound not added yet.

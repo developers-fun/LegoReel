@@ -167,7 +167,7 @@ class Timeline:
                 break
         pose = self._pose_key_eval(idx, T)
         t0 = self.pose_keys[idx][0]
-        if idx > 0 and T - t0 < POSE_BLEND:
+        if idx > 0 and T - t0 < POSE_BLEND and not self.pose_keys[idx][2].get("snap"):
             prev = self._pose_key_eval(idx - 1, T)
             pose = poses.lerp_pose(prev, pose, smoothstep((T - t0) / POSE_BLEND))
 
