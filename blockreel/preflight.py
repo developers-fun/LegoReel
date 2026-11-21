@@ -364,6 +364,48 @@ def check_avatars(scene, rep):
                         f"file would change the reel silently")
 
 
+def check_grid(scene, rep):
+    """Everything should sit on the stud lattice with whole-stud sizes (see blockreel/grid.py)."""
+    from . import grid as gm
+    if not scene.grid["enabled"]:
+        rep.add("info", "grid_off", "grid snapping is off for this scene")
+        return
+    pitch = scene.pitch
+    for p in scene.props:
+        if not p.grid:
+            rep.add("info", "grid_optout", f"prop '{p.id}' opted out of the grid")
+            continue
+        if p.shape == "template":
+            if p.snapped and p.snapped.get("clamped"):
+                rep.add("warn", "grid_clamped", f"set piece '{p.id}' could not be scaled to a whole-stud footprint "
+                        f"within {gm.FIT_RANGE[0]}x to {gm.FIT_RANGE[1]}x; it is only position-snapped")
+            continue
+        if not scene.grid["props"]:
+            continue
+        sx, sy, sz = p.size
+        for axis, v in (("x", sx), ("z", sz)):
+            n = v / pitch
+            if abs(n - round(n)) > 1e-6:
+                rep.add("error", "grid_size", f"prop '{p.id}' is {n:.3f} studs in {axis}, not a whole number")
+        plate = gm.PLATE * pitch
+        if abs(sy / plate - round(sy / plate)) > 1e-6:
+            rep.add("error", "grid_height", f"prop '{p.id}' is {sy / plate:.2f} plates high, not a whole number")
+        wx, wz = (sz, sx) if int(round(p.rotation_y / 90.0)) % 2 else (sx, sz)
+        if abs(p.rotation_y / 90.0 - round(p.rotation_y / 90.0)) > 1e-6:
+            rep.add("warn", "grid_rotation", f"prop '{p.id}' is turned {p.rotation_y:.0f} degrees; only multiples of "
+                    f"90 stay on the grid")
+        else:
+            for axis, c, w in (("x", p.position[0], wx), ("z", p.position[2], wz)):
+                n = round(w / pitch)
+                if not gm.on_lattice(c - (n / 2.0) * pitch, pitch):
+                    rep.add("error", "grid_position", f"prop '{p.id}' edges are off the lattice in {axis}")
+    if scene.grid["characters"]:
+        for cid, tl in scene.timelines.items():
+            x, z = tl.pos_at(0.0)[0], tl.pos_at(0.0)[2]
+            if not (gm.on_lattice(x, pitch) and gm.on_lattice(z, pitch, 0.5)):
+                rep.add("warn", "grid_character", f"character '{cid}' starts off the stud lattice")
+
+
 def static_checks(scene, rep=None, ideal=IDEAL_SECONDS, safe=SAFE):
     rep = rep or Report()
     check_timing(scene, rep, ideal)
@@ -372,6 +414,7 @@ def static_checks(scene, rep=None, ideal=IDEAL_SECONDS, safe=SAFE):
     check_space(scene, rep)
     check_cameras(scene, rep)
     check_avatars(scene, rep)
+    check_grid(scene, rep)
     return rep
 
 

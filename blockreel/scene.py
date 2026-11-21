@@ -12,6 +12,7 @@ from .appearance import resolve_appearance
 from .avatar import load_avatar
 from .camera import Camera
 from .character import Timeline
+from . import grid as gridmod
 from .errors import SceneError
 from .mathutil import apply_ease, parse_color, rot_y, translate, vec3, EASES
 from .raster import Lighting
@@ -54,6 +55,8 @@ DEFAULT_META = {
     "text_styles": {},
     "audio": None,
     "export": {"crf": 18, "preset": "medium"},
+    # snap sizes to whole studs and everything onto the ground lattice (see blockreel/grid.py)
+    "grid": dict(gridmod.DEFAULT_GRID),
 }
 
 _ACTION_KEYS = {
@@ -119,6 +122,8 @@ class Prop:
     palette: object = None
     studs: bool = False
     scale: float = 1.0
+    grid: bool = True            # False: opted out of stud-grid snapping
+    snapped: object = None       # info dict once snapped
 
 
 def _deep_update(base, over):
@@ -214,6 +219,17 @@ class Scene:
             })
         if len(self.ground["colors"]) != 2 or self.ground["tile"] <= 0:
             raise SceneError("meta.ground: needs two colours and a tile size above zero")
+        gcfg = dict(gridmod.DEFAULT_GRID)
+        gcfg.update(meta.get("grid") or {})
+        self.grid = gcfg
+        self.grid_log = []
+        self.pitch = self.ground["tile"]
+        if gcfg["enabled"] and gcfg["zones"]:
+            for zn in self.ground["zones"]:
+                new = gridmod.snap_zone_rect(zn["rect"], zn["tile"])
+                if any(abs(a - b) > 1e-9 for a, b in zip(new, zn["rect"])):
+                    self.grid_log.append(f"ground zone {[round(v, 2) for v in zn['rect']]} -> {[round(v, 3) for v in new]}")
+                    zn["rect"] = new
         L = meta["light"]
         d = np.array(L["direction"], dtype=np.float64)
         if d.shape != (3,) or np.linalg.norm(d) < 1e-9:
@@ -314,7 +330,53 @@ class Scene:
             self.scales[cid] = scale
             pos = vec3(c.get("position", [0, 0, 0]), f"{ctx}.position")
             yaw = _num(c, "yaw", ctx, default=0.0)
+            pos = self._snap_char(cid, pos)
             self.timelines[cid] = Timeline(cid, pos, yaw, scale)
+
+    def _snap_char(self, cid, pos, what="position"):
+        """Put a character's x, z on the stud lattice (y is left alone: it may be standing on something)."""
+        if not (self.grid["enabled"] and self.grid["characters"]):
+            return pos
+        x, z = gridmod.snap_character_xz(float(pos[0]), float(pos[2]), self.pitch)
+        if abs(x - pos[0]) > 1e-6 or abs(z - pos[2]) > 1e-6:
+            self.grid_log.append(f"character '{cid}' {what} ({pos[0]:.2f}, {pos[2]:.2f}) -> ({x:.3f}, {z:.3f})")
+        out = np.array(pos, dtype=np.float64)
+        out[0], out[2] = x, z
+        return out
+
+    def _snap_props(self):
+        if not (self.grid["enabled"] and self.grid["props"]):
+            return
+        pitch = self.pitch
+        for p in self.props:
+            if not p.grid:
+                continue
+            old = np.array(p.position, dtype=np.float64)
+            if p.shape == "template":
+                ext = gridmod.piece_extent(p.template.data["pieces"])
+                pos, rot, sc, info = gridmod.snap_template(old, p.rotation_y, p.scale, ext, pitch,
+                                                           self.grid["rotation"])
+                p.position, p.rotation_y, p.scale = pos, rot, sc
+                msg = (f"prop '{p.id}' (set) -> about {info['studs'][0]} x {info['studs'][1]} studs, scale "
+                       f"{info.get('scale', p.scale):.2f}" + (" (clamped)" if info.get("clamped") else ""))
+            else:
+                pos, size, rot, info = gridmod.snap_box(old, p.size, p.rotation_y, pitch, self.grid["rotation"])
+                p.position, p.size, p.rotation_y = pos, size, rot
+                msg = f"prop '{p.id}' -> {info['studs'][0]} x {info['studs'][1]} studs, {info['plates']} plates high"
+            p.snapped = info
+            delta = p.position - old
+            if p.track_raw and isinstance(p.track_raw, dict) and isinstance(p.track_raw.get("keys"), list):
+                tr = dict(p.track_raw)
+                keys = []
+                for kr in tr["keys"]:
+                    kr = dict(kr)
+                    if isinstance(kr.get("position"), list) and len(kr["position"]) == 3:
+                        kr["position"] = [float(v) + float(d) for v, d in zip(kr["position"], delta)]
+                    keys.append(kr)
+                tr["keys"] = keys
+                p.track_raw = tr
+            if np.abs(delta).max() > 1e-6 or p.snapped.get("scale") not in (None, 1.0):
+                self.grid_log.append(msg)
 
     def _load_props(self, props):
         if not isinstance(props, list):
@@ -324,19 +386,22 @@ class Scene:
             ctx = f"props[{i}]"
             if "template" in p:
                 from .parts import load_part
-                unknown = set(p) - {"id", "template", "position", "rotation_y", "palette", "scale", "track", "cast_shadow"}
+                unknown = set(p) - {"id", "template", "position", "rotation_y", "palette", "scale", "track", "cast_shadow",
+                                    "grid"}
                 if unknown:
                     raise SceneError(f"{ctx}: unknown keys {', '.join(sorted(unknown))}")
                 part = load_part("sets", str(p["template"]), self.base_dir)
                 pos = vec3(p.get("position"), f"{ctx}.position")
                 self.props.append(Prop(str(p.get("id", f"prop{i}")), pos, float(p.get("rotation_y", 0.0)), (1.0, 1.0, 1.0),
                                        (255, 255, 255), "template", None, bool(p.get("cast_shadow", True)), p.get("track"),
-                                       None, part, dict(p.get("palette", {})), False, float(p.get("scale", 1.0))))
+                                       None, part, dict(p.get("palette", {})), False, float(p.get("scale", 1.0)),
+                                       bool(p.get("grid", True))))
                 continue
             shape = p.get("type", "box")
             if shape not in ("box", "cylinder"):
                 raise SceneError(f"{ctx}: type must be 'box' or 'cylinder' (or use \"template\": id for a set piece)")
-            unknown = set(p) - {"id", "type", "position", "size", "color", "rotation_y", "track", "bevel", "cast_shadow", "studs"}
+            unknown = set(p) - {"id", "type", "position", "size", "color", "rotation_y", "track", "bevel", "cast_shadow",
+                                "studs", "grid"}
             if unknown:
                 raise SceneError(f"{ctx}: unknown keys {', '.join(sorted(unknown))}")
             pos = vec3(p.get("position"), f"{ctx}.position")
@@ -349,7 +414,8 @@ class Scene:
                                    tuple(float(s) for s in size), color, shape,
                                    float(bevel) if bevel is not None else None,
                                    bool(p.get("cast_shadow", True)), p.get("track"), None, None, None,
-                                   bool(p.get("studs", False))))
+                                   bool(p.get("studs", False)), 1.0, bool(p.get("grid", True))))
+        self._snap_props()
 
     def _load_shots(self, shots):
         if not isinstance(shots, list) or not shots:
@@ -537,10 +603,15 @@ class Scene:
                 dur = _num(a, "duration", c2, default=0.0, minimum=0.0) or None
                 if speed is None and dur is None:
                     speed = 4.0
+                if len(tgt) == 2:
+                    tgt = [float(v) for v in self._snap_char(cid, [tgt[0], 0.0, tgt[1]], "move_to")[[0, 2]]]
+                else:
+                    sn = self._snap_char(cid, tgt, "move_to")
+                    tgt = [float(sn[0]), float(tgt[1]), float(sn[2])]
                 tl.add_move(t, tgt, speed, dur, bool(a.get("face", True)),
                             a.get("pose", "walk"), a.get("then_pose", "idle"))
             elif kind == "teleport":
-                tl.add_teleport(t, vec3(a["teleport"], f"{c2}.teleport"))
+                tl.add_teleport(t, self._snap_char(cid, vec3(a["teleport"], f"{c2}.teleport"), "teleport"))
             elif kind == "face":
                 f = a["face"]
                 turn = _num(a, "turn", c2, default=0.25, minimum=0.0)
@@ -655,6 +726,13 @@ class Scene:
         for s in self.shots:
             cam = "fixed camera" if len(s.cam_keys) == 1 else f"{len(s.cam_keys)} camera keys"
             lines.append(f"  {s.id:<14} {s.start:6.2f}s -> {s.end:6.2f}s  ({s.duration:.2f}s, {cam}{', shake' if s.shake else ''})")
+        if self.grid["enabled"]:
+            lines.append(f"grid: on, 1 stud = {self.pitch:.3f} units, {len(self.grid_log)} item(s) snapped")
+            lines += [f"  {g}" for g in self.grid_log[:40]]
+            if len(self.grid_log) > 40:
+                lines.append(f"  ... and {len(self.grid_log) - 40} more")
+        else:
+            lines.append("grid: off")
         warnings = []
         for t in self.texts:
             if t.style == "label":

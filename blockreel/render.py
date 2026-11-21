@@ -63,12 +63,19 @@ def _post(img, look):
     return Image.fromarray((np.clip(a, 0.0, 1.0) * 255.0 + 0.5).astype(np.uint8))
 
 
-def _stud_items(model, p, ex):
-    """Round studs on the top face of a box prop, on a grid of about one stud per unit (at most 6 per side)."""
+def _stud_items(model, p, ex, pitch=None):
+    """Round studs on the top face of a box prop. A grid-snapped prop gets exactly one stud per lattice cell (so its studs
+    line up with the ground's); otherwise about one per unit (at most 6 per side)."""
     sx, sy, sz = p.size
-    nx, nz = max(1, min(6, int(round(sx)))), max(1, min(6, int(round(sz))))
-    px, pz = sx / nx, sz / nz
-    d = min(px, pz) * 0.6
+    if pitch and p.snapped:
+        nx, nz = max(1, min(24, int(round(sx / pitch)))), max(1, min(24, int(round(sz / pitch))))
+        px, pz = pitch, pitch
+        d = pitch * 0.6
+        sx, sz = nx * pitch, nz * pitch
+    else:
+        nx, nz = max(1, min(6, int(round(sx)))), max(1, min(6, int(round(sz))))
+        px, pz = sx / nx, sz / nz
+        d = min(px, pz) * 0.6
     out = []
     for i in range(nx):
         for j in range(nz):
@@ -209,7 +216,7 @@ def render_frame(scene, idx):
             ex["subdiv"] = 1
         items.append(Item(model, p.size, p.color, p.shape, p.bevel, p.casts, ex))
         if p.studs and p.shape == "box":
-            items += _stud_items(model, p, ex)
+            items += _stud_items(model, p, ex, scene.pitch)
 
     if scene.ground.get("geo_studs"):
         items += _ground_studs(scene, cam)

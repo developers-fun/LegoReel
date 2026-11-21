@@ -16,7 +16,7 @@ python3 -m blockreel render examples/demo_three_formats.json --start 0 --end 8.3
 python3 -m blockreel avatar main            # resolved look + fingerprint
 python3 -m blockreel parts check            # validate all parts
 python3 -m blockreel part-preview faces ld_3626bp05 --out face.png
-python3 -m unittest discover tests          # 88 tests, about 75 s
+python3 -m unittest discover tests          # 119 tests, about 75 s
 python3 -m blockreel preflight reels/x.json --sheet out/x_sheet.png   # pre-render checks + contact sheet (run BEFORE any full render)
 python3 -m blockreel check-video out/x.mp4 --scene reels/x.json       # verify a finished MP4
 python3 examples/make_demo_scene.py         # regenerates examples/demo_three_formats.json
@@ -41,6 +41,9 @@ Key facts:
 - Ground: `meta.ground.geo_studs` builds real raised studs on the lattice (pitch = `tile` = 1.164, radius = `studs` x tile) near the camera; the flat painted circles still cover the distance. Zones must use the same tile.
 - House style rules (`styles/house.json`): one fixed camera per shot, no shake, loader refuses violations. Text must be readable (the validator warns if words per second is too high: roughly 3.5 words per second at most).
 - Scene generation for the demo is in `examples/make_demo_scene.py` (three formats: EDIT RUN, REVEAL SKIT, CUP CHALLENGE, with a made-up "Bluebox" product). It is a sample, not a template for the owner's real promos.
+
+## Stud grid (blockreel/grid.py, tests/test_grid.py)
+On by default (`meta.grid`: enabled, props, characters, zones, rotation; a prop opts out with `"grid": false`). 1 stud = `ground.tile` = 1.164 units; ground stud centres are at (i+0.5)*pitch, so edges are on whole multiples. At load: box and cylinder props become whole-stud footprints (4x6, not 3.7x5.9) with heights in whole plates (0.4 pitch; a brick is 3 plates), bottom edge on a plate line, rotation snapped to 90 degrees, edges on lattice lines (even and odd widths both handled); set pieces (prefabs) are uniformly rescaled (clamped to 0.6x to 1.6x) so the larger footprint side is whole studs, position snapped (the other side may stay fractional, it is reserved as ceil cells); characters snap x to a lattice line and z to a stud centre (a minifig is 2 wide, 1 deep) for start, move_to and teleport, y untouched; ground zone rects snap to lattice lines; prop tracks shift by the same delta; props with `"studs": true` get exactly one stud per cell so they line up with the ground. `validate` lists everything snapped. Snapping can move things into each other (the sample scene's hero walked into the table once the table grew), which is what `preflight` is for: it errors on off-grid props and on props passing through characters.
 
 ## Pre-render checks (blockreel/preflight.py, tests/test_preflight.py)
 A full render costs ~40 minutes, so `render` now runs the static preflight first and refuses on errors (`--skip-preflight` overrides). Three layers: static (timing, text speed / safe zone / overlap / brand words / contrast, characters framed and facing camera, props through characters, camera variety, end hold), stills (`--stills`/`--sheet`: half-size frames per shot, blank/dark/bright, cuts that do not change the picture, determinism; the sheet draws the safe zone in red and lists shot and time, look at it), and `check-video` (frame count, size, fps, black or frozen frames). Findings are error / warn / info; fades to black are exempt from the blank check. Workflow for a new reel: write scene, `validate`, `preflight --sheet`, look at the sheet, fix, then chunked full render, then `check-video`.
