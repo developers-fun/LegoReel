@@ -60,6 +60,9 @@ Brain root: https://app.notion.com/p/41ec4c505ccf81bab83fd3d6a89aebd6. Spec page
 - A prop `track` can include keys later than its shot's length (they are ignored), but times are relative to the named shot, so put follow-up motion in the shot where you want to see it.
 - To clear a character out of a held shot, `teleport` it at t 0 of that shot (the hero in the Sand Blast! reel goes to x 9).
 
+## Sound effects (2026-11-21)
+`tools/sfx_fetch.py "<sound>" --n 3 --max-ms 3000 --out sfx/` searches Openverse for CC0 audio (no key) and downloads preview mp3s, logging title, creator and page in `credits.json`. Anonymous limit is 20 requests a minute and 200 a day. Do not use `category=sound_effect` (Freesound items have none, so it returns 0). The duration filter does nothing, so the script filters on the `duration` field in milliseconds. The API sometimes returns 500 on the first try; the script retries. Audio has not been played back or muxed into a reel yet (`meta.audio` is still untested); mix with ffmpeg after the render.
+
 ## Known issues and not done
 - Not tested on Windows. Audio muxing (`meta.audio`) never exercised.
 - Held items and the Minifig Accessory category (826 LDraw parts) are not imported; orientation per part is unknown.
