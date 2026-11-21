@@ -63,7 +63,7 @@ Extract frames (`ffmpeg -i ref.mp4 ref/f%03d.png`), read contact sheets to find 
 `cli.py`, `art_dig.py` + `dig_bg.py` (artwork for the dig skit). `scenes/` worked example. `tests/` unit tests.
 
 ## Claude Code skill and Notion directory
-`/stickmation` (`.claude/skills/stickmation/SKILL.md`, about 15 lines) only points at the Notion Brain: hub row
+`/stickmotion` (`.claude/skills/stickmotion/SKILL.md`, about 15 lines; `/stickmation` is an alias) only points at the Notion Brain: hub row
 "Spec - Stickmation hub (start here)" with child pages (reference, code map, SFX catalog, scene recipes, gotchas, skill text).
 Every session follows `docs/BRAIN_SYSTEM_PROMPT.md` (also loaded by the root `CLAUDE.md`).
 

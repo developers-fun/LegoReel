@@ -16,7 +16,7 @@ ROOT = os.path.dirname(STICK)
 FENCE = "`" * 6
 
 INCLUDE = [
-    "CLAUDE.md", "docs/BRAIN_SYSTEM_PROMPT.md", ".claude/skills/stickmation/SKILL.md",
+    "CLAUDE.md", "docs/BRAIN_SYSTEM_PROMPT.md", ".claude/skills/stickmotion/SKILL.md", ".claude/skills/stickmation/SKILL.md",
     "stick/README.md", "stick/NOTES.md", "stick/data/fit_all11.json", "stick/scenes/dig_skit.py",
     "stick/tools/bundle.py",
 ]

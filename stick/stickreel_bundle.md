@@ -139,13 +139,13 @@ NOTES ON THE SETUP: The older Obsidian vault lives only on the owner's Windows P
 ``````
 
 
-<!-- FILE .claude/skills/stickmation/SKILL.md -->
+<!-- FILE .claude/skills/stickmotion/SKILL.md -->
 ``````markdown
 ---
-name: stickmation
-description: Make, edit or recreate 2D stick-figure videos with the stickreel engine (keyframes, 3D turnaround, faces, phone/pickaxe items, sound effects). Use for /stickmation, "stick figure", "stickreel", or "recreate this video".
+name: stickmotion
+description: Make, edit or recreate 2D stick-figure videos with the stickreel engine (keyframes, 3D turnaround, faces, phone/pickaxe items, sound effects). Use for /stickmotion (or /stickmation), "stick figure", "stickreel", or "recreate this video".
 ---
-Stickmation = the stickreel engine plus its Notion directory. Do these in order:
+Stickmotion (also called Stickmation) = the stickreel engine plus its Notion directory. Do these in order:
 1. Follow the Brain protocol: fetch Brain root https://app.notion.com/p/41ec4c505ccf81bab83fd3d6a89aebd6, then Rules, then Owner profile.
 2. Fetch the hub row "Spec - Stickmation hub (start here)" in the Notes database (collection://41ec4c50-5ccf-81d7-91a9-000b770697f5). Open only the child pages the task needs.
 3. Get the code: repo developers-fun/LegoReel, branch `stick`, folder `stick/` (add it with add_repo if missing). No repo? Download the bundle from the hub and run `python3 tools/bundle.py --extract FILE OUT`.
@@ -155,6 +155,16 @@ Stickmation = the stickreel engine plus its Notion directory. Do these in order:
 7. Ask which app (Sand Blast! or Lazy Blocks) before any promo work. Plain copy, no hype, no share-bait asks. Confirm stickreel is allowed for promos (open question in Notes).
 8. Never post or publish; hand the MP4 to the owner. Say at the end what you did not test.
 9. Save what you learned to the Brain (new rows, one fact one place) and end with a "Session log - YYYY-MM-DD" row.
+``````
+
+
+<!-- FILE .claude/skills/stickmation/SKILL.md -->
+``````markdown
+---
+name: stickmation
+description: Alias of /stickmotion. Make, edit or recreate 2D stick-figure videos with the stickreel engine. Use for /stickmation or "stickreel".
+---
+This is the same skill as /stickmotion. Read and follow `.claude/skills/stickmotion/SKILL.md` exactly (Brain protocol, Notion hub "Spec - Stickmation hub (start here)", the stickreel code in `stick/`, then the `docs`, `sheet`, `render` loop).
 ``````
 
 
@@ -225,7 +235,7 @@ Extract frames (`ffmpeg -i ref.mp4 ref/f%03d.png`), read contact sheets to find 
 `cli.py`, `art_dig.py` + `dig_bg.py` (artwork for the dig skit). `scenes/` worked example. `tests/` unit tests.
 
 ## Claude Code skill and Notion directory
-`/stickmation` (`.claude/skills/stickmation/SKILL.md`, about 15 lines) only points at the Notion Brain: hub row
+`/stickmotion` (`.claude/skills/stickmotion/SKILL.md`, about 15 lines; `/stickmation` is an alias) only points at the Notion Brain: hub row
 "Spec - Stickmation hub (start here)" with child pages (reference, code map, SFX catalog, scene recipes, gotchas, skill text).
 Every session follows `docs/BRAIN_SYSTEM_PROMPT.md` (also loaded by the root `CLAUDE.md`).
 
@@ -534,7 +544,7 @@ ROOT = os.path.dirname(STICK)
 FENCE = "`" * 6
 
 INCLUDE = [
-    "CLAUDE.md", "docs/BRAIN_SYSTEM_PROMPT.md", ".claude/skills/stickmation/SKILL.md",
+    "CLAUDE.md", "docs/BRAIN_SYSTEM_PROMPT.md", ".claude/skills/stickmotion/SKILL.md", ".claude/skills/stickmation/SKILL.md",
     "stick/README.md", "stick/NOTES.md", "stick/data/fit_all11.json", "stick/scenes/dig_skit.py",
     "stick/tools/bundle.py",
 ]
