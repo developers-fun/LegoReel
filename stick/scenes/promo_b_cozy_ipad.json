@@ -1,0 +1,620 @@
+{
+ "canvas": {
+  "w": 576,
+  "h": 1024,
+  "fps": 30,
+  "scale": 1.875,
+  "bg": "#2b2d33",
+  "blur": 1,
+  "out": [
+   1080,
+   1920
+  ],
+  "duration": 12.0
+ },
+ "camera": {
+  "zoom": 1.5,
+  "cx": 288,
+  "cy": 640,
+  "keys": [
+   {
+    "t": 0,
+    "zoom": 1.5,
+    "cx": 288,
+    "cy": 640
+   },
+   {
+    "t": 2.4,
+    "zoom": 1.5,
+    "cx": 288,
+    "cy": 640
+   },
+   {
+    "t": 2.5,
+    "zoom": 2.2,
+    "cx": 288,
+    "cy": 660,
+    "ease": "step"
+   },
+   {
+    "t": 4.4,
+    "zoom": 2.2,
+    "cx": 288,
+    "cy": 660
+   },
+   {
+    "t": 4.5,
+    "zoom": 1.5,
+    "cx": 288,
+    "cy": 640,
+    "ease": "step"
+   },
+   {
+    "t": 5.5,
+    "zoom": 1.5,
+    "cx": 288,
+    "cy": 640
+   },
+   {
+    "t": 6.95,
+    "zoom": 2.4,
+    "cx": 288,
+    "cy": 700,
+    "ease": "inout"
+   },
+   {
+    "t": 7.0,
+    "zoom": 1.0,
+    "cx": 288,
+    "cy": 512,
+    "ease": "step"
+   }
+  ]
+ },
+ "actors": {
+  "hero": {
+   "x": 288,
+   "ground": 760,
+   "z": 0,
+   "keys": [
+    {
+     "t": 0.0,
+     "pose": "sit",
+     "yaw": 90,
+     "expr": "calm",
+     "head": 6
+    },
+    {
+     "t": 2.5,
+     "expr": "sleepy",
+     "ease": "step"
+    },
+    {
+     "t": 4.5,
+     "yaw": 270,
+     "expr": null,
+     "ease": "step"
+    },
+    {
+     "t": 7.0,
+     "yaw": 270
+    }
+   ]
+  }
+ },
+ "objects": {
+  "wall": {
+   "kind": "rect",
+   "x": 288,
+   "y": 512,
+   "w": 600,
+   "h": 1060,
+   "fill": "#2b2d33",
+   "outline": null,
+   "ow": 2,
+   "z": -100
+  },
+  "floor": {
+   "kind": "rect",
+   "x": 288,
+   "y": 892,
+   "w": 600,
+   "h": 264,
+   "fill": "#c9ccd3",
+   "outline": null,
+   "ow": 2,
+   "z": -99
+  },
+  "stripe": {
+   "kind": "rect",
+   "x": 288,
+   "y": 705,
+   "w": 600,
+   "h": 12,
+   "fill": "#ff5e4d",
+   "outline": null,
+   "ow": 2,
+   "z": -98
+  },
+  "cb": {
+   "kind": "rect",
+   "x": 288,
+   "y": 640,
+   "w": 270,
+   "h": 130,
+   "fill": "#7a5c9e",
+   "outline": "#1f1f24",
+   "ow": 2,
+   "z": -60,
+   "show": [
+    0,
+    4.5
+   ]
+  },
+  "cseat": {
+   "kind": "rect",
+   "x": 288,
+   "y": 736,
+   "w": 270,
+   "h": 52,
+   "fill": "#68508a",
+   "outline": "#1f1f24",
+   "ow": 2,
+   "z": -55,
+   "show": [
+    0,
+    4.5
+   ]
+  },
+  "carm_l": {
+   "kind": "rect",
+   "x": 166,
+   "y": 712,
+   "w": 30,
+   "h": 110,
+   "fill": "#7a5c9e",
+   "outline": "#1f1f24",
+   "ow": 2,
+   "z": -56,
+   "show": [
+    0,
+    4.5
+   ]
+  },
+  "carm_r": {
+   "kind": "rect",
+   "x": 410,
+   "y": 712,
+   "w": 30,
+   "h": 110,
+   "fill": "#7a5c9e",
+   "outline": "#1f1f24",
+   "ow": 2,
+   "z": -56,
+   "show": [
+    0,
+    4.5
+   ]
+  },
+  "cbk": {
+   "kind": "rect",
+   "x": 288,
+   "y": 735,
+   "w": 330,
+   "h": 150,
+   "fill": "#7a5c9e",
+   "outline": "#1f1f24",
+   "ow": 2,
+   "z": 20,
+   "show": [
+    4.5,
+    7.0
+   ]
+  },
+  "cbk2": {
+   "kind": "rect",
+   "x": 288,
+   "y": 668,
+   "w": 330,
+   "h": 18,
+   "fill": "#68508a",
+   "outline": "#1f1f24",
+   "ow": 2,
+   "z": 21,
+   "show": [
+    4.5,
+    7.0
+   ]
+  },
+  "cbk_seam": {
+   "kind": "line",
+   "x": 288,
+   "y": 670,
+   "x2": 288,
+   "y2": 808,
+   "color": "#5b4478",
+   "width": 2,
+   "z": 22,
+   "show": [
+    4.5,
+    7.0
+   ]
+  },
+  "lamp_pole": {
+   "kind": "rect",
+   "x": 440,
+   "y": 640,
+   "w": 12,
+   "h": 170,
+   "fill": "#6a5a45",
+   "outline": "#1f1f24",
+   "ow": 2,
+   "z": -70,
+   "show": [
+    0,
+    4.5
+   ]
+  },
+  "lamp_shade": {
+   "kind": "poly",
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     46,
+     0
+    ],
+    [
+     38,
+     34
+    ],
+    [
+     8,
+     34
+    ]
+   ],
+   "x": 417,
+   "y": 520,
+   "fill": "#ffe7a8",
+   "outline": "#1f1f24",
+   "ow": 2,
+   "z": -69,
+   "show": [
+    0,
+    4.5
+   ]
+  },
+  "lamp_glow": {
+   "kind": "glow",
+   "x": 440,
+   "y": 545,
+   "r": 140,
+   "color": "#ffd27a",
+   "strength": 0.35,
+   "z": -95,
+   "show": [
+    0,
+    4.5
+   ]
+  },
+  "lamp_pole_b": {
+   "kind": "rect",
+   "x": 150,
+   "y": 640,
+   "w": 12,
+   "h": 170,
+   "fill": "#6a5a45",
+   "outline": "#1f1f24",
+   "ow": 2,
+   "z": -70,
+   "show": [
+    4.5,
+    7.0
+   ]
+  },
+  "lamp_shade_b": {
+   "kind": "poly",
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     46,
+     0
+    ],
+    [
+     38,
+     34
+    ],
+    [
+     8,
+     34
+    ]
+   ],
+   "x": 127,
+   "y": 520,
+   "fill": "#ffe7a8",
+   "outline": "#1f1f24",
+   "ow": 2,
+   "z": -69,
+   "show": [
+    4.5,
+    7.0
+   ]
+  },
+  "lamp_glow_b": {
+   "kind": "glow",
+   "x": 150,
+   "y": 545,
+   "r": 140,
+   "color": "#ffd27a",
+   "strength": 0.35,
+   "z": -95,
+   "show": [
+    4.5,
+    7.0
+   ]
+  },
+  "mug": {
+   "kind": "rect",
+   "x": 150,
+   "y": 750,
+   "w": 24,
+   "h": 26,
+   "fill": "#ffffff",
+   "outline": "#1f1f24",
+   "ow": 2,
+   "z": -30,
+   "show": [
+    0,
+    4.5
+   ]
+  },
+  "blanket": {
+   "kind": "rect",
+   "x": 288,
+   "y": 712,
+   "w": 150,
+   "h": 40,
+   "fill": "#d9a05b",
+   "outline": "#1f1f24",
+   "ow": 2,
+   "z": 4,
+   "show": [
+    0,
+    4.5
+   ]
+  },
+  "ipad_lap": {
+   "kind": "rect",
+   "x": 288,
+   "y": 690,
+   "w": 90,
+   "h": 14,
+   "fill": "#1f1f24",
+   "outline": "#1f1f24",
+   "ow": 2,
+   "z": 5,
+   "show": [
+    0,
+    4.5
+   ]
+  },
+  "blanket_back": {
+   "kind": "poly",
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     250,
+     0
+    ],
+    [
+     215,
+     190
+    ],
+    [
+     35,
+     190
+    ]
+   ],
+   "x": 163,
+   "y": 690,
+   "fill": "#d9a05b",
+   "outline": "#1f1f24",
+   "ow": 3,
+   "z": 29,
+   "show": [
+    5.5,
+    7.0
+   ]
+  },
+  "ipad_back": {
+   "kind": "poly",
+   "points": [
+    [
+     0,
+     0
+    ],
+    [
+     150,
+     0
+    ],
+    [
+     126,
+     120
+    ],
+    [
+     24,
+     120
+    ]
+   ],
+   "x": 213,
+   "y": 720,
+   "fill": "#bfe3ff",
+   "outline": "#1f1f24",
+   "ow": 4,
+   "z": 30,
+   "show": [
+    5.5,
+    7.0
+   ]
+  },
+  "hook_0.0_0": {
+   "kind": "text",
+   "text": "EVERYONE IS",
+   "x": 230,
+   "y": 150,
+   "size": 30,
+   "fill": "#ffffff",
+   "outline": "#1f1f24",
+   "ow": 5,
+   "weight": 800,
+   "space": "screen",
+   "z": 90,
+   "show": [
+    0.0,
+    2.5
+   ],
+   "keys": [
+    {
+     "t": 0.0,
+     "alpha": 0.0
+    },
+    {
+     "t": 0.12,
+     "alpha": 1.0,
+     "ease": "out"
+    }
+   ]
+  },
+  "hook_0.0_1": {
+   "kind": "text",
+   "text": "PLAYING GTA 6.",
+   "x": 230,
+   "y": 194,
+   "size": 30,
+   "fill": "#ffffff",
+   "outline": "#1f1f24",
+   "ow": 5,
+   "weight": 800,
+   "space": "screen",
+   "z": 90,
+   "show": [
+    0.0,
+    2.5
+   ],
+   "keys": [
+    {
+     "t": 0.0,
+     "alpha": 0.0
+    },
+    {
+     "t": 0.12,
+     "alpha": 1.0,
+     "ease": "out"
+    }
+   ]
+  },
+  "hook_2.5_0": {
+   "kind": "text",
+   "text": "ME:",
+   "x": 230,
+   "y": 150,
+   "size": 40,
+   "fill": "#ffffff",
+   "outline": "#1f1f24",
+   "ow": 5,
+   "weight": 800,
+   "space": "screen",
+   "z": 90,
+   "show": [
+    2.5,
+    4.5
+   ],
+   "keys": [
+    {
+     "t": 2.5,
+     "alpha": 0.0
+    },
+    {
+     "t": 2.62,
+     "alpha": 1.0,
+     "ease": "out"
+    }
+   ]
+  },
+  "gi_bezel": {
+   "kind": "rect",
+   "x": 288,
+   "y": 520,
+   "w": 432,
+   "h": 576,
+   "fill": "#2a2a30",
+   "outline": "#1f1f24",
+   "ow": 3,
+   "z": 200,
+   "space": "screen",
+   "show": [
+    7.0,
+    12.0
+   ]
+  },
+  "gi_screen": {
+   "kind": "rect",
+   "x": 288,
+   "y": 520,
+   "w": 396,
+   "h": 540,
+   "fill": "#00ff00",
+   "outline": null,
+   "ow": 2,
+   "z": 201,
+   "space": "screen",
+   "show": [
+    7.0,
+    12.0
+   ]
+  }
+ },
+ "audio": {
+  "master": 0.9,
+  "cues": [
+   {
+    "sfx": "pop",
+    "t": 0.0,
+    "gain": 0.3
+   },
+   {
+    "sfx": "tick",
+    "t": 2.5,
+    "gain": 0.35
+   },
+   {
+    "sfx": "whoosh",
+    "t": 4.5,
+    "gain": 0.25
+   },
+   {
+    "sfx": "whoosh",
+    "t": 5.5,
+    "gain": 0.25
+   },
+   {
+    "sfx": "tick",
+    "t": 8.0,
+    "gain": 0.2
+   },
+   {
+    "sfx": "tick",
+    "t": 9.6,
+    "gain": 0.2
+   }
+  ]
+ }
+}
