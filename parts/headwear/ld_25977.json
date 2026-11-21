@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Headdress Banana",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "25977",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Headdress Banana",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

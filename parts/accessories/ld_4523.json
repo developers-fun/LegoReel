@@ -1,0 +1,18 @@
+{
+ "kind": "accessory",
+ "name": "Container D-Basket",
+ "attach": "torso",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "4523",
+   "color": "accent"
+  }
+ ],
+ "title": "Minifig Container D-Basket",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "neck"
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "kind": "legs",
+ "name": "Leg Right with Chicken Feet",
+ "ldraw": {
+  "hips": "3815",
+  "leg_r": "3816cpc97",
+  "leg_l": "3817cpc97"
+ },
+ "hips": "pants",
+ "title": "Minifig Leg Right with Chicken Feet Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "legs"
+ ]
+}

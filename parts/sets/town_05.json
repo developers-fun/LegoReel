@@ -1,0 +1,12 @@
+{
+ "kind": "set",
+ "name": "Chair",
+ "pieces": [
+  {"shape": "box", "size": [2.0, 0.4, 2.0], "pos": [0, 1.3, 0], "color": "#2f7fc1", "bevel": 0.06},
+  {"shape": "box", "size": [0.3, 1.1, 0.3], "pos": [-0.8, 0.55, 0.8], "color": "#1f4f7a", "bevel": 0.04},
+  {"shape": "box", "size": [0.3, 1.1, 0.3], "pos": [0.8, 0.55, 0.8], "color": "#1f4f7a", "bevel": 0.04},
+  {"shape": "box", "size": [0.3, 3.6, 0.3], "pos": [-0.8, 1.8, -0.8], "color": "#1f4f7a", "bevel": 0.04},
+  {"shape": "box", "size": [0.3, 3.6, 0.3], "pos": [0.8, 1.8, -0.8], "color": "#1f4f7a", "bevel": 0.04},
+  {"shape": "box", "size": [2.0, 1.4, 0.25], "pos": [0, 2.9, -0.85], "color": "#2f7fc1", "bevel": 0.05}
+ ]
+}

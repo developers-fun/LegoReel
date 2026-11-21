@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet with Chinstrap and Wide Brim",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "30273",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet with Chinstrap and Wide Brim",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

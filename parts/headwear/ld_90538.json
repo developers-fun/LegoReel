@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Hat Fedora with Wide Brim",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "90538",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Hat Fedora with Wide Brim",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

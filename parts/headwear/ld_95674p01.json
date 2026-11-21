@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Hat Bowler with Red Flower with Yellow Centre",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "95674p01",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Hat Bowler with Red Flower with Yellow Centre Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

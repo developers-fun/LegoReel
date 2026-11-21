@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Castle with Neck Protector",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "3844",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Castle with Neck Protector",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

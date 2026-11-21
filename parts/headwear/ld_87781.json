@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Space with Front Handle",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "87781",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Space with Front Handle",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

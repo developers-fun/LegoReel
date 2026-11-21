@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Crown Tiara",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "33322",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Crown Tiara",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

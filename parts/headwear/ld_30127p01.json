@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Feathers with Clip and Black Tip",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "30127p01",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Feathers with Clip and Black Tip Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

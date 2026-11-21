@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Female Corset with Reddish Brown Laces",
+ "ldraw": {
+  "torso": "973p4w",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Female Corset with Reddish Brown Laces Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

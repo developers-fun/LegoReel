@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Large Square with Side Extensions",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "15864",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Large Square with Side Extensions",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

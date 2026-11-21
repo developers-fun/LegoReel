@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Reddish Brown and Dark Tan Tie and Lapels, Lavender Shirt",
+ "ldraw": {
+  "torso": "973phe",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Reddish Brown and Dark Tan Tie and Lapels, Lavender Shirt Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

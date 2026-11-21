@@ -1,0 +1,18 @@
+{
+ "kind": "accessory",
+ "name": "Armour Shoulder Pads Square with Red Hexagonal",
+ "attach": "torso",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "15437p01",
+   "color": "accent"
+  }
+ ],
+ "title": "Minifig Armour Shoulder Pads Square with Red Hexagonal Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "neck"
+ ]
+}

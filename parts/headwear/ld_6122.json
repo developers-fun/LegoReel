@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Castle with Dragon Crown Top",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "6122",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Castle with Dragon Crown Top",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

@@ -1,0 +1,67 @@
+{
+ "kind": "accessory",
+ "name": "Round shield",
+ "attach": "hand_r",
+ "pieces": [
+  {
+   "shape": "cylinder",
+   "size": [
+    1.4,
+    0.2,
+    1.4
+   ],
+   "pos": [
+    0,
+    0,
+    0.42
+   ],
+   "color": "primary",
+   "bevel": 0.06,
+   "rot": [
+    90,
+    0,
+    0
+   ]
+  },
+  {
+   "shape": "cylinder",
+   "size": [
+    0.85,
+    0.22,
+    0.85
+   ],
+   "pos": [
+    0,
+    0,
+    0.48
+   ],
+   "color": "accent",
+   "bevel": 0.05,
+   "rot": [
+    90,
+    0,
+    0
+   ]
+  },
+  {
+   "shape": "cylinder",
+   "size": [
+    0.36,
+    0.26,
+    0.36
+   ],
+   "pos": [
+    0,
+    0,
+    0.56
+   ],
+   "color": "metal",
+   "bevel": 0.05,
+   "rot": [
+    90,
+    0,
+    0
+   ]
+  }
+ ]
+}

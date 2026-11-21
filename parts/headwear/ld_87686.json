@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Plume Dragon Wing Right",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "87686",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Plume Dragon Wing Right",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

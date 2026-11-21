@@ -1,0 +1,26 @@
+{
+ "kind": "legs",
+ "name": "Knee pad trousers",
+ "hips": "pants",
+ "bands": [
+  {
+   "from": 0,
+   "to": 1,
+   "color": "pants"
+  }
+ ],
+ "pieces": [
+  {
+   "shape": "box",
+   "size": [0.8, 0.34, 0.22],
+   "pos": [0.5, -1.0, 0.6],
+   "color": "accent"
+  },
+  {
+   "shape": "box",
+   "size": [0.8, 0.34, 0.22],
+   "pos": [-0.5, -1.0, 0.6],
+   "color": "accent"
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Jacket with Striped Trim, Silver Buttons and Pockets over White Undershirt",
+ "ldraw": {
+  "torso": "973pua",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Jacket with Striped Trim, Silver Buttons and Pockets over White Undershirt Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

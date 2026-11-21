@@ -1,0 +1,10 @@
+{
+ "kind": "headwear",
+ "name": "Top hat",
+ "replaces_hair": false,
+ "pieces": [
+  {"shape": "cylinder", "size": [1.2, 0.9, 1.2], "pos": [0, 1.05, 0], "color": "dark", "bevel": 0.06},
+  {"shape": "cylinder", "size": [1.9, 0.12, 1.9], "pos": [0, 0.66, 0], "color": "dark", "bevel": 0.04},
+  {"shape": "cylinder", "size": [1.22, 0.16, 1.22], "pos": [0, 0.8, 0], "color": "accent", "bevel": 0.03}
+ ]
+}

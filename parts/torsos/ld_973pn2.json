@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Bright Green Ties and Trim over Robe with Ninjago Logogram \"NINJA\"",
+ "ldraw": {
+  "torso": "973pn2",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Bright Green Ties and Trim over Robe with Ninjago Logogram \"NINJA\" Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

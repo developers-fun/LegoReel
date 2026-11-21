@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso Spacesuit with Silver Belt and Chest Piece with Space Shuttle Logo on Front and Back",
+ "ldraw": {
+  "torso": "973p8s",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso Spacesuit with Silver Belt and Chest Piece with Space Shuttle Logo on Front and Back Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

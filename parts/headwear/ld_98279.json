@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Hat Campaign",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "98279",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Hat Campaign",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

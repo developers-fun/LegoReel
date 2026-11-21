@@ -1,0 +1,10 @@
+{
+ "kind": "headwear",
+ "name": "Pirate hat",
+ "pieces": [
+  {"shape": "cylinder", "size": [2.2, 0.14, 2.2], "pos": [0, 0.67, 0], "color": "dark", "bevel": 0.05},
+  {"shape": "cylinder", "size": [1.4, 0.6, 1.4], "top": [0.82, 0.82], "pos": [0, 0.98, 0], "color": "primary", "bevel": 0.1},
+  {"shape": "box", "size": [0.42, 0.32, 0.1], "pos": [0, 0.95, 0.72], "color": "metal", "bevel": 0.04},
+  {"shape": "box", "size": [0.16, 0.5, 0.36], "pos": [0.6, 1.18, 0], "rot": [0, 0, -25], "color": "accent", "bevel": 0.05}
+ ]
+}

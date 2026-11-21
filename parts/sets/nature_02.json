@@ -1,0 +1,69 @@
+{
+ "kind": "set",
+ "name": "Round tree",
+ "pieces": [
+  {
+   "shape": "box",
+   "size": [
+    0.9,
+    2.2,
+    0.9
+   ],
+   "pos": [
+    0,
+    1.1,
+    0
+   ],
+   "color": "#6b4428",
+   "bevel": 0.08
+  },
+  {
+   "shape": "sphere",
+   "size": [
+    3.4,
+    3.4,
+    3.4
+   ],
+   "pos": [
+    0,
+    3.6,
+    0
+   ],
+   "color": "#4caf50",
+   "bevel": 0.05,
+   "casts": false
+  },
+  {
+   "shape": "sphere",
+   "size": [
+    2.4,
+    2.4,
+    2.4
+   ],
+   "pos": [
+    -0.9,
+    4.5,
+    0.4
+   ],
+   "color": "#5fbf49",
+   "bevel": 0.05,
+   "casts": false
+  },
+  {
+   "shape": "sphere",
+   "size": [
+    2.2,
+    2.2,
+    2.2
+   ],
+   "pos": [
+    0.9,
+    4.6,
+    -0.3
+   ],
+   "color": "#3f9c3a",
+   "bevel": 0.05,
+   "casts": false
+  }
+ ]
+}

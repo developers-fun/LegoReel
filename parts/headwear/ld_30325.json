@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Mining",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "30325",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Mining",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

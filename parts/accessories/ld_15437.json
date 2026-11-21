@@ -1,0 +1,18 @@
+{
+ "kind": "accessory",
+ "name": "Armour Shoulder Pads Square",
+ "attach": "torso",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "15437",
+   "color": "accent"
+  }
+ ],
+ "title": "Minifig Armour Shoulder Pads Square",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "neck"
+ ]
+}

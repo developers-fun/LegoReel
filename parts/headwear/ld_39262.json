@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Crown with 5 Points",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "39262",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Crown with 5 Points",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

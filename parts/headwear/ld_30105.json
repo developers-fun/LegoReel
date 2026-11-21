@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet with Bat Wings",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "30105",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet with Bat Wings",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

@@ -1,0 +1,18 @@
+{
+ "kind": "accessory",
+ "name": "Beard with Rounded End",
+ "attach": "torso",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "10052",
+   "color": "accent"
+  }
+ ],
+ "title": "Minifig Beard with Rounded End",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "neck"
+ ]
+}

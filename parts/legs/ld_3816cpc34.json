@@ -1,0 +1,16 @@
+{
+ "kind": "legs",
+ "name": "Leg Right with Samurai Armour",
+ "ldraw": {
+  "hips": "3815",
+  "leg_r": "3816cpc34",
+  "leg_l": "3817cpc34"
+ },
+ "hips": "pants",
+ "title": "Minifig Leg Right with Samurai Armour Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "legs"
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Hat Pith Helmet",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "30172",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Hat Pith Helmet",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

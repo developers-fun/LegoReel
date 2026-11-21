@@ -1,0 +1,18 @@
+{
+ "kind": "accessory",
+ "name": "Armour Shoulder Pads with Double Flaps and  2 Studs on Back",
+ "attach": "torso",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "7549",
+   "color": "accent"
+  }
+ ],
+ "title": "Minifig Armour Shoulder Pads with Double Flaps and  2 Studs on Back",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "neck"
+ ]
+}

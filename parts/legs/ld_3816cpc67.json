@@ -1,0 +1,16 @@
+{
+ "kind": "legs",
+ "name": "Leg Right with Clockwork Robot",
+ "ldraw": {
+  "hips": "3815",
+  "leg_r": "3816cpc67",
+  "leg_l": "3817cpc67"
+ },
+ "hips": "pants",
+ "title": "Minifig Leg Right with Clockwork Robot Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "legs"
+ ]
+}

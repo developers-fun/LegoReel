@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso HP Jacket with  4 Button Vest and Bow Tie",
+ "ldraw": {
+  "torso": "973ph4",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso HP Jacket with  4 Button Vest and Bow Tie Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

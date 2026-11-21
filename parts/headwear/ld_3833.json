@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Construction Helmet",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "3833",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Construction Helmet",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

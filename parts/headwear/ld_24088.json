@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet with Wings and Eagle Head",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "24088",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet with Wings and Eagle Head",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Police Hat",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "3624",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Police Hat",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

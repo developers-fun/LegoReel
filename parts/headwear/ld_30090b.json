@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Visor Diver Mask",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "30090b",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Visor Diver Mask",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

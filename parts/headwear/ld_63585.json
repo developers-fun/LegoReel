@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Floodlight for SW Clone Trooper Helmet",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "63585",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Floodlight for SW Clone Trooper Helmet",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

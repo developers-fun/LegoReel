@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Captains Hat",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "12895",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Captains Hat",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

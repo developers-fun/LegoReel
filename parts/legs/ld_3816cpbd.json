@@ -1,0 +1,16 @@
+{
+ "kind": "legs",
+ "name": "Leg Right with War Machine Armoured Suit Kneepad",
+ "ldraw": {
+  "hips": "3815",
+  "leg_r": "3816cpbd",
+  "leg_l": "3817cpbd"
+ },
+ "hips": "pants",
+ "title": "Minifig Leg Right with War Machine Armoured Suit Kneepad Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "legs"
+ ]
+}

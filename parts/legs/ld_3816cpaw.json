@@ -1,0 +1,16 @@
+{
+ "kind": "legs",
+ "name": "Leg Right with Dark Red Loincloth, White Claws and Fur Tail",
+ "ldraw": {
+  "hips": "3815",
+  "leg_r": "3816cpaw",
+  "leg_l": "3817cpaw"
+ },
+ "hips": "pants",
+ "title": "Minifig Leg Right with Dark Red Loincloth, White Claws and Fur Tail Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "legs"
+ ]
+}

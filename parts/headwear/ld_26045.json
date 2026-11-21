@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Headdress Bear Costume with Ears",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "26045",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Headdress Bear Costume with Ears",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

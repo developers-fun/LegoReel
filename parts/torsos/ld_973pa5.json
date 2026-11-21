@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Bomber Jacket, Belt, Black Shirt",
+ "ldraw": {
+  "torso": "973pa5",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Bomber Jacket, Belt, Black Shirt Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

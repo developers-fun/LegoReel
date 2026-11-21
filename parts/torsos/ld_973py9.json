@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Race Suit with Porsche Logos, Black and Grey Stripes",
+ "ldraw": {
+  "torso": "973py9",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Race Suit with Porsche Logos, Black and Grey Stripes Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

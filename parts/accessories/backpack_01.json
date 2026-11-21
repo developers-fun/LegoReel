@@ -1,0 +1,37 @@
+{
+ "kind": "accessory",
+ "name": "Backpack",
+ "attach": "back",
+ "pieces": [
+  {
+   "shape": "box",
+   "size": [
+    1.5,
+    1.6,
+    0.6
+   ],
+   "pos": [
+    0,
+    0.1,
+    -0.35
+   ],
+   "color": "accent",
+   "bevel": 0.1
+  },
+  {
+   "shape": "box",
+   "size": [
+    1.1,
+    0.6,
+    0.25
+   ],
+   "pos": [
+    0,
+    -0.1,
+    -0.75
+   ],
+   "color": "secondary",
+   "bevel": 0.06
+  }
+ ]
+}

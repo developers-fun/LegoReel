@@ -1,0 +1,12 @@
+{
+ "kind": "set",
+ "name": "Table",
+ "pieces": [
+  {"shape": "box", "size": [3.6, 0.3, 2.2], "pos": [0, 2.05, 0], "color": "#c8864a", "bevel": 0.06},
+  {"shape": "box", "size": [0.3, 1.9, 0.3], "pos": [-1.6, 0.95, -0.85], "color": "#6b4a2e", "bevel": 0.04},
+  {"shape": "box", "size": [0.3, 1.9, 0.3], "pos": [1.6, 0.95, -0.85], "color": "#6b4a2e", "bevel": 0.04},
+  {"shape": "box", "size": [0.3, 1.9, 0.3], "pos": [-1.6, 0.95, 0.85], "color": "#6b4a2e", "bevel": 0.04},
+  {"shape": "box", "size": [0.3, 1.9, 0.3], "pos": [1.6, 0.95, 0.85], "color": "#6b4a2e", "bevel": 0.04},
+  {"shape": "box", "size": [3.0, 0.2, 1.6], "pos": [0, 0.6, 0], "color": "#6b4a2e", "bevel": 0.03}
+ ]
+}

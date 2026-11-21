@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Dirt Bike",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "35458",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Dirt Bike",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

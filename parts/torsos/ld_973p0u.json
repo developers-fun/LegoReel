@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Leather Vest with Zipped Pockets, Light Bluish Grey Shirt and Knife on Back",
+ "ldraw": {
+  "torso": "973p0u",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Leather Vest with Zipped Pockets, Light Bluish Grey Shirt and Knife on Back Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Visor Iron Man with Silver Face and DkRed Line",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "10908p04",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Visor Iron Man with Silver Face and DkRed Line Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

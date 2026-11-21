@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Race Suit with \"Audi Sport e-tron quattro\" Logos and Red and White",
+ "ldraw": {
+  "torso": "973py5",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Race Suit with \"Audi Sport e-tron quattro\" Logos and Red and White Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

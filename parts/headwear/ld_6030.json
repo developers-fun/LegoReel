@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Mask Islander",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "6030",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Mask Islander",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

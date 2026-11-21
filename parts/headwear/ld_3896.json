@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Castle with Chin-Guard",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "3896",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Castle with Chin-Guard",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

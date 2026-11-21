@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Bright Light Orange Belt, Muscles Outline and Scales",
+ "ldraw": {
+  "torso": "973pxk",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Bright Light Orange Belt, Muscles Outline and Scales Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

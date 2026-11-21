@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Standard",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "30124b",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Standard",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

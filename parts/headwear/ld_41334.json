@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Hat Knit Cap",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "41334",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Hat Knit Cap",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

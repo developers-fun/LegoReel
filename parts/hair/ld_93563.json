@@ -1,0 +1,17 @@
+{
+ "kind": "hair",
+ "name": "Hair Mohawk",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "93563",
+   "color": "hair"
+  }
+ ],
+ "title": "Minifig Hair Mohawk",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hair"
+ ]
+}

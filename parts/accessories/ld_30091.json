@@ -1,0 +1,18 @@
+{
+ "kind": "accessory",
+ "name": "Scuba Tank",
+ "attach": "torso",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "30091",
+   "color": "accent"
+  }
+ ],
+ "title": "Minifig Scuba Tank",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "neck"
+ ]
+}

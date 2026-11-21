@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso Female with Harlequin Black/White",
+ "ldraw": {
+  "torso": "973pba",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso Female with Harlequin Black/White Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Mandalorian with Blue Visor, Dark Blue Upper Cheeks and Side and Two Black Horizontal Stripes",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "87610ps3",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Mandalorian with Blue Visor, Dark Blue Upper Cheeks and Side and Two Black Horizontal Stripes Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

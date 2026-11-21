@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Castle Uruk-Hai with Lateral Comb & Hand",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "10051p01",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Castle Uruk-Hai with Lateral Comb & Hand Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

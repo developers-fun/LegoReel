@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Race Suit with Ford Logo, Dark Blue Crosses and Dots and Black Stripes",
+ "ldraw": {
+  "torso": "973py3",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Race Suit with Ford Logo, Dark Blue Crosses and Dots and Black Stripes Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

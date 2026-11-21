@@ -1,0 +1,17 @@
+{
+ "kind": "legs",
+ "name": "Boots",
+ "hips": "pants",
+ "bands": [
+  {
+   "from": 0,
+   "to": 0.72,
+   "color": "pants"
+  },
+  {
+   "from": 0.72,
+   "to": 1,
+   "color": "shoes"
+  }
+ ]
+}

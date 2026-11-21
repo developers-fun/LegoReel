@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Headdress Werewolf",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "42443",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Headdress Werewolf",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

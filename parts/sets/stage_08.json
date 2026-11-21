@@ -1,0 +1,118 @@
+{
+ "kind": "set",
+ "name": "Round fountain",
+ "pieces": [
+  {
+   "shape": "cylinder",
+   "size": [
+    4.6,
+    0.3,
+    4.6
+   ],
+   "pos": [
+    0,
+    0.15,
+    0
+   ],
+   "color": "#c9c3b8",
+   "bevel": 0.06,
+   "casts": false
+  },
+  {
+   "shape": "cylinder",
+   "size": [
+    4.0,
+    0.6,
+    4.0
+   ],
+   "pos": [
+    0,
+    0.6,
+    0
+   ],
+   "color": "#c9c3b8",
+   "bevel": 0.06,
+   "casts": false
+  },
+  {
+   "shape": "cylinder",
+   "size": [
+    3.4,
+    0.04,
+    3.4
+   ],
+   "pos": [
+    0,
+    0.92,
+    0
+   ],
+   "color": "#4fc3f7",
+   "bevel": 0.01,
+   "casts": false
+  },
+  {
+   "shape": "cylinder",
+   "size": [
+    0.7,
+    1.5,
+    0.7
+   ],
+   "pos": [
+    0,
+    1.65,
+    0
+   ],
+   "color": "#c9c3b8",
+   "bevel": 0.04,
+   "casts": false
+  },
+  {
+   "shape": "cylinder",
+   "size": [
+    1.8,
+    0.3,
+    1.8
+   ],
+   "pos": [
+    0,
+    2.55,
+    0
+   ],
+   "color": "#c9c3b8",
+   "bevel": 0.05,
+   "casts": false
+  },
+  {
+   "shape": "cylinder",
+   "size": [
+    1.5,
+    0.06,
+    1.5
+   ],
+   "pos": [
+    0,
+    2.73,
+    0
+   ],
+   "color": "#4fc3f7",
+   "bevel": 0.01,
+   "casts": false
+  },
+  {
+   "shape": "sphere",
+   "size": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "pos": [
+    0,
+    2.98,
+    0
+   ],
+   "color": "#c9c3b8",
+   "bevel": 0.05,
+   "casts": false
+  }
+ ]
+}

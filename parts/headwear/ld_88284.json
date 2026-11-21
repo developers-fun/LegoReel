@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Persian",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "88284",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Persian",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

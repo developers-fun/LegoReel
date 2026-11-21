@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Hood Fur-lined",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "30287",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Hood Fur-lined",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

@@ -1,0 +1,130 @@
+{
+ "kind": "accessory",
+ "name": "Bunch of flowers",
+ "attach": "hand_r",
+ "pieces": [
+  {
+   "shape": "cylinder",
+   "size": [
+    0.9,
+    0.75,
+    0.9
+   ],
+   "pos": [
+    0,
+    0.38,
+    0.42
+   ],
+   "color": "secondary",
+   "bevel": 0.05,
+   "top": [
+    1.0,
+    1.0
+   ],
+   "bottom": [
+    0.45,
+    0.45
+   ]
+  },
+  {
+   "shape": "cylinder",
+   "size": [
+    0.05,
+    1.1,
+    0.05
+   ],
+   "pos": [
+    -0.12,
+    0.85,
+    0.31999999999999995
+   ],
+   "color": "#3c9a3c",
+   "bevel": 0.02,
+   "rot": [
+    0,
+    0,
+    8
+   ]
+  },
+  {
+   "shape": "cylinder",
+   "size": [
+    0.05,
+    1.2,
+    0.05
+   ],
+   "pos": [
+    0.12,
+    0.9,
+    0.52
+   ],
+   "color": "#3c9a3c",
+   "bevel": 0.02,
+   "rot": [
+    0,
+    0,
+    -8
+   ]
+  },
+  {
+   "shape": "cylinder",
+   "size": [
+    0.05,
+    1.0,
+    0.05
+   ],
+   "pos": [
+    0,
+    0.8,
+    0.42
+   ],
+   "color": "#3c9a3c",
+   "bevel": 0.02
+  },
+  {
+   "shape": "sphere",
+   "size": [
+    0.46,
+    0.46,
+    0.46
+   ],
+   "pos": [
+    -0.24,
+    1.42,
+    0.31999999999999995
+   ],
+   "color": "accent",
+   "bevel": 0.1
+  },
+  {
+   "shape": "sphere",
+   "size": [
+    0.46,
+    0.46,
+    0.46
+   ],
+   "pos": [
+    0.24,
+    1.5,
+    0.52
+   ],
+   "color": "primary",
+   "bevel": 0.1
+  },
+  {
+   "shape": "sphere",
+   "size": [
+    0.46,
+    0.46,
+    0.46
+   ],
+   "pos": [
+    0,
+    1.72,
+    0.42
+   ],
+   "color": "light",
+   "bevel": 0.1
+  }
+ ]
+}

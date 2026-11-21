@@ -1,0 +1,86 @@
+{
+ "kind": "hair",
+ "name": "Quiff",
+ "pieces": [
+  {
+   "shape": "cylinder",
+   "size": [
+    1.72,
+    0.34,
+    1.72
+   ],
+   "pos": [
+    0,
+    0.52,
+    -0.02
+   ],
+   "color": "hair",
+   "bevel": 0.1
+  },
+  {
+   "shape": "cylinder",
+   "size": [
+    1.72,
+    0.7,
+    1.5
+   ],
+   "pos": [
+    0,
+    0.2,
+    -0.2
+   ],
+   "color": "hair",
+   "bevel": 0.08
+  },
+  {
+   "shape": "box",
+   "size": [
+    0.2,
+    0.5,
+    0.5
+   ],
+   "pos": [
+    -0.83,
+    0.18,
+    0.05
+   ],
+   "color": "hair",
+   "bevel": 0.05
+  },
+  {
+   "shape": "box",
+   "size": [
+    0.2,
+    0.5,
+    0.5
+   ],
+   "pos": [
+    0.83,
+    0.18,
+    0.05
+   ],
+   "color": "hair",
+   "bevel": 0.05
+  },
+  {
+   "shape": "box",
+   "size": [
+    1.2,
+    0.36,
+    0.85
+   ],
+   "pos": [
+    0,
+    0.8,
+    0.2
+   ],
+   "color": "hair",
+   "bevel": 0.12,
+   "rot": [
+    -20,
+    0,
+    0
+   ]
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Cardigan with Dark Azure Trim Open over White Dress with Coral Flowers and Belt",
+ "ldraw": {
+  "torso": "973pc9",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Cardigan with Dark Azure Trim Open over White Dress with Coral Flowers and Belt Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

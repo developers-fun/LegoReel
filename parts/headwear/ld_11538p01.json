@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet SW Rebel with Dark Tan, Sand Blue and Dark Blue",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "11538p01",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet SW Rebel with Dark Tan, Sand Blue and Dark Blue Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

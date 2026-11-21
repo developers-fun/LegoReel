@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Pockets, Bright Green Shirt and 8-Bit Alien",
+ "ldraw": {
+  "torso": "973pxc",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Pockets, Bright Green Shirt and 8-Bit Alien Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

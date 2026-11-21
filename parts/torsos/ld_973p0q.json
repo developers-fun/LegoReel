@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Hospital EMT Star of Life, Open Collar, Pocket Pen",
+ "ldraw": {
+  "torso": "973p0q",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Hospital EMT Star of Life, Open Collar, Pocket Pen Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

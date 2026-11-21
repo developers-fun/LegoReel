@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet with Hexagonal Top and Gold Alien",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "30120p01",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet with Hexagonal Top and Gold Alien Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

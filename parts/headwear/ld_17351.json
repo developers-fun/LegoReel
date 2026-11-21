@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Headdress Pig",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "17351",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Headdress Pig",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

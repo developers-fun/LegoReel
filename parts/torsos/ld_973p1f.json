@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Buttons and Police Badge Plain",
+ "ldraw": {
+  "torso": "973p1f",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Buttons and Police Badge Plain Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

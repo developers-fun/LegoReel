@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet with Hexagonal Top and Hoses",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "30120",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet with Hexagonal Top and Hoses",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

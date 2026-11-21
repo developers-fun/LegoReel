@@ -1,0 +1,16 @@
+{
+ "kind": "legs",
+ "name": "Leg Right with Astro",
+ "ldraw": {
+  "hips": "3815",
+  "leg_r": "3816cp6f",
+  "leg_l": "3817cp6f"
+ },
+ "hips": "pants",
+ "title": "Minifig Leg Right with Astro Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "legs"
+ ]
+}

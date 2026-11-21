@@ -1,0 +1,144 @@
+{
+ "kind": "set",
+ "name": "Signpost",
+ "pieces": [
+  {
+   "shape": "box",
+   "size": [
+    0.3,
+    4.0,
+    0.3
+   ],
+   "pos": [
+    0,
+    2.0,
+    0
+   ],
+   "color": "#8d6e63",
+   "bevel": 0.03,
+   "casts": false
+  },
+  {
+   "shape": "box",
+   "size": [
+    0.6,
+    0.3,
+    0.6
+   ],
+   "pos": [
+    0,
+    0.15,
+    0
+   ],
+   "color": "#6d4c41",
+   "bevel": 0.04,
+   "casts": false
+  },
+  {
+   "shape": "box",
+   "size": [
+    2.0,
+    0.6,
+    0.1
+   ],
+   "pos": [
+    1.15,
+    3.3,
+    0
+   ],
+   "color": "#e53935",
+   "bevel": 0.03,
+   "casts": false
+  },
+  {
+   "shape": "box",
+   "size": [
+    0.6,
+    0.6,
+    0.1
+   ],
+   "pos": [
+    2.15,
+    3.3,
+    0
+   ],
+   "color": "#e53935",
+   "bevel": 0.03,
+   "casts": false,
+   "rot": [
+    0,
+    0,
+    45
+   ]
+  },
+  {
+   "shape": "box",
+   "size": [
+    1.4,
+    0.1,
+    0.12
+   ],
+   "pos": [
+    1.05,
+    3.3,
+    0.02
+   ],
+   "color": "#ffffff",
+   "bevel": 0.01,
+   "casts": false
+  },
+  {
+   "shape": "box",
+   "size": [
+    2.0,
+    0.6,
+    0.1
+   ],
+   "pos": [
+    -1.15,
+    2.2,
+    0
+   ],
+   "color": "#1e88e5",
+   "bevel": 0.03,
+   "casts": false
+  },
+  {
+   "shape": "box",
+   "size": [
+    0.6,
+    0.6,
+    0.1
+   ],
+   "pos": [
+    -2.15,
+    2.2,
+    0
+   ],
+   "color": "#1e88e5",
+   "bevel": 0.03,
+   "casts": false,
+   "rot": [
+    0,
+    0,
+    45
+   ]
+  },
+  {
+   "shape": "box",
+   "size": [
+    1.4,
+    0.1,
+    0.12
+   ],
+   "pos": [
+    -1.05,
+    2.2,
+    0.02
+   ],
+   "color": "#ffffff",
+   "bevel": 0.01,
+   "casts": false
+  }
+ ]
+}

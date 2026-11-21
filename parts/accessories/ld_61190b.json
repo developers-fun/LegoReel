@@ -1,0 +1,18 @@
+{
+ "kind": "accessory",
+ "name": "Armour SW Clone Trooper Pauldron",
+ "attach": "torso",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "61190b",
+   "color": "accent"
+  }
+ ],
+ "title": "Minifig Armour SW Clone Trooper Pauldron",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "neck"
+ ]
+}

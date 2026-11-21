@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Sweater, Medium Nougat Chevrons, Tan Shirt and Black Tie",
+ "ldraw": {
+  "torso": "973phj",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Sweater, Medium Nougat Chevrons, Tan Shirt and Black Tie Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Metallic Pink Dress with Pearl Necklace",
+ "ldraw": {
+  "torso": "973pdg6",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Metallic Pink Dress with Pearl Necklace Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

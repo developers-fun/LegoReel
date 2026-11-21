@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Headdress Bald Head with Tied Bandana",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "25973",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Headdress Bald Head with Tied Bandana",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

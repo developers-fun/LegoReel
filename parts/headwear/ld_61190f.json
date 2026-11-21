@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Visor SW Clone Trooper",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "61190f",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Visor SW Clone Trooper",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

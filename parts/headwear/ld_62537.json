@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Jester's Cap",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "62537",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Jester's Cap",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Belt, Pouch, Knife, Scabbard and Earth Power Emblem",
+ "ldraw": {
+  "torso": "973p0z",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Belt, Pouch, Knife, Scabbard and Earth Power Emblem Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

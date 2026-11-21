@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Viking with White Horns (Complete)",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "53450c01",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Viking with White Horns (Complete)",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

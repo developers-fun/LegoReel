@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Hat Tall Hat with Small Brim and Pin with Black Top",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "44553p02",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Hat Tall Hat with Small Brim and Pin with Black Top Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

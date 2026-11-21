@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Jacket Open over White Shirt with Dark Pink Trim and Black Vinyl Record",
+ "ldraw": {
+  "torso": "973pcb",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Jacket Open over White Shirt with Dark Pink Trim and Black Vinyl Record Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

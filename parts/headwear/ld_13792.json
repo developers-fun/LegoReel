@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Welding",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "13792",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Welding",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

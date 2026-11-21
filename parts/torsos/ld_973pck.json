@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Jacket with Dark Green Panel with White Zipper and Drawstrings over Black Shirt",
+ "ldraw": {
+  "torso": "973pck",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Jacket with Dark Green Panel with White Zipper and Drawstrings over Black Shirt Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

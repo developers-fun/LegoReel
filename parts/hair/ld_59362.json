@@ -1,0 +1,17 @@
+{
+ "kind": "hair",
+ "name": "Hair Short with Curled Ends",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "59362",
+   "color": "hair"
+  }
+ ],
+ "title": "Minifig Hair Short with Curled Ends",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hair"
+ ]
+}

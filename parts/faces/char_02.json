@@ -1,0 +1,9 @@
+{
+ "kind": "face",
+ "name": "Sunglasses smirk",
+ "image": "char_02.png",
+ "tags": [
+  "glasses",
+  "cool"
+ ]
+}

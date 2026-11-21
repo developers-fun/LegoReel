@@ -1,0 +1,9 @@
+{
+ "kind": "face",
+ "name": "Laughing",
+ "image": "happy_02.png",
+ "tags": [
+  "happy",
+  "laugh"
+ ]
+}

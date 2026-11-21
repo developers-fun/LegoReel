@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with White Vest, White Shirt and Yellow Bow Tie",
+ "ldraw": {
+  "torso": "973p0t",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with White Vest, White Shirt and Yellow Bow Tie Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

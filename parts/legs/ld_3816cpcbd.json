@@ -1,0 +1,16 @@
+{
+ "kind": "legs",
+ "name": "Leg Right with Black Triangles on Foot",
+ "ldraw": {
+  "hips": "3815",
+  "leg_r": "3816cpcbd",
+  "leg_l": "3817cpcbd"
+ },
+ "hips": "pants",
+ "title": "Minifig Leg Right with Black Triangles on Foot Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "legs"
+ ]
+}

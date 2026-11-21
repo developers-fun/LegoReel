@@ -1,0 +1,17 @@
+{
+ "kind": "hair",
+ "name": "Hair Male",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "3901",
+   "color": "hair"
+  }
+ ],
+ "title": "Minifig Hair Male",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hair"
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Square Head",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "19730",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Square Head",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

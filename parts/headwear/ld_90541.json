@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Hat Beanie",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "90541",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Hat Beanie",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "kind": "hair",
+ "name": "Hair Peaked",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "42444",
+   "color": "hair"
+  }
+ ],
+ "title": "Minifig Hair Peaked",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hair"
+ ]
+}

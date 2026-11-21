@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Headdress Pig with Black Eyes",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "17351p01",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Headdress Pig with Black Eyes Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

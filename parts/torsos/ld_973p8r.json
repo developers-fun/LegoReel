@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Safety Vest with Reflective Stripes over Medium Blue Shirt, ID Badge and Red Pen around Neck",
+ "ldraw": {
+  "torso": "973p8r",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Safety Vest with Reflective Stripes over Medium Blue Shirt, ID Badge and Red Pen around Neck Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Jester's Cap with Black Half and White Poms",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "62537p02",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Jester's Cap with Black Half and White Poms Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

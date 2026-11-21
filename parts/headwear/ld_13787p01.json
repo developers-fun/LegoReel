@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Hat Elf with Pointy Ears with Bright Green Top",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "13787p01",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Hat Elf with Pointy Ears with Bright Green Top Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

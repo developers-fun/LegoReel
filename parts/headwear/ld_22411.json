@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Plume Horsetail with Bar 0.5L",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "22411",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Plume Horsetail with Bar 0.5L",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

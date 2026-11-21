@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Plaid Jacket, Collar, Buttons and Light Blue Shirt",
+ "ldraw": {
+  "torso": "973p0l",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Plaid Jacket, Collar, Buttons and Light Blue Shirt Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

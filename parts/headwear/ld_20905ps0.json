@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet SW First Order Flametrooper Episode  7",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "20905ps0",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet SW First Order Flametrooper Episode  7 Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

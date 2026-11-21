@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Headdress Nemes Type 2",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "90462b",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Headdress Nemes Type 2",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

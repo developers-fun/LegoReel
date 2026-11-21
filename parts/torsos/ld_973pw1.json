@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with US Cavalry General",
+ "ldraw": {
+  "torso": "973pw1",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with US Cavalry General Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

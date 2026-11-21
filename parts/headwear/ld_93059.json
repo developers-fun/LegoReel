@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Hat Conical Asian",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "93059",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Hat Conical Asian",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "kind": "hair",
+ "name": "Hair with Snakes",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "12889",
+   "color": "hair"
+  }
+ ],
+ "title": "Minifig Hair with Snakes",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hair"
+ ]
+}

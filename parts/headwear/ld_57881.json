@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Hat Rain",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "57881",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Hat Rain",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

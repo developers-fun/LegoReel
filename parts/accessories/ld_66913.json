@@ -1,0 +1,18 @@
+{
+ "kind": "accessory",
+ "name": "Headset Around Neck",
+ "attach": "torso",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "66913",
+   "color": "accent"
+  }
+ ],
+ "title": "Minifig Headset Around Neck",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "neck"
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "kind": "set",
+ "name": "Crate stack",
+ "pieces": [
+  {"shape": "box", "size": [2.4, 2.4, 2.4], "pos": [-2.4, 1.2, 0], "color": "#b07a45", "bevel": 0.08},
+  {"shape": "box", "size": [2.4, 2.4, 2.4], "pos": [0, 1.2, 0], "color": "#b07a45", "bevel": 0.08},
+  {"shape": "box", "size": [2.4, 2.4, 2.4], "pos": [2.4, 1.2, 0], "color": "#b07a45", "bevel": 0.08},
+  {"shape": "box", "size": [2.4, 2.4, 2.4], "pos": [-1.2, 3.6, 0], "color": "#c08a52", "bevel": 0.08},
+  {"shape": "box", "size": [2.4, 2.4, 2.4], "pos": [1.2, 3.6, 0], "color": "#c08a52", "bevel": 0.08},
+  {"shape": "box", "size": [2.4, 0.3, 0.16], "pos": [-2.4, 1.2, 1.28], "color": "#5a3a20", "bevel": 0.03},
+  {"shape": "box", "size": [2.4, 0.3, 0.16], "pos": [0, 1.2, 1.28], "color": "#5a3a20", "bevel": 0.03},
+  {"shape": "box", "size": [2.4, 0.3, 0.16], "pos": [2.4, 1.2, 1.28], "color": "#5a3a20", "bevel": 0.03},
+  {"shape": "box", "size": [2.4, 0.3, 0.16], "pos": [-1.2, 3.6, 1.28], "color": "#5a3a20", "bevel": 0.03},
+  {"shape": "box", "size": [2.4, 0.3, 0.16], "pos": [1.2, 3.6, 1.28], "color": "#5a3a20", "bevel": 0.03}
+ ]
+}

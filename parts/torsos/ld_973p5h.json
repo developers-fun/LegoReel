@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Bright Pink/Bright Light Blue/Bright Light Yellow Diagonal Checkered Shirt and White Collar",
+ "ldraw": {
+  "torso": "973p5h",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Bright Pink/Bright Light Blue/Bright Light Yellow Diagonal Checkered Shirt and White Collar Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

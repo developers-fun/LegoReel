@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Leather Jacket",
+ "ldraw": {
+  "torso": "973p28",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Leather Jacket Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

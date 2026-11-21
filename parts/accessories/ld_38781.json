@@ -1,0 +1,18 @@
+{
+ "kind": "accessory",
+ "name": "Life Jacket with  2 Straps",
+ "attach": "torso",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "38781",
+   "color": "accent"
+  }
+ ],
+ "title": "Minifig Life Jacket with  2 Straps",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "neck"
+ ]
+}

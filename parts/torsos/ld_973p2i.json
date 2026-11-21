@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Jumping Dolphin in Blue Oval",
+ "ldraw": {
+  "torso": "973p2i",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Jumping Dolphin in Blue Oval Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

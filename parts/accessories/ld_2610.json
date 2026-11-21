@@ -1,0 +1,18 @@
+{
+ "kind": "accessory",
+ "name": "Lifevest",
+ "attach": "torso",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "2610",
+   "color": "accent"
+  }
+ ],
+ "title": "Minifig Lifevest",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "neck"
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Hat Imperial Guard Shako",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "2545",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Hat Imperial Guard Shako",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

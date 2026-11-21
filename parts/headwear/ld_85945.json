@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Alien Skull with Fangs",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "85945",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Alien Skull with Fangs",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

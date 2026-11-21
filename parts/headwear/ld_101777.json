@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Top Hat with Band",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "101777",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Top Hat with Band",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

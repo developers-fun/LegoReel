@@ -1,0 +1,18 @@
+{
+ "kind": "accessory",
+ "name": "Cape Cloth with Straight Side (Formed)",
+ "attach": "torso",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "65384c01",
+   "color": "accent"
+  }
+ ],
+ "title": "Minifig Cape Cloth with Straight Side (Formed)",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "neck"
+ ]
+}

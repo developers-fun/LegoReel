@@ -1,0 +1,38 @@
+{
+ "name": "minifig",
+ "kind": "minifig",
+ "notes": "Toy-brick minifigure assembled from real part geometry in ldraw/ (LDraw open parts library, CC BY 4.0). Numbers are in LDraw units (20 per brick stud), y up, front +z; the builder scales them by 0.0582 so the body is 5.35 studs tall. Arm and hand placement follows the library's own torso-with-arms-and-hands assembly (arms splayed 10 degrees, hands turned 45 degrees).",
+ "height": 5.35,
+ "waist_pivot": [
+  0.0,
+  1.862,
+  0.0
+ ],
+ "ld": {
+  "scale": 0.0582,
+  "torso_origin_y": 64.0,
+  "head_offset_y": 24.0,
+  "hips_origin_y": 28.0,
+  "arm_pivot": [
+   15.552,
+   55.0,
+   0.0
+  ],
+  "leg_pivot_x": 10.5,
+  "leg_pivot_y": 28.0,
+  "head_centre_above_torso_top": 13.5,
+  "torso_centre_below_top": 16.0,
+  "hand_pos": [
+   4.93,
+   -18.92,
+   9.9
+  ],
+  "hand_rot": [
+   45.0,
+   0.0,
+   0.0
+  ],
+  "arm_rest_roll": 10.0
+ },
+ "parts": {}
+}

@@ -1,0 +1,16 @@
+{
+ "kind": "legs",
+ "name": "Leg Right with Reflective Stripes and Black Pocket Outline",
+ "ldraw": {
+  "hips": "3815",
+  "leg_r": "3816cp70",
+  "leg_l": "3817cp70"
+ },
+ "hips": "pants",
+ "title": "Minifig Leg Right with Reflective Stripes and Black Pocket Outline Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "legs"
+ ]
+}

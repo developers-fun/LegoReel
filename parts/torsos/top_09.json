@@ -1,0 +1,24 @@
+{
+ "kind": "torso",
+ "name": "Star pyjama top",
+ "base": "primary",
+ "arm": "primary",
+ "image": "top_09.png",
+ "pieces": [
+  {
+   "shape": "box",
+   "size": [
+    2.04,
+    0.12,
+    1.12
+   ],
+   "pos": [
+    0,
+    0.9,
+    0
+   ],
+   "color": "light",
+   "bevel": 0.04
+  }
+ ]
+}

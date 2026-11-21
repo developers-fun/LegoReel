@@ -1,0 +1,10 @@
+{
+ "kind": "headwear",
+ "name": "Wizard hat",
+ "pieces": [
+  {"shape": "cylinder", "size": [2.0, 0.16, 2.0], "pos": [0, 0.68, 0], "color": "dark", "bevel": 0.05},
+  {"shape": "cylinder", "size": [1.22, 0.22, 1.22], "pos": [0, 0.78, 0], "color": "accent", "bevel": 0.06},
+  {"shape": "cylinder", "size": [1.2, 1.5, 1.2], "top": [0.08, 0.08], "pos": [0, 1.35, 0], "rot": [0, 0, -8], "color": "primary", "bevel": 0.08},
+  {"shape": "sphere", "size": [0.26, 0.26, 0.26], "pos": [0.25, 1.05, 0.35], "color": "metal"}
+ ]
+}

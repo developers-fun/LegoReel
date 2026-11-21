@@ -1,0 +1,16 @@
+{
+ "kind": "legs",
+ "name": "Leg Right with Silver Armour Plate and Knee Pad with Bat",
+ "ldraw": {
+  "hips": "3815",
+  "leg_r": "3816cpb1",
+  "leg_l": "3817cpb1"
+ },
+ "hips": "pants",
+ "title": "Minifig Leg Right with Silver Armour Plate and Knee Pad with Bat Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "legs"
+ ]
+}

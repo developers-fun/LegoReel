@@ -1,0 +1,10 @@
+{
+ "kind": "accessory",
+ "name": "Bow tie",
+ "attach": "torso",
+ "pieces": [
+  {"shape": "cylinder", "size": [0.6, 0.5, 0.18], "pos": [-0.35, 0.62, 0.58], "rot": [0, 0, -90], "color": "accent", "top": [0.1, 0.1], "bevel": 0.03},
+  {"shape": "cylinder", "size": [0.6, 0.5, 0.18], "pos": [0.35, 0.62, 0.58], "rot": [0, 0, 90], "color": "accent", "top": [0.1, 0.1], "bevel": 0.03},
+  {"shape": "box", "size": [0.22, 0.26, 0.2], "pos": [0, 0.62, 0.6], "color": "primary", "bevel": 0.08}
+ ]
+}

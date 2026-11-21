@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Hood Medieval Cowl",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "4505a",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Hood Medieval Cowl",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

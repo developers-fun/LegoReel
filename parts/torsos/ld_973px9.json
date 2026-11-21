@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Vest with Plaid Shirt and Blue Denim Jacket",
+ "ldraw": {
+  "torso": "973px9",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Vest with Plaid Shirt and Blue Denim Jacket Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

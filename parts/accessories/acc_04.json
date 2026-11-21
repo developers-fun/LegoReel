@@ -1,0 +1,20 @@
+{
+ "kind": "accessory",
+ "name": "Round glasses",
+ "attach": "head",
+ "pieces": [
+  {"shape": "box", "size": [0.42, 0.06, 0.05], "pos": [-0.4, 0.4, 0.86], "color": "dark", "bevel": 0.02},
+  {"shape": "box", "size": [0.42, 0.06, 0.05], "pos": [-0.685, 0.193, 0.86], "rot": [0, 0, 72], "color": "dark", "bevel": 0.02},
+  {"shape": "box", "size": [0.42, 0.06, 0.05], "pos": [-0.576, -0.143, 0.86], "rot": [0, 0, 144], "color": "dark", "bevel": 0.02},
+  {"shape": "box", "size": [0.42, 0.06, 0.05], "pos": [-0.224, -0.143, 0.86], "rot": [0, 0, 36], "color": "dark", "bevel": 0.02},
+  {"shape": "box", "size": [0.42, 0.06, 0.05], "pos": [-0.115, 0.193, 0.86], "rot": [0, 0, 108], "color": "dark", "bevel": 0.02},
+  {"shape": "box", "size": [0.42, 0.06, 0.05], "pos": [0.4, 0.4, 0.86], "color": "dark", "bevel": 0.02},
+  {"shape": "box", "size": [0.42, 0.06, 0.05], "pos": [0.685, 0.193, 0.86], "rot": [0, 0, 108], "color": "dark", "bevel": 0.02},
+  {"shape": "box", "size": [0.42, 0.06, 0.05], "pos": [0.576, -0.143, 0.86], "rot": [0, 0, 36], "color": "dark", "bevel": 0.02},
+  {"shape": "box", "size": [0.42, 0.06, 0.05], "pos": [0.224, -0.143, 0.86], "rot": [0, 0, 144], "color": "dark", "bevel": 0.02},
+  {"shape": "box", "size": [0.42, 0.06, 0.05], "pos": [0.115, 0.193, 0.86], "rot": [0, 0, 72], "color": "dark", "bevel": 0.02},
+  {"shape": "box", "size": [0.24, 0.05, 0.05], "pos": [0, 0.193, 0.86], "color": "dark", "bevel": 0.02},
+  {"shape": "box", "size": [0.05, 0.05, 0.6], "pos": [-0.74, 0.193, 0.58], "color": "dark", "bevel": 0.02},
+  {"shape": "box", "size": [0.05, 0.05, 0.6], "pos": [0.74, 0.193, 0.58], "color": "dark", "bevel": 0.02}
+ ]
+}

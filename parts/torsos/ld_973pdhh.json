@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Light Bluish Grey Half Circles on Sides, Curved Line and Access Port",
+ "ldraw": {
+  "torso": "973pdhh",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Light Bluish Grey Half Circles on Sides, Curved Line and Access Port Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

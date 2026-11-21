@@ -1,0 +1,18 @@
+{
+ "kind": "accessory",
+ "name": "Armour Dual Layer Shoulder Pads",
+ "attach": "torso",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "35635",
+   "color": "accent"
+  }
+ ],
+ "title": "Minifig Armour Dual Layer Shoulder Pads",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "neck"
+ ]
+}

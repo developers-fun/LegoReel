@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Leather Jacket and Light Grey Shirt",
+ "ldraw": {
+  "torso": "973pa9",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Leather Jacket and Light Grey Shirt Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

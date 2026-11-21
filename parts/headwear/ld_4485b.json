@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Cap with Long Flat Peak",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "4485b",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Cap with Long Flat Peak",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

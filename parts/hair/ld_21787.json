@@ -1,0 +1,17 @@
+{
+ "kind": "hair",
+ "name": "Hair Short Quiff",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "21787",
+   "color": "hair"
+  }
+ ],
+ "title": "Minifig Hair Short Quiff",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hair"
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "kind": "torso",
+ "name": "Chef coat",
+ "base": "primary",
+ "arm": "primary",
+ "image": "top_13.png",
+ "pieces": [
+  {
+   "shape": "box",
+   "size": [
+    2.04,
+    0.14,
+    1.12
+   ],
+   "pos": [
+    0,
+    0.88,
+    0
+   ],
+   "color": "light",
+   "bevel": 0.03
+  }
+ ]
+}

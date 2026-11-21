@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Hood Fur-lined with White Fur Trim",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "30287p01",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Hood Fur-lined with White Fur Trim Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

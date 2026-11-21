@@ -1,0 +1,18 @@
+{
+ "kind": "accessory",
+ "name": "Armour Shoulder (Needs Work)",
+ "attach": "torso",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "30121",
+   "color": "accent"
+  }
+ ],
+ "title": "Minifig Armour Shoulder (Needs Work)",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "neck"
+ ]
+}

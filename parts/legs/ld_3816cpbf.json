@@ -1,0 +1,16 @@
+{
+ "kind": "legs",
+ "name": "Leg Right with Iron Man Armoured Suit Mark XLII",
+ "ldraw": {
+  "hips": "3815",
+  "leg_r": "3816cpbf",
+  "leg_l": "3817cpbf"
+ },
+ "hips": "pants",
+ "title": "Minifig Leg Right with Iron Man Armoured Suit Mark XLII Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "legs"
+ ]
+}

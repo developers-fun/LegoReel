@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso SW Belt Pockets and Necklace Blissl Flute",
+ "ldraw": {
+  "torso": "973prg",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso SW Belt Pockets and Necklace Blissl Flute Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

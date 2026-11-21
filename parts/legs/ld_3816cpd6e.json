@@ -1,0 +1,16 @@
+{
+ "kind": "legs",
+ "name": "Leg Right with Black Orca",
+ "ldraw": {
+  "hips": "3815",
+  "leg_r": "3816cpd6e",
+  "leg_l": "3817cpd6e"
+ },
+ "hips": "pants",
+ "title": "Minifig Leg Right with Black Orca Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "legs"
+ ]
+}

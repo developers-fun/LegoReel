@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Large Square with Black Side Extensions",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "15864p01",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Large Square with Black Side Extensions Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

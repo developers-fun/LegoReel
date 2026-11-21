@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Mandalorian with Olive Green Forehead, Dark Green Goggles and Black Jaw Line",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "87610ps5",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Mandalorian with Olive Green Forehead, Dark Green Goggles and Black Jaw Line Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

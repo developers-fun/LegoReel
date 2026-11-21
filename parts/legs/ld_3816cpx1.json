@@ -1,0 +1,16 @@
+{
+ "kind": "legs",
+ "name": "Leg Right with Black Straps and Dark Blue Clips",
+ "ldraw": {
+  "hips": "3815",
+  "leg_r": "3816cpx1",
+  "leg_l": "3817cpx1"
+ },
+ "hips": "pants",
+ "title": "Minifig Leg Right with Black Straps and Dark Blue Clips Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "legs"
+ ]
+}

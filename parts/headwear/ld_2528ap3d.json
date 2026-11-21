@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Hat Bicorne with Squared Skull and Crossbones",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "2528ap3d",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Hat Bicorne with Squared Skull and Crossbones Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

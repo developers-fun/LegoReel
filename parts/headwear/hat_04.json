@@ -1,0 +1,11 @@
+{
+ "kind": "headwear",
+ "name": "Cowboy hat",
+ "replaces_hair": false,
+ "pieces": [
+  {"shape": "cylinder", "size": [1.2, 0.6, 1.2], "pos": [0, 0.95, 0], "color": "primary", "top": [0.86, 0.86], "bevel": 0.1},
+  {"shape": "cylinder", "size": [2.3, 0.1, 2.3], "pos": [0, 0.66, 0], "color": "primary", "bevel": 0.04},
+  {"shape": "cylinder", "size": [1.24, 0.14, 1.24], "pos": [0, 0.8, 0], "color": "accent", "bevel": 0.03},
+  {"shape": "box", "size": [0.2, 0.16, 0.08], "pos": [0, 0.8, 0.63], "color": "metal", "bevel": 0.02}
+ ]
+}

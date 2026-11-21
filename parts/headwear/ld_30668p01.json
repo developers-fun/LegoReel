@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Hood with Tan Fringe",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "30668p01",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Hood with Tan Fringe Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

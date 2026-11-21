@@ -1,0 +1,17 @@
+{
+ "kind": "hair",
+ "name": "Hair with Two Buns",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "30409",
+   "color": "hair"
+  }
+ ],
+ "title": "Minifig Hair with Two Buns",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hair"
+ ]
+}

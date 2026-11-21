@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Hat Cylinder Tapered with Hatband",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "27149",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Hat Cylinder Tapered with Hatband",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

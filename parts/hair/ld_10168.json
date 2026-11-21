@@ -1,0 +1,17 @@
+{
+ "kind": "hair",
+ "name": "Hat Cowboy with Hair in Braid",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "10168",
+   "color": "hair"
+  }
+ ],
+ "title": "Minifig Hat Cowboy with Hair in Braid",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hair"
+ ]
+}

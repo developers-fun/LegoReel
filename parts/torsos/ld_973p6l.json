@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Blacktron I 2-Sided",
+ "ldraw": {
+  "torso": "973p6l",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Blacktron I 2-Sided Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

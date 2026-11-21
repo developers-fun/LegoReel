@@ -1,0 +1,18 @@
+{
+ "kind": "accessory",
+ "name": "Cape Cloth with Holes and Tattered Edges (Formed)",
+ "attach": "torso",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "86038c01",
+   "color": "accent"
+  }
+ ],
+ "title": "Minifig Cape Cloth with Holes and Tattered Edges (Formed)",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "neck"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "kind": "headwear",
+ "name": "Backwards cap",
+ "replaces_hair": false,
+ "pieces": [
+  {"shape": "cylinder", "size": [1.74, 0.5, 1.74], "pos": [0, 0.61, 0], "color": "primary", "bevel": 0.12},
+  {"shape": "box", "size": [0.5, 0.22, 0.06], "pos": [0, 0.58, 0.87], "color": "secondary", "bevel": 0.04},
+  {"shape": "sphere", "size": [0.14, 0.14, 0.14], "pos": [0, 0.88, 0], "color": "dark"},
+  {"shape": "box", "size": [1.2, 0.14, 0.7], "pos": [0, 0.42, -0.98], "color": "primary", "bevel": 0.05}
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Headdress Beanie with Pom Pom",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "10164",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Headdress Beanie with Pom Pom",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

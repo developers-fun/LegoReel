@@ -1,0 +1,16 @@
+{
+ "kind": "legs",
+ "name": "Leg Right with Robot",
+ "ldraw": {
+  "hips": "3815",
+  "leg_r": "3816cp63",
+  "leg_l": "3817cp63"
+ },
+ "hips": "pants",
+ "title": "Minifig Leg Right with Robot Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "legs"
+ ]
+}

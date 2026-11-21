@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Underwater Stingray",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "30202",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Underwater Stingray",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

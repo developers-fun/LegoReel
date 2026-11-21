@@ -1,0 +1,7 @@
+{
+ "kind": "torso",
+ "name": "Button-up shirt",
+ "base": "primary",
+ "arm": "primary",
+ "image": "top_03.png"
+}

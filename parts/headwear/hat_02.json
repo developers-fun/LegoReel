@@ -1,0 +1,10 @@
+{
+ "kind": "headwear",
+ "name": "Beanie",
+ "replaces_hair": false,
+ "pieces": [
+  {"shape": "cylinder", "size": [1.74, 0.6, 1.74], "pos": [0, 0.7, 0], "color": "primary", "bevel": 0.12},
+  {"shape": "cylinder", "size": [1.82, 0.22, 1.82], "pos": [0, 0.5, 0], "color": "accent", "bevel": 0.06},
+  {"shape": "sphere", "size": [0.4, 0.4, 0.4], "pos": [0, 1.08, 0], "color": "secondary"}
+ ]
+}

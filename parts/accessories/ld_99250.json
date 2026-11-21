@@ -1,0 +1,18 @@
+{
+ "kind": "accessory",
+ "name": "Neckwear Ribbon with Medal",
+ "attach": "torso",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "99250",
+   "color": "accent"
+  }
+ ],
+ "title": "Minifig Neckwear Ribbon with Medal",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "neck"
+ ]
+}

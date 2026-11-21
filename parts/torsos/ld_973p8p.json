@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Blue Shirt and Construction Zipper Jacket with Safety Stripes",
+ "ldraw": {
+  "torso": "973p8p",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Blue Shirt and Construction Zipper Jacket with Safety Stripes Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

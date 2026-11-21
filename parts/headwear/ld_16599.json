@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Classic with Thin Chin Guard Cracked",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "16599",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Classic with Thin Chin Guard Cracked",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

@@ -1,0 +1,52 @@
+{
+ "kind": "accessory",
+ "name": "Wrench",
+ "attach": "hand_r",
+ "pieces": [
+  {
+   "shape": "box",
+   "size": [
+    0.22,
+    1.9,
+    0.16
+   ],
+   "pos": [
+    0,
+    0.65,
+    0.42
+   ],
+   "color": "metal",
+   "bevel": 0.05
+  },
+  {
+   "shape": "box",
+   "size": [
+    0.9,
+    0.6,
+    0.16
+   ],
+   "pos": [
+    0,
+    1.9,
+    0.42
+   ],
+   "color": "metal",
+   "bevel": 0.06
+  },
+  {
+   "shape": "box",
+   "size": [
+    0.36,
+    0.34,
+    0.18
+   ],
+   "pos": [
+    0,
+    2.05,
+    0.42
+   ],
+   "color": "dark",
+   "bevel": 0.03
+  }
+ ]
+}

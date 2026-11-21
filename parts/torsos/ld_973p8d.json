@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Bright Light Yellow Zigzag Lines and Black Collars",
+ "ldraw": {
+  "torso": "973p8d",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Bright Light Yellow Zigzag Lines and Black Collars Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

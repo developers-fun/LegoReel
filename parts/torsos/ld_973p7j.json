@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Hooded Sweatshirt with Blue Pocket and Drawstring",
+ "ldraw": {
+  "torso": "973p7j",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Hooded Sweatshirt with Blue Pocket and Drawstring Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

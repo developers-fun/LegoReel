@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "title": "Sample scene",
+    "export": {
+      "crf": 18,
+      "preset": "medium"
+    }
+  },
+  "characters": {
+    "hero": {
+      "avatar": "main",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "yaw": 0
+    }
+  },
+  "props": [
+    {
+      "id": "table",
+      "position": [
+        4,
+        0.75,
+        4
+      ],
+      "size": [
+        3,
+        1.5,
+        2
+      ],
+      "color": "#b07a45"
+    },
+    {
+      "id": "crate",
+      "position": [
+        -4,
+        1,
+        3
+      ],
+      "size": [
+        2,
+        2,
+        2
+      ],
+      "color": "#c9a24b",
+      "rotation_y": 20
+    },
+    {
+      "id": "tower",
+      "position": [
+        -7,
+        3,
+        -6
+      ],
+      "size": [
+        2,
+        6,
+        2
+      ],
+      "color": "#8a8fa3",
+      "cast_shadow": false
+    },
+    {
+      "id": "cup",
+      "type": "cylinder",
+      "position": [
+        4,
+        1.9,
+        4
+      ],
+      "size": [
+        1,
+        0.8,
+        1
+      ],
+      "color": "#f2f2f2"
+    }
+  ],
+  "shots": [
+    {
+      "id": "intro",
+      "duration": 3.0,
+      "fade_in": 0.3,
+      "camera": {
+        "preset": "medium",
+        "focus": [
+          0,
+          0,
+          0
+        ]
+      },
+      "actions": [
+        {
+          "t": 0.0,
+          "character": "hero",
+          "look": "camera"
+        },
+        {
+          "t": 0.5,
+          "character": "hero",
+          "pose": "wave",
+          "duration": 1.6
+        },
+        {
+          "t": 2.2,
+          "character": "hero",
+          "pose": "idle"
+        }
+      ],
+      "dialogue": [
+        {
+          "t": 0.4,
+          "duration": 2.4,
+          "speaker": "hero",
+          "text": "Hi. This is a sample scene."
+        }
+      ]
+    },
+    {
+      "id": "walk",
+      "duration": 3.5,
+      "camera": {
+        "preset": "wide",
+        "focus": [
+          1,
+          0,
+          1.5
+        ],
+        "yaw": 25
+      },
+      "actions": [
+        {
+          "t": 0.0,
+          "character": "hero",
+          "move_to": [
+            3,
+            2.5
+          ],
+          "speed": 2.2
+        },
+        {
+          "t": 2.6,
+          "character": "hero",
+          "pose": "cheer"
+        }
+      ],
+      "dialogue": [
+        {
+          "t": 0.3,
+          "duration": 2.8,
+          "speaker": "hero",
+          "text": "The camera stays put. The character moves."
+        }
+      ]
+    }
+  ]
+}

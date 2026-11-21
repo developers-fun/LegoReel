@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Samurai with Horn (Complete)",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "30175c01",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Samurai with Horn (Complete)",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

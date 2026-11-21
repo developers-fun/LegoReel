@@ -1,0 +1,18 @@
+{
+ "kind": "accessory",
+ "name": "Eagle Wing with Tan Feathers and Red/Gold",
+ "attach": "torso",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "93250pq0",
+   "color": "accent"
+  }
+ ],
+ "title": "Minifig Eagle Wing with Tan Feathers and Red/Gold Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "neck"
+ ]
+}

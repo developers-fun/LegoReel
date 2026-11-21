@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Striped Shirt and Silver Buttons",
+ "ldraw": {
+  "torso": "973p3f",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Striped Shirt and Silver Buttons Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

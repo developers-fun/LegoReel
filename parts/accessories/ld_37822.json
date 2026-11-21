@@ -1,0 +1,18 @@
+{
+ "kind": "accessory",
+ "name": "Baby Carrier",
+ "attach": "torso",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "37822",
+   "color": "accent"
+  }
+ ],
+ "title": "Minifig Baby Carrier",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "neck"
+ ]
+}

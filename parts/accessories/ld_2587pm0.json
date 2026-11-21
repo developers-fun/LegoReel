@@ -1,0 +1,18 @@
+{
+ "kind": "accessory",
+ "name": "Armour Plate with LOTR King Theoden",
+ "attach": "torso",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "2587pm0",
+   "color": "accent"
+  }
+ ],
+ "title": "Minifig Armour Plate with LOTR King Theoden Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "neck"
+ ]
+}

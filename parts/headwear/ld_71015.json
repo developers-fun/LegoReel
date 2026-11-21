@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Hat Crown",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "71015",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Hat Crown",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

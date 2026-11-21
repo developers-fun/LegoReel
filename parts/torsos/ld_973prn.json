@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with SW Shirt with Open Collar and Light Bluish Grey Wrinkles",
+ "ldraw": {
+  "torso": "973prn",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with SW Shirt with Open Collar and Light Bluish Grey Wrinkles Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

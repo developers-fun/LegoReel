@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Cap Aviator Goggles",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "30170b",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Cap Aviator Goggles",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Black Futuron",
+ "ldraw": {
+  "torso": "973p6b",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Black Futuron Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

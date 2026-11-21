@@ -1,0 +1,15 @@
+{
+ "kind": "headwear",
+ "name": "Flower crown",
+ "pieces": [
+  {"shape": "cylinder", "size": [1.72, 0.14, 1.72], "pos": [0, 0.53, 0], "color": "dark", "bevel": 0.04},
+  {"shape": "cylinder", "size": [0.5, 0.14, 0.5], "pos": [0, 0.67, 0.8], "color": "accent", "bevel": 0.05},
+  {"shape": "sphere", "size": [0.2, 0.2, 0.2], "pos": [0, 0.78, 0.8], "color": "metal"},
+  {"shape": "cylinder", "size": [0.5, 0.14, 0.5], "pos": [-0.72, 0.67, 0.5], "color": "primary", "bevel": 0.05},
+  {"shape": "sphere", "size": [0.2, 0.2, 0.2], "pos": [-0.72, 0.78, 0.5], "color": "metal"},
+  {"shape": "cylinder", "size": [0.5, 0.14, 0.5], "pos": [0.72, 0.67, 0.5], "color": "primary", "bevel": 0.05},
+  {"shape": "sphere", "size": [0.2, 0.2, 0.2], "pos": [0.72, 0.78, 0.5], "color": "metal"},
+  {"shape": "box", "size": [0.36, 0.08, 0.16], "pos": [-0.4, 0.62, 0.72], "rot": [0, -30, 0], "color": "secondary", "bevel": 0.03},
+  {"shape": "box", "size": [0.36, 0.08, 0.16], "pos": [0.4, 0.62, 0.72], "rot": [0, 30, 0], "color": "secondary", "bevel": 0.03}
+ ]
+}

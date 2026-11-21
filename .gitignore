@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+out/
+# the bundled LDraw parts (about 130 MB) are rebuilt with tools/ldraw_bundle.py; only the licence files and colour table are kept
+ldraw/*
+!ldraw/CAreadme.txt
+!ldraw/CAlicense.txt
+!ldraw/CAlicense4.txt
+!ldraw/LDConfig.ldr

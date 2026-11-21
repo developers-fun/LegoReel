@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Brown Collar, Black Crossbelt, Silver Square Buckles",
+ "ldraw": {
+  "torso": "973pf9",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Brown Collar, Black Crossbelt, Silver Square Buckles Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

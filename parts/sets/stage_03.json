@@ -1,0 +1,182 @@
+{
+ "kind": "set",
+ "name": "Balloon cluster",
+ "pieces": [
+  {
+   "shape": "box",
+   "size": [
+    1.0,
+    0.4,
+    1.0
+   ],
+   "pos": [
+    0,
+    0.2,
+    0
+   ],
+   "color": "#757575",
+   "bevel": 0.08,
+   "casts": false
+  },
+  {
+   "shape": "cylinder",
+   "size": [
+    0.08,
+    2.5,
+    0.08
+   ],
+   "pos": [
+    -0.9,
+    1.25,
+    0.2
+   ],
+   "color": "#9e9e9e",
+   "bevel": 0.01,
+   "casts": false
+  },
+  {
+   "shape": "sphere",
+   "size": [
+    1.4,
+    1.4,
+    1.4
+   ],
+   "pos": [
+    -0.9,
+    3.2,
+    0.2
+   ],
+   "color": "#e53935",
+   "bevel": 0.05,
+   "casts": false
+  },
+  {
+   "shape": "cylinder",
+   "size": [
+    0.08,
+    2.7,
+    0.08
+   ],
+   "pos": [
+    0.9,
+    1.35,
+    -0.2
+   ],
+   "color": "#9e9e9e",
+   "bevel": 0.01,
+   "casts": false
+  },
+  {
+   "shape": "sphere",
+   "size": [
+    1.4,
+    1.4,
+    1.4
+   ],
+   "pos": [
+    0.9,
+    3.4,
+    -0.2
+   ],
+   "color": "#fdd835",
+   "bevel": 0.05,
+   "casts": false
+  },
+  {
+   "shape": "cylinder",
+   "size": [
+    0.08,
+    3.65,
+    0.08
+   ],
+   "pos": [
+    0.0,
+    1.825,
+    0.0
+   ],
+   "color": "#9e9e9e",
+   "bevel": 0.01,
+   "casts": false
+  },
+  {
+   "shape": "sphere",
+   "size": [
+    1.5,
+    1.5,
+    1.5
+   ],
+   "pos": [
+    0.0,
+    4.4,
+    0.0
+   ],
+   "color": "#1e88e5",
+   "bevel": 0.05,
+   "casts": false
+  },
+  {
+   "shape": "cylinder",
+   "size": [
+    0.08,
+    2.0,
+    0.08
+   ],
+   "pos": [
+    -0.5,
+    1.0,
+    -0.5
+   ],
+   "color": "#9e9e9e",
+   "bevel": 0.01,
+   "casts": false
+  },
+  {
+   "shape": "sphere",
+   "size": [
+    1.2,
+    1.2,
+    1.2
+   ],
+   "pos": [
+    -0.5,
+    2.6,
+    -0.5
+   ],
+   "color": "#43a047",
+   "bevel": 0.05,
+   "casts": false
+  },
+  {
+   "shape": "cylinder",
+   "size": [
+    0.08,
+    1.8,
+    0.08
+   ],
+   "pos": [
+    0.6,
+    0.9,
+    0.5
+   ],
+   "color": "#9e9e9e",
+   "bevel": 0.01,
+   "casts": false
+  },
+  {
+   "shape": "sphere",
+   "size": [
+    1.2,
+    1.2,
+    1.2
+   ],
+   "pos": [
+    0.6,
+    2.4,
+    0.5
+   ],
+   "color": "#8e24aa",
+   "bevel": 0.05,
+   "casts": false
+  }
+ ]
+}

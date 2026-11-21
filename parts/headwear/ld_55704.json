@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Headdress Batman",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "55704",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Headdress Batman",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

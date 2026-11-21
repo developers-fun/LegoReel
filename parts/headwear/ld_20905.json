@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet SW Flametrooper Episode  7 and Walker Driver Episode 8",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "20905",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet SW Flametrooper Episode  7 and Walker Driver Episode 8",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

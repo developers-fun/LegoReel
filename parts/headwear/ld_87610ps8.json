@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Mandalorian with Black Visor Opening",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "87610ps8",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Mandalorian with Black Visor Opening Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

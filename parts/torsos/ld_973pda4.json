@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Orange Giraffe Spots on Front and Back",
+ "ldraw": {
+  "torso": "973pda4",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Orange Giraffe Spots on Front and Back Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

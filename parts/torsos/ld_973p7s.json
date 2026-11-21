@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Prisoner and \"50380\"",
+ "ldraw": {
+  "torso": "973p7s",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Prisoner and \"50380\" Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

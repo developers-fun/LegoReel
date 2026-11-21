@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Headdress Aztec Bird",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "99243",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Headdress Aztec Bird",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

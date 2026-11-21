@@ -1,0 +1,82 @@
+{
+ "kind": "accessory",
+ "name": "Mug",
+ "attach": "hand_r",
+ "pieces": [
+  {
+   "shape": "cylinder",
+   "size": [
+    0.74,
+    0.95,
+    0.74
+   ],
+   "pos": [
+    0,
+    0.45,
+    0.5
+   ],
+   "color": "light",
+   "bevel": 0.06
+  },
+  {
+   "shape": "cylinder",
+   "size": [
+    0.62,
+    0.05,
+    0.62
+   ],
+   "pos": [
+    0,
+    0.92,
+    0.5
+   ],
+   "color": "dark",
+   "bevel": 0.02
+  },
+  {
+   "shape": "box",
+   "size": [
+    0.3,
+    0.12,
+    0.16
+   ],
+   "pos": [
+    0.5,
+    0.78,
+    0.5
+   ],
+   "color": "light",
+   "bevel": 0.04
+  },
+  {
+   "shape": "box",
+   "size": [
+    0.12,
+    0.5,
+    0.16
+   ],
+   "pos": [
+    0.62,
+    0.5,
+    0.5
+   ],
+   "color": "light",
+   "bevel": 0.04
+  },
+  {
+   "shape": "box",
+   "size": [
+    0.3,
+    0.12,
+    0.16
+   ],
+   "pos": [
+    0.5,
+    0.22,
+    0.5
+   ],
+   "color": "light",
+   "bevel": 0.04
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Motorcycle with Open Face and Visor, White Top",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "15851p01",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Motorcycle with Open Face and Visor, White Top Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

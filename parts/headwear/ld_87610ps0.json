@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Mandalorian with Dark Red Visor, Dark Green Cheeks, Yellow Strokes and Metallic Silver Weathering",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "87610ps0",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Mandalorian with Dark Red Visor, Dark Green Cheeks, Yellow Strokes and Metallic Silver Weathering Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

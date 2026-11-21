@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Visor Large with Trapezoid Area on Top",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "89159",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Visor Large with Trapezoid Area on Top",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

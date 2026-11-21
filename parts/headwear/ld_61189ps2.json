@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet SW Clone Trooper Pilot Phase I Front Face with Yellow Markings and Black Visor",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "61189ps2",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet SW Clone Trooper Pilot Phase I Front Face with Yellow Markings and Black Visor Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

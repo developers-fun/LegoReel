@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Wizards Hat",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "6131",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Wizards Hat",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

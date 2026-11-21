@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Hat Conical Asian with Curved Sides",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "26007",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Hat Conical Asian with Curved Sides",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

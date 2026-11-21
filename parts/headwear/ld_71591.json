@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Ornament Horn",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "71591",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Ornament Horn",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

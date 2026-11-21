@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Headdress Batman with Angular Ears",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "10113",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Headdress Batman with Angular Ears",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

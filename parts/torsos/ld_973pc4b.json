@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Soccer Shirt with Octan Logo and Blue Stripes",
+ "ldraw": {
+  "torso": "973pc4b",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Soccer Shirt with Octan Logo and Blue Stripes Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

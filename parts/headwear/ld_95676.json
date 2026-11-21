@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Gladiator",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "95676",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Gladiator",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Medium Azure Vest, Orange Shirt and Lime Bow",
+ "ldraw": {
+  "torso": "973pc4",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Medium Azure Vest, Orange Shirt and Lime Bow Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

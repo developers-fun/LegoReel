@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Green Robe, Gold Scarf, Green Belt, Diamonds and Green Emblem",
+ "ldraw": {
+  "torso": "973pn3",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Green Robe, Gold Scarf, Green Belt, Diamonds and Green Emblem Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet with Cheek Guard and Neck Protector with Gold Front",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "67037p01",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet with Cheek Guard and Neck Protector with Gold Front Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

@@ -1,0 +1,17 @@
+{
+ "kind": "hair",
+ "name": "Hair Long with Headband",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "30114",
+   "color": "hair"
+  }
+ ],
+ "title": "Minifig Hair Long with Headband",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hair"
+ ]
+}

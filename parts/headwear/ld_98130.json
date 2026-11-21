@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Kendo Mask",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "98130",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Kendo Mask",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

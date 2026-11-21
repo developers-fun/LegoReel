@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with ST Uniform Vest with Starfleet Combadge and Light Nougat Neck",
+ "ldraw": {
+  "torso": "973pv3",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with ST Uniform Vest with Starfleet Combadge and Light Nougat Neck Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

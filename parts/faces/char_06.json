@@ -1,0 +1,9 @@
+{
+ "kind": "face",
+ "name": "Stubble flat",
+ "image": "char_06.png",
+ "tags": [
+  "stubble",
+  "serious"
+ ]
+}

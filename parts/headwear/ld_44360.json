@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet SW Snowtrooper",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "44360",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet SW Snowtrooper",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

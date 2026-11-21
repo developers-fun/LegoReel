@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Kendo Mask with White Grille",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "98130p01",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Kendo Mask with White Grille Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

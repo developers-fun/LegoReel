@@ -1,0 +1,10 @@
+{
+ "kind": "headwear",
+ "name": "Hard hat",
+ "replaces_hair": false,
+ "pieces": [
+  {"shape": "cylinder", "size": [1.76, 0.55, 1.76], "pos": [0, 0.7, 0], "color": "primary", "top": [0.86, 0.86], "bevel": 0.12},
+  {"shape": "box", "size": [1.5, 0.14, 0.6], "pos": [0, 0.5, 0.98], "color": "secondary", "bevel": 0.05},
+  {"shape": "box", "size": [0.18, 0.14, 0.9], "pos": [0, 0.98, 0], "color": "accent", "bevel": 0.03}
+ ]
+}

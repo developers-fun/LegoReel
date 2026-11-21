@@ -1,0 +1,17 @@
+{
+ "kind": "hair",
+ "name": "Hair Orc with Medium Nougat Ears",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "10066p02",
+   "color": "hair"
+  }
+ ],
+ "title": "Minifig Hair Orc with Medium Nougat Ears Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hair"
+ ]
+}

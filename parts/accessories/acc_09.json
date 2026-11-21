@@ -1,0 +1,52 @@
+{
+ "kind": "accessory",
+ "name": "Sword",
+ "attach": "hand_r",
+ "pieces": [
+  {
+   "shape": "cylinder",
+   "size": [
+    0.2,
+    0.8,
+    0.2
+   ],
+   "pos": [
+    0,
+    0,
+    0.42
+   ],
+   "color": "dark",
+   "bevel": 0.05
+  },
+  {
+   "shape": "box",
+   "size": [
+    0.8,
+    0.16,
+    0.26
+   ],
+   "pos": [
+    0,
+    0.4,
+    0.42
+   ],
+   "color": "accent",
+   "bevel": 0.05
+  },
+  {
+   "shape": "box",
+   "size": [
+    0.3,
+    2.0,
+    0.08
+   ],
+   "pos": [
+    0,
+    1.45,
+    0.42
+   ],
+   "color": "metal",
+   "bevel": 0.03
+  }
+ ]
+}

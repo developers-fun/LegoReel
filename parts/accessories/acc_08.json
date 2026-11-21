@@ -1,0 +1,15 @@
+{
+ "kind": "accessory",
+ "name": "Pendant necklace",
+ "attach": "torso",
+ "pieces": [
+  {"shape": "sphere", "size": [0.12, 0.12, 0.12], "pos": [-0.75, 0.86, 0.58], "color": "metal"},
+  {"shape": "sphere", "size": [0.12, 0.12, 0.12], "pos": [-0.5, 0.74, 0.6], "color": "metal"},
+  {"shape": "sphere", "size": [0.12, 0.12, 0.12], "pos": [-0.25, 0.65, 0.62], "color": "metal"},
+  {"shape": "sphere", "size": [0.12, 0.12, 0.12], "pos": [0, 0.62, 0.63], "color": "metal"},
+  {"shape": "sphere", "size": [0.12, 0.12, 0.12], "pos": [0.25, 0.65, 0.62], "color": "metal"},
+  {"shape": "sphere", "size": [0.12, 0.12, 0.12], "pos": [0.5, 0.74, 0.6], "color": "metal"},
+  {"shape": "sphere", "size": [0.12, 0.12, 0.12], "pos": [0.75, 0.86, 0.58], "color": "metal"},
+  {"shape": "sphere", "size": [0.34, 0.38, 0.16], "pos": [0, 0.36, 0.64], "color": "accent"}
+ ]
+}

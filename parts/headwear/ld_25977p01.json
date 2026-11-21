@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Headdress Banana with Black Ends",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "25977p01",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Headdress Banana with Black Ends Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

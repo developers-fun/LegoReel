@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Hat Elf with Pointy Ears",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "13787",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Hat Elf with Pointy Ears",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

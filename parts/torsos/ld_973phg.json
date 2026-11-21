@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Trench Coat over Dark Brown Suit Jacket and Bow Tie, Dark Tan Vest and White Shirt",
+ "ldraw": {
+  "torso": "973phg",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Trench Coat over Dark Brown Suit Jacket and Bow Tie, Dark Tan Vest and White Shirt Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

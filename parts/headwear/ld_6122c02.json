@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Castle w/ Dragon Crown Top w/ Cattlehorn White",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "6122c02",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Castle w/ Dragon Crown Top w/ Cattlehorn White",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

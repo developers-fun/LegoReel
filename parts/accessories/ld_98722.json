@@ -1,0 +1,18 @@
+{
+ "kind": "accessory",
+ "name": "Bat Wing",
+ "attach": "torso",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "98722",
+   "color": "accent"
+  }
+ ],
+ "title": "Minifig Bat Wing",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "neck"
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Jacket Open with Black Hem and Silver Zipper over Red Hawaiian Shirt",
+ "ldraw": {
+  "torso": "973pcd",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Jacket Open with Black Hem and Silver Zipper over Red Hawaiian Shirt Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

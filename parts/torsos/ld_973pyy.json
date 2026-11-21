@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Pixelated Dark Tan, Tan and Gray Stomach, Lime and Green Shell on Back",
+ "ldraw": {
+  "torso": "973pyy",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Pixelated Dark Tan, Tan and Gray Stomach, Lime and Green Shell on Back Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

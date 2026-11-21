@@ -1,0 +1,16 @@
+{
+ "kind": "legs",
+ "name": "Leg Right with Holster and Belt",
+ "ldraw": {
+  "hips": "3815",
+  "leg_r": "3816cpa9",
+  "leg_l": "3817cpa9"
+ },
+ "hips": "pants",
+ "title": "Minifig Leg Right with Holster and Belt Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "legs"
+ ]
+}

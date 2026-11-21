@@ -1,0 +1,16 @@
+{
+ "kind": "legs",
+ "name": "Leg Right with Black Shoe",
+ "ldraw": {
+  "hips": "3815",
+  "leg_r": "3816cpdga",
+  "leg_l": "3817cpdga"
+ },
+ "hips": "pants",
+ "title": "Minifig Leg Right with Black Shoe Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "legs"
+ ]
+}

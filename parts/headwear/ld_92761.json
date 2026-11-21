@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Headdress SW Zabrak Horns",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "92761",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Headdress SW Zabrak Horns",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

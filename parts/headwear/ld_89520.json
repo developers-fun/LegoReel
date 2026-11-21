@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Castle Closed with Eye Slit",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "89520",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Castle Closed with Eye Slit",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

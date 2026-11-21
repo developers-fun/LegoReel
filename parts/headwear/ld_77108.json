@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Top Hat with Pin Attachment and Anti-Stud",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "77108",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Top Hat with Pin Attachment and Anti-Stud",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

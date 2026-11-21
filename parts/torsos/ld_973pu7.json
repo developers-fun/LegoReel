@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Open Jacket Hoodie with 4 Buttons over Medium Blue Sweater",
+ "ldraw": {
+  "torso": "973pu7",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Open Jacket Hoodie with 4 Buttons over Medium Blue Sweater Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

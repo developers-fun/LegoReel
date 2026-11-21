@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Headdress Catwoman",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "98729",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Headdress Catwoman",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

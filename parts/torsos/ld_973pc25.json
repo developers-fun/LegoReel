@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Dark Red Vest, Bow Tie, Gold Chain and Star Medallion",
+ "ldraw": {
+  "torso": "973pc25",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Dark Red Vest, Bow Tie, Gold Chain and Star Medallion Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

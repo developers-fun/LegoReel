@@ -1,0 +1,16 @@
+{
+ "kind": "legs",
+ "name": "Leg Right with Golden Circuit",
+ "ldraw": {
+  "hips": "3815",
+  "leg_r": "3816cp6w",
+  "leg_l": "3817cp6w"
+ },
+ "hips": "pants",
+ "title": "Minifig Leg Right with Golden Circuit Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "legs"
+ ]
+}

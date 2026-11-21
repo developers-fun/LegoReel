@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with LOTR Cloak with Dark Bluish Grey Folds",
+ "ldraw": {
+  "torso": "973pm9",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with LOTR Cloak with Dark Bluish Grey Folds Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

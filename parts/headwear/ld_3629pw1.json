@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Hat Cowboy with Cavalry Logo",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "3629pw1",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Hat Cowboy with Cavalry Logo Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

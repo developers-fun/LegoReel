@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Hat Cowboy with Silver Star",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "3629pw2",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Hat Cowboy with Silver Star Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Visor with Pointy Sides and Eye Slit",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "48489",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Visor with Pointy Sides and Eye Slit",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

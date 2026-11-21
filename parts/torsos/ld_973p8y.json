@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Shirt with  3 Flowers over Yellow and Silver Stripe",
+ "ldraw": {
+  "torso": "973p8y",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Shirt with  3 Flowers over Yellow and Silver Stripe Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

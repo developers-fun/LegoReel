@@ -1,0 +1,9 @@
+{
+ "kind": "face",
+ "name": "Friendly smile",
+ "image": "smile_01.png",
+ "tags": [
+  "happy",
+  "default"
+ ]
+}

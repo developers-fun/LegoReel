@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Hood",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "30381",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Hood",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

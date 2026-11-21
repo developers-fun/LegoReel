@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Wolverine with Black",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "17018p01",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Wolverine with Black Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

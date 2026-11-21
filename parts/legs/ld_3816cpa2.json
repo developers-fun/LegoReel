@@ -1,0 +1,16 @@
+{
+ "kind": "legs",
+ "name": "Leg Right with Green Kilt and Toes",
+ "ldraw": {
+  "hips": "3815",
+  "leg_r": "3816cpa2",
+  "leg_l": "3817cpa2"
+ },
+ "hips": "pants",
+ "title": "Minifig Leg Right with Green Kilt and Toes Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "legs"
+ ]
+}

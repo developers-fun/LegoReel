@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Headdress Horus with Eye",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "93249pq0",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Headdress Horus with Eye Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

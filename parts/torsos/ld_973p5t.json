@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Tailcoat and Formal Vest, White Shirt and Grey Bow Tie",
+ "ldraw": {
+  "torso": "973p5t",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Tailcoat and Formal Vest, White Shirt and Grey Bow Tie Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Grey Muscles and Arc Reactor",
+ "ldraw": {
+  "torso": "973pbh",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Grey Muscles and Arc Reactor Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

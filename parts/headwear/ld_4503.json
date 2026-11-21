@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Castle with Fixed Face Grille",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "4503",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Castle with Fixed Face Grille",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

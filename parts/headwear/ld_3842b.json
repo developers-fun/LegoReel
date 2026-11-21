@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Classic with Thick Chin Guard and Visor Dimples",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "3842b",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Classic with Thick Chin Guard and Visor Dimples",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

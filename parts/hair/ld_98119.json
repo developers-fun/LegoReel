@@ -1,0 +1,17 @@
+{
+ "kind": "hair",
+ "name": "Hair Bun with Braid and Hood",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "98119",
+   "color": "hair"
+  }
+ ],
+ "title": "Minifig Hair Bun with Braid and Hood",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hair"
+ ]
+}

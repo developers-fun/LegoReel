@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Jumpsuit, Orange and Silver Lines and \"A.Y.\" ID Badge",
+ "ldraw": {
+  "torso": "973pxl",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Jumpsuit, Orange and Silver Lines and \"A.Y.\" ID Badge Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

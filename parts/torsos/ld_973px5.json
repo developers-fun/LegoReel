@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Female Tank Top with \"APERTURE\" over Bright Light Blue Tank Top",
+ "ldraw": {
+  "torso": "973px5",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Female Tank Top with \"APERTURE\" over Bright Light Blue Tank Top Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Pan Shaped with Hollow Stud on Front",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "3221",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Pan Shaped with Hollow Stud on Front",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Headdress Pumpkin Carved",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "20695",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Headdress Pumpkin Carved",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

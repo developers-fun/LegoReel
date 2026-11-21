@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Pink Tank Top over Bright Light Orange Body",
+ "ldraw": {
+  "torso": "973pdgc",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Pink Tank Top over Bright Light Orange Body Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

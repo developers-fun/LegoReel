@@ -1,0 +1,17 @@
+{
+ "kind": "hair",
+ "name": "Hair Coiled",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "21778",
+   "color": "hair"
+  }
+ ],
+ "title": "Minifig Hair Coiled",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hair"
+ ]
+}

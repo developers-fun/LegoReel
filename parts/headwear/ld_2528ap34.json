@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Hat Bicorne with Minifigure Skull and Crossed Spanners",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "2528ap34",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Hat Bicorne with Minifigure Skull and Crossed Spanners Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

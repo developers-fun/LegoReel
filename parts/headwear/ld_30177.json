@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Ninja Wrap",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "30177",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Ninja Wrap",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "kind": "accessory",
+ "name": "Beard with Braided Moustache Ends and Braid in Back",
+ "attach": "torso",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "2676",
+   "color": "accent"
+  }
+ ],
+ "title": "Minifig Beard with Braided Moustache Ends and Braid in Back",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "neck"
+ ]
+}

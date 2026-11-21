@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Visor with Grille and Feather",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "3843",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Visor with Grille and Feather",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Hat Bicorne with White Evil Skull and Crossbones",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "2528ap30",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Hat Bicorne with White Evil Skull and Crossbones Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "kind": "accessory",
+ "name": "Armour Shoulder Pads with  4 Spikes",
+ "attach": "torso",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "15490",
+   "color": "accent"
+  }
+ ],
+ "title": "Minifig Armour Shoulder Pads with  4 Spikes",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "neck"
+ ]
+}

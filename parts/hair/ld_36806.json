@@ -1,0 +1,17 @@
+{
+ "kind": "hair",
+ "name": "Hair Long Parted in Center",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "36806",
+   "color": "hair"
+  }
+ ],
+ "title": "Minifig Hair Long Parted in Center",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hair"
+ ]
+}

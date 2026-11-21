@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Headdress T-Rex",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "2523",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Headdress T-Rex",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

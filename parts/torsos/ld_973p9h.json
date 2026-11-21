@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Pinstripe Vest, Red Tie and Pocket Watch",
+ "ldraw": {
+  "torso": "973p9h",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Pinstripe Vest, Red Tie and Pocket Watch Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

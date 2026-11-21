@@ -1,0 +1,10 @@
+{
+ "kind": "headwear",
+ "name": "Party hat",
+ "pieces": [
+  {"shape": "cylinder", "size": [1.1, 1.0, 1.1], "top": [0.04, 0.04], "pos": [0, 1.1, 0], "color": "primary", "bevel": 0.05},
+  {"shape": "cylinder", "size": [0.8, 0.12, 0.8], "pos": [0, 0.95, 0], "color": "accent", "bevel": 0.04},
+  {"shape": "cylinder", "size": [0.44, 0.12, 0.44], "pos": [0, 1.3, 0], "color": "accent", "bevel": 0.04},
+  {"shape": "sphere", "size": [0.3, 0.3, 0.3], "pos": [0, 1.62, 0], "color": "secondary"}
+ ]
+}

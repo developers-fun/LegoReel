@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Hat Bicorne with White Skull and Crossed Cutlasses",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "2528ap3b",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Hat Bicorne with White Skull and Crossed Cutlasses Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

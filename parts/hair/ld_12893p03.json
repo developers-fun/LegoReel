@@ -1,0 +1,17 @@
+{
+ "kind": "hair",
+ "name": "Hair Short with Bald Top with Black Hair",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "12893p03",
+   "color": "hair"
+  }
+ ],
+ "title": "Minifig Hair Short with Bald Top with Black Hair Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hair"
+ ]
+}

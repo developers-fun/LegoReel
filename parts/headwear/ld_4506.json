@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Forestman Cap",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "4506",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Forestman Cap",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

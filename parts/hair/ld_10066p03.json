@@ -1,0 +1,17 @@
+{
+ "kind": "hair",
+ "name": "Hair Orc with Olive Green Ears",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "10066p03",
+   "color": "hair"
+  }
+ ],
+ "title": "Minifig Hair Orc with Olive Green Ears Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hair"
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Headdress Turban",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "40235",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Headdress Turban",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

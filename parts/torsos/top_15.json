@@ -1,0 +1,8 @@
+{
+ "kind": "torso",
+ "name": "Lab coat",
+ "base": "primary",
+ "arm": "primary",
+ "image": "top_15.png",
+ "pieces": []
+}

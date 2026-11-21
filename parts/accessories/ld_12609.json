@@ -1,0 +1,18 @@
+{
+ "kind": "accessory",
+ "name": "Ninja Turtle Shell with Horizontal Belt",
+ "attach": "torso",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "12609",
+   "color": "accent"
+  }
+ ],
+ "title": "Minifig Ninja Turtle Shell with Horizontal Belt",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "neck"
+ ]
+}

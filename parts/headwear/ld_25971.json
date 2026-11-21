@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Headdress Bird",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "25971",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Headdress Bird",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

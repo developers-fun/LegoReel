@@ -1,0 +1,8 @@
+{
+ "kind": "torso",
+ "name": "Flower summer shirt",
+ "base": "primary",
+ "arm": "primary",
+ "image": "top_10.png",
+ "pieces": []
+}

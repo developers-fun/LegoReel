@@ -1,0 +1,17 @@
+{
+ "kind": "hair",
+ "name": "Hair Long with French Braid",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "59363",
+   "color": "hair"
+  }
+ ],
+ "title": "Minifig Hair Long with French Braid",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hair"
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with SW Bandoliers and Respirator",
+ "ldraw": {
+  "torso": "973pro",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with SW Bandoliers and Respirator Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

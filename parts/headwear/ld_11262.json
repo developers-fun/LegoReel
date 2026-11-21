@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Headdress Chicken",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "11262",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Headdress Chicken",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

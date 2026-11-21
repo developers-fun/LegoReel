@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Plume Dragon",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "87687",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Plume Dragon",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

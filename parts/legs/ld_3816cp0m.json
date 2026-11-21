@@ -1,0 +1,16 @@
+{
+ "kind": "legs",
+ "name": "Leg Right with Skirt, Boot and Light Nougat Leg",
+ "ldraw": {
+  "hips": "3815",
+  "leg_r": "3816cp0m",
+  "leg_l": "3817cp0m"
+ },
+ "hips": "pants",
+ "title": "Minifig Leg Right with Skirt, Boot and Light Nougat Leg Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "legs"
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Hat Bicorne with Admiral",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "2528ap32",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Hat Bicorne with Admiral Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

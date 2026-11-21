@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Cap Aviator",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "30171b",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Cap Aviator",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

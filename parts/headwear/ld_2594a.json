@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Visor Pointed with Rounded Nose",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "2594a",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Visor Pointed with Rounded Nose",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

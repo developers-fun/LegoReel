@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Female Dark Green Corset with Leather Belt",
+ "ldraw": {
+  "torso": "973p4x",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Female Dark Green Corset with Leather Belt Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

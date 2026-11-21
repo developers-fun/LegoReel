@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet SW Rebel Pilot with Yellow Grid on Grey",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "30370ps5",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet SW Rebel Pilot with Yellow Grid on Grey Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

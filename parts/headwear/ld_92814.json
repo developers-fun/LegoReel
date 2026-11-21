@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Hat Square Academic with Tassel",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "92814",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Hat Square Academic with Tassel",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

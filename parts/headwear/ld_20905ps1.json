@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet SW First Order Walker Driver Episode  8 with Light Bluish Grey Stripe on Right Side",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "20905ps1",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet SW First Order Walker Driver Episode  8 with Light Bluish Grey Stripe on Right Side Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

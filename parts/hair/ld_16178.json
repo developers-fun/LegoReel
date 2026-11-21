@@ -1,0 +1,17 @@
+{
+ "kind": "hair",
+ "name": "Construction Helmet with Hair Ponytail",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "16178",
+   "color": "hair"
+  }
+ ],
+ "title": "Minifig Construction Helmet with Hair Ponytail",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hair"
+ ]
+}

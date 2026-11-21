@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Silver Armour Front and Back and Drill",
+ "ldraw": {
+  "torso": "973pav",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Silver Armour Front and Back and Drill Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

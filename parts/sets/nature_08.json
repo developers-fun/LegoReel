@@ -1,0 +1,38 @@
+{
+ "kind": "set",
+ "name": "Small hill",
+ "pieces": [
+  {
+   "shape": "cylinder",
+   "size": [
+    4.0,
+    1.4,
+    4.0
+   ],
+   "pos": [
+    0,
+    0.7,
+    0
+   ],
+   "color": "#6abf4b",
+   "bevel": 0.2,
+   "casts": false
+  },
+  {
+   "shape": "cylinder",
+   "size": [
+    2.4,
+    0.7,
+    2.4
+   ],
+   "pos": [
+    0,
+    1.75,
+    0
+   ],
+   "color": "#5fbf49",
+   "bevel": 0.15,
+   "casts": false
+  }
+ ]
+}

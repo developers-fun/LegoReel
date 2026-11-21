@@ -1,0 +1,17 @@
+{
+ "kind": "hair",
+ "name": "Hair Backslick",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "64798",
+   "color": "hair"
+  }
+ ],
+ "title": "Minifig Hair Backslick",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hair"
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Imperial AT-ST Pilot",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "57900",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Imperial AT-ST Pilot",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

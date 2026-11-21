@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Army with White Stencil Cross",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "87998p01",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Army with White Stencil Cross Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

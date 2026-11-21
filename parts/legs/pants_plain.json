@@ -1,0 +1,12 @@
+{
+ "kind": "legs",
+ "name": "Plain trousers",
+ "hips": "pants",
+ "bands": [
+  {
+   "from": 0,
+   "to": 1,
+   "color": "pants"
+  }
+ ]
+}

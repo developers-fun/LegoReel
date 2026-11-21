@@ -1,0 +1,17 @@
+{
+ "kind": "hair",
+ "name": "Hair Tousled",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "10048",
+   "color": "hair"
+  }
+ ],
+ "title": "Minifig Hair Tousled",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hair"
+ ]
+}

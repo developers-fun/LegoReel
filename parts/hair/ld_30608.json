@@ -1,0 +1,17 @@
+{
+ "kind": "hair",
+ "name": "Hair Flat Top",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "30608",
+   "color": "hair"
+  }
+ ],
+ "title": "Minifig Hair Flat Top",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hair"
+ ]
+}

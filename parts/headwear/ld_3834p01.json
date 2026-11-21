@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Fire Helmet with Fire Logo Shield",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "3834p01",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Fire Helmet with Fire Logo Shield Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

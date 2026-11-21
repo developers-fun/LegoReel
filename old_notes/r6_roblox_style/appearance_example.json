@@ -1,0 +1,32 @@
+{
+  "skin": "#e8b98f",
+  "face": {
+    "eyes": "wide",
+    "mouth": "smile",
+    "brows": "raised"
+  },
+  "hair": {
+    "style": "spiky",
+    "color": "#2b1b12",
+    "fringe": true
+  },
+  "outfit": {
+    "shirt": "#e0603d",
+    "sleeves": "long",
+    "pants": "#2c3e6b",
+    "shorts": false,
+    "shoes": "#f2f2f2",
+    "stripe": {
+      "color": "#ffffff",
+      "y": 0.8,
+      "height": 0.25
+    },
+    "chest_patch": null
+  },
+  "accessories": [
+    {
+      "type": "backpack",
+      "color": "#3a3f4b"
+    }
+  ]
+}

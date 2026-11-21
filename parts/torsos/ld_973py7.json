@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Ford Logo on White T-Shirt under Dark Red Tartan Shirt",
+ "ldraw": {
+  "torso": "973py7",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Ford Logo on White T-Shirt under Dark Red Tartan Shirt Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

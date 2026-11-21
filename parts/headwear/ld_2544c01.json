@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Hat Tricorne with White Plume (Complete)",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "2544c01",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Hat Tricorne with White Plume (Complete)",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

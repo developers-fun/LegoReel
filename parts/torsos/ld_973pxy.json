@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Dark Bluish Grey Police Vest, Badge, Radio and Belt",
+ "ldraw": {
+  "torso": "973pxy",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Dark Bluish Grey Police Vest, Badge, Radio and Belt Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

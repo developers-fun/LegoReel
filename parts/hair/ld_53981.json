@@ -1,0 +1,17 @@
+{
+ "kind": "hair",
+ "name": "Hair Spiky Short",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "53981",
+   "color": "hair"
+  }
+ ],
+ "title": "Minifig Hair Spiky Short",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hair"
+ ]
+}

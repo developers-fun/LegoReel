@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Mandalorian with Dark Red Visor, Black Mark on Right Cheek and Black Hand Print",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "87610ps4",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Mandalorian with Dark Red Visor, Black Mark on Right Cheek and Black Hand Print Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

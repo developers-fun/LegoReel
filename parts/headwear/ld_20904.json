@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet SW Stormtrooper Episode  7",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "20904",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet SW Stormtrooper Episode  7",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

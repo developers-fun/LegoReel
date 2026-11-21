@@ -1,0 +1,16 @@
+{
+ "kind": "legs",
+ "name": "Leg Right with LOTR Coat and Shirttails",
+ "ldraw": {
+  "hips": "3815",
+  "leg_r": "3816cpm2",
+  "leg_l": "3817cpm2"
+ },
+ "hips": "pants",
+ "title": "Minifig Leg Right with LOTR Coat and Shirttails Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "legs"
+ ]
+}

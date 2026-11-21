@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Vertical Red Stripes and 'Clutchers'",
+ "ldraw": {
+  "torso": "973pc3g",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Vertical Red Stripes and 'Clutchers' Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

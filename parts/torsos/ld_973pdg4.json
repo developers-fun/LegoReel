@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Dotted Black Tie and Red Peppers",
+ "ldraw": {
+  "torso": "973pdg4",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Dotted Black Tie and Red Peppers Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

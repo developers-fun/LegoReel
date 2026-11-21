@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Star Wars Rebel Pilot with Red Rebel Logo",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "30370ps2",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Star Wars Rebel Pilot with Red Rebel Logo Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

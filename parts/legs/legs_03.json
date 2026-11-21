@@ -1,0 +1,27 @@
+{
+ "kind": "legs",
+ "name": "Skirt",
+ "hips": "primary",
+ "bands": [
+  {
+   "from": 0,
+   "to": 1,
+   "color": "skin"
+  }
+ ],
+ "pieces": [
+  {
+   "shape": "cylinder",
+   "size": [2.6, 0.95, 2.6],
+   "pos": [0, -0.725, 0],
+   "color": "primary",
+   "top": [0.88, 0.88]
+  },
+  {
+   "shape": "cylinder",
+   "size": [2.66, 0.12, 2.66],
+   "pos": [0, -1.14, 0],
+   "color": "secondary"
+  }
+ ]
+}

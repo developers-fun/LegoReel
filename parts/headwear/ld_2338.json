@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Hat High Cone Shaped",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "2338",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Hat High Cone Shaped",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

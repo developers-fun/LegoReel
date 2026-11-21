@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Hat Fez",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "85975",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Hat Fez",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

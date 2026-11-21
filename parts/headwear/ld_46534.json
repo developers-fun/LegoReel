@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet with Ear Antenna",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "46534",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet with Ear Antenna",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

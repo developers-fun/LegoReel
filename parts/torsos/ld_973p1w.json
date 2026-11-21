@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Female Jacket Open, Red and White Top with Necklace",
+ "ldraw": {
+  "torso": "973p1w",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Female Jacket Open, Red and White Top with Necklace Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

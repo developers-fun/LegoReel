@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Castle Rohan with Cheek Protection & Comb with Th\u00e9oden",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "10054p02",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Castle Rohan with Cheek Protection & Comb with Th\u00e9oden Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

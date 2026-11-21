@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso",
+ "ldraw": {
+  "torso": "973",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

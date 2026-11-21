@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Red Collar, Belt with Pouch, Metallic Gold Buckles, Laces and Dark Green Stitches",
+ "ldraw": {
+  "torso": "973pf5",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Red Collar, Belt with Pouch, Metallic Gold Buckles, Laces and Dark Green Stitches Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

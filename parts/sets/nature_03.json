@@ -1,0 +1,81 @@
+{
+ "kind": "set",
+ "name": "Tall tree",
+ "pieces": [
+  {
+   "shape": "box",
+   "size": [
+    0.8,
+    3.0,
+    0.8
+   ],
+   "pos": [
+    0,
+    1.5,
+    0
+   ],
+   "color": "#6b4428",
+   "bevel": 0.06
+  },
+  {
+   "shape": "cylinder",
+   "size": [
+    2.6,
+    2.6,
+    2.6
+   ],
+   "pos": [
+    0,
+    3.9,
+    0
+   ],
+   "color": "#2e7d3a",
+   "bevel": 0.12,
+   "top": [
+    0.7,
+    0.7
+   ],
+   "casts": false
+  },
+  {
+   "shape": "cylinder",
+   "size": [
+    2.1,
+    2.6,
+    2.1
+   ],
+   "pos": [
+    0,
+    5.6,
+    0
+   ],
+   "color": "#3a9448",
+   "bevel": 0.12,
+   "top": [
+    0.6,
+    0.6
+   ],
+   "casts": false
+  },
+  {
+   "shape": "cylinder",
+   "size": [
+    1.4,
+    2.0,
+    1.4
+   ],
+   "pos": [
+    0,
+    7.9,
+    0
+   ],
+   "color": "#2e7d3a",
+   "bevel": 0.08,
+   "top": [
+    0.1,
+    0.1
+   ],
+   "casts": false
+  }
+ ]
+}

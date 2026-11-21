@@ -1,0 +1,17 @@
+{
+ "kind": "hair",
+ "name": "Hair Long Straight",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "40239",
+   "color": "hair"
+  }
+ ],
+ "title": "Minifig Hair Long Straight",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hair"
+ ]
+}

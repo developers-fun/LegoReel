@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Blue Castle Bodice",
+ "ldraw": {
+  "torso": "973p4n",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Blue Castle Bodice Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Standard with Black 'POLICE' and Red Line",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "30124bp04",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Standard with Black 'POLICE' and Red Line Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

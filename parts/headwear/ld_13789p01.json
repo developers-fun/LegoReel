@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Police Helmet with Silver Badge",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "13789p01",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Police Helmet with Silver Badge Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

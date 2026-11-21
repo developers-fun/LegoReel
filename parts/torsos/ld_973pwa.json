@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Gold Fob and 100 Dollar Bills",
+ "ldraw": {
+  "torso": "973pwa",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Gold Fob and 100 Dollar Bills Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

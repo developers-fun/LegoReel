@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Hat Kepi",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "30135",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Hat Kepi",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

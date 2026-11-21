@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Viking with Nose Protector",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "53450",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Viking with Nose Protector",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

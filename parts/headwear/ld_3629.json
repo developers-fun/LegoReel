@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Hat Cowboy",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "3629",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Hat Cowboy",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

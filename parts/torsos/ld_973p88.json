@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Dress, White Apron and Red Beads Necklace",
+ "ldraw": {
+  "torso": "973p88",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Dress, White Apron and Red Beads Necklace Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

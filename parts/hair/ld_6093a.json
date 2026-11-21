@@ -1,0 +1,17 @@
+{
+ "kind": "hair",
+ "name": "Hair Ponytail",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "6093a",
+   "color": "hair"
+  }
+ ],
+ "title": "Minifig Hair Ponytail",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hair"
+ ]
+}

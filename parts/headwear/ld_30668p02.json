@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Hood with Dark Brown Fringe",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "30668p02",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Hood with Dark Brown Fringe Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

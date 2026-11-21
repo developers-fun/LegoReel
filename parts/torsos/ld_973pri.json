@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso SW Jawa with Dark Brown Pouches and Black and Tan Straps",
+ "ldraw": {
+  "torso": "973pri",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso SW Jawa with Dark Brown Pouches and Black and Tan Straps Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

@@ -1,0 +1,9 @@
+{
+ "kind": "face",
+ "name": "Scar tough",
+ "image": "char_07.png",
+ "tags": [
+  "scar",
+  "tough"
+ ]
+}

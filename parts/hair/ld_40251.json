@@ -1,0 +1,17 @@
+{
+ "kind": "hair",
+ "name": "Hair Long Wavy",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "40251",
+   "color": "hair"
+  }
+ ],
+ "title": "Minifig Hair Long Wavy",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hair"
+ ]
+}

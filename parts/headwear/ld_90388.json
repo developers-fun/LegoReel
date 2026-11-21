@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Hat Sombrero",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "90388",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Hat Sombrero",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

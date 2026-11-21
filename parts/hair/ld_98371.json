@@ -1,0 +1,17 @@
+{
+ "kind": "hair",
+ "name": "Hair Rocker with Sideburns",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "98371",
+   "color": "hair"
+  }
+ ],
+ "title": "Minifig Hair Rocker with Sideburns",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hair"
+ ]
+}

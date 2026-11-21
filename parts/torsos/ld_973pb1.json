@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Dark Grey, Black, and Yellow Batman",
+ "ldraw": {
+  "torso": "973pb1",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Dark Grey, Black, and Yellow Batman Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

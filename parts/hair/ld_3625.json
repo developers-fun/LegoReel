@@ -1,0 +1,17 @@
+{
+ "kind": "hair",
+ "name": "Hair Female with Pigtails",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "3625",
+   "color": "hair"
+  }
+ ],
+ "title": "Minifig Hair Female with Pigtails",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hair"
+ ]
+}

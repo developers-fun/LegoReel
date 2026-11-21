@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Tan and Dark Tan Turtle Shell and Dark Brown Belt with Strap and Gold Ring",
+ "ldraw": {
+  "torso": "973ptd",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Tan and Dark Tan Turtle Shell and Dark Brown Belt with Strap and Gold Ring Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet with Front Prongs",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "10305",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet with Front Prongs",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

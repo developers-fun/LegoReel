@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Sports Jacket with Orange \"NB\" and \"SQUIDS\"",
+ "ldraw": {
+  "torso": "973puk",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Sports Jacket with Orange \"NB\" and \"SQUIDS\" Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

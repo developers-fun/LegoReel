@@ -1,0 +1,18 @@
+{
+ "kind": "accessory",
+ "name": "Cape Cloth Scalloped 6 Points (Formed Shape 2)",
+ "attach": "torso",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "38301c02",
+   "color": "accent"
+  }
+ ],
+ "title": "Minifig Cape Cloth Scalloped 6 Points (Formed Shape 2)",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "neck"
+ ]
+}

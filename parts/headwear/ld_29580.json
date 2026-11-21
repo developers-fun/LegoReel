@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Headdress Rocket Costume",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "29580",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Headdress Rocket Costume",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

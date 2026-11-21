@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Mask Wolf",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "11233",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Mask Wolf",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

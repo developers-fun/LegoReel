@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Space Police II Chief",
+ "ldraw": {
+  "torso": "973p6a",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Space Police II Chief Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

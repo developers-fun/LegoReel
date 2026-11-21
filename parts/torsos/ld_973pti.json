@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Red 2 x 4 Brick on Yellow",
+ "ldraw": {
+  "torso": "973pti",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Red 2 x 4 Brick on Yellow Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

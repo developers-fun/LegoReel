@@ -1,0 +1,16 @@
+{
+ "kind": "legs",
+ "name": "Leg Right with Black, Blue and Red Stripes",
+ "ldraw": {
+  "hips": "3815",
+  "leg_r": "3816cpy2",
+  "leg_l": "3817cpy2"
+ },
+ "hips": "pants",
+ "title": "Minifig Leg Right with Black, Blue and Red Stripes Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "legs"
+ ]
+}

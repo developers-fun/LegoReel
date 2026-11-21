@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Underwater",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "87754",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Underwater",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

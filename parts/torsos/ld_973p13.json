@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Straight Zipper Jacket",
+ "ldraw": {
+  "torso": "973p13",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Straight Zipper Jacket Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Castle with Angled Cheek Protection",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "48493",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Castle with Angled Cheek Protection",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

@@ -1,0 +1,17 @@
+{
+ "kind": "hair",
+ "name": "Hair Faun",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "24230",
+   "color": "hair"
+  }
+ ],
+ "title": "Minifig Hair Faun",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hair"
+ ]
+}

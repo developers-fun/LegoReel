@@ -1,0 +1,18 @@
+{
+ "kind": "accessory",
+ "name": "Hood Folded Down with Purple Inside",
+ "attach": "torso",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "15428p01",
+   "color": "accent"
+  }
+ ],
+ "title": "Minifig Hood Folded Down with Purple Inside Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "neck"
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Welding with Dark Blue Stripes on Black Visor",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "13792p01",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Welding with Dark Blue Stripes on Black Visor Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

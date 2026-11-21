@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Catsuit, Ring Zipper Pull and Belt",
+ "ldraw": {
+  "torso": "973pb8",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Catsuit, Ring Zipper Pull and Belt Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

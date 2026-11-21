@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Visor Shielded with Antenna",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "6119b",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Visor Shielded with Antenna",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

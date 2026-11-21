@@ -1,0 +1,66 @@
+{
+ "kind": "hair",
+ "name": "Buzz cut",
+ "pieces": [
+  {
+   "shape": "cylinder",
+   "size": [
+    1.72,
+    0.22,
+    1.72
+   ],
+   "pos": [
+    0,
+    0.5,
+    -0.02
+   ],
+   "color": "hair",
+   "bevel": 0.1
+  },
+  {
+   "shape": "cylinder",
+   "size": [
+    1.72,
+    0.4,
+    1.4
+   ],
+   "pos": [
+    0,
+    0.22,
+    -0.22
+   ],
+   "color": "hair",
+   "bevel": 0.06
+  },
+  {
+   "shape": "box",
+   "size": [
+    0.12,
+    0.36,
+    0.9
+   ],
+   "pos": [
+    -0.82,
+    0.28,
+    -0.2
+   ],
+   "color": "hair",
+   "bevel": 0.05
+  },
+  {
+   "shape": "box",
+   "size": [
+    0.12,
+    0.36,
+    0.9
+   ],
+   "pos": [
+    0.82,
+    0.28,
+    -0.2
+   ],
+   "color": "hair",
+   "bevel": 0.05
+  }
+ ]
+}

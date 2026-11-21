@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Hat Sailor",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "93557",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Hat Sailor",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

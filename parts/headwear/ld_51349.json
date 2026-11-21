@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Headdress Shark",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "51349",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Headdress Shark",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

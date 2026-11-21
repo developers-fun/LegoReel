@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with HP Harry Potter Uniform Gryffindor Stripe and Shield",
+ "ldraw": {
+  "torso": "973pha",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with HP Harry Potter Uniform Gryffindor Stripe and Shield Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

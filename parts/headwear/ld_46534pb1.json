@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet with Ear Antenna with Red Goggles and Breathing Mask",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "46534pb1",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet with Ear Antenna with Red Goggles and Breathing Mask Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

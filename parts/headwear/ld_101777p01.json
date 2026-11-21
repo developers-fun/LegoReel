@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Top Hat with Bright Light Orange Band",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "101777p01",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Top Hat with Bright Light Orange Band Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

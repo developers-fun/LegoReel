@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Hat Wizard without Brim",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "17349",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Hat Wizard without Brim",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

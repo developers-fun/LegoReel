@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Hood with Fringe",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "30668",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Hood with Fringe",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

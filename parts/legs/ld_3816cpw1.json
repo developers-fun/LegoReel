@@ -1,0 +1,16 @@
+{
+ "kind": "legs",
+ "name": "Leg Right with Red/White Triangles",
+ "ldraw": {
+  "hips": "3815",
+  "leg_r": "3816cpw1",
+  "leg_l": "3817cpw1"
+ },
+ "hips": "pants",
+ "title": "Minifig Leg Right with Red/White Triangles Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "legs"
+ ]
+}

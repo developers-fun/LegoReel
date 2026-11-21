@@ -1,0 +1,16 @@
+{
+ "kind": "legs",
+ "name": "Leg Right with Red Roman Tunic and Belt",
+ "ldraw": {
+  "hips": "3815",
+  "leg_r": "3816cpc6a",
+  "leg_l": "3817cpc6a"
+ },
+ "hips": "pants",
+ "title": "Minifig Leg Right with Red Roman Tunic and Belt Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "legs"
+ ]
+}

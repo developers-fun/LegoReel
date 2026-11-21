@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Captains Hat with Black Visor and Narrow Golden Braid",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "12895p01",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Captains Hat with Black Visor and Narrow Golden Braid Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

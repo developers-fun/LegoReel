@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Ghost Shroud",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "2588",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Ghost Shroud",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

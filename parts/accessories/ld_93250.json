@@ -1,0 +1,18 @@
+{
+ "kind": "accessory",
+ "name": "Eagle Wing",
+ "attach": "torso",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "93250",
+   "color": "accent"
+  }
+ ],
+ "title": "Minifig Eagle Wing",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "neck"
+ ]
+}

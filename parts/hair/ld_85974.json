@@ -1,0 +1,17 @@
+{
+ "kind": "hair",
+ "name": "Hair Long with One Front Lock",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "85974",
+   "color": "hair"
+  }
+ ],
+ "title": "Minifig Hair Long with One Front Lock",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hair"
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Hat Sailor with Ribbon and Pin",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "24635",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Hat Sailor with Ribbon and Pin",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

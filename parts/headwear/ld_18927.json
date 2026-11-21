@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Cloth Wrap / Bandana with Rounded Top",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "18927",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Cloth Wrap / Bandana with Rounded Top",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

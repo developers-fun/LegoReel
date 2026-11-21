@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Chef Jacket, Red Scarf and Food Stains",
+ "ldraw": {
+  "torso": "973p5r",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Chef Jacket, Red Scarf and Food Stains Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

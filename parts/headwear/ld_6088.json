@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet with Underwater Antenna and Clips",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "6088",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet with Underwater Antenna and Clips",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

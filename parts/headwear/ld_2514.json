@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Hat Newsboy Cap",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "2514",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Hat Newsboy Cap",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

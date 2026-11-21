@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with SW Armor Clone Trooper Pattern (Clone Wars)",
+ "ldraw": {
+  "torso": "973psu",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with SW Armor Clone Trooper Pattern (Clone Wars)",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

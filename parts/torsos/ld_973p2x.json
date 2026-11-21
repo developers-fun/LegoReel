@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Jacket with Black Seams, Sand Green Belt and Gold Buckle and Atreides Hawk Crest",
+ "ldraw": {
+  "torso": "973p2x",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Jacket with Black Seams, Sand Green Belt and Gold Buckle and Atreides Hawk Crest Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

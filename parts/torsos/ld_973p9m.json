@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Doctor Coat over Medium Azure Undershirt, Stethoscope, Pocket with Pens",
+ "ldraw": {
+  "torso": "973p9m",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Doctor Coat over Medium Azure Undershirt, Stethoscope, Pocket with Pens Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

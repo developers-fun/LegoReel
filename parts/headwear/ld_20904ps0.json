@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet SW Stormtrooper Episode  8 with Pointed Mouth",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "20904ps0",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet SW Stormtrooper Episode  8 with Pointed Mouth Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

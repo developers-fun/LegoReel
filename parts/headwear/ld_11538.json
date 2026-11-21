@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet with Cheek Protectors and Communicator",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "11538",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet with Cheek Protectors and Communicator",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

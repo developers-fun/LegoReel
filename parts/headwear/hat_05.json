@@ -1,0 +1,12 @@
+{
+ "kind": "headwear",
+ "name": "Chef hat",
+ "replaces_hair": false,
+ "pieces": [
+  {"shape": "cylinder", "size": [1.76, 0.3, 1.76], "pos": [0, 0.55, 0], "color": "secondary", "bevel": 0.05},
+  {"shape": "sphere", "size": [1.3, 0.9, 1.3], "pos": [0, 1.2, 0], "color": "primary"},
+  {"shape": "sphere", "size": [0.95, 0.8, 0.95], "pos": [-0.5, 1.05, 0.25], "color": "primary"},
+  {"shape": "sphere", "size": [0.95, 0.8, 0.95], "pos": [0.5, 1.05, 0.25], "color": "primary"},
+  {"shape": "sphere", "size": [1.0, 0.8, 1.0], "pos": [0, 1.05, -0.45], "color": "primary"}
+ ]
+}

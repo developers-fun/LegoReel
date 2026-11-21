@@ -1,0 +1,38 @@
+{
+  "name": "r6",
+  "version": 1,
+  "units": "studs",
+  "coordinate_space": "roblox",
+  "note": "Values are written in Roblox's own axes (+x is the character's right, -z is forward). The loader converts them to blockreel's axes (x and z flipped: the character faces +z, its right is -x). Only the position part of each joint is used; the 90-degree axis fix-up rotations in the real joints are not needed here.",
+  "sources": [
+    "https://devforum.roblox.com/t/help-with-height-system-r6/2074284  (head is a 2x1x1 part with a Head mesh at scale 1.25, sunk 0.125 into the torso)",
+    "https://create.roblox.com/docs/studio/avatar-settings  (Classic avatars are about 5 studs tall)",
+    "https://devforum.roblox.com/t/setting-part-cframe-based-on-subpose-cframe/2436315  (leg and arm Motor6D C0/C1 values)",
+    "https://pastebin.com/1jJ6xDNS  (shoulder C0/C1 values, same numbers)",
+    "https://github.com/matttttt169/Proton-reanimation  (Neck C0/C1, same numbers as the others)"
+  ],
+  "confidence": "Part sizes and joint offsets agree across the sources above. No first-party Roblox page lists the R6 joints, so this is cross-checked from community sources, not from Roblox documentation.",
+  "parts": {
+    "head":      { "size": [2, 1, 1], "mesh": { "type": "head", "scale": 1.25 } },
+    "torso":     { "size": [2, 2, 1] },
+    "right_arm": { "size": [1, 2, 1] },
+    "left_arm":  { "size": [1, 2, 1] },
+    "right_leg": { "size": [1, 2, 1] },
+    "left_leg":  { "size": [1, 2, 1] }
+  },
+  "joints": {
+    "neck":           { "parent": "torso", "child": "head",      "c0": [0, 1, 0],    "c1": [0, -0.5, 0] },
+    "right_shoulder": { "parent": "torso", "child": "right_arm", "c0": [1, 0.5, 0],  "c1": [-0.5, 0.5, 0] },
+    "left_shoulder":  { "parent": "torso", "child": "left_arm",  "c0": [-1, 0.5, 0], "c1": [0.5, 0.5, 0] },
+    "right_hip":      { "parent": "torso", "child": "right_leg", "c0": [1, -1, 0],   "c1": [0.5, 1, 0] },
+    "left_hip":       { "parent": "torso", "child": "left_leg",  "c0": [-1, -1, 0],  "c1": [-0.5, 1, 0] }
+  },
+  "stance": {
+    "note": "Torso centre height above the feet when standing: leg height 2 + half the torso height 1.",
+    "torso_center_y": 3.0
+  },
+  "extensions": {
+    "note": "Not part of the Roblox rig. R6 has no spine, so a torso lean needs its own pivot. The torso rotates about the waist (bottom centre of the torso); the legs stay attached at the hips.",
+    "torso_pivot": [0, -1, 0]
+  }
+}

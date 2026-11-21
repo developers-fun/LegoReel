@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Spacesuit with Front Strap, Badges and Ports",
+ "ldraw": {
+  "torso": "973p5b",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Spacesuit with Front Strap, Badges and Ports Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

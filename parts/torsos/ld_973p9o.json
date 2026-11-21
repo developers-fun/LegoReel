@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Safety Vest with Reflective Stripes, Reddish Brown Shirt and Belt with Pouches and Pliers",
+ "ldraw": {
+  "torso": "973p9o",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Safety Vest with Reflective Stripes, Reddish Brown Shirt and Belt with Pouches and Pliers Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

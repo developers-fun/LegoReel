@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Mandalorian with Dark Grey Visor, Blue Upper Cheek and Light Lime Trident",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "87610ps2",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Mandalorian with Dark Grey Visor, Blue Upper Cheek and Light Lime Trident Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

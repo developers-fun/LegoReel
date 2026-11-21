@@ -1,0 +1,6 @@
+{
+ "kind": "torso",
+ "name": "Plain tee",
+ "base": "primary",
+ "arm": "primary"
+}

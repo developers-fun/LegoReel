@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Hat Sailor with Dark Blue Anchor",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "93557p01",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Hat Sailor with Dark Blue Anchor Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

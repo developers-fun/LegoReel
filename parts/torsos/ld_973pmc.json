@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Dark Bluish Grey Robe Gather Lines, Wrinkles and Clasp at Right Shoulder",
+ "ldraw": {
+  "torso": "973pmc",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Dark Bluish Grey Robe Gather Lines, Wrinkles and Clasp at Right Shoulder Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Visor Underwater",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "6090",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Visor Underwater",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Vest with Patch Pockets",
+ "ldraw": {
+  "torso": "973p73",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Vest with Patch Pockets Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

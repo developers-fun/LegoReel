@@ -1,0 +1,85 @@
+{
+ "kind": "torso",
+ "name": "Vest over shirt",
+ "base": "primary",
+ "arm": "accent",
+ "image": "top_06.png",
+ "pieces": [
+  {
+   "shape": "box",
+   "size": [
+    0.5,
+    1.5,
+    0.05
+   ],
+   "pos": [
+    0,
+    -0.2,
+    0.575
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "color": "accent"
+  },
+  {
+   "shape": "sphere",
+   "size": [
+    0.1,
+    0.1,
+    0.1
+   ],
+   "pos": [
+    0,
+    0.05,
+    0.61
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "color": "metal"
+  },
+  {
+   "shape": "sphere",
+   "size": [
+    0.1,
+    0.1,
+    0.1
+   ],
+   "pos": [
+    0,
+    -0.35,
+    0.61
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "color": "metal"
+  },
+  {
+   "shape": "sphere",
+   "size": [
+    0.1,
+    0.1,
+    0.1
+   ],
+   "pos": [
+    0,
+    -0.75,
+    0.61
+   ],
+   "rot": [
+    0,
+    0,
+    0
+   ],
+   "color": "metal"
+  }
+ ]
+}

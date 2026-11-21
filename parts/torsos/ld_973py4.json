@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Race Suit with Bugatti Logos and Black Stripes",
+ "ldraw": {
+  "torso": "973py4",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Race Suit with Bugatti Logos and Black Stripes Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet SW Scout Trooper with Black and Light Bluish Grey Markings",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "48156p01",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet SW Scout Trooper with Black and Light Bluish Grey Markings Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

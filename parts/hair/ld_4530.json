@@ -1,0 +1,17 @@
+{
+ "kind": "hair",
+ "name": "Hair Shoulder Length",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "4530",
+   "color": "hair"
+  }
+ ],
+ "title": "Minifig Hair Shoulder Length",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hair"
+ ]
+}

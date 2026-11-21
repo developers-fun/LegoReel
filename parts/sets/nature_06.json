@@ -1,0 +1,146 @@
+{
+ "kind": "set",
+ "name": "Flower patch",
+ "pieces": [
+  {
+   "shape": "box",
+   "size": [
+    2.4,
+    0.3,
+    2.4
+   ],
+   "pos": [
+    0,
+    0.15,
+    0
+   ],
+   "color": "#52b043",
+   "bevel": 0.1,
+   "casts": false
+  },
+  {
+   "shape": "cylinder",
+   "size": [
+    0.12,
+    0.9,
+    0.12
+   ],
+   "pos": [
+    -0.7,
+    0.75,
+    -0.5
+   ],
+   "color": "#3f9c3a",
+   "bevel": 0.03
+  },
+  {
+   "shape": "cylinder",
+   "size": [
+    0.12,
+    0.9,
+    0.12
+   ],
+   "pos": [
+    0.5,
+    0.75,
+    -0.2
+   ],
+   "color": "#3f9c3a",
+   "bevel": 0.03
+  },
+  {
+   "shape": "cylinder",
+   "size": [
+    0.12,
+    0.9,
+    0.12
+   ],
+   "pos": [
+    -0.2,
+    0.75,
+    0.6
+   ],
+   "color": "#3f9c3a",
+   "bevel": 0.03
+  },
+  {
+   "shape": "cylinder",
+   "size": [
+    0.12,
+    0.9,
+    0.12
+   ],
+   "pos": [
+    0.8,
+    0.75,
+    0.7
+   ],
+   "color": "#3f9c3a",
+   "bevel": 0.03
+  },
+  {
+   "shape": "sphere",
+   "size": [
+    0.6,
+    0.6,
+    0.6
+   ],
+   "pos": [
+    -0.7,
+    1.35,
+    -0.5
+   ],
+   "color": "#f25c8c",
+   "bevel": 0.05,
+   "casts": false
+  },
+  {
+   "shape": "sphere",
+   "size": [
+    0.6,
+    0.6,
+    0.6
+   ],
+   "pos": [
+    0.5,
+    1.35,
+    -0.2
+   ],
+   "color": "#ffd23f",
+   "bevel": 0.05,
+   "casts": false
+  },
+  {
+   "shape": "sphere",
+   "size": [
+    0.6,
+    0.6,
+    0.6
+   ],
+   "pos": [
+    -0.2,
+    1.35,
+    0.6
+   ],
+   "color": "#9b5de5",
+   "bevel": 0.05,
+   "casts": false
+  },
+  {
+   "shape": "sphere",
+   "size": [
+    0.6,
+    0.6,
+    0.6
+   ],
+   "pos": [
+    0.8,
+    1.35,
+    0.7
+   ],
+   "color": "#ff6b4a",
+   "bevel": 0.05,
+   "casts": false
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Yellow Neck, Samurai Robe, Sash and Dagger",
+ "ldraw": {
+  "torso": "973pn1",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Yellow Neck, Samurai Robe, Sash and Dagger Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

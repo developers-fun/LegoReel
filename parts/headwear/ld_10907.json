@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Iron Man",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "10907",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Iron Man",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

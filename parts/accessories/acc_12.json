@@ -1,0 +1,52 @@
+{
+ "kind": "accessory",
+ "name": "Phone",
+ "attach": "hand_r",
+ "pieces": [
+  {
+   "shape": "box",
+   "size": [
+    0.62,
+    1.12,
+    0.16
+   ],
+   "pos": [
+    0,
+    0.55,
+    0.39999999999999997
+   ],
+   "color": "dark",
+   "bevel": 0.07
+  },
+  {
+   "shape": "box",
+   "size": [
+    0.5,
+    0.92,
+    0.04
+   ],
+   "pos": [
+    0,
+    0.56,
+    0.5
+   ],
+   "color": "light",
+   "bevel": 0.02
+  },
+  {
+   "shape": "box",
+   "size": [
+    0.14,
+    0.05,
+    0.03
+   ],
+   "pos": [
+    0,
+    1.0,
+    0.5
+   ],
+   "color": "dark",
+   "bevel": 0.01
+  }
+ ]
+}

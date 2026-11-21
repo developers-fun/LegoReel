@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso HP with Jacket and Light Grey Sweater",
+ "ldraw": {
+  "torso": "973ph5",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso HP with Jacket and Light Grey Sweater Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

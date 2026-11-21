@@ -1,0 +1,7 @@
+{
+ "kind": "torso",
+ "name": "Zip jacket",
+ "base": "primary",
+ "arm": "primary",
+ "image": "jacket_zip.png"
+}

@@ -1,0 +1,13 @@
+{
+ "kind": "headwear",
+ "name": "Headphones",
+ "pieces": [
+  {"shape": "box", "size": [0.93, 0.14, 0.14], "pos": [-0.575, 0.525, 0], "rot": [0, 0, 36], "color": "dark", "bevel": 0.05},
+  {"shape": "box", "size": [0.93, 0.14, 0.14], "pos": [0.575, 0.525, 0], "rot": [0, 0, -36], "color": "dark", "bevel": 0.05},
+  {"shape": "box", "size": [0.44, 0.14, 0.14], "pos": [0, 0.81, 0], "color": "dark", "bevel": 0.05},
+  {"shape": "cylinder", "size": [0.75, 0.3, 0.75], "pos": [-0.93, 0, 0], "rot": [0, 0, 90], "color": "primary", "bevel": 0.08},
+  {"shape": "cylinder", "size": [0.75, 0.3, 0.75], "pos": [0.93, 0, 0], "rot": [0, 0, 90], "color": "primary", "bevel": 0.08},
+  {"shape": "cylinder", "size": [0.36, 0.06, 0.36], "pos": [-1.16, 0, 0], "rot": [0, 0, 90], "color": "metal", "bevel": 0.02},
+  {"shape": "cylinder", "size": [0.36, 0.06, 0.36], "pos": [1.16, 0, 0], "rot": [0, 0, 90], "color": "metal", "bevel": 0.02}
+ ]
+}

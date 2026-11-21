@@ -1,0 +1,16 @@
+{
+ "kind": "legs",
+ "name": "Leg Right with Buttoned Cargo Pocket",
+ "ldraw": {
+  "hips": "3815",
+  "leg_r": "3816cpa3",
+  "leg_l": "3817cpa3"
+ },
+ "hips": "pants",
+ "title": "Minifig Leg Right with Buttoned Cargo Pocket Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "legs"
+ ]
+}

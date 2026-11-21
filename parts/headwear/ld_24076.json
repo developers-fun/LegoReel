@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Headdress Shark with Tail and Fin",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "24076",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Headdress Shark with Tail and Fin",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

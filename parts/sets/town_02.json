@@ -1,0 +1,16 @@
+{
+ "kind": "set",
+ "name": "Shop",
+ "pieces": [
+  {"shape": "box", "size": [9.0, 6.0, 6.4], "pos": [0, 3.0, 0], "color": "#f0c27b", "bevel": 0.1},
+  {"shape": "box", "size": [9.4, 0.5, 6.8], "pos": [0, 6.25, 0], "color": "#5b4636", "bevel": 0.08},
+  {"shape": "box", "size": [7.0, 1.2, 0.3], "pos": [0, 6.9, 3.25], "color": "#2e6f9e", "bevel": 0.05},
+  {"shape": "box", "size": [2.8, 0.25, 2.6], "pos": [-2.85, 4.96, 4.42], "rot": [20, 0, 0], "color": "#d64536", "bevel": 0.03},
+  {"shape": "box", "size": [2.8, 0.25, 2.6], "pos": [0, 4.96, 4.42], "rot": [20, 0, 0], "color": "#fff4e0", "bevel": 0.03},
+  {"shape": "box", "size": [2.8, 0.25, 2.6], "pos": [2.85, 4.96, 4.42], "rot": [20, 0, 0], "color": "#d64536", "bevel": 0.03},
+  {"shape": "box", "size": [5.6, 3.0, 0.3], "pos": [1.4, 3.3, 3.35], "color": "#3b2f2a", "bevel": 0.05},
+  {"shape": "box", "size": [5.0, 2.6, 0.3], "pos": [1.4, 3.3, 3.5], "color": "#9be3ff", "bevel": 0.05},
+  {"shape": "box", "size": [2.2, 4.8, 0.4], "pos": [-2.8, 2.4, 3.4], "color": "#3f8f5f", "bevel": 0.05},
+  {"shape": "box", "size": [9.0, 0.4, 1.0], "pos": [0, 0.2, 3.8], "color": "#8f8f8f", "bevel": 0.05}
+ ]
+}

@@ -1,0 +1,193 @@
+{
+ "name": "house",
+ "version": 3,
+ "notes": "Default style. Cameras are fixed (one camera per shot, cut to change the view), there is no screen shake, and every character must use an avatar file. Version 3: toy-brick look: glossy plastic, studded baseplate ground, brick figures built from part templates.",
+ "rules": {
+  "fixed_cameras": true,
+  "allow_shake": false,
+  "require_avatar": true
+ },
+ "camera_presets": {
+  "wide": {
+   "offset": [
+    0,
+    4.4,
+    17.0
+   ],
+   "look_offset": [
+    0,
+    2.7,
+    0
+   ],
+   "fov": 48
+  },
+  "medium": {
+   "offset": [
+    0,
+    3.5,
+    13.0
+   ],
+   "look_offset": [
+    0,
+    3.0,
+    0
+   ],
+   "fov": 42
+  },
+  "close": {
+   "offset": [
+    0,
+    3.9,
+    9.0
+   ],
+   "look_offset": [
+    0,
+    3.7,
+    0
+   ],
+   "fov": 38
+  },
+  "high": {
+   "offset": [
+    0,
+    10.5,
+    8.5
+   ],
+   "look_offset": [
+    0,
+    0.4,
+    0
+   ],
+   "fov": 50
+  },
+  "low": {
+   "offset": [
+    0,
+    1.2,
+    11.0
+   ],
+   "look_offset": [
+    0,
+    3.4,
+    0
+   ],
+   "fov": 44
+  }
+ },
+ "meta": {
+  "background": {
+   "top": "#2b78e0",
+   "bottom": "#bfe4ff",
+   "sun_glow": 0.3,
+   "clouds": {
+    "coverage": 0.55,
+    "scale": 1.0,
+    "opacity": 0.92,
+    "color": "#ffffff"
+   }
+  },
+  "ground": {
+   "tile": 1.164,
+   "colors": [
+    "#7cc552",
+    "#76c04c"
+   ],
+   "line_color": "#64ab3f",
+   "line_strength": 0.0,
+   "variation": 0.01,
+   "fog_color": "#bfe4ff",
+   "fog_distance": 95,
+   "studs": 0.3,
+   "geo_studs": true
+  },
+  "light": {
+   "sun_color": "#fff0d6",
+   "sky_color": "#a9d2ff",
+   "ground_color": "#86a35f",
+   "ambient": 0.6,
+   "spec_strength": 0.35,
+   "spec_power": 36.0
+  },
+  "look": {
+   "vignette": 0.14,
+   "saturation": 1.1,
+   "contrast": 1.05,
+   "bloom": 0.1,
+   "tint": [
+    1.02,
+    1.0,
+    0.97
+   ],
+   "dof": {
+    "strength": 1.0,
+    "radius": 7,
+    "start": 5,
+    "end": 28
+   },
+   "gloss": 1.0
+  },
+  "text_styles": {
+   "hook": {
+    "font": "fonts/ArchivoBlack-Regular.ttf",
+    "size": 0.078,
+    "color": "#ffffff",
+    "stroke": "#1d2340",
+    "stroke_width": 0.085,
+    "y": 0.15,
+    "max_width": 0.88,
+    "highlight": "#ffd23f",
+    "line_height": 1.12,
+    "shadow": {
+     "dx": 0.0,
+     "dy": 0.07,
+     "color": "#1d2340",
+     "blur": 0.0
+    },
+    "pop": 0.16
+   },
+   "caption": {
+    "font": "fonts/Poppins-Bold.ttf",
+    "size": 0.05,
+    "color": "#ffffff",
+    "stroke": "#000000",
+    "stroke_width": 0.0,
+    "y": 0.78,
+    "max_width": 0.8,
+    "pill": {
+     "color": "#1d2340d9",
+     "pad_x": 0.55,
+     "pad_y": 0.3
+    },
+    "pop": 0.12
+   },
+   "label": {
+    "font": "fonts/Poppins-Bold.ttf",
+    "size": 0.03,
+    "color": "#ffffff",
+    "stroke": "#000000",
+    "stroke_width": 0.0,
+    "y": 0.075,
+    "max_width": 0.8,
+    "pill": {
+     "color": "#1d2340b3",
+     "pad_x": 0.9,
+     "pad_y": 0.35
+    }
+   },
+   "note": {
+    "font": "fonts/Poppins-Bold.ttf",
+    "size": 0.028,
+    "color": "#1d2340",
+    "stroke": "#000000",
+    "stroke_width": 0.0,
+    "y": 0.225,
+    "max_width": 0.8,
+    "pill": {
+     "color": "#ffffffe6",
+     "pad_x": 0.7,
+     "pad_y": 0.3
+    }
+   }
+  }
+ }
+}

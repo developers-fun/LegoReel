@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Medium Nougat Overalls with Silver Buckles over Shirt with Collar",
+ "ldraw": {
+  "torso": "973p5w",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Medium Nougat Overalls with Silver Buckles over Shirt with Collar Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

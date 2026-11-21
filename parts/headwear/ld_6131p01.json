@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Wizards Hat with Silver Buckle and Stars",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "6131p01",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Wizards Hat with Silver Buckle and Stars Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

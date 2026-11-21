@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Cook's Hat",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "3898",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Cook's Hat",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

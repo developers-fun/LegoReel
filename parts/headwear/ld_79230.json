@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet SW Dark Trooper",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "79230",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet SW Dark Trooper",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

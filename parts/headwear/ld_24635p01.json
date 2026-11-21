@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Hat Sailor with Ribbon and Pin with Blue Top",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "24635p01",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Hat Sailor with Ribbon and Pin with Blue Top Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

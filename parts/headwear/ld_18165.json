@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Crown with  4 Spikes",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "18165",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Crown with  4 Spikes",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

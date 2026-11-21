@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Kylo Ren",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "20950",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Kylo Ren",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

@@ -1,0 +1,96 @@
+{
+  "name": "main",
+  "version": 2,
+  "locked": true,
+  "rig": "r6",
+  "notes": "PLACEHOLDER LOOK. The body is exact (rigs/r6.json); the colours, face and hair are neutral stand-ins until the owner picks a design. Edit this one file and every scene updates. Bump 'version' when you change it.",
+  "appearance": {
+    "skin": "#f4c9a1",
+    "face": {
+      "eyes": "dots",
+      "mouth": "smile",
+      "brows": "flat",
+      "eye_color": "#1b1b1f",
+      "mouth_color": "#1b1b1f",
+      "brow_color": "#3a2a20"
+    },
+    "hair": {
+      "style": "flat",
+      "color": "#3b261b",
+      "fringe": true
+    },
+    "outfit": {
+      "shirt": "#2f6fe4",
+      "sleeves": "short",
+      "pants": "#252b45",
+      "shorts": false,
+      "shoes": "#f4f4f4",
+      "stripe": null,
+      "chest_patch": null
+    },
+    "accessories": []
+  },
+  "variants_may_change": [
+    "outfit",
+    "accessories",
+    "hair"
+  ],
+  "variants": {
+    "jacket": {
+      "outfit": {
+        "shirt": "#ff5e4d",
+        "sleeves": "long",
+        "pants": "#1d2340",
+        "shoes": "#f2f2f2",
+        "stripe": {
+          "color": "#ffffff",
+          "y": 0.8,
+          "height": 0.22
+        },
+        "chest_patch": {
+          "color": "#ffffff",
+          "size": 0.45
+        }
+      }
+    },
+    "plain": {
+      "outfit": {
+        "shirt": "#efe6d6",
+        "sleeves": "long",
+        "pants": "#2a3354",
+        "shoes": "#f4f4f4"
+      }
+    },
+    "host": {
+      "outfit": {
+        "shirt": "#ff5e4d",
+        "sleeves": "long",
+        "pants": "#1d2340",
+        "shoes": "#ffffff"
+      },
+      "accessories": [
+        {
+          "type": "cap",
+          "color": "#1d2340"
+        }
+      ],
+      "hair": {
+        "style": "none"
+      }
+    },
+    "guest": {
+      "outfit": {
+        "shirt": "#2fae7a",
+        "sleeves": "short",
+        "pants": "#4a4a78",
+        "shoes": "#eeeeee"
+      },
+      "accessories": [
+        {
+          "type": "backpack",
+          "color": "#1f7a54"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Headdress Rabbit",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "99244",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Headdress Rabbit",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

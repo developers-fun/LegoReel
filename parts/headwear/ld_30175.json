@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Samurai",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "30175",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Samurai",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

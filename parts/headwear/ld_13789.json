@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Police Helmet",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "13789",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Police Helmet",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

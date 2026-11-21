@@ -1,0 +1,18 @@
+{
+ "kind": "accessory",
+ "name": "Beard Long with Five Braids",
+ "attach": "torso",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "60749",
+   "color": "accent"
+  }
+ ],
+ "title": "Minifig Beard Long with Five Braids",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "neck"
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with 3-Piece Suit, White Shirt and Red Tie",
+ "ldraw": {
+  "torso": "973pdb",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with 3-Piece Suit, White Shirt and Red Tie Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

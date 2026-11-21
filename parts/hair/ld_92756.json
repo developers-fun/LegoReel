@@ -1,0 +1,17 @@
+{
+ "kind": "hair",
+ "name": "Hair Pulled Back",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "92756",
+   "color": "hair"
+  }
+ ],
+ "title": "Minifig Hair Pulled Back",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hair"
+ ]
+}

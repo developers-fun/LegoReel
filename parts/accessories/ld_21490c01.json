@@ -1,0 +1,18 @@
+{
+ "kind": "accessory",
+ "name": "Figure Friends Cape Cloth Short with 2 Bottom Curves and 4 Heart Shaped Holes (Formed Shape 1)",
+ "attach": "torso",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "21490c01",
+   "color": "accent"
+  }
+ ],
+ "title": "Figure Friends Cape Cloth Short with 2 Bottom Curves and 4 Heart Shaped Holes (Formed Shape 1)",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "neck"
+ ]
+}

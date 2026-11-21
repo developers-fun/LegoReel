@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet SW Mandalorian with Rocket Pack",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "30380",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet SW Mandalorian with Rocket Pack",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

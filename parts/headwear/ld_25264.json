@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Headdress with Panther Ears",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "25264",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Headdress with Panther Ears",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

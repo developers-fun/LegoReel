@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Visor Space",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "71016",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Visor Space",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

@@ -1,0 +1,24 @@
+{
+ "kind": "torso",
+ "name": "Plain uniform",
+ "base": "primary",
+ "arm": "primary",
+ "image": "top_12.png",
+ "pieces": [
+  {
+   "shape": "box",
+   "size": [
+    2.04,
+    0.22,
+    1.13
+   ],
+   "pos": [
+    0,
+    -0.7,
+    0
+   ],
+   "color": "dark",
+   "bevel": 0.04
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Visor Samurai",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "98129",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Visor Samurai",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Plume Large",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "87694",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Plume Large",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

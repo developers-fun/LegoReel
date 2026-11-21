@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Scout Trooper",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "30369",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Scout Trooper",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Body Armour with Dark Bluish Grey and Metallic Dark Grey Crossing Lines and Metallic Silver Teeth N",
+ "ldraw": {
+  "torso": "973pc2",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Body Armour with Dark Bluish Grey and Metallic Dark Grey Crossing Lines and Metallic Silver Teeth Necklace Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

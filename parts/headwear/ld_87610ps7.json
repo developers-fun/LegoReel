@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Mandalorian with Reddish Brown Visor with Slanted Eyeslits Dark Bluish Grey Cheeks and Reddish Brown",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "87610ps7",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Mandalorian with Reddish Brown Visor with Slanted Eyeslits Dark Bluish Grey Cheeks and Reddish Brown Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with SW Vest with Dark Blue Plates",
+ "ldraw": {
+  "torso": "973prj",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with SW Vest with Dark Blue Plates Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

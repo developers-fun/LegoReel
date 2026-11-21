@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Scale Armour, Crown on Buckle and Chest Strap",
+ "ldraw": {
+  "torso": "973pf1",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Scale Armour, Crown on Buckle and Chest Strap Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

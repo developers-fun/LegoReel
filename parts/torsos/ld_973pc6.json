@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Black and Blue Marks, Red X-Men Buckle Belt",
+ "ldraw": {
+  "torso": "973pc6",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Black and Blue Marks, Red X-Men Buckle Belt Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

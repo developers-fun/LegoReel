@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Skull and Dark Pink Roses",
+ "ldraw": {
+  "torso": "973pcz1",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Skull and Dark Pink Roses Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

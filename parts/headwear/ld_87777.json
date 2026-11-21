@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Visor Shielded",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "87777",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Visor Shielded",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

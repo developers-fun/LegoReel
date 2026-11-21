@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Jester's Cap with Red Half and Red Pom",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "62537p03",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Jester's Cap with Red Half and Red Pom Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

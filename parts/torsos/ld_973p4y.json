@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Dark Brown Collar, Patch, Rope Belt and Pouch with Back",
+ "ldraw": {
+  "torso": "973p4y",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Dark Brown Collar, Patch, Rope Belt and Pouch with Back Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

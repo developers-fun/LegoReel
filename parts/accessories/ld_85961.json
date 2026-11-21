@@ -1,0 +1,18 @@
+{
+ "kind": "accessory",
+ "name": "Body Armour Vest with Back Stud",
+ "attach": "torso",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "85961",
+   "color": "accent"
+  }
+ ],
+ "title": "Minifig Body Armour Vest with Back Stud",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "neck"
+ ]
+}

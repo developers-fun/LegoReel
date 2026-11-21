@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet SW Darth Vader Upper Part",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "19916",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet SW Darth Vader Upper Part",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

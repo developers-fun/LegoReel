@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Pixelated Metallic Silver Strap over Vest with Yellow Trim, Dark Turquoise Shirt and Dark Brown Bel",
+ "ldraw": {
+  "torso": "973pxn",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Pixelated Metallic Silver Strap over Vest with Yellow Trim, Dark Turquoise Shirt and Dark Brown Belt Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

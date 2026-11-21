@@ -1,0 +1,16 @@
+{
+ "kind": "legs",
+ "name": "Leg Right with Pouch",
+ "ldraw": {
+  "hips": "3815",
+  "leg_r": "3816cp40",
+  "leg_l": "3817cp40"
+ },
+ "hips": "pants",
+ "title": "Minifig Leg Right with Pouch Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "legs"
+ ]
+}

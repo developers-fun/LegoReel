@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Headdress Anubis Guard",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "93248",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Headdress Anubis Guard",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

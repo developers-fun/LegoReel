@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Headdress SW Luminara Unduli",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "52345",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Headdress SW Luminara Unduli",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

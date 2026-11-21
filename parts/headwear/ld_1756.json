@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Carrot Nose",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "1756",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Carrot Nose",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

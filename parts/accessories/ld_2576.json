@@ -1,0 +1,18 @@
+{
+ "kind": "accessory",
+ "name": "Large Lower Jaw with Canines and Pointed Ears",
+ "attach": "torso",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "2576",
+   "color": "accent"
+  }
+ ],
+ "title": "Minifig Large Lower Jaw with Canines and Pointed Ears",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "neck"
+ ]
+}

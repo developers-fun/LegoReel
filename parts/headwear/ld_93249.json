@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Headdress Horus",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "93249",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Headdress Horus",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

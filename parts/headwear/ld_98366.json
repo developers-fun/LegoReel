@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Roman Soldier",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "98366",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Roman Soldier",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

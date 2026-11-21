@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Standard with Blue and Silver Spyrius",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "30124bp50",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Standard with Blue and Silver Spyrius Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

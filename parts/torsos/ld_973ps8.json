@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with SW Layered Shirt, Waist Sash",
+ "ldraw": {
+  "torso": "973ps8",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with SW Layered Shirt, Waist Sash Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

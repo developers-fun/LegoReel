@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Hat Rag",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "2543",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Hat Rag",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

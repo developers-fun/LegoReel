@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Iron Man Armoured Suit Mark VI",
+ "ldraw": {
+  "torso": "973pbb",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Iron Man Armoured Suit Mark VI Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

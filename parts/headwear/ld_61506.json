@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Hat Fedora",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "61506",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Hat Fedora",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

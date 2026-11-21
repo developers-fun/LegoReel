@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Overalls with Reflective Stripe and Buckles, Front Pouch and Red Pen",
+ "ldraw": {
+  "torso": "973p9g",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Overalls with Reflective Stripe and Buckles, Front Pouch and Red Pen Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

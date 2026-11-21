@@ -1,0 +1,16 @@
+{
+ "kind": "legs",
+ "name": "Leg Right with SW Stormtrooper",
+ "ldraw": {
+  "hips": "3815",
+  "leg_r": "3816cpsk",
+  "leg_l": "3817cpsk"
+ },
+ "hips": "pants",
+ "title": "Minifig Leg Right with SW Stormtrooper Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "legs"
+ ]
+}

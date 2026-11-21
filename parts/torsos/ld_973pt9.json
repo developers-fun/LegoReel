@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Red Bow Tie, Pencil and Pocket Watch",
+ "ldraw": {
+  "torso": "973pt9",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Red Bow Tie, Pencil and Pocket Watch Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

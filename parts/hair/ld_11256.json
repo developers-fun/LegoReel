@@ -1,0 +1,17 @@
+{
+ "kind": "hair",
+ "name": "Hair Short, Wavy with Side Part",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "11256",
+   "color": "hair"
+  }
+ ],
+ "title": "Minifig Hair Short, Wavy with Side Part",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hair"
+ ]
+}

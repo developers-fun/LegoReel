@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Rock Raiders Jet",
+ "ldraw": {
+  "torso": "973paj",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Rock Raiders Jet Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

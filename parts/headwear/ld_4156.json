@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Garrison Cap",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "4156",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Garrison Cap",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

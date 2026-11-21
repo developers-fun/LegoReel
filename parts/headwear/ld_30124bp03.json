@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Standard with 7 White Stars",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "30124bp03",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Standard with 7 White Stars Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

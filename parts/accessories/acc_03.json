@@ -1,0 +1,12 @@
+{
+ "kind": "accessory",
+ "name": "Scarf",
+ "attach": "torso",
+ "pieces": [
+  {"shape": "box", "size": [2.16, 0.32, 0.2], "pos": [0, 0.76, 0.6], "color": "accent", "bevel": 0.08},
+  {"shape": "box", "size": [2.16, 0.32, 0.2], "pos": [0, 0.76, -0.6], "color": "accent", "bevel": 0.08},
+  {"shape": "box", "size": [0.2, 0.32, 1.3], "pos": [1.06, 0.76, 0], "color": "accent", "bevel": 0.08},
+  {"shape": "box", "size": [0.2, 0.32, 1.3], "pos": [-1.06, 0.76, 0], "color": "accent", "bevel": 0.08},
+  {"shape": "box", "size": [0.5, 1.0, 0.14], "pos": [0.42, 0.15, 0.68], "rot": [0, 0, -8], "color": "accent", "bevel": 0.06}
+ ]
+}

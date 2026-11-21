@@ -1,0 +1,24 @@
+{
+ "kind": "torso",
+ "name": "Space suit",
+ "base": "primary",
+ "arm": "primary",
+ "image": "top_11.png",
+ "pieces": [
+  {
+   "shape": "box",
+   "size": [
+    1.04,
+    0.14,
+    1.04
+   ],
+   "pos": [
+    0,
+    0.9,
+    0.0
+   ],
+   "color": "metal",
+   "bevel": 0.05
+  }
+ ]
+}

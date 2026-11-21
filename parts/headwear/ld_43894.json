@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Russian Fur Cap",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "43894",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Russian Fur Cap",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

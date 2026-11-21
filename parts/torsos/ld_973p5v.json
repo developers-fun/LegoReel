@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Female Blouse with Lavender Dots and White Flowers Collar, Gold Sash with Flower and Bow, Yellow Ne",
+ "ldraw": {
+  "torso": "973p5v",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Female Blouse with Lavender Dots and White Flowers Collar, Gold Sash with Flower and Bow, Yellow Neck Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

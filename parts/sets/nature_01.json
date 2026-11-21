@@ -1,0 +1,101 @@
+{
+ "kind": "set",
+ "name": "Pine tree",
+ "pieces": [
+  {
+   "shape": "box",
+   "size": [
+    0.8,
+    1.6,
+    0.8
+   ],
+   "pos": [
+    0,
+    0.8,
+    0
+   ],
+   "color": "#6b4428",
+   "bevel": 0.06
+  },
+  {
+   "shape": "cylinder",
+   "size": [
+    3.6,
+    1.4,
+    3.6
+   ],
+   "pos": [
+    0,
+    2.2,
+    0
+   ],
+   "color": "#2e7d3a",
+   "bevel": 0.12,
+   "top": [
+    0.25,
+    0.25
+   ],
+   "casts": false
+  },
+  {
+   "shape": "cylinder",
+   "size": [
+    2.8,
+    1.3,
+    2.8
+   ],
+   "pos": [
+    0,
+    3.5,
+    0
+   ],
+   "color": "#3a9448",
+   "bevel": 0.12,
+   "top": [
+    0.25,
+    0.25
+   ],
+   "casts": false
+  },
+  {
+   "shape": "cylinder",
+   "size": [
+    2.0,
+    1.2,
+    2.0
+   ],
+   "pos": [
+    0,
+    4.7,
+    0
+   ],
+   "color": "#2e7d3a",
+   "bevel": 0.1,
+   "top": [
+    0.2,
+    0.2
+   ],
+   "casts": false
+  },
+  {
+   "shape": "cylinder",
+   "size": [
+    1.2,
+    1.0,
+    1.2
+   ],
+   "pos": [
+    0,
+    5.7,
+    0
+   ],
+   "color": "#3a9448",
+   "bevel": 0.08,
+   "top": [
+    0.1,
+    0.1
+   ],
+   "casts": false
+  }
+ ]
+}

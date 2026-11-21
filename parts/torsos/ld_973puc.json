@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Vest with White Shirt and Blue Striped Tie and Buttons",
+ "ldraw": {
+  "torso": "973puc",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Vest with White Shirt and Blue Striped Tie and Buttons Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

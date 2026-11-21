@@ -1,0 +1,16 @@
+{
+ "kind": "legs",
+ "name": "Leg Right with Armour Scales, Knee Pads and Claws",
+ "ldraw": {
+  "hips": "3815",
+  "leg_r": "3816cp04",
+  "leg_l": "3817cp04"
+ },
+ "hips": "pants",
+ "title": "Minifig Leg Right with Armour Scales, Knee Pads and Claws Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "legs"
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Standard with 1 Red and 2 Green Stripes",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "30124bp01",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Standard with 1 Red and 2 Green Stripes Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

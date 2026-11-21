@@ -1,0 +1,156 @@
+{
+ "kind": "hair",
+ "name": "Curly cap",
+ "pieces": [
+  {
+   "shape": "cylinder",
+   "size": [
+    1.74,
+    0.22,
+    1.74
+   ],
+   "pos": [
+    0,
+    0.5,
+    -0.02
+   ],
+   "color": "hair",
+   "bevel": 0.1
+  },
+  {
+   "shape": "cylinder",
+   "size": [
+    1.74,
+    0.5,
+    1.5
+   ],
+   "pos": [
+    0,
+    0.28,
+    -0.2
+   ],
+   "color": "hair",
+   "bevel": 0.08
+  },
+  {
+   "shape": "sphere",
+   "size": [
+    0.42,
+    0.42,
+    0.42
+   ],
+   "pos": [
+    0.0,
+    0.7,
+    0.45
+   ],
+   "color": "hair",
+   "bevel": 0.05
+  },
+  {
+   "shape": "sphere",
+   "size": [
+    0.42,
+    0.42,
+    0.42
+   ],
+   "pos": [
+    0.391,
+    0.7,
+    0.262
+   ],
+   "color": "hair",
+   "bevel": 0.05
+  },
+  {
+   "shape": "sphere",
+   "size": [
+    0.42,
+    0.42,
+    0.42
+   ],
+   "pos": [
+    0.487,
+    0.7,
+    -0.161
+   ],
+   "color": "hair",
+   "bevel": 0.05
+  },
+  {
+   "shape": "sphere",
+   "size": [
+    0.42,
+    0.42,
+    0.42
+   ],
+   "pos": [
+    0.217,
+    0.7,
+    -0.5
+   ],
+   "color": "hair",
+   "bevel": 0.05
+  },
+  {
+   "shape": "sphere",
+   "size": [
+    0.42,
+    0.42,
+    0.42
+   ],
+   "pos": [
+    -0.217,
+    0.7,
+    -0.5
+   ],
+   "color": "hair",
+   "bevel": 0.05
+  },
+  {
+   "shape": "sphere",
+   "size": [
+    0.42,
+    0.42,
+    0.42
+   ],
+   "pos": [
+    -0.487,
+    0.7,
+    -0.161
+   ],
+   "color": "hair",
+   "bevel": 0.05
+  },
+  {
+   "shape": "sphere",
+   "size": [
+    0.42,
+    0.42,
+    0.42
+   ],
+   "pos": [
+    -0.391,
+    0.7,
+    0.262
+   ],
+   "color": "hair",
+   "bevel": 0.05
+  },
+  {
+   "shape": "sphere",
+   "size": [
+    0.44,
+    0.44,
+    0.44
+   ],
+   "pos": [
+    0,
+    0.8,
+    -0.05
+   ],
+   "color": "hair",
+   "bevel": 0.05
+  }
+ ]
+}

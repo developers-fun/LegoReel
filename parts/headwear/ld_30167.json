@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Hat Wide Brim Flat",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "30167",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Hat Wide Brim Flat",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

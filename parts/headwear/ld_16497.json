@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "SW Imperial Officer Cap",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "16497",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig SW Imperial Officer Cap",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

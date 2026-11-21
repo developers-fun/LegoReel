@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Plume Triple",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "87692",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Plume Triple",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

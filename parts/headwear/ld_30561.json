@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Headdress SW Royal Guard",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "30561",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Headdress SW Royal Guard",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "kind": "legs",
+ "name": "Leg Right with Green Knee Straps",
+ "ldraw": {
+  "hips": "3815",
+  "leg_r": "3816cpn2",
+  "leg_l": "3817cpn2"
+ },
+ "hips": "pants",
+ "title": "Minifig Leg Right with Green Knee Straps Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "legs"
+ ]
+}

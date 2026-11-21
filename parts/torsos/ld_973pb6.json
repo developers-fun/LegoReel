@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Magenta Questionmark",
+ "ldraw": {
+  "torso": "973pb6",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Magenta Questionmark Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Visor Iron Man with Silver Face, White Eyes",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "10908p03",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Visor Iron Man with Silver Face, White Eyes Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

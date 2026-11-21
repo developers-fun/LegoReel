@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Headdress Bandage Wrapped",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "24073",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Headdress Bandage Wrapped",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

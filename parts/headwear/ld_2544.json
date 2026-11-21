@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Hat Tricorne",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "2544",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Hat Tricorne",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

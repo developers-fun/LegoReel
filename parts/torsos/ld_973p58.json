@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Insectoids Female, Blue Diamond under Circuits",
+ "ldraw": {
+  "torso": "973p58",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Insectoids Female, Blue Diamond under Circuits Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

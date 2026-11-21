@@ -1,0 +1,18 @@
+{
+ "kind": "accessory",
+ "name": "Vest with 3 Yellow/Black Chevrons Upwards",
+ "attach": "torso",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "3840p01",
+   "color": "accent"
+  }
+ ],
+ "title": "Minifig Vest with 3 Yellow/Black Chevrons Upwards Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "neck"
+ ]
+}

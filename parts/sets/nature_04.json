@@ -1,0 +1,54 @@
+{
+ "kind": "set",
+ "name": "Bush",
+ "pieces": [
+  {
+   "shape": "sphere",
+   "size": [
+    1.8,
+    1.8,
+    1.8
+   ],
+   "pos": [
+    0,
+    0.9,
+    0
+   ],
+   "color": "#5fbf49",
+   "bevel": 0.05,
+   "casts": false
+  },
+  {
+   "shape": "sphere",
+   "size": [
+    1.4,
+    1.4,
+    1.4
+   ],
+   "pos": [
+    -0.9,
+    0.7,
+    0.3
+   ],
+   "color": "#4caf50",
+   "bevel": 0.05,
+   "casts": false
+  },
+  {
+   "shape": "sphere",
+   "size": [
+    1.3,
+    1.3,
+    1.3
+   ],
+   "pos": [
+    0.8,
+    0.65,
+    -0.2
+   ],
+   "color": "#3f9c3a",
+   "bevel": 0.05,
+   "casts": false
+  }
+ ]
+}

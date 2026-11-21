@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Mountains on Medium Azure, Bright Light Orange and Dark Pink Splotches",
+ "ldraw": {
+  "torso": "973p6z",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Mountains on Medium Azure, Bright Light Orange and Dark Pink Splotches Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

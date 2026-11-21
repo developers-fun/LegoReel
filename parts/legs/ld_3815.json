@@ -1,0 +1,16 @@
+{
+ "kind": "legs",
+ "name": "Plain hips and legs",
+ "ldraw": {
+  "hips": "3815",
+  "leg_r": "3816",
+  "leg_l": "3817"
+ },
+ "hips": "pants",
+ "title": "Minifig Hips and Legs (plain)",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "legs"
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with High Waist Blue Pants, Gold Buckle, Open Collar and Red Neck",
+ "ldraw": {
+  "torso": "973pz5",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with High Waist Blue Pants, Gold Buckle, Open Collar and Red Neck Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

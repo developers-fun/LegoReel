@@ -1,0 +1,16 @@
+{
+ "kind": "legs",
+ "name": "Leg Right with White Apron",
+ "ldraw": {
+  "hips": "3815",
+  "leg_r": "3816cp89",
+  "leg_l": "3817cp89"
+ },
+ "hips": "pants",
+ "title": "Minifig Leg Right with White Apron Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "legs"
+ ]
+}

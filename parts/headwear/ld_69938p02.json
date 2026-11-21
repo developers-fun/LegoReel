@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Hat Beekeeper with Molded Trans-Black Visor",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "69938p02",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Hat Beekeeper with Molded Trans-Black Visor Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

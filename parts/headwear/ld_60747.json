@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Cap with Wings",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "60747",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Cap with Wings",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

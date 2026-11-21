@@ -1,0 +1,38 @@
+{
+ "kind": "legs",
+ "name": "Cargo trousers",
+ "hips": "pants",
+ "bands": [
+  {
+   "from": 0,
+   "to": 1,
+   "color": "pants"
+  }
+ ],
+ "pieces": [
+  {
+   "shape": "box",
+   "size": [0.14, 0.5, 0.75],
+   "pos": [1.09, -0.15, 0],
+   "color": "secondary"
+  },
+  {
+   "shape": "box",
+   "size": [0.14, 0.5, 0.75],
+   "pos": [-1.09, -0.15, 0],
+   "color": "secondary"
+  },
+  {
+   "shape": "box",
+   "size": [0.7, 0.5, 0.1],
+   "pos": [0.5, -0.1, 0.6],
+   "color": "secondary"
+  },
+  {
+   "shape": "box",
+   "size": [0.7, 0.5, 0.1],
+   "pos": [-0.5, -0.1, 0.6],
+   "color": "secondary"
+  }
+ ]
+}

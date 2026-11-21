@@ -1,0 +1,18 @@
+{
+ "kind": "accessory",
+ "name": "Armour Shoulder Pads with Neck Protection, 1 Stud on Front, 2 Studs on Back",
+ "attach": "torso",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "15086",
+   "color": "accent"
+  }
+ ],
+ "title": "Minifig Armour Shoulder Pads with Neck Protection, 1 Stud on Front, 2 Studs on Back",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "neck"
+ ]
+}

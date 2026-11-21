@@ -1,0 +1,16 @@
+{
+  "name": "brick",
+  "version": 1,
+  "notes": "Original toy-brick figure proportions, in studs, feet at y=0, facing +z. These are this project's own numbers, not measured from any product. Joints turn like a toy figure: head turns, arms swing at the shoulder, legs swing at the hip, no elbows or knees.",
+  "parts": {
+    "head":  { "diameter": 1.6, "height": 1.2, "centre_y": 4.5, "neck_y": 3.9 },
+    "stud":  { "diameter": 0.7, "height": 0.25 },
+    "torso": { "size": [2.0, 1.9, 1.1], "bottom_ratio": [0.9, 1.0], "centre_y": 2.95 },
+    "hips":  { "size": [2.0, 0.5, 1.1], "centre_y": 1.75 },
+    "leg":   { "size": [0.98, 1.5, 1.0], "x": 0.5, "hip_y": 1.5 },
+    "arm":   { "size": [0.55, 1.55, 0.6], "shoulder": [1.275, 3.6, 0.0], "centre_below_pivot": 0.525 },
+    "hand":  { "diameter": 0.62, "height": 0.55, "below_pivot": 1.45 }
+  },
+  "waist_pivot": [0.0, 2.0, 0.0],
+  "height": 5.35
+}

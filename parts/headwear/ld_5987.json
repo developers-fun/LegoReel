@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Hat Sandogasa",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "5987",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Hat Sandogasa",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

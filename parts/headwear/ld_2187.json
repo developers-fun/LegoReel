@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Hat Ninja Wrap Smooth",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "2187",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Hat Ninja Wrap Smooth",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

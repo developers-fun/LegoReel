@@ -1,0 +1,16 @@
+{
+ "kind": "legs",
+ "name": "Leg Right with Lime Leotard and Toes",
+ "ldraw": {
+  "hips": "3815",
+  "leg_r": "3816cp01",
+  "leg_l": "3817cp01"
+ },
+ "hips": "pants",
+ "title": "Minifig Leg Right with Lime Leotard and Toes Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "legs"
+ ]
+}

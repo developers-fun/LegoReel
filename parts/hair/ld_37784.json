@@ -1,0 +1,17 @@
+{
+ "kind": "hair",
+ "name": "Hair Half Giant with Beard",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "37784",
+   "color": "hair"
+  }
+ ],
+ "title": "Minifig Hair Half Giant with Beard",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hair"
+ ]
+}

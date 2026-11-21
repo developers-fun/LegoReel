@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Plume Road Runner",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "77309",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Plume Road Runner",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

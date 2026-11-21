@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Stormtrooper with Shadow Trooper",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "30408p03",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Stormtrooper with Shadow Trooper Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

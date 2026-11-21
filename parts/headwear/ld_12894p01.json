@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Hat Cone with Black Rim and Two Pom-Pom",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "12894p01",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Hat Cone with Black Rim and Two Pom-Pom Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

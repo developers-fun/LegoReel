@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Three Dark Blue Curved Lines on Bright Light Blue Stomach",
+ "ldraw": {
+  "torso": "973pcr6",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Three Dark Blue Curved Lines on Bright Light Blue Stomach Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

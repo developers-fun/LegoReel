@@ -1,0 +1,13 @@
+{
+ "kind": "accessory",
+ "name": "Hiking backpack",
+ "attach": "back",
+ "pieces": [
+  {"shape": "box", "size": [1.6, 1.8, 0.7], "pos": [0, 0, -0.4], "color": "accent", "bevel": 0.12},
+  {"shape": "box", "size": [1.66, 0.26, 0.76], "pos": [0, 0.97, -0.4], "color": "secondary", "bevel": 0.08},
+  {"shape": "cylinder", "size": [0.44, 1.7, 0.44], "pos": [0, -0.75, -0.88], "rot": [0, 0, 90], "color": "secondary"},
+  {"shape": "box", "size": [0.25, 1.0, 0.5], "pos": [0.92, -0.2, -0.45], "color": "secondary", "bevel": 0.08},
+  {"shape": "box", "size": [0.25, 1.0, 0.5], "pos": [-0.92, -0.2, -0.45], "color": "secondary", "bevel": 0.08},
+  {"shape": "box", "size": [1.0, 0.7, 0.2], "pos": [0, -0.1, -0.85], "color": "dark", "bevel": 0.08}
+ ]
+}

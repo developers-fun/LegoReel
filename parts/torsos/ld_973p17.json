@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Red V-Neck and Buttons",
+ "ldraw": {
+  "torso": "973p17",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Red V-Neck and Buttons Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

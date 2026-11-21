@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Headdress with Hooked Beak and Feathers",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "30276",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Headdress with Hooked Beak and Feathers",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

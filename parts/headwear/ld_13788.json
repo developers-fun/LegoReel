@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Hat with Wide Brim Down",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "13788",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Hat with Wide Brim Down",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "kind": "headwear",
+ "name": "Cap with Short Arched Peak",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "86035",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Cap with Short Arched Peak",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ]
+}

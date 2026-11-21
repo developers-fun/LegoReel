@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Scale Mail and Red Diamond Amulet",
+ "ldraw": {
+  "torso": "973p4c",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Scale Mail and Red Diamond Amulet Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}

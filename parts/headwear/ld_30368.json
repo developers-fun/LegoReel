@@ -1,0 +1,18 @@
+{
+ "kind": "headwear",
+ "name": "Helmet Darth Vader",
+ "pieces": [
+  {
+   "shape": "ldraw",
+   "part": "30368",
+   "color": "primary"
+  }
+ ],
+ "title": "Minifig Helmet Darth Vader",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "hat"
+ ],
+ "replaces_hair": true
+}

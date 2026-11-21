@@ -1,0 +1,18 @@
+{
+ "kind": "torso",
+ "name": "Torso with Female Jacket, Pockets and Lavender Hoodie",
+ "ldraw": {
+  "torso": "973pxx",
+  "arm_r": "3818",
+  "arm_l": "3819",
+  "hand": "3820"
+ },
+ "base": "primary",
+ "arm": "primary",
+ "title": "Minifig Torso with Female Jacket, Pockets and Lavender Hoodie Pattern",
+ "source": "LDraw (CC BY 4.0)",
+ "tags": [
+  "lego",
+  "torso"
+ ]
+}
