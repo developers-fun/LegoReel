@@ -208,7 +208,7 @@ Look keys (`meta.look`): `gloss`, `bloom`, `dof`, `tint`, `vignette`; light keys
 
 ```
 blockreel/
-  README.md  requirements.txt
+  README.md  AGENTS.md (handoff notes for a new agent)  requirements.txt
   rigs/      minifig.json (real assembly), brick.json, r6.json (archived)
   ldraw/     the bundled LDraw parts, primitives and colour table, with CC BY 4.0 licence files
   tools/     ldraw_bundle.py, ldraw_catalog.py
