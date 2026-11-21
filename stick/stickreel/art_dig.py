@@ -55,7 +55,7 @@ def _token(img, cam, p, t):
 def _pile(img, cam, p, t):
     import random
     rnd = random.Random(4)
-    for i in range(16):
-        x = p["x"] + rnd.uniform(-34, 34)
-        y = p["y"] - abs(rnd.uniform(0, 1)) ** 1.5 * 9 - (1 - abs(x - p["x"]) / 34) * 4
-        circle(img, (x, y), rnd.uniform(5, 7), cam, fill=(246, 196, 40, 255), outline=(120, 74, 12, 255), width=1.2)
+    for i in range(34):
+        x = p["x"] + rnd.uniform(-52, 52)
+        y = p["y"] - abs(rnd.uniform(0, 1)) ** 1.5 * 12 - (1 - abs(x - p["x"]) / 52) * 9
+        circle(img, (x, y), rnd.uniform(5, 8), cam, fill=(246, 196, 40, 255), outline=(120, 74, 12, 255), width=1.2)

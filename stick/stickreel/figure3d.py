@@ -10,7 +10,8 @@ from .track import parse_color
 OUTLINE = (52, 46, 52, 255)
 FILL = (247, 247, 252, 255)
 SHADE = (176, 182, 208, 255)
-LIMB_ARM, LIMB_LEG, LIMB_TORSO, HEAD_R = 15.0, 19.0, 21.0, 17.0
+LIMB_ARM, LIMB_LEG, LIMB_TORSO, HEAD_R = 14.0, 17.5, 19.5, 17.0
+OUTLINE_W = 1.9
 
 
 def _mul(c, tint):
@@ -22,7 +23,7 @@ def _hex(c, a=None):
     return r if a is None else r[:3] + (a,)
 
 
-def draw_figure(img, pose, cam, face=None, talk_open=None, faces=None, item_hooks=None):
+def draw_figure(img, pose, cam, face=None, talk_open=None, faces=None, item_hooks=None, t=0.0, blink=True, depth_shade=True):
     """pose from skeleton.solve. item_hooks = {"arm_r": fn(img), ...} drawn just before that arm (so the hand wraps it)."""
     from .engine import S as _S
     tint = pose.get("tint")
@@ -59,23 +60,25 @@ def draw_figure(img, pose, cam, face=None, talk_open=None, faces=None, item_hook
         ImageDraw.Draw(m).ellipse([x - r * k, y - r * k, x + r * k, y + r * k], fill=255)
         return m
 
-    def paint(mask, ow=2.4):
+    def paint(mask, ow=OUTLINE_W, shade=0.0):
         kk = max(3, int(round(ow * k)) * 2 + 1)
         patch.paste(Image.new("RGBA", size, OUTLINE), (0, 0), mask.filter(ImageFilter.MaxFilter(kk)))
-        patch.paste(Image.new("RGBA", size, _mul(FILL, tint) if tint else FILL), (0, 0), mask)
+        base = FILL if not shade else tuple(int(a + (b - a) * shade) for a, b in zip(FILL[:3], SHADE[:3])) + (255,)
+        patch.paste(Image.new("RGBA", size, _mul(base, tint) if tint else base), (0, 0), mask)
         off = max(1, int(3 * k))
         sh = ImageChops.subtract(mask, ImageChops.offset(mask, -off, -off)).filter(ImageFilter.GaussianBlur(1.2 * k))
         sh = ImageChops.multiply(sh, mask)
         patch.paste(Image.new("RGBA", size, _mul(SHADE, tint) if tint else SHADE), (0, 0), sh.point(lambda v: int(v * 0.85)))
 
     dep = pose["depth"]
+    far = lambda name: (0.65 if dep[name] > dep["torso"] + 3.0 else 0.0) if depth_shade else 0.0      # far limbs read grey, like a drawn figure
     parts = [
-        (dep["leg_r"], 0, "leg_r", lambda: paint(cap([pose["hip"], pose["knees"][0], pose["feet"][0]], LIMB_LEG))),
-        (dep["leg_l"], 1, "leg_l", lambda: paint(cap([pose["hip"], pose["knees"][1], pose["feet"][1]], LIMB_LEG))),
+        (dep["leg_r"], 0, "leg_r", lambda: paint(cap([pose["hip"], pose["knees"][0], pose["feet"][0]], LIMB_LEG), shade=far("leg_r"))),
+        (dep["leg_l"], 1, "leg_l", lambda: paint(cap([pose["hip"], pose["knees"][1], pose["feet"][1]], LIMB_LEG), shade=far("leg_l"))),
         (dep["torso"], 2, "torso", lambda: paint(cap([pose["neck"], pose["hip"]], LIMB_TORSO))),
         (dep["head"] - 0.05, 3, "head", None),
-        (dep["arm_r"], 4, "arm_r", lambda: paint(cap([pose["shoulders"][0], pose["elbows"][0], pose["hands"][0]], LIMB_ARM))),
-        (dep["arm_l"], 5, "arm_l", lambda: paint(cap([pose["shoulders"][1], pose["elbows"][1], pose["hands"][1]], LIMB_ARM))),
+        (dep["arm_r"], 4, "arm_r", lambda: paint(cap([pose["shoulders"][0], pose["elbows"][0], pose["hands"][0]], LIMB_ARM), shade=far("arm_r") * 0.5)),
+        (dep["arm_l"], 5, "arm_l", lambda: paint(cap([pose["shoulders"][1], pose["elbows"][1], pose["hands"][1]], LIMB_ARM), shade=far("arm_l") * 0.5)),
     ]
     parts.sort(key=lambda a: (-a[0], a[1]))             # far first
     hooks = item_hooks or {}
@@ -87,13 +90,22 @@ def draw_figure(img, pose, cam, face=None, talk_open=None, faces=None, item_hook
         if name == "head":
             paint(circ(pose["head"], HEAD_R))
             if face is not None:
-                _draw_face(patch, pose, face, talk_open, T, k, faces or FACES)
+                _draw_face(patch, pose, face, talk_open, T, k, faces or FACES, (t if blink else None))
         else:
             fn()
     img.alpha_composite(patch, (x0, y0))
 
 
-def _draw_face(patch, pose, face, talk_open, T, k, faces):
+def blink_amount(t):
+    """1 = eyes open, ~0.1 = shut: one quick blink about every 3 s, at slightly irregular times."""
+    period = 3.1
+    i = math.floor(t / period)
+    off = 0.5 + ((math.sin(i * 12.9898) * 43758.5453) % 1.0) * 2.0
+    u = (t - i * period - off) / 0.13
+    return 1.0 if not (0 <= u <= 1) else 0.12 + 0.88 * abs(2 * u - 1)
+
+
+def _draw_face(patch, pose, face, talk_open, T, k, faces, t=None):
     spec = faces.get(face) or FACES.get(face)
     if spec is None:
         return
@@ -120,7 +132,9 @@ def _draw_face(patch, pose, face, talk_open, T, k, faces):
         kind = prim[0]
         if kind == "dot":
             _, u, v, rx, ry = prim
-            _poly(d, proj, [(u + rx * math.cos(a), v + ry * math.sin(a)) for a in _ang(12)], (u, v), INK_C, None, 0)
+            if t is not None and abs(u) > 0.2 and -0.2 < v < 0.25:      # an eye
+                ry = ry * blink_amount(t)
+            _poly(d, proj, [(u + rx * 1.25 * math.cos(a), v + ry * 1.2 * math.sin(a)) for a in _ang(12)], (u, v), INK_C, None, 0)
         elif kind == "ellipse":
             _, u, v, rx, ry, fill, stroke = prim
             _poly(d, proj, [(u + rx * math.cos(a), v + ry * math.sin(a)) for a in _ang(14)], (u, v),
@@ -139,7 +153,7 @@ def _draw_face(patch, pose, face, talk_open, T, k, faces):
                 if vis > 0.02:
                     P.append(q)
             if len(P) >= 2:
-                wd = max(1, int(w * R))
+                wd = max(1, int(w * R * 1.4))
                 d.line(P, fill=col, width=wd, joint="curve")
                 for q in (P[0], P[-1]):
                     d.ellipse([q[0] - wd / 2, q[1] - wd / 2, q[0] + wd / 2, q[1] + wd / 2], fill=col)

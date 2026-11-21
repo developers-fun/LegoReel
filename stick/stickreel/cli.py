@@ -59,11 +59,18 @@ CAMERA {{"zoom":1,"cx":288,"cy":512, "keys":[...]}}: zoom about the world point 
 CANVAS defaults {canvas}; blur=4 gives motion blur (4 sub-frames) for fast action.
 PLUGINS: "plugins":["module"] imports python that registers artwork with @render.art("name"); use {{"kind":"art","name":...}}.
 
+SOUND: scene "audio": {"master":0.9,"music":{"file":..,"gain":.25,"fade_out":1},"cues":[{"sfx":"thunk","times":"you.hit","gain":.8,"pitch_jitter":.06},
+  {"sfx":"boom","t":8.0},{"sfx":"tick","times":{"from":9.4,"to":9.8,"every":0.034},"gain":.3},{"file":"clap.mp3","t":3}]}. Built-in sounds are synthesised
+  (thunk whoosh dirt clink coins ding sparkle riser boom shimmer tick pop step thump), no files or licences. times: [s..] | "actor.hit" | "actor.step"
+  (footfalls of walk/run) | {from,to,every}. `render` muxes the mix in automatically (--no-audio to skip).
+
 COMMANDS
   python -m stickreel validate scene.json        errors come with did-you-mean hints
   python -m stickreel sheet scene.json --times 0,0.5,1 [--out sheet.png]      LOOK at frames before rendering video
   python -m stickreel compare scene.json --ref REFDIR --frames 1,60,120 [--crop x0,y0,x1,y1] [--zoom .5]   reference | mine | blend
   python -m stickreel poses [--out poses.png]    all named poses, then a turnaround and a face sheet next to it
+  python -m stickreel sfx [name] [--pitch 1.2] [--out x.wav]    list or write the built-in synthesised sounds
+  python -m stickreel audio scene.json --out mix.wav            mix just the sound (no video)
   python -m stickreel render scene.json --out out.mp4 [--start 0 --end 3] [--workers 4] [--png dir]
 WORKFLOW: write the scene with generous gaps, `sheet` it, fix what looks wrong, then render. Author a hit loop once and time
 it with "hits"; do not key every frame.
@@ -127,25 +134,29 @@ def compare(scene, ref_dir, frames, out, crop=None, zoom=0.5, scale=1.0):
     print("wrote", out)
 
 
-def poses_sheet(out):
-    data = {"canvas": {"w": 200, "h": 260, "scale": 1.5, "bg": "#e8e2d0"},
-            "actors": {}}
-    names = list(POSES)
-    tiles = []
-    for n in names:
-        tiles.append((n, {"x": 100, "ground": 200, "keys": [{"t": 0, "pose": n}]}))
-    W, H = 200, 260
-    cols = 6
+def _tile_sheet(tiles, out, cols=6, W=200, H=260):
+    """tiles = [(label, actor_spec)] rendered one per cell."""
+    from .render import frame_rgb
     rows = (len(tiles) + cols - 1) // cols
     sh = Image.new("RGB", (W * cols, H * rows), "white")
-    from .render import frame_rgb
-    for i, (n, a) in enumerate(tiles):
-        sc = Scene(dict(data, actors={"a": a}))
-        im = frame_rgb(sc, 0)
-        ImageDraw.Draw(im).text((4, 4), n, fill="black")
+    base = {"canvas": {"w": W, "h": H, "scale": 1.5, "bg": "#e8e2d0"}}
+    for i, (label, a) in enumerate(tiles):
+        im = frame_rgb(Scene(dict(base, actors={"a": a})), 0)
+        ImageDraw.Draw(im).text((4, 4), label, fill="black")
         sh.paste(im, ((i % cols) * W, (i // cols) * H))
     sh.save(out)
-    print("wrote", out, "poses:", ", ".join(names))
+    print("wrote", out)
+
+
+def poses_sheet(out):
+    """poses.png (every named pose), poses_turn.png (one pose at 8 yaw angles), poses_faces.png (every expression, front view)."""
+    from .faces import FACES
+    _tile_sheet([(n, {"x": 100, "ground": 200, "keys": [{"t": 0, "pose": n}]}) for n in POSES], out)
+    stem = out[:-4] if out.endswith(".png") else out
+    _tile_sheet([(f"yaw {y}", {"x": 100, "ground": 200, "keys": [{"t": 0, "pose": "relax", "yaw": y, "expr": "happy"}]})
+                 for y in (0, 45, 90, 135, 180, 225, 270, 315)], stem + "_turn.png", cols=8)
+    _tile_sheet([(n, {"x": 100, "ground": 200, "keys": [{"t": 0, "pose": "relax", "yaw": 90, "expr": n}]}) for n in FACES], stem + "_faces.png", cols=8)
+    print("poses:", ", ".join(POSES))
 
 
 def main(argv=None):
@@ -157,8 +168,10 @@ def main(argv=None):
     p = sub.add_parser("poses"); p.add_argument("--out", default="poses.png")
     c = sub.add_parser("compare"); c.add_argument("scene"); c.add_argument("--ref", required=True); c.add_argument("--frames", required=True)
     c.add_argument("--out", default="compare.png"); c.add_argument("--crop"); c.add_argument("--zoom", type=float, default=0.5)
+    au = sub.add_parser("audio"); au.add_argument("scene"); au.add_argument("--out", default="mix.wav")
+    sf = sub.add_parser("sfx"); sf.add_argument("name", nargs="?"); sf.add_argument("--pitch", type=float, default=1.0); sf.add_argument("--out")
     r = sub.add_parser("render"); r.add_argument("scene"); r.add_argument("--out"); r.add_argument("--start", type=float); r.add_argument("--end", type=float)
-    r.add_argument("--workers", type=int, default=2); r.add_argument("--png"); r.add_argument("--crf", type=int, default=18)
+    r.add_argument("--workers", type=int, default=2); r.add_argument("--no-audio", action="store_true"); r.add_argument("--png"); r.add_argument("--crf", type=int, default=18)
     a = ap.parse_args(argv)
     try:
         if a.cmd == "docs":
@@ -172,13 +185,27 @@ def main(argv=None):
         elif a.cmd == "sheet":
             sc = Scene.load(a.scene)
             sheet(sc, [float(x) for x in a.times.split(",")], a.out, a.cols)
+        elif a.cmd == "audio":
+            from . import audio as A
+            sc = Scene.load(a.scene)
+            m = A.mix(sc)
+            A.write_wav(a.out, m)
+            print(f"wrote {a.out}: {len(m) / 44100:.2f}s, peak {abs(m).max():.2f}, {len(sc.audio.get('cues', [])) if sc.audio else 0} cue lines")
+        elif a.cmd == "sfx":
+            from .sfx import SFX, describe, render_sfx, write_wav
+            if not a.name:
+                for k, v in describe().items():
+                    print(f"  {k:9s} {v}")
+            else:
+                write_wav(a.out or f"{a.name}.wav", render_sfx(a.name, a.pitch))
+                print("wrote", a.out or f"{a.name}.wav")
         elif a.cmd == "compare":
             compare(Scene.load(a.scene), a.ref, [int(x) for x in a.frames.split(",")], a.out, a.crop, a.zoom)
         elif a.cmd == "poses":
             poses_sheet(a.out)
         elif a.cmd == "render":
             from .render import render_video
-            render_video(a.scene, a.out, a.start, a.end, a.workers, a.png, a.crf)
+            render_video(a.scene, a.out, a.start, a.end, a.workers, a.png, a.crf, audio=not a.no_audio)
     except SceneError as e:
         print("scene error:", e, file=sys.stderr)
         sys.exit(2)

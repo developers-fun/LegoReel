@@ -54,8 +54,8 @@ def label(text, follow, off, keys=None, show=None, **kw):
     return d
 
 
-def ring(t0, dur=0.55, r0=20, r1=240, x=COIN[0], y=COIN[1], w=3):
-    return dict(kind="ring", x=x, y=y, r=r0, w=w, color="#fff0b8", alpha=0, z=40, show=[t0, t0 + dur + 0.05],
+def ring(t0, dur=0.55, r0=20, r1=240, x=COIN[0], y=COIN[1], w=4.5):
+    return dict(kind="ring", x=x, y=y, r=r0, w=w, color="#fff6cc", alpha=0, z=40, show=[t0, t0 + dur + 0.05],
                 keys=[{"t": t0, "r": r0, "alpha": 0.95, "ease": "out"}, {"t": t0 + dur, "r": r1, "alpha": 0.0, "ease": "out"}])
 
 
@@ -85,14 +85,16 @@ objects = {
     "hook2": dict(kind="text", text="DIFFERENTLY.", x=289, y=151, size=40, fill="#ffffff", outline="#4e3426", ow=3.0, width=352,
                   grad=["#fff6d8", "#e8c98a"], weight=900, z=-60),
     "lbl_friend": label("FRIEND", "friend.head", [1, -34], width=84, show=[0, T(197)]),
-    "lbl_you": label("YOU", "you.head", [1, -34], width=44, show=[0, T(242)]),
+    "lbl_you": label("YOU", "you.head", [1, -34], width=44, show=[0, T(242)],
+                     keys=[{"t": T(190), "offset": [1, -34]}, {"t": T(206), "offset": [26, -38], "ease": "inout"}]),
     "one_more": dict(kind="text", text="ONE MORE GAME.", x=270, y=639, size=22, fill="#fff6e2", outline="#3c2614", ow=1.8, width=246,
                      show=[T(207), T(242)], z=30),
-    "lbl_friend2": label("FRIEND", "friend.head", [2, -36], width=84, show=[T(197), T(240)], z=30),
-    "lbl_friend3": label("FRIEND", "friend.head", [0, -32], width=84, show=[T(242), T(270)], z=30),
-    "lbl_you2": label("YOU", "you.head", [0, -32], width=44, show=[T(242), T(270)], z=30),
-    "lbl_you3": label("YOU", "you.head", [0, -32], width=44, show=[T(270), 99], z=30),
-    "lbl_bro": label("BROTHER", "friend.head", [0, -32], width=70, show=[T(270), 99], z=30),
+    "lbl_friend2": label("FRIEND", "friend.head", [2, -36], width=84, show=[T(197), T(240)], z=30,
+                         keys=[{"t": T(197), "offset": [2, -36]}, {"t": T(206), "offset": [-26, -38], "ease": "inout"}]),
+    "lbl_friend3": label("FRIEND", "friend.head", [14, -34], width=84, show=[T(242), T(270)], z=30),
+    "lbl_you2": label("YOU", "you.head", [-14, -34], width=44, show=[T(242), T(270)], z=30),
+    "lbl_you3": label("YOU", "you.head", [-14, -34], width=44, show=[T(270), 99], z=30),
+    "lbl_bro": label("BROTHER", "friend.head", [16, -34], width=70, show=[T(270), 99], z=30),
     # ---- finale
     "beams": dict(kind="rays", x=330, y=700, r0=50, r1=420, n=26, w=9, color="#8a561e30", z=-50, show=[T(248), 99]),
     "pick_l": dict(kind="pick", x=262, y=866, angle=172, len=84, z=2, show=[T(242), 99]),
@@ -100,20 +102,20 @@ objects = {
     "coin": dict(kind="art", name="dig_token", x=COIN[0], y=COIN[1], r=43, z=20, show=[T(244), 99],
                  keys=[{"t": T(244), "r": 8, "ease": "back"}, {"t": T(251), "r": 43}]),
     "pile": dict(kind="art", name="dig_pile", x=305, y=864, z=3, show=[T(252), 99]),
-    "pour": dict(kind="burst", times=[T(246) + 0.02 * i for i in range(14)], at=[318, 700], n=3, speed=[20, 90],
+    "pour": dict(kind="burst", times=[T(246) + 0.02 * i for i in range(18)], at=[318, 700], n=5, speed=[20, 90],
                  angle=[-120, -60], gravity=520, life=0.5, size=[3.5, 5.5], color="#f6c428", seed=3, z=25),
     "pirate_lbl": dict(kind="text", text="PIRATE TOKEN", x=COIN[0], y=COIN[1] - 52, size=12, fill="#fff6e2", outline="#462c18", ow=1.4,
                        width=96, z=30, show=[T(256), T(281)], keys=[{"t": T(256), "alpha": 0.0}, {"t": T(262), "alpha": 1.0}]),
     "rays_burst": dict(kind="rays", x=COIN[0], y=COIN[1], r0=60, r1=260, n=14, w=2, color="#fff4cc", z=41, show=[T(270), T(278)],
                        keys=[{"t": T(270), "alpha": 0.9, "r0": 50}, {"t": T(277), "alpha": 0.0, "r0": 150, "ease": "out"}]),
     "flash1": dict(kind="rect", x=288, y=512, w=640, h=1100, fill="#ffffff", space="screen", z=100, alpha=0.0,
-                   keys=[{"t": T(238), "alpha": 0.0}, {"t": T(240.5), "alpha": 0.8, "ease": "out"}, {"t": T(246), "alpha": 0.0}]),
+                   keys=[{"t": T(238), "alpha": 0.0}, {"t": T(240.5), "alpha": 0.8, "ease": "out"}, {"t": T(246), "alpha": 0.3}, {"t": T(251), "alpha": 0.0}]),
     "flash2": dict(kind="rect", x=288, y=512, w=640, h=1100, fill="#fff4d0", space="screen", z=100, alpha=0.0,
                    keys=[{"t": T(268), "alpha": 0.0}, {"t": T(270), "alpha": 0.7}, {"t": T(274), "alpha": 0.0}]),
     "fade": dict(kind="rect", x=288, y=512, w=640, h=1100, fill="#000000", space="screen", z=110, alpha=0.0,
                  keys=[{"t": T(331), "alpha": 0.0}, {"t": T(339), "alpha": 1.0, "ease": "linear"}]),
 }
-for i, (a, d) in enumerate([(247, 0.7), (250, 0.8), (253, 0.9), (274, 0.6), (277, 0.7), (280, 0.8), (283, 0.9), (296, 1.0), (303, 1.1)]):
+for i, (a, d) in enumerate([(246, 0.7), (248.5, 0.8), (251, 0.9), (253.5, 1.0), (274, 0.6), (277, 0.7), (280, 0.8), (283, 0.9), (296, 1.0), (303, 1.1)]):
     objects[f"ring{i}"] = ring(T(a), d, 20, 120 if a >= 274 and a < 290 else 260)
 for i, (n, s) in enumerate([(282, "SEND"), (286, "SEND THIS TO"), (290, "SEND THIS TO THE ONE")]):
     pass
@@ -128,38 +130,65 @@ objects["wall_wash"] = dict(kind="rect", x=530, y=626, w=140, h=520, fill="#e6b8
                             keys=[{"t": T(241), "alpha": 0.0}, {"t": T(248), "alpha": 0.5}])
 actors = {
     "friend": dict(ground=576, shadow=False, x=102, keys=hip_keys("f") + [
-        {"t": 0, "pose": "stand", "expr": "blank", "prop": "pick_friend", "anim": "chop", "hits": [T(n) for n in FRIEND_HITS]},
+        {"t": 0, "pose": "stand", "expr": None, "prop": "pick_friend", "anim": "chop", "hits": [T(n) for n in FRIEND_HITS]},
         # walks forward to the shaft spot, then digs down
         {"t": T(148), "anim": "dig_down", "hits": [T(n) for n in DIG_HITS], "anim_blend": 0.12},
-        {"t": T(189), "anim": None, "prop": None, "pose": "fall", "expr": "scared", "ease": "step"},
-        {"t": T(190), "x": 236, "ground": 576},
+        {"t": T(189), "anim": None, "prop": None, "pose": "fall", "expr": None, "ease": "step"},
+        {"t": T(190), "x": 232, "ground": 576},
         {"t": T(194), "ground": 866, "ease": "in2"},
-        {"t": T(198), "pose": "stand", "expr": "blank", "prop": "pick_friend", "lean": 20, "head": 14, "grip_rel": [34, -34], "prop_angle": 140, "ease": "out"},
-        {"t": T(204), "x": 238, "ease": "inout"},
+        {"t": T(198), "pose": "stand", "expr": None, "prop": "pick_friend", "lean": 20, "head": 14, "grip_rel": [34, -34], "prop_angle": 140, "ease": "out"},
+        {"t": T(204), "x": 232, "ease": "inout"},
         {"t": T(206), "anim": "chop", "hits": [T(n) + 0.03 for n in TOGETHER], "anim_blend": 0.12},
-        {"t": T(240), "anim": None, "prop": None, "pose": "cheer", "tint": GOLD, "expr": "happy", "yaw": 0},
-        {"t": T(244), "x": 335, "hand_r_at": [330, COIN[1] + 40], "hand_l_at": [350, COIN[1] + 46], "yaw": 90,
+        {"t": T(239), "x": 232},
+        {"t": T(240), "anim": None, "prop": None, "pose": "cheer", "tint": GOLD, "expr": None, "yaw": 0},
+        {"t": T(244), "x": 335, "hand_r_at": [307, COIN[1] + 54], "hand_l_at": [305, COIN[1] + 52], "yaw": 90,
          "leg_r": [4, 0, 11], "leg_l": [-4, 0, 11], "ease": "out"},
     ]),
     "you": dict(ground=866, shadow=False, x=201, keys=hip_keys("y") + [
-        {"t": 0, "pose": "stand", "expr": "blank", "prop": "pick_you", "anim": "chop", "hits": [T(n) for n in YOU_HITS]},
+        {"t": 0, "pose": "stand", "expr": None, "prop": "pick_you", "anim": "chop", "hits": [T(n) for n in YOU_HITS]},
         {"t": T(151), "anim": None, "pose": "tired", "lean": 34, "head": 24, "grip_rel": [34, -32], "prop_angle": 140, "x": 296, "ease": "out"},
         {"t": T(190), "x": 304, "ease": "linear"},
         {"t": T(200), "x": 280, "ease": "inout"},
-        {"t": T(206), "anim": "chop", "hits": [T(n) for n in TOGETHER], "anim_blend": 0.12, "x": 282},
-        {"t": T(240), "anim": None, "prop": None, "pose": "cheer", "tint": GOLD, "expr": "happy", "grip_rel": None, "yaw": 0},
-        {"t": T(244), "x": 267, "hand_r_at": [252, COIN[1] + 46], "hand_l_at": [272, COIN[1] + 40], "yaw": 90,
+        {"t": T(206), "anim": "chop", "hits": [T(n) for n in TOGETHER], "anim_blend": 0.12, "x": 288},
+        {"t": T(239), "x": 288},
+        {"t": T(240), "anim": None, "prop": None, "pose": "cheer", "tint": GOLD, "expr": None, "grip_rel": None, "yaw": 0},
+        {"t": T(244), "x": 267, "hand_r_at": [289, COIN[1] + 52], "hand_l_at": [287, COIN[1] + 54], "yaw": 90,
          "leg_r": [4, 0, 11], "leg_l": [-4, 0, 11], "ease": "out"},
     ]),
 }
 
+TG = [T(n) for n in TOGETHER]
+audio = dict(master=0.85, cues=[
+    dict(sfx="whoosh", times="you.hit", delay=-0.2, gain=0.30, pitch_jitter=0.05, pan=0.2),
+    dict(sfx="whoosh", times="friend.hit", delay=-0.2, gain=0.22, pitch_jitter=0.05, pan=-0.35, pitch=1.15),
+    dict(sfx="thunk", times="you.hit", gain=0.9, pitch_jitter=0.06, pan=0.2),
+    dict(sfx="thunk", times="friend.hit", gain=0.6, pitch_jitter=0.06, pan=-0.35, pitch=1.2),
+    dict(sfx="dirt", times="you.hit", delay=0.05, gain=0.35, pan=0.2),
+    dict(sfx="dirt", times="friend.hit", delay=0.05, gain=0.25, pan=-0.35),
+    dict(sfx="thunk", times=[T(n) for n in DIG_HITS], gain=0.7, pitch=0.8, pan=-0.2),
+    dict(sfx="dirt", times=[T(n) for n in DIG_HITS], delay=0.05, gain=0.4, pan=-0.2),
+    dict(sfx="whoosh", t=T(189), gain=0.5, pitch=0.6),
+    dict(sfx="thump", t=T(194), gain=0.8),
+    dict(sfx="clink", t=T(151), gain=0.5, pitch=0.8),
+    dict(sfx="riser", t=T(228), gain=0.5),
+    dict(sfx="boom", t=T(240), gain=1.0),
+    dict(sfx="ding", t=T(244), gain=0.6),
+    dict(sfx="coins", t=T(246), gain=0.6),
+    dict(sfx="sparkle", t=T(250), gain=0.35),
+    dict(sfx="shimmer", times=[T(247), T(274), T(296)], gain=0.35),
+    dict(sfx="boom", t=T(270), gain=0.5, pitch=1.3),
+    dict(sfx="ding", t=T(270), gain=0.5, pitch=1.25),
+    dict(sfx="tick", times=dict(**{"from": T(281), "to": T(291.5), "every": 0.0175}), gain=0.22, pitch_jitter=0.12),
+    dict(sfx="tick", times=dict(**{"from": T(291.5), "to": T(305), "every": 0.0175}), gain=0.22, pitch_jitter=0.12),
+])
+
 scene = dict(
-    canvas=dict(w=576, h=1024, fps=30, duration=11.3, scale=2, bg="#000000", blur=2),
+    canvas=dict(w=576, h=1024, fps=30, duration=11.3, scale=2, bg="#000000", blur=4),
     plugins=["stickreel.art_dig"],
     loops=loops,
     camera=dict(zoom=1.0, cx=288, cy=512, keys=[{"t": T(241), "zoom": 1.0, "cx": 288, "cy": 512},
                                                 {"t": T(255), "zoom": 1.2, "cx": 366, "cy": 695, "ease": "out"}]),
-    objects=objects, actors=actors)
+    audio=audio, objects=objects, actors=actors)
 
 if __name__ == "__main__":
     out = os.path.join(HERE, "dig_skit.json")

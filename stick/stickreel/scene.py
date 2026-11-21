@@ -12,8 +12,8 @@ from .skeleton import DEFAULTS, LIMBS, pad_limb, solve
 from .faces import FACES
 from .track import Track, SceneError
 
-CANVAS_DEFAULT = dict(w=576, h=1024, fps=30, duration=5.0, scale=2.0, bg="#000000", blur=1)
-COMMON = dict(z=0, show=None, alpha=1.0, space="world", follow=None, offset=[0, 0], blend="normal", grow=None)
+CANVAS_DEFAULT = dict(w=576, h=1024, fps=30, duration=5.0, scale=2.0, bg="#000000", blur=1, out=None, post=None)
+COMMON = dict(z=0, show=None, alpha=1.0, space="world", follow=None, offset=[0, 0], blend="normal", grow=None, blur=None)
 
 # kind -> default props. Anything not listed here is rejected, with a did-you-mean hint.
 KINDS = {
@@ -224,6 +224,28 @@ class Actor:
             out += [h for h in (s.get("hits") or []) if s["t"] <= h < end]
         return sorted(out)
 
+    def step_times(self):
+        """times a foot lands: where a distance-locked loop (walk/run) crosses phase 0 or 0.5 while moving."""
+        out = []
+        dt = 1 / 240
+        for i, seg in enumerate(self.segs):
+            loop = self.scene.loops.get(seg["name"]) if seg["name"] else None
+            if not loop or loop["source"] != "distance":
+                continue
+            end = self.segs[i + 1]["t"] if i + 1 < len(self.segs) else self.scene.duration
+            prev_cell = None
+            t = seg["t"]
+            while t < end:
+                cell = int(self.phase_raw(loop, seg, t) * 2)
+                if prev_cell is not None and cell > prev_cell:
+                    out.append(round(t, 4))
+                prev_cell = cell
+                t += dt
+        return out
+
+    def phase_raw(self, loop, seg, t):
+        return (self.dist(t) - self.dist(seg["t"])) / loop["stride"]
+
     def solve(self, t):
         p = self.params(t)
         pose, anch = solve(p, lambda ref: self.scene.resolve(ref, t, exclude=self.name))
@@ -296,7 +318,7 @@ class Scene:
     def __init__(self, data, base_dir="."):
         data = dict(data)
         self.base_dir = base_dir
-        _check("scene", list(data), {"canvas", "poses", "loops", "camera", "actors", "objects", "plugins", "faces", "note", "meta"})
+        _check("scene", list(data), {"canvas", "poses", "loops", "camera", "actors", "objects", "plugins", "faces", "audio", "note", "meta"})
         self.canvas = dict(CANVAS_DEFAULT)
         _check("canvas", list(data.get("canvas", {})), set(CANVAS_DEFAULT))
         self.canvas.update(data.get("canvas", {}))
@@ -321,6 +343,9 @@ class Scene:
             importlib.import_module(m)
         cam = dict(data.get("camera", {}))
         ckeys = cam.pop("keys", [])
+        self.shakes = cam.pop("shake", [])
+        if isinstance(self.shakes, dict):
+            self.shakes = [self.shakes]
         cdef = dict(zoom=1.0, cx=288.0, cy=512.0, tx=288.0, ty=512.0)
         _check("camera", list(cam) + [p for k in ckeys for p in k if p not in ("t", "ease", "eases")], set(cdef))
         self.camera = Track(cam, ckeys, "camera", cdef)
@@ -332,6 +357,10 @@ class Scene:
         for n, spec in data.get("actors", {}).items():
             self.actors[n] = Actor(n, spec, self)
         self._solving = set()
+        self.audio = data.get("audio")
+        if self.audio:
+            from .audio import validate as _va
+            _va(self.audio, _suggest)
         # objects named by any actor's `prop` are tools: drawn only while held
         self.held_names = {v for a in self.actors.values() for pr in ("prop", "prop_l") for (_, v, _) in a.track.lines.get(pr, []) if v}
         for a in self.actors.values():
@@ -341,7 +370,7 @@ class Scene:
             names = [e[1] for e in a.track.lines.get("expr", [])]
             if a.track.static.get("expr"):
                 names.append(a.track.static["expr"])
-            for n in names:
+            for n in [x for x in names if x is not None]:
                 if n not in self.faces:
                     raise SceneError(f"actor '{a.name}': unknown expr '{n}'.{_suggest(n, self.faces)} Known: {', '.join(self.faces)}")
 
@@ -349,12 +378,22 @@ class Scene:
     def times(self, ref):
         if isinstance(ref, list):
             return [float(x) for x in ref]
+        if isinstance(ref, dict):
+            if not {"from", "to", "every"} <= set(ref):
+                raise SceneError("times range needs {\"from\":s, \"to\":s, \"every\":s}")
+            n = int((ref["to"] - ref["from"]) / ref["every"] + 1e-9) + 1
+            return [ref["from"] + i * ref["every"] for i in range(n)]
+        if isinstance(ref, str) and ref.endswith(".step"):
+            a = self.actors.get(ref[:-5].lstrip("@"))
+            if a is None:
+                raise SceneError(f"times '{ref}': no actor named '{ref[:-5]}'. Actors: {', '.join(self.actors)}")
+            return a.step_times()
         if isinstance(ref, str) and ref.endswith(".hit"):
             a = self.actors.get(ref[:-4].lstrip("@"))
             if a is None:
                 raise SceneError(f"times '{ref}': no actor named '{ref[:-4]}'. Actors: {', '.join(self.actors)}")
             return a.hit_times()
-        raise SceneError(f"times must be a list of seconds or 'actor.hit', got {ref!r}")
+        raise SceneError(f"times must be a list of seconds, 'actor.hit', 'actor.step' or a {{from,to,every}} range, got {ref!r}")
 
     def resolve(self, ref, t, exclude=None):
         name, _, anchor = ref.lstrip("@").partition(".")
@@ -380,7 +419,15 @@ class Scene:
         raise SceneError(f"reference '{ref}': no actor or object '{name}'. Have: {', '.join(list(self.actors) + list(self.objects))}")
 
     def cam_at(self, t):
-        return {p: self.camera.get(p, t, d) for p, d in self.cdef.items()}
+        c = {p: self.camera.get(p, t, d) for p, d in self.cdef.items()}
+        for sh in self.shakes:                      # {"times": "you.hit", "amp": 2.5, "dur": 0.14}
+            for th in self.times(sh["times"]):
+                u = (t - th) / max(sh.get("dur", 0.15), 1e-3)
+                if 0 <= u < 1:
+                    k = sh.get("amp", 2.0) * (1 - u) ** 2 / max(c["zoom"], 1e-3)
+                    c["cx"] += k * math.sin(th * 37.0 + t * 90.0)
+                    c["cy"] += k * math.cos(th * 53.0 + t * 110.0)
+        return c
 
     @staticmethod
     def load(path):

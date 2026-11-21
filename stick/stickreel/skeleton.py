@@ -30,7 +30,7 @@ DEFAULTS = dict(
     hand_r_rel=[30.0, -40.0], hand_l_rel=[30.0, -40.0], foot_r_rel=[10.0, 85.0], foot_l_rel=[-10.0, 85.0],
     hand_r_w=0.0, hand_l_w=0.0, foot_r_w=0.0, foot_l_w=0.0,
     grip_rel=[60.0, -40.0], grip_w=0.0,
-    expr="calm", talk=False, talk_seed=0,
+    expr="calm", talk=False, talk_seed=0, blink=True, depth_shade=True,
     prop=None, prop_angle=0.0, prop_hand="auto", prop_l=None, prop_l_angle=0.0,
     anim=None, anim_speed=1.0, anim_blend=0.15, z=10, shadow=True,
 )

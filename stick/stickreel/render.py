@@ -121,7 +121,7 @@ def draw_kind(img, kind, p, cam, t, scene, override=None):
         if p["rot"]:
             im2 = im2.rotate(-p["rot"], expand=True, resample=Image.BICUBIC)
         cx, cy = cam.p(p["x"], p["y"])
-        img.alpha_composite(im2, (int(cx - im2.width / 2), int(cy - im2.height / 2))) if cx - im2.width / 2 >= 0 and cy - im2.height / 2 >= 0 else img.paste(im2, (int(cx - im2.width / 2), int(cy - im2.height / 2)), im2)
+        img.paste(im2, (int(cx - im2.width / 2), int(cy - im2.height / 2)), im2)
     elif kind == "pick":
         draw_pick(img, (p["x"], p["y"]), p["angle"], p["len"], cam)
     elif kind == "phone":
@@ -203,7 +203,7 @@ def draw_actor(img, actor, cam, t, scene):
     pose["tint"] = _tint(p["tint"])
     from .faces import talk_amount
     talk = talk_amount(t, p["talk_seed"]) if p["talk"] else None
-    draw_figure(img, pose, cam, face=p["expr"], talk_open=talk, faces=scene.faces, item_hooks=hooks)
+    draw_figure(img, pose, cam, face=p["expr"], talk_open=talk, faces=scene.faces, item_hooks=hooks, t=t, blink=p["blink"], depth_shade=p["depth_shade"])
 
 
 def _tint(v):
@@ -215,11 +215,18 @@ def _tint(v):
     return tuple(v)
 
 
-def render_frame(scene, t, S=None):
+def _sharp(o, p):
+    """objects drawn crisp on top of the motion-blurred picture: text and screen-space overlays, unless blur is set."""
+    if p.get("blur") is not None:
+        return not p["blur"]
+    return o.kind == "text" or p["space"] == "screen"
+
+
+def render_frame(scene, t, S=None, layer="all"):
     c = scene.canvas
     E.S = S or c["scale"]
     W, H = int(c["w"] * E.S), int(c["h"] * E.S)
-    img = Image.new("RGBA", (W, H), col(c["bg"]))
+    img = Image.new("RGBA", (W, H), col(c["bg"]) if layer != "sharp" else (0, 0, 0, 0))
     cv = scene.cam_at(t)
     world = Cam(cv["zoom"], cv["cx"], cv["cy"], cv["tx"], cv["ty"])
     screen = Cam(1.0, c["w"] / 2, c["h"] / 2, c["w"] / 2, c["h"] / 2)
@@ -234,9 +241,12 @@ def render_frame(scene, t, S=None):
     items.sort(key=lambda it: (it[0], it[1]))
     for _, _, typ, thing in items:
         if typ == "actor":
-            draw_actor(img, thing, world, t, scene)
+            if layer != "sharp":
+                draw_actor(img, thing, world, t, scene)
             continue
         p = thing.props(t)
+        if layer != "all" and _sharp(thing, p) != (layer == "sharp"):
+            continue
         cam = screen if p["space"] == "screen" else world
         a = p["alpha"] if thing.kind in ("rect", "circle", "ellipse", "line", "poly", "ring", "rays", "star", "sprite", "pick", "art", "burst") else 1.0
         if a <= 0.001 and thing.kind not in ("burst", "pulse"):
@@ -257,10 +267,24 @@ def frame_rgb(scene, n):
         acc = None
         for i in range(blur):
             ti = t0 + ((i + 0.5) / blur - 0.5) / scene.fps
-            arr = np.asarray(render_frame(scene, max(ti, 0.0)).convert("RGB"), dtype=np.float32)
+            arr = np.asarray(render_frame(scene, max(ti, 0.0), layer="blur").convert("RGB"), dtype=np.float32)
             acc = arr if acc is None else acc + arr
-        im = Image.fromarray((acc / blur).astype(np.uint8))
-    return im.convert("RGB").resize((c["w"], c["h"]), Image.LANCZOS)
+        im = Image.fromarray((acc / blur).astype(np.uint8)).convert("RGBA")
+        im.alpha_composite(render_frame(scene, t0, layer="sharp"))
+    ow, oh = c["out"] if c.get("out") else (c["w"], c["h"])
+    im = im.convert("RGB").resize((ow, oh), Image.LANCZOS)
+    post = c.get("post")
+    if post:
+        arr = np.asarray(im, dtype=np.float32)
+        if post.get("vignette"):
+            yy, xx = np.mgrid[0:oh, 0:ow]
+            d = np.sqrt(((xx - ow / 2) / (ow / 2)) ** 2 + ((yy - oh / 2) / (oh / 2)) ** 2) / 1.41
+            arr = arr * (1 - post["vignette"] * np.clip(d, 0, 1) ** 2.2)[..., None]
+        if post.get("grain"):
+            rng = np.random.default_rng(n)
+            arr = arr + rng.normal(0, 255 * post["grain"], arr.shape[:2])[..., None]
+        im = Image.fromarray(np.clip(arr, 0, 255).astype(np.uint8))
+    return im
 
 
 _G = {}
@@ -274,7 +298,7 @@ def _work(n):
     return n, frame_rgb(_G["scene"], n).tobytes()
 
 
-def render_video(path, out, start=None, end=None, workers=2, png_dir=None, crf=18):
+def render_video(path, out, start=None, end=None, workers=2, png_dir=None, crf=18, audio=True):
     scene = Scene.load(path)
     c = scene.canvas
     n0 = int(round((start or 0) * scene.fps))
@@ -282,7 +306,7 @@ def render_video(path, out, start=None, end=None, workers=2, png_dir=None, crf=1
     frames = list(range(n0, n1))
     ff = None
     if out:
-        ff = subprocess.Popen(["ffmpeg", "-y", "-v", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{c['w']}x{c['h']}",
+        ff = subprocess.Popen(["ffmpeg", "-y", "-v", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{(c['out'] or [c['w'], c['h']])[0]}x{(c['out'] or [c['w'], c['h']])[1]}",
                                "-r", str(scene.fps), "-i", "-", "-vf", "scale=out_color_matrix=bt709:out_range=tv,format=yuv420p",
                                "-c:v", "libx264", "-crf", str(crf), "-colorspace", "bt709", "-color_primaries", "bt709",
                                "-color_trc", "bt709", "-movflags", "+faststart", out], stdin=subprocess.PIPE)
@@ -293,9 +317,19 @@ def render_video(path, out, start=None, end=None, workers=2, png_dir=None, crf=1
             if ff:
                 ff.stdin.write(raw)
             if png_dir:
-                Image.frombytes("RGB", (c["w"], c["h"]), raw).save(os.path.join(png_dir, f"f{n:04d}.png"))
+                Image.frombytes("RGB", tuple(c["out"] or (c["w"], c["h"])), raw).save(os.path.join(png_dir, f"f{n:04d}.png"))
             if k % 15 == 0:
                 print(f"frame {n}/{n1}", file=sys.stderr, flush=True)
     if ff:
         ff.stdin.close()
         ff.wait()
+        if audio and scene.audio and out:
+            from . import audio as A
+            import tempfile
+            with tempfile.TemporaryDirectory() as td:
+                wav = os.path.join(td, "mix.wav")
+                A.write_wav(wav, A.mix(scene, n0 / scene.fps, n1 / scene.fps))
+                tmp = os.path.join(td, "muxed.mp4")
+                A.mux(out, wav, tmp)
+                os.replace(tmp, out) if os.path.dirname(tmp) == os.path.dirname(out) else subprocess.run(["cp", tmp, out], check=True)
+            print("audio mixed in", file=sys.stderr)

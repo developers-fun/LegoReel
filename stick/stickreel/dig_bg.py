@@ -55,9 +55,9 @@ def draw_sky(img, cam, sun_pulse=0.0):
     # hills
     pts = [(-400, 262), (0, 262), (40, 250), (90, 246), (150, 258), (220, 268), (300, 262), (380, 252), (450, 258), (520, 246), (576, 252), (1000, 256),
            (1000, 290), (-400, 290)]
-    poly(img, pts, cam, fill=(150, 76, 160, 255))
+    poly(img, pts, cam, fill=(176, 104, 158, 255))
     poly(img, [(-400, 276), (80, 268), (180, 280), (300, 276), (420, 280), (576, 270), (1000, 272), (1000, 290), (-400, 290)], cam,
-         fill=(122, 62, 150, 255))
+         fill=(160, 90, 152, 255))
     # grass line
     poly(img, [(-400, 285), (1000, 285), (1000, 294), (-400, 294)], cam, fill=(98, 184, 62, 255))
     line(img, (-400, 285.5), (1000, 285.5), cam, (58, 110, 40, 255), 1.4, cap=False)
@@ -84,7 +84,7 @@ def draw_tunnel(img, t, cam, orb_y):
     top_y, bot_y = cam.p(0, t["top"])[1], cam.p(0, t["bot"])[1]
     H = img.size[1]
     ts = np.clip((np.arange(H) - top_y) / max(1.0, bot_y - top_y), 0, 1)
-    c0, c1 = np.array([104, 58, 24]), np.array([150, 90, 42])
+    c0, c1 = np.array([118, 68, 28]), np.array([170, 104, 50])
     col = (c0[None, :] * (1 - ts[:, None]) + c1[None, :] * ts[:, None]).astype(np.uint8)
     arr = np.repeat(col[:, None, :], img.size[0], axis=1)
     img.paste(Image.fromarray(arr, "RGB").convert("RGBA"), (0, 0), mask)
@@ -99,7 +99,7 @@ def draw_tunnel(img, t, cam, orb_y):
 def coin_positions(seed=5):
     rnd = random.Random(seed)
     out = []
-    for _ in range(210):
+    for _ in range(150):
         x = rnd.uniform(WALL_X0 + 8, 700)
         y = rnd.uniform(WALL_Y0 + 6, WALL_Y1 - 6)
         # leave the token clear
@@ -109,7 +109,7 @@ def coin_positions(seed=5):
         edge = WALL_X0 + 10 + 8 * math.sin(y * 0.21)
         if x < edge:
             continue
-        out.append((x, y, rnd.choice([7.0, 8.0, 9.0, 10.0])))
+        out.append((x, y, rnd.choice([7.5, 8.5, 9.5, 10.5])))
     return out
 
 
