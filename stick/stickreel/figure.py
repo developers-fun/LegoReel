@@ -153,6 +153,7 @@ def draw_pick(img, grip, ang, plen, cam, hot=0.0):
 def draw_figure(img, pose, cam, tint=None):
     """draw one stick figure (and its pick) onto img."""
     pts = [pose["head"], pose["neck"], pose["hip"]] + list(pose["hands"]) + list(pose["feet"])
+    pts += list(pose.get("elbows") or []) + list(pose.get("knees") or [])
     if pose.get("pick") is not None:
         g = ((pose["hands"][0][0] + pose["hands"][1][0]) / 2, (pose["hands"][0][1] + pose["hands"][1][1]) / 2)
         _, e, _ = pick_geometry(g, pose["pick"], pose.get("pick_len", 58))
@@ -213,7 +214,7 @@ def draw_figure(img, pose, cam, tint=None):
     legs = []
     for i in (1, 0):                       # far leg first
         f = pose["feet"][i]
-        knee = ik2(hip, f, THIGH, SHIN, kb[i])
+        knee = pose["knees"][i] if pose.get("knees") else ik2(hip, f, THIGH, SHIN, kb[i])
         legs.append([hip, knee, f])
     paint(cap(legs[0], LIMB_LEG))
     paint(cap([neck, hip], LIMB_TORSO))
@@ -222,13 +223,16 @@ def draw_figure(img, pose, cam, tint=None):
     arms = []
     for i in (1, 0):
         h = pose["hands"][i]
-        el = ik2(sh_pt, h, UPPER_ARM, FORE_ARM, eb[i])
-        arms.append([sh_pt, el, h])
+        sp = pose.get("shoulder", sh_pt)
+        el = pose["elbows"][i] if pose.get("elbows") else ik2(sp, h, UPPER_ARM, FORE_ARM, eb[i])
+        arms.append([sp, el, h])
     img.alpha_composite(patch, (cx0, cy0)) if False else None
     # arms are drawn after the pick handle so the hands wrap over it; pick drawn between body and arms
     base = img
     base.alpha_composite(patch, (cx0, cy0))
     patch.paste((0, 0, 0, 0), (0, 0, size[0], size[1]))
+    if pose.get("prop_draw"):
+        pose["prop_draw"](base)
     if pose.get("pick") is not None:
         g = ((pose["hands"][0][0] + pose["hands"][1][0]) / 2, (pose["hands"][0][1] + pose["hands"][1][1]) / 2)
         draw_pick(base, g, pose["pick"], pose.get("pick_len", 58), cam)

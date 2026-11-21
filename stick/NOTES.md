@@ -56,3 +56,12 @@ NOT in this repo (someone else's work). Do not post a recreation as is: it copie
 - Keep hands on one grip and make the prop rigid; that alone removes most arm/pick jitter.
 - Render at 10 fps keys and interpolate; add motion blur by averaging sub-frames of the figure layer.
 - Next: key the dig-down (pick pointing down, shaft growing) and the finale the same way, then a second reference.
+
+
+## Update 2026-11-21 (later): general engine
+The dig-skit-specific scripts above were superseded by a general JSON-driven engine, see README.md. Highlights: 3D turnaround
+(`yaw`), doodled faces, items incl. a phone with swappable video, loops with timed `hits`, effects tied to hits, `grow`,
+typewriter text, `sheet` / `compare` commands, unit tests. `scenes/dig_skit.py` rebuilds the whole 11.3 s reference
+(not only the first 5 s) from those features; it still reads `data/fit_all11.json` for the hip x drift of the first 5 s.
+Open gaps vs the reference: font (Poppins stand-in), sky/cloud art, figure limb thickness and pick style, finale light beams,
+coin pile and the reference's audio (not added). The reference watermark is intentionally not reproduced.

@@ -73,8 +73,25 @@ def vgrad(img, y0, y1, stops, cam, x0=0, x1=REF_W):
     img.paste(layer, (px, py))
 
 
+def _translucent(*cols):
+    return any(c is not None and len(c) == 4 and c[3] < 255 for c in cols)
+
+
+def _over(img, draw_fn):
+    """run draw_fn(ImageDraw) on a transparent layer and alpha-composite it, so translucent colours blend
+    (ImageDraw on an RGBA image replaces pixels instead of blending)."""
+    layer = Image.new("RGBA", img.size, (0, 0, 0, 0))
+    draw_fn(ImageDraw.Draw(layer, "RGBA"))
+    img.alpha_composite(layer)
+
+
 def poly(img, pts, cam, fill=None, outline=None, width=1.0, join=True):
-    d = ImageDraw.Draw(img, "RGBA")
+    if _translucent(fill, outline):
+        return _over(img, lambda d: _poly_d(d, pts, cam, fill, outline, width, join))
+    return _poly_d(ImageDraw.Draw(img, "RGBA"), pts, cam, fill, outline, width, join)
+
+
+def _poly_d(d, pts, cam, fill, outline, width, join):
     P = [cam.p(*q) for q in pts]
     if fill is not None:
         d.polygon(P, fill=fill)
@@ -84,19 +101,25 @@ def poly(img, pts, cam, fill=None, outline=None, width=1.0, join=True):
 
 
 def circle(img, c, r, cam, fill=None, outline=None, width=1.0):
-    d = ImageDraw.Draw(img, "RGBA")
+    if _translucent(fill, outline):
+        return _over(img, lambda d: _circle_d(d, c, r, cam, fill, outline, width))
+    return _circle_d(ImageDraw.Draw(img, "RGBA"), c, r, cam, fill, outline, width)
+
+
+def _circle_d(d, c, r, cam, fill, outline, width):
     x, y = cam.p(*c)
     R = cam.k(r)
     d.ellipse([x - R, y - R, x + R, y + R], fill=fill, outline=outline, width=max(1, int(round(cam.k(width)))) if outline else 0)
 
 
 def ellipse(img, c, rx, ry, cam, fill=None, outline=None, width=1.0, rot=0.0):
+    if _translucent(fill, outline) and abs(rot) < 1e-6:
+        return _over(img, lambda d: _ellipse_d(d, c, rx, ry, cam, fill, outline, width))
     if abs(rot) < 1e-6:
-        d = ImageDraw.Draw(img, "RGBA")
-        x, y = cam.p(*c)
-        a, b = cam.k(rx), cam.k(ry)
-        d.ellipse([x - a, y - b, x + a, y + b], fill=fill, outline=outline,
-                  width=max(1, int(round(cam.k(width)))) if outline else 0)
+        return _ellipse_d(ImageDraw.Draw(img, "RGBA"), c, rx, ry, cam, fill, outline, width)
+    if False:
+        d = None
+        pass
     else:
         pts = []
         for i in range(24):
@@ -106,8 +129,20 @@ def ellipse(img, c, rx, ry, cam, fill=None, outline=None, width=1.0, rot=0.0):
         poly(img, pts, cam, fill, outline, width)
 
 
+def _ellipse_d(d, c, rx, ry, cam, fill, outline, width):
+    x, y = cam.p(*c)
+    a, b = cam.k(rx), cam.k(ry)
+    d.ellipse([x - a, y - b, x + a, y + b], fill=fill, outline=outline,
+              width=max(1, int(round(cam.k(width)))) if outline else 0)
+
+
 def line(img, a, b, cam, color, width, cap=True):
-    d = ImageDraw.Draw(img, "RGBA")
+    if _translucent(color):
+        return _over(img, lambda d: _line_d(d, a, b, cam, color, width, cap))
+    return _line_d(ImageDraw.Draw(img, "RGBA"), a, b, cam, color, width, cap)
+
+
+def _line_d(d, a, b, cam, color, width, cap):
     pa, pb = cam.p(*a), cam.p(*b)
     w = max(1, int(round(cam.k(width))))
     d.line([pa, pb], fill=color, width=w)
@@ -151,7 +186,8 @@ def tint(img, color, alpha):
     img.alpha_composite(ov)
 
 
-FONT_BOLD = "/usr/share/fonts/truetype/google-fonts/ofl/montserrat/Montserrat[wght].ttf"
+import os as _os
+FONT_BOLD = _os.path.join(_os.path.dirname(__file__), "..", "..", "fonts", "Poppins-Bold.ttf")
 
 
 def font(size, weight=800):
@@ -164,7 +200,7 @@ def font(size, weight=800):
 
 
 def text(img, s, c, size, cam, fill=(255, 255, 255, 255), outline=(40, 25, 10, 255), ow=2.0, track=0.0,
-         weight=800, grad=None, shadow=None, width=None, alpha=1.0):
+         weight=800, grad=None, shadow=None, width=None, alpha=1.0, align="center"):
     """centered text at ref point c with letter spacing `track` (ref px). grad = (top_hex, bottom_hex).
     width = target total width in ref px (solves the letter spacing). alpha fades the whole text."""
     f = font(cam.k(size), weight)
@@ -175,7 +211,8 @@ def text(img, s, c, size, cam, fill=(255, 255, 255, 255), outline=(40, 25, 10, 2
     tr = cam.k(track)
     total = sum(widths) + tr * (len(s) - 1)
     x, y = cam.p(*c)
-    x -= total / 2
+    if align != "left":
+        x -= total / 2
     layer = Image.new("RGBA", img.size, (0, 0, 0, 0))
     ld = ImageDraw.Draw(layer)
     mask = Image.new("L", img.size, 0)

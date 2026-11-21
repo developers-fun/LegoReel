@@ -7,3 +7,6 @@ ldraw/*
 !ldraw/CAlicense.txt
 !ldraw/CAlicense4.txt
 !ldraw/LDConfig.ldr
+__pycache__/
+*.pyc
+stick/out/render.log

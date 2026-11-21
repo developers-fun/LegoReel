@@ -1,0 +1,1650 @@
+{
+ "canvas": {
+  "w": 576,
+  "h": 1024,
+  "fps": 30,
+  "duration": 11.3,
+  "scale": 2,
+  "bg": "#000000",
+  "blur": 2
+ },
+ "plugins": [
+  "stickreel.art_dig"
+ ],
+ "loops": {
+  "dig_down": {
+   "mode": "replace",
+   "source": "hits",
+   "period": 0.4,
+   "hit_phase": 0.7,
+   "keys": [
+    {
+     "t": 0.0,
+     "grip_rel": [
+      -6,
+      -104
+     ],
+     "prop_angle": -128,
+     "lean": 3,
+     "head": -2,
+     "foot_r_rel": [
+      10,
+      84
+     ],
+     "foot_l_rel": [
+      -12,
+      84
+     ],
+     "grip_w": 1,
+     "foot_r_w": 1,
+     "foot_l_w": 1
+    },
+    {
+     "t": 0.3,
+     "grip_rel": [
+      2,
+      -112
+     ],
+     "prop_angle": -100,
+     "lean": 2,
+     "head": 0,
+     "foot_r_rel": [
+      10,
+      84
+     ],
+     "foot_l_rel": [
+      -12,
+      84
+     ],
+     "grip_w": 1,
+     "foot_r_w": 1,
+     "foot_l_w": 1
+    },
+    {
+     "t": 0.55,
+     "grip_rel": [
+      28,
+      -66
+     ],
+     "prop_angle": -10,
+     "lean": 22,
+     "head": -8,
+     "foot_r_rel": [
+      14,
+      83
+     ],
+     "foot_l_rel": [
+      -14,
+      83
+     ],
+     "grip_w": 1,
+     "foot_r_w": 1,
+     "foot_l_w": 1
+    },
+    {
+     "t": 0.7,
+     "grip_rel": [
+      40,
+      -24
+     ],
+     "prop_angle": 104,
+     "lean": 40,
+     "head": -12,
+     "foot_r_rel": [
+      16,
+      80
+     ],
+     "foot_l_rel": [
+      -16,
+      80
+     ],
+     "grip_w": 1,
+     "foot_r_w": 1,
+     "foot_l_w": 1
+    },
+    {
+     "t": 0.82,
+     "grip_rel": [
+      38,
+      -28
+     ],
+     "prop_angle": 100,
+     "lean": 38,
+     "head": -12,
+     "foot_r_rel": [
+      16,
+      80
+     ],
+     "foot_l_rel": [
+      -16,
+      80
+     ],
+     "grip_w": 1,
+     "foot_r_w": 1,
+     "foot_l_w": 1
+    },
+    {
+     "t": 0.93,
+     "grip_rel": [
+      20,
+      -80
+     ],
+     "prop_angle": -70,
+     "lean": 14,
+     "head": -4,
+     "foot_r_rel": [
+      12,
+      83
+     ],
+     "foot_l_rel": [
+      -12,
+      83
+     ],
+     "grip_w": 1,
+     "foot_r_w": 1,
+     "foot_l_w": 1
+    }
+   ]
+  }
+ },
+ "camera": {
+  "zoom": 1.0,
+  "cx": 288,
+  "cy": 512,
+  "keys": [
+   {
+    "t": 8.0,
+    "zoom": 1.0,
+    "cx": 288,
+    "cy": 512
+   },
+   {
+    "t": 8.4667,
+    "zoom": 1.2,
+    "cx": 366,
+    "cy": 695,
+    "ease": "out"
+   }
+  ]
+ },
+ "objects": {
+  "sky": {
+   "kind": "art",
+   "name": "dig_sky",
+   "z": -100
+  },
+  "dirt": {
+   "kind": "art",
+   "name": "dig_dirt",
+   "z": -99
+  },
+  "tunnel_up": {
+   "kind": "art",
+   "name": "dig_tunnel",
+   "top": 390,
+   "bot": 572,
+   "right": 255,
+   "orb_y": 428,
+   "z": -90,
+   "grow": {
+    "prop": "right",
+    "times": [
+     0.4,
+     1.0,
+     1.6,
+     2.2,
+     2.8,
+     3.4,
+     4.0,
+     4.6
+    ],
+    "by": 3.75,
+    "dur": 0.12
+   }
+  },
+  "tunnel_lo": {
+   "kind": "art",
+   "name": "dig_tunnel",
+   "top": 678,
+   "bot": 862,
+   "right": 346,
+   "orb_y": 715,
+   "z": -89,
+   "grow": {
+    "prop": "right",
+    "times": [
+     0.2667,
+     0.9667,
+     1.7667,
+     2.7667,
+     3.5,
+     4.2,
+     4.9
+    ],
+    "by": 12.5,
+    "dur": 0.12
+   }
+  },
+  "shaft": {
+   "kind": "art",
+   "name": "dig_shaft",
+   "x0": 190,
+   "x1": 262,
+   "top": 572,
+   "depth": 0,
+   "z": -88,
+   "grow": {
+    "prop": "depth",
+    "times": [
+     5.1,
+     5.5,
+     5.9,
+     6.2667
+    ],
+    "by": 26.5,
+    "dur": 0.15
+   }
+  },
+  "wall": {
+   "kind": "art",
+   "name": "dig_wall",
+   "z": -80
+  },
+  "sign": {
+   "kind": "art",
+   "name": "dig_sign",
+   "z": -79,
+   "show": [
+    0,
+    8.0667
+   ]
+  },
+  "token_wall": {
+   "kind": "art",
+   "name": "dig_token",
+   "x": 510,
+   "y": 757,
+   "r": 33,
+   "z": -78,
+   "show": [
+    0,
+    4.9667
+   ]
+  },
+  "strike_glow": {
+   "kind": "glow",
+   "x": 441,
+   "y": 757,
+   "r": 70,
+   "color": "#ffd278",
+   "strength": 0.9,
+   "z": -70,
+   "show": [
+    4.9667,
+    8.0
+   ],
+   "keys": [
+    {
+     "t": 4.9667,
+     "strength": 0.0
+    },
+    {
+     "t": 5.1,
+     "strength": 0.95
+    }
+   ]
+  },
+  "flash_you": {
+   "kind": "pulse",
+   "times": [
+    0.2667,
+    0.9667,
+    1.7667,
+    2.7667,
+    3.5,
+    4.2,
+    4.9,
+    6.8667,
+    7.3667,
+    7.8667
+   ],
+   "at": "you.tip",
+   "r": [
+    58,
+    20
+   ],
+   "strength": [
+    0.85,
+    0.95
+   ],
+   "dur": 0.2,
+   "z": 35
+  },
+  "flash_friend": {
+   "kind": "pulse",
+   "times": [
+    0.4,
+    1.0,
+    1.6,
+    2.2,
+    2.8,
+    3.4,
+    4.0,
+    4.6
+   ],
+   "at": "friend.tip",
+   "r": [
+    34,
+    12
+   ],
+   "strength": [
+    0.6,
+    0.8
+   ],
+   "dur": 0.15,
+   "z": 35
+  },
+  "dust_you": {
+   "kind": "burst",
+   "times": [
+    0.2667,
+    0.9667,
+    1.7667,
+    2.7667,
+    3.5,
+    4.2,
+    4.9
+   ],
+   "at": "you.tip",
+   "n": 6,
+   "speed": [
+    20,
+    90
+   ],
+   "angle": [
+    -200,
+    20
+   ],
+   "gravity": 380,
+   "life": 0.45,
+   "size": [
+    1.2,
+    2.6
+   ],
+   "color": "#6a4220",
+   "seed": 2,
+   "z": 34
+  },
+  "dust_dig": {
+   "kind": "burst",
+   "times": [
+    5.1,
+    5.5,
+    5.9,
+    6.2667
+   ],
+   "at": "friend.tip",
+   "n": 8,
+   "speed": [
+    30,
+    110
+   ],
+   "angle": [
+    -160,
+    -20
+   ],
+   "gravity": 420,
+   "life": 0.5,
+   "size": [
+    1.5,
+    3
+   ],
+   "color": "#6a4220",
+   "seed": 5,
+   "z": 34
+  },
+  "pick_you": {
+   "kind": "pick",
+   "len": 64
+  },
+  "pick_friend": {
+   "kind": "pick",
+   "len": 64
+  },
+  "hook1": {
+   "kind": "text",
+   "text": "THIS TIME IT ENDS",
+   "x": 288,
+   "y": 101,
+   "size": 24,
+   "fill": "#fffaee",
+   "outline": "#4c3228",
+   "ow": 2.2,
+   "width": 300,
+   "z": -60
+  },
+  "hook2": {
+   "kind": "text",
+   "text": "DIFFERENTLY.",
+   "x": 289,
+   "y": 151,
+   "size": 40,
+   "fill": "#ffffff",
+   "outline": "#4e3426",
+   "ow": 3.0,
+   "width": 352,
+   "grad": [
+    "#fff6d8",
+    "#e8c98a"
+   ],
+   "weight": 900,
+   "z": -60
+  },
+  "lbl_friend": {
+   "kind": "text",
+   "text": "FRIEND",
+   "follow": "friend.head",
+   "offset": [
+    1,
+    -34
+   ],
+   "size": 14,
+   "fill": "#fff6e2",
+   "outline": "#462c18",
+   "ow": 1.6,
+   "weight": 800,
+   "z": 30,
+   "width": 84,
+   "show": [
+    0,
+    6.5333
+   ]
+  },
+  "lbl_you": {
+   "kind": "text",
+   "text": "YOU",
+   "follow": "you.head",
+   "offset": [
+    1,
+    -34
+   ],
+   "size": 14,
+   "fill": "#fff6e2",
+   "outline": "#462c18",
+   "ow": 1.6,
+   "weight": 800,
+   "z": 30,
+   "width": 44,
+   "show": [
+    0,
+    8.0333
+   ]
+  },
+  "one_more": {
+   "kind": "text",
+   "text": "ONE MORE GAME.",
+   "x": 270,
+   "y": 639,
+   "size": 22,
+   "fill": "#fff6e2",
+   "outline": "#3c2614",
+   "ow": 1.8,
+   "width": 246,
+   "show": [
+    6.8667,
+    8.0333
+   ],
+   "z": 30
+  },
+  "lbl_friend2": {
+   "kind": "text",
+   "text": "FRIEND",
+   "follow": "friend.head",
+   "offset": [
+    2,
+    -36
+   ],
+   "size": 14,
+   "fill": "#fff6e2",
+   "outline": "#462c18",
+   "ow": 1.6,
+   "weight": 800,
+   "z": 30,
+   "width": 84,
+   "show": [
+    6.5333,
+    7.9667
+   ]
+  },
+  "lbl_friend3": {
+   "kind": "text",
+   "text": "FRIEND",
+   "follow": "friend.head",
+   "offset": [
+    0,
+    -32
+   ],
+   "size": 14,
+   "fill": "#fff6e2",
+   "outline": "#462c18",
+   "ow": 1.6,
+   "weight": 800,
+   "z": 30,
+   "width": 84,
+   "show": [
+    8.0333,
+    8.9667
+   ]
+  },
+  "lbl_you2": {
+   "kind": "text",
+   "text": "YOU",
+   "follow": "you.head",
+   "offset": [
+    0,
+    -32
+   ],
+   "size": 14,
+   "fill": "#fff6e2",
+   "outline": "#462c18",
+   "ow": 1.6,
+   "weight": 800,
+   "z": 30,
+   "width": 44,
+   "show": [
+    8.0333,
+    8.9667
+   ]
+  },
+  "lbl_you3": {
+   "kind": "text",
+   "text": "YOU",
+   "follow": "you.head",
+   "offset": [
+    0,
+    -32
+   ],
+   "size": 14,
+   "fill": "#fff6e2",
+   "outline": "#462c18",
+   "ow": 1.6,
+   "weight": 800,
+   "z": 30,
+   "width": 44,
+   "show": [
+    8.9667,
+    99
+   ]
+  },
+  "lbl_bro": {
+   "kind": "text",
+   "text": "BROTHER",
+   "follow": "friend.head",
+   "offset": [
+    0,
+    -32
+   ],
+   "size": 14,
+   "fill": "#fff6e2",
+   "outline": "#462c18",
+   "ow": 1.6,
+   "weight": 800,
+   "z": 30,
+   "width": 70,
+   "show": [
+    8.9667,
+    99
+   ]
+  },
+  "beams": {
+   "kind": "rays",
+   "x": 330,
+   "y": 700,
+   "r0": 50,
+   "r1": 420,
+   "n": 26,
+   "w": 9,
+   "color": "#8a561e30",
+   "z": -50,
+   "show": [
+    8.2333,
+    99
+   ]
+  },
+  "pick_l": {
+   "kind": "pick",
+   "x": 262,
+   "y": 866,
+   "angle": 172,
+   "len": 84,
+   "z": 2,
+   "show": [
+    8.0333,
+    99
+   ]
+  },
+  "pick_r": {
+   "kind": "pick",
+   "x": 340,
+   "y": 866,
+   "angle": 8,
+   "len": 84,
+   "z": 2,
+   "show": [
+    8.0333,
+    99
+   ]
+  },
+  "coin": {
+   "kind": "art",
+   "name": "dig_token",
+   "x": 297,
+   "y": 618,
+   "r": 43,
+   "z": 20,
+   "show": [
+    8.1,
+    99
+   ],
+   "keys": [
+    {
+     "t": 8.1,
+     "r": 8,
+     "ease": "back"
+    },
+    {
+     "t": 8.3333,
+     "r": 43
+    }
+   ]
+  },
+  "pile": {
+   "kind": "art",
+   "name": "dig_pile",
+   "x": 305,
+   "y": 864,
+   "z": 3,
+   "show": [
+    8.3667,
+    99
+   ]
+  },
+  "pour": {
+   "kind": "burst",
+   "times": [
+    8.1667,
+    8.1867,
+    8.2067,
+    8.226700000000001,
+    8.2467,
+    8.2667,
+    8.2867,
+    8.306700000000001,
+    8.3267,
+    8.3467,
+    8.3667,
+    8.386700000000001,
+    8.4067,
+    8.4267
+   ],
+   "at": [
+    318,
+    700
+   ],
+   "n": 3,
+   "speed": [
+    20,
+    90
+   ],
+   "angle": [
+    -120,
+    -60
+   ],
+   "gravity": 520,
+   "life": 0.5,
+   "size": [
+    3.5,
+    5.5
+   ],
+   "color": "#f6c428",
+   "seed": 3,
+   "z": 25
+  },
+  "pirate_lbl": {
+   "kind": "text",
+   "text": "PIRATE TOKEN",
+   "x": 297,
+   "y": 566,
+   "size": 12,
+   "fill": "#fff6e2",
+   "outline": "#462c18",
+   "ow": 1.4,
+   "width": 96,
+   "z": 30,
+   "show": [
+    8.5,
+    9.3333
+   ],
+   "keys": [
+    {
+     "t": 8.5,
+     "alpha": 0.0
+    },
+    {
+     "t": 8.7,
+     "alpha": 1.0
+    }
+   ]
+  },
+  "rays_burst": {
+   "kind": "rays",
+   "x": 297,
+   "y": 618,
+   "r0": 60,
+   "r1": 260,
+   "n": 14,
+   "w": 2,
+   "color": "#fff4cc",
+   "z": 41,
+   "show": [
+    8.9667,
+    9.2333
+   ],
+   "keys": [
+    {
+     "t": 8.9667,
+     "alpha": 0.9,
+     "r0": 50
+    },
+    {
+     "t": 9.2,
+     "alpha": 0.0,
+     "r0": 150,
+     "ease": "out"
+    }
+   ]
+  },
+  "flash1": {
+   "kind": "rect",
+   "x": 288,
+   "y": 512,
+   "w": 640,
+   "h": 1100,
+   "fill": "#ffffff",
+   "space": "screen",
+   "z": 100,
+   "alpha": 0.0,
+   "keys": [
+    {
+     "t": 7.9,
+     "alpha": 0.0
+    },
+    {
+     "t": 7.9833,
+     "alpha": 0.8,
+     "ease": "out"
+    },
+    {
+     "t": 8.1667,
+     "alpha": 0.0
+    }
+   ]
+  },
+  "flash2": {
+   "kind": "rect",
+   "x": 288,
+   "y": 512,
+   "w": 640,
+   "h": 1100,
+   "fill": "#fff4d0",
+   "space": "screen",
+   "z": 100,
+   "alpha": 0.0,
+   "keys": [
+    {
+     "t": 8.9,
+     "alpha": 0.0
+    },
+    {
+     "t": 8.9667,
+     "alpha": 0.7
+    },
+    {
+     "t": 9.1,
+     "alpha": 0.0
+    }
+   ]
+  },
+  "fade": {
+   "kind": "rect",
+   "x": 288,
+   "y": 512,
+   "w": 640,
+   "h": 1100,
+   "fill": "#000000",
+   "space": "screen",
+   "z": 110,
+   "alpha": 0.0,
+   "keys": [
+    {
+     "t": 11.0,
+     "alpha": 0.0
+    },
+    {
+     "t": 11.2667,
+     "alpha": 1.0,
+     "ease": "linear"
+    }
+   ]
+  },
+  "ring0": {
+   "kind": "ring",
+   "x": 297,
+   "y": 618,
+   "r": 20,
+   "w": 3,
+   "color": "#fff0b8",
+   "alpha": 0,
+   "z": 40,
+   "show": [
+    8.2,
+    8.95
+   ],
+   "keys": [
+    {
+     "t": 8.2,
+     "r": 20,
+     "alpha": 0.95,
+     "ease": "out"
+    },
+    {
+     "t": 8.899999999999999,
+     "r": 260,
+     "alpha": 0.0,
+     "ease": "out"
+    }
+   ]
+  },
+  "ring1": {
+   "kind": "ring",
+   "x": 297,
+   "y": 618,
+   "r": 20,
+   "w": 3,
+   "color": "#fff0b8",
+   "alpha": 0,
+   "z": 40,
+   "show": [
+    8.3,
+    9.150000000000002
+   ],
+   "keys": [
+    {
+     "t": 8.3,
+     "r": 20,
+     "alpha": 0.95,
+     "ease": "out"
+    },
+    {
+     "t": 9.100000000000001,
+     "r": 260,
+     "alpha": 0.0,
+     "ease": "out"
+    }
+   ]
+  },
+  "ring2": {
+   "kind": "ring",
+   "x": 297,
+   "y": 618,
+   "r": 20,
+   "w": 3,
+   "color": "#fff0b8",
+   "alpha": 0,
+   "z": 40,
+   "show": [
+    8.4,
+    9.350000000000001
+   ],
+   "keys": [
+    {
+     "t": 8.4,
+     "r": 20,
+     "alpha": 0.95,
+     "ease": "out"
+    },
+    {
+     "t": 9.3,
+     "r": 260,
+     "alpha": 0.0,
+     "ease": "out"
+    }
+   ]
+  },
+  "ring3": {
+   "kind": "ring",
+   "x": 297,
+   "y": 618,
+   "r": 20,
+   "w": 3,
+   "color": "#fff0b8",
+   "alpha": 0,
+   "z": 40,
+   "show": [
+    9.1,
+    9.75
+   ],
+   "keys": [
+    {
+     "t": 9.1,
+     "r": 20,
+     "alpha": 0.95,
+     "ease": "out"
+    },
+    {
+     "t": 9.7,
+     "r": 120,
+     "alpha": 0.0,
+     "ease": "out"
+    }
+   ]
+  },
+  "ring4": {
+   "kind": "ring",
+   "x": 297,
+   "y": 618,
+   "r": 20,
+   "w": 3,
+   "color": "#fff0b8",
+   "alpha": 0,
+   "z": 40,
+   "show": [
+    9.2,
+    9.95
+   ],
+   "keys": [
+    {
+     "t": 9.2,
+     "r": 20,
+     "alpha": 0.95,
+     "ease": "out"
+    },
+    {
+     "t": 9.899999999999999,
+     "r": 120,
+     "alpha": 0.0,
+     "ease": "out"
+    }
+   ]
+  },
+  "ring5": {
+   "kind": "ring",
+   "x": 297,
+   "y": 618,
+   "r": 20,
+   "w": 3,
+   "color": "#fff0b8",
+   "alpha": 0,
+   "z": 40,
+   "show": [
+    9.3,
+    10.150000000000002
+   ],
+   "keys": [
+    {
+     "t": 9.3,
+     "r": 20,
+     "alpha": 0.95,
+     "ease": "out"
+    },
+    {
+     "t": 10.100000000000001,
+     "r": 120,
+     "alpha": 0.0,
+     "ease": "out"
+    }
+   ]
+  },
+  "ring6": {
+   "kind": "ring",
+   "x": 297,
+   "y": 618,
+   "r": 20,
+   "w": 3,
+   "color": "#fff0b8",
+   "alpha": 0,
+   "z": 40,
+   "show": [
+    9.4,
+    10.350000000000001
+   ],
+   "keys": [
+    {
+     "t": 9.4,
+     "r": 20,
+     "alpha": 0.95,
+     "ease": "out"
+    },
+    {
+     "t": 10.3,
+     "r": 120,
+     "alpha": 0.0,
+     "ease": "out"
+    }
+   ]
+  },
+  "ring7": {
+   "kind": "ring",
+   "x": 297,
+   "y": 618,
+   "r": 20,
+   "w": 3,
+   "color": "#fff0b8",
+   "alpha": 0,
+   "z": 40,
+   "show": [
+    9.8333,
+    10.8833
+   ],
+   "keys": [
+    {
+     "t": 9.8333,
+     "r": 20,
+     "alpha": 0.95,
+     "ease": "out"
+    },
+    {
+     "t": 10.8333,
+     "r": 260,
+     "alpha": 0.0,
+     "ease": "out"
+    }
+   ]
+  },
+  "ring8": {
+   "kind": "ring",
+   "x": 297,
+   "y": 618,
+   "r": 20,
+   "w": 3,
+   "color": "#fff0b8",
+   "alpha": 0,
+   "z": 40,
+   "show": [
+    10.0667,
+    11.216700000000001
+   ],
+   "keys": [
+    {
+     "t": 10.0667,
+     "r": 20,
+     "alpha": 0.95,
+     "ease": "out"
+    },
+    {
+     "t": 11.1667,
+     "r": 260,
+     "alpha": 0.0,
+     "ease": "out"
+    }
+   ]
+  },
+  "end1": {
+   "kind": "text",
+   "text": "SEND THIS TO THE ONE",
+   "x": 103,
+   "y": 132,
+   "size": 19,
+   "fill": "#fff2d0",
+   "outline": "#5a3a1a",
+   "ow": 2,
+   "align": "left",
+   "track": 4.2,
+   "weight": 800,
+   "space": "screen",
+   "z": 60,
+   "show": [
+    9.3333,
+    99
+   ],
+   "keys": [
+    {
+     "t": 9.3333,
+     "reveal": 0
+    },
+    {
+     "t": 9.6833,
+     "reveal": 20,
+     "ease": "linear"
+    }
+   ]
+  },
+  "end2": {
+   "kind": "text",
+   "text": "WHO WON'T LET YOU QUIT.",
+   "x": 75,
+   "y": 164,
+   "size": 19,
+   "fill": "#fff2d0",
+   "outline": "#5a3a1a",
+   "ow": 2,
+   "align": "left",
+   "track": 4.2,
+   "weight": 800,
+   "space": "screen",
+   "z": 60,
+   "show": [
+    9.6833,
+    99
+   ],
+   "keys": [
+    {
+     "t": 9.6833,
+     "reveal": 0
+    },
+    {
+     "t": 10.1333,
+     "reveal": 23,
+     "ease": "linear"
+    }
+   ]
+  },
+  "wall_wash": {
+   "kind": "rect",
+   "x": 530,
+   "y": 626,
+   "w": 140,
+   "h": 520,
+   "fill": "#e6b865",
+   "alpha": 0.0,
+   "z": -77,
+   "keys": [
+    {
+     "t": 8.0,
+     "alpha": 0.0
+    },
+    {
+     "t": 8.2333,
+     "alpha": 0.5
+    }
+   ]
+  }
+ },
+ "actors": {
+  "friend": {
+   "ground": 576,
+   "shadow": false,
+   "x": 102,
+   "keys": [
+    {
+     "t": 0.0,
+     "x": 101.2,
+     "ease": "linear"
+    },
+    {
+     "t": 0.2,
+     "x": 97.9,
+     "ease": "linear"
+    },
+    {
+     "t": 0.4,
+     "x": 92.8,
+     "ease": "linear"
+    },
+    {
+     "t": 0.6,
+     "x": 88.1,
+     "ease": "linear"
+    },
+    {
+     "t": 0.8,
+     "x": 87.0,
+     "ease": "linear"
+    },
+    {
+     "t": 1.0,
+     "x": 87.9,
+     "ease": "linear"
+    },
+    {
+     "t": 1.2,
+     "x": 89.5,
+     "ease": "linear"
+    },
+    {
+     "t": 1.4,
+     "x": 93.0,
+     "ease": "linear"
+    },
+    {
+     "t": 1.6,
+     "x": 93.7,
+     "ease": "linear"
+    },
+    {
+     "t": 1.8,
+     "x": 93.5,
+     "ease": "linear"
+    },
+    {
+     "t": 2.0,
+     "x": 97.4,
+     "ease": "linear"
+    },
+    {
+     "t": 2.2,
+     "x": 102.6,
+     "ease": "linear"
+    },
+    {
+     "t": 2.4,
+     "x": 107.2,
+     "ease": "linear"
+    },
+    {
+     "t": 2.6,
+     "x": 113.7,
+     "ease": "linear"
+    },
+    {
+     "t": 2.8,
+     "x": 120.6,
+     "ease": "linear"
+    },
+    {
+     "t": 3.0,
+     "x": 125.1,
+     "ease": "linear"
+    },
+    {
+     "t": 3.2,
+     "x": 127.8,
+     "ease": "linear"
+    },
+    {
+     "t": 3.4,
+     "x": 127.1,
+     "ease": "linear"
+    },
+    {
+     "t": 3.6,
+     "x": 126.1,
+     "ease": "linear"
+    },
+    {
+     "t": 3.8,
+     "x": 128.8,
+     "ease": "linear"
+    },
+    {
+     "t": 4.0,
+     "x": 131.1,
+     "ease": "linear"
+    },
+    {
+     "t": 4.2,
+     "x": 132.0,
+     "ease": "linear"
+    },
+    {
+     "t": 4.4,
+     "x": 133.0,
+     "ease": "linear"
+    },
+    {
+     "t": 4.6,
+     "x": 137.2,
+     "ease": "linear"
+    },
+    {
+     "t": 4.8,
+     "x": 150.4,
+     "ease": "linear"
+    },
+    {
+     "t": 5.0,
+     "x": 164.6,
+     "ease": "linear"
+    },
+    {
+     "t": 0,
+     "pose": "stand",
+     "expr": "blank",
+     "prop": "pick_friend",
+     "anim": "chop",
+     "hits": [
+      0.4,
+      1.0,
+      1.6,
+      2.2,
+      2.8,
+      3.4,
+      4.0,
+      4.6
+     ]
+    },
+    {
+     "t": 4.9,
+     "anim": "dig_down",
+     "hits": [
+      5.1,
+      5.5,
+      5.9,
+      6.2667
+     ],
+     "anim_blend": 0.12
+    },
+    {
+     "t": 6.2667,
+     "anim": null,
+     "prop": null,
+     "pose": "fall",
+     "expr": "scared",
+     "ease": "step"
+    },
+    {
+     "t": 6.3,
+     "x": 236,
+     "ground": 576
+    },
+    {
+     "t": 6.4333,
+     "ground": 866,
+     "ease": "in2"
+    },
+    {
+     "t": 6.5667,
+     "pose": "stand",
+     "expr": "blank",
+     "prop": "pick_friend",
+     "lean": 20,
+     "head": 14,
+     "grip_rel": [
+      34,
+      -34
+     ],
+     "prop_angle": 140,
+     "ease": "out"
+    },
+    {
+     "t": 6.7667,
+     "x": 238,
+     "ease": "inout"
+    },
+    {
+     "t": 6.8333,
+     "anim": "chop",
+     "hits": [
+      6.8967,
+      7.3967,
+      7.8967
+     ],
+     "anim_blend": 0.12
+    },
+    {
+     "t": 7.9667,
+     "anim": null,
+     "prop": null,
+     "pose": "cheer",
+     "tint": [
+      0.95,
+      0.83,
+      0.62
+     ],
+     "expr": "happy",
+     "yaw": 0
+    },
+    {
+     "t": 8.1,
+     "x": 335,
+     "hand_r_at": [
+      330,
+      658
+     ],
+     "hand_l_at": [
+      350,
+      664
+     ],
+     "yaw": 90,
+     "leg_r": [
+      4,
+      0,
+      11
+     ],
+     "leg_l": [
+      -4,
+      0,
+      11
+     ],
+     "ease": "out"
+    }
+   ]
+  },
+  "you": {
+   "ground": 866,
+   "shadow": false,
+   "x": 201,
+   "keys": [
+    {
+     "t": 0.0,
+     "x": 200.2,
+     "ease": "linear"
+    },
+    {
+     "t": 0.2,
+     "x": 201.9,
+     "ease": "linear"
+    },
+    {
+     "t": 0.4,
+     "x": 208.6,
+     "ease": "linear"
+    },
+    {
+     "t": 0.6,
+     "x": 212.3,
+     "ease": "linear"
+    },
+    {
+     "t": 0.8,
+     "x": 215.3,
+     "ease": "linear"
+    },
+    {
+     "t": 1.0,
+     "x": 226.8,
+     "ease": "linear"
+    },
+    {
+     "t": 1.2,
+     "x": 236.7,
+     "ease": "linear"
+    },
+    {
+     "t": 1.4,
+     "x": 235.4,
+     "ease": "linear"
+    },
+    {
+     "t": 1.6,
+     "x": 232.5,
+     "ease": "linear"
+    },
+    {
+     "t": 1.8,
+     "x": 240.6,
+     "ease": "linear"
+    },
+    {
+     "t": 2.0,
+     "x": 251.0,
+     "ease": "linear"
+    },
+    {
+     "t": 2.2,
+     "x": 252.0,
+     "ease": "linear"
+    },
+    {
+     "t": 2.4,
+     "x": 251.0,
+     "ease": "linear"
+    },
+    {
+     "t": 2.6,
+     "x": 250.6,
+     "ease": "linear"
+    },
+    {
+     "t": 2.8,
+     "x": 260.0,
+     "ease": "linear"
+    },
+    {
+     "t": 3.0,
+     "x": 269.1,
+     "ease": "linear"
+    },
+    {
+     "t": 3.2,
+     "x": 271.3,
+     "ease": "linear"
+    },
+    {
+     "t": 3.4,
+     "x": 271.6,
+     "ease": "linear"
+    },
+    {
+     "t": 3.6,
+     "x": 267.2,
+     "ease": "linear"
+    },
+    {
+     "t": 3.8,
+     "x": 274.1,
+     "ease": "linear"
+    },
+    {
+     "t": 4.0,
+     "x": 292.6,
+     "ease": "linear"
+    },
+    {
+     "t": 4.2,
+     "x": 295.7,
+     "ease": "linear"
+    },
+    {
+     "t": 4.4,
+     "x": 287.8,
+     "ease": "linear"
+    },
+    {
+     "t": 4.6,
+     "x": 285.8,
+     "ease": "linear"
+    },
+    {
+     "t": 4.8,
+     "x": 298.3,
+     "ease": "linear"
+    },
+    {
+     "t": 5.0,
+     "x": 305.4,
+     "ease": "linear"
+    },
+    {
+     "t": 0,
+     "pose": "stand",
+     "expr": "blank",
+     "prop": "pick_you",
+     "anim": "chop",
+     "hits": [
+      0.2667,
+      0.9667,
+      1.7667,
+      2.7667,
+      3.5,
+      4.2,
+      4.9
+     ]
+    },
+    {
+     "t": 5.0,
+     "anim": null,
+     "pose": "tired",
+     "lean": 34,
+     "head": 24,
+     "grip_rel": [
+      34,
+      -32
+     ],
+     "prop_angle": 140,
+     "x": 296,
+     "ease": "out"
+    },
+    {
+     "t": 6.3,
+     "x": 304,
+     "ease": "linear"
+    },
+    {
+     "t": 6.6333,
+     "x": 280,
+     "ease": "inout"
+    },
+    {
+     "t": 6.8333,
+     "anim": "chop",
+     "hits": [
+      6.8667,
+      7.3667,
+      7.8667
+     ],
+     "anim_blend": 0.12,
+     "x": 282
+    },
+    {
+     "t": 7.9667,
+     "anim": null,
+     "prop": null,
+     "pose": "cheer",
+     "tint": [
+      0.95,
+      0.83,
+      0.62
+     ],
+     "expr": "happy",
+     "grip_rel": null,
+     "yaw": 0
+    },
+    {
+     "t": 8.1,
+     "x": 267,
+     "hand_r_at": [
+      252,
+      664
+     ],
+     "hand_l_at": [
+      272,
+      658
+     ],
+     "yaw": 90,
+     "leg_r": [
+      4,
+      0,
+      11
+     ],
+     "leg_l": [
+      -4,
+      0,
+      11
+     ],
+     "ease": "out"
+    }
+   ]
+  }
+ }
+}
