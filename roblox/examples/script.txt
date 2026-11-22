@@ -1,0 +1,6 @@
+# plain script for: python -m r6reel direct examples/script.txt out/script.mp4 --preview
+@park
+Zed: Nobody believed the duck could talk.
+Zed (shocked, to=Pip): Then it said my name!
+Pip (laughing): No way. Prove it.
+Zed (scared, run): So we ran.

@@ -1,0 +1,151 @@
+{
+ "smile": [
+  "happy",
+  "smile",
+  "default"
+ ],
+ "grin": [
+  "happy",
+  "smile",
+  "open_mouth"
+ ],
+ "joy": [
+  "happy",
+  "closed_eyes",
+  "smile"
+ ],
+ "laugh_open": [
+  "laughing",
+  "happy",
+  "open_mouth"
+ ],
+ "laugh_xd": [
+  "laughing",
+  "closed_eyes",
+  "open_mouth"
+ ],
+ "laugh_tears": [
+  "laughing",
+  "crying",
+  "closed_eyes"
+ ],
+ "wink": [
+  "happy",
+  "wink",
+  "smirk"
+ ],
+ "shocked": [
+  "shocked",
+  "surprised",
+  "open_mouth"
+ ],
+ "scream": [
+  "shocked",
+  "scared",
+  "open_mouth"
+ ],
+ "scared": [
+  "scared",
+  "worried",
+  "nervous"
+ ],
+ "angry": [
+  "angry",
+  "serious"
+ ],
+ "furious": [
+  "angry",
+  "open_mouth"
+ ],
+ "sad": [
+  "sad"
+ ],
+ "crying": [
+  "crying",
+  "sad"
+ ],
+ "sob": [
+  "crying",
+  "sad",
+  "open_mouth"
+ ],
+ "confused": [
+  "confused",
+  "worried"
+ ],
+ "bored": [
+  "bored",
+  "neutral"
+ ],
+ "deadpan": [
+  "neutral",
+  "serious",
+  "bored"
+ ],
+ "smirk": [
+  "smirk",
+  "happy"
+ ],
+ "worried": [
+  "worried",
+  "nervous",
+  "sad"
+ ],
+ "nervous": [
+  "nervous",
+  "embarrassed",
+  "scared"
+ ],
+ "embarrassed": [
+  "embarrassed",
+  "blush",
+  "cute"
+ ],
+ "cool": [
+  "cool",
+  "smirk"
+ ],
+ "silly": [
+  "silly",
+  "happy",
+  "tongue"
+ ],
+ "derp": [
+  "silly",
+  "confused",
+  "tongue"
+ ],
+ "love": [
+  "love",
+  "happy"
+ ],
+ "dizzy": [
+  "dizzy",
+  "confused",
+  "sick"
+ ],
+ "sleepy": [
+  "sleepy",
+  "bored",
+  "closed_eyes"
+ ],
+ "evil": [
+  "evil",
+  "smirk",
+  "angry"
+ ],
+ "sick": [
+  "sick",
+  "worried"
+ ],
+ "annoyed": [
+  "serious",
+  "bored",
+  "angry"
+ ],
+ "proud": [
+  "happy",
+  "smirk",
+  "cool"
+ ]
+}

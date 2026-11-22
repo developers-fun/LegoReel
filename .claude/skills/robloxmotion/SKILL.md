@@ -1,0 +1,11 @@
+---
+name: robloxmotion
+description: Make Roblox-style R6 storytime videos with the r6reel renderer (R6 avatars, camera control, cuts, word-by-word captions, tagged faces). Use for /robloxmotion, "Roblox video", "R6 animation", "r6reel", or when recreating a Roblox storytime reel.
+---
+Roblox motion = the `r6reel` library (moderngl, GL 3.3) in the LegoReel repo, branch `robloxAnimation`, folder `roblox/`. The details live in the owner's Obsidian vault, so this file only points there. Do these in order:
+1. Read the vault hub note "Project - Roblox animation renderer (r6reel)" (vault folder `work/active/Promo Engine/`), then only the linked notes the task needs: the style spec, the gotchas, the session log. If the vault is not reachable, read `roblox/AGENTS.md` and `roblox/docs/STYLE.md` in the repo and say so in one line.
+2. Get the code: add `developers-fun/LegoReel` with add_repo (push access) if missing, then ONE clone: `git clone --depth 1 --branch robloxAnimation https://github.com/developers-fun/legoreel /home/claude/legoreel` (long timeout). Work in `roblox/`.
+3. Setup: `pip install --break-system-packages numpy pillow scipy moderngl`; ffmpeg must be on PATH. Run `cd roblox && python3 -m pytest -q` (about 4 s, 234 tests). Headless GL works through EGL (llvmpipe); a real GPU is much faster.
+4. Make the video: write the story as beats and use `Director` (`python -m r6reel direct script.txt out/x.mp4 --preview`), or write a scene JSON (`docs/SCENE_SCHEMA.md`) and run `validate`. Always check a contact sheet first (`python -m r6reel contact scene.json`, or `tools_framegrid.py`) and look at it before a final render. Preview is about 0.07 s/frame, 720x1280 final about 0.2 s/frame on CPU; foreground calls stop at 10 minutes, so render long videos in chunks.
+5. Rules: R6 avatars only, exact Roblox proportions (smooth edge style by default; `rig.set_edge_style("classic")` for hard edges). Faces come from `faces.search("#shocked")` (50 faces). Ask which app (Sand Blast! or Lazy Blocks) before any promo work; plain copy, no hype. Never post; hand the MP4 to the owner and say what was not tested (audio is not generated).
+6. Save what you learned to the vault (hub note, gotchas, session log) and keep the repo's `roblox/AGENTS.md` current.

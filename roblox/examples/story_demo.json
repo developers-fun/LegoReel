@@ -1,0 +1,1302 @@
+{
+ "version": 1,
+ "name": "demo",
+ "width": 720,
+ "height": 1280,
+ "fps": 30.0,
+ "seed": 7,
+ "sets": {
+  "cafeteria": {
+   "name": "cafeteria",
+   "location": "cafeteria",
+   "lighting": "school_day"
+  },
+  "school_hallway": {
+   "name": "school_hallway",
+   "location": "school_hallway",
+   "lighting": "school_day"
+  },
+  "street@sunset": {
+   "name": "street@sunset",
+   "location": "street",
+   "lighting": "sunset"
+  }
+ },
+ "characters": [
+  {
+   "name": "Milo",
+   "avatar": {
+    "hair": "spiky:#5a3a22",
+    "shirt_color": "#3d4468",
+    "pants_color": "#31456a",
+    "accessories": [],
+    "skin": "#f2c9a0"
+   },
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "facing": 0.0,
+   "visible": [
+    [
+     0.0,
+     17.0
+    ]
+   ]
+  },
+  {
+   "name": "Ava",
+   "avatar": {
+    "hair": "afro:#3a2a1a",
+    "shirt_color": "#ffd23f",
+    "pants_color": "#3a3d42",
+    "accessories": [],
+    "skin": "#f2c9a0"
+   },
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "facing": 0.0,
+   "visible": [
+    [
+     6.382352941176471,
+     13.308823529411764
+    ]
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "character": "Milo",
+   "type": "place",
+   "pos": [
+    0.0,
+    0.0,
+    -15.0
+   ],
+   "t": 0.0,
+   "facing": 0.0
+  },
+  {
+   "character": "Milo",
+   "type": "play",
+   "clip": "idle",
+   "t": 0.08367,
+   "until": 3.48529
+  },
+  {
+   "character": "Milo",
+   "type": "face",
+   "name": "smile",
+   "t": 0.0
+  },
+  {
+   "character": "Milo",
+   "type": "play",
+   "clip": "shock",
+   "t": 5.33147,
+   "until": 6.38235
+  },
+  {
+   "character": "Milo",
+   "type": "face",
+   "name": "shock",
+   "t": 3.44529
+  },
+  {
+   "character": "Ava",
+   "type": "place",
+   "pos": [
+    -2.4,
+    0.0,
+    -15.0
+   ],
+   "t": 6.38235,
+   "facing": -90.0
+  },
+  {
+   "character": "Milo",
+   "type": "place",
+   "pos": [
+    2.4,
+    0.0,
+    -15.0
+   ],
+   "t": 6.38235,
+   "facing": 90.0
+  },
+  {
+   "character": "Ava",
+   "type": "play",
+   "clip": "laugh",
+   "t": 6.45787,
+   "until": 8.69118
+  },
+  {
+   "character": "Ava",
+   "type": "look_at",
+   "target": "Milo",
+   "t0": 6.38235,
+   "t1": 8.69118
+  },
+  {
+   "character": "Milo",
+   "type": "look_at",
+   "target": "Ava",
+   "t0": 6.38235,
+   "t1": 8.69118
+  },
+  {
+   "character": "Milo",
+   "type": "play",
+   "clip": "nod",
+   "t": 7.53676,
+   "until": 8.69118
+  },
+  {
+   "character": "Ava",
+   "type": "face",
+   "name": "happy",
+   "t": 6.38235
+  },
+  {
+   "character": "Milo",
+   "type": "face",
+   "name": "happy",
+   "t": 7.0234
+  },
+  {
+   "character": "Milo",
+   "type": "place",
+   "pos": [
+    -2.4,
+    0.0,
+    -15.0
+   ],
+   "t": 8.69118,
+   "facing": -90.0
+  },
+  {
+   "character": "Ava",
+   "type": "place",
+   "pos": [
+    2.4,
+    0.0,
+    -15.0
+   ],
+   "t": 8.69118,
+   "facing": 90.0
+  },
+  {
+   "character": "Milo",
+   "type": "play",
+   "clip": "facepalm",
+   "t": 8.76184,
+   "until": 11.0
+  },
+  {
+   "character": "Milo",
+   "type": "look_at",
+   "target": "Ava",
+   "t0": 8.69118,
+   "t1": 11.0
+  },
+  {
+   "character": "Ava",
+   "type": "look_at",
+   "target": "Milo",
+   "t0": 8.69118,
+   "t1": 11.0
+  },
+  {
+   "character": "Ava",
+   "type": "play",
+   "clip": "nod",
+   "t": 9.84559,
+   "until": 11.0
+  },
+  {
+   "character": "Milo",
+   "type": "face",
+   "name": "sad",
+   "t": 8.69118
+  },
+  {
+   "character": "Ava",
+   "type": "face",
+   "name": "smile",
+   "t": 9.27471
+  },
+  {
+   "character": "Milo",
+   "type": "place",
+   "pos": [
+    0.0,
+    0.0,
+    16.0
+   ],
+   "t": 11.0,
+   "facing": -0.0
+  },
+  {
+   "character": "Ava",
+   "type": "place",
+   "pos": [
+    0.0,
+    0.0,
+    21.5
+   ],
+   "t": 11.0,
+   "facing": -0.0
+  },
+  {
+   "character": "Milo",
+   "type": "move_to",
+   "pos": [
+    0.0,
+    0.0,
+    -12.0
+   ],
+   "t0": 11.1,
+   "t1": 13.20882,
+   "ease": "linear",
+   "face": false,
+   "gait": "sprint_panic"
+  },
+  {
+   "character": "Ava",
+   "type": "move_to",
+   "pos": [
+    0.0,
+    0.0,
+    -6.5
+   ],
+   "t0": 11.4,
+   "t1": 13.20882,
+   "ease": "linear",
+   "face": false,
+   "gait": "run"
+  },
+  {
+   "character": "Milo",
+   "type": "face",
+   "name": "worried",
+   "t": 11.0
+  },
+  {
+   "character": "Ava",
+   "type": "face",
+   "name": "shock",
+   "t": 11.49578
+  },
+  {
+   "character": "Milo",
+   "type": "place",
+   "pos": [
+    0.5,
+    0.1,
+    7.5
+   ],
+   "t": 13.30882,
+   "facing": 0.0
+  },
+  {
+   "character": "Milo",
+   "type": "play",
+   "clip": "cross_arms",
+   "t": 13.40234,
+   "until": 17.0
+  },
+  {
+   "character": "Milo",
+   "type": "face",
+   "name": "smirk",
+   "t": 13.30882
+  }
+ ],
+ "props": [
+  {
+   "name": "tray1",
+   "builder": "crate",
+   "args": {
+    "size": [
+     2.2,
+     0.18,
+     1.7
+    ],
+    "color": "#b9bcc4"
+   },
+   "position": [
+    0.0,
+    0.0,
+    -16.7
+   ],
+   "rotation": [
+    0,
+    0,
+    0
+   ],
+   "scale": 1.0,
+   "keys": [
+    {
+     "t": 5.281470588235294,
+     "position": "attach",
+     "rotation": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "t": 5.781470588235294,
+     "position": [
+      0.5,
+      0.02,
+      -17.599999999999998
+     ],
+     "rotation": [
+      0,
+      35,
+      12
+     ],
+     "ease": "bounce_out"
+    },
+    {
+     "t": 6.181470588235294,
+     "position": [
+      0.5,
+      0.02,
+      -17.599999999999998
+     ],
+     "rotation": [
+      0,
+      35,
+      0
+     ]
+    }
+   ],
+   "attach": {
+    "to": "Milo",
+    "part": "Right Arm",
+    "part_offset": null,
+    "offset": [
+     0.0,
+     -1.05,
+     -0.9
+    ],
+    "rotation": [
+     0,
+     0,
+     0
+    ],
+    "until": 5.281470588235294
+   },
+   "set": "cafeteria",
+   "visible": [
+    3.475294117647059,
+    1000000000.0
+   ]
+  },
+  {
+   "name": "food1_0",
+   "builder": "crate",
+   "args": {
+    "size": [
+     0.7,
+     0.5,
+     0.7
+    ],
+    "color": "#c4281c"
+   },
+   "position": [
+    0.0,
+    0.0,
+    -16.7
+   ],
+   "rotation": [
+    0,
+    0,
+    0
+   ],
+   "scale": 1.0,
+   "keys": [
+    {
+     "t": 5.281470588235294,
+     "position": "attach",
+     "rotation": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "t": 5.831470588235294,
+     "position": [
+      -1.3600000000000003,
+      0.02,
+      -17.9
+     ],
+     "rotation": [
+      180,
+      0,
+      40
+     ],
+     "ease": "bounce_out"
+    },
+    {
+     "t": 6.481470588235294,
+     "position": [
+      -1.37,
+      0.02,
+      -18.0
+     ],
+     "rotation": [
+      180,
+      0,
+      40
+     ]
+    }
+   ],
+   "attach": {
+    "to": "Milo",
+    "part": "Right Arm",
+    "offset": [
+     -0.44000000000000006,
+     -1.35,
+     -0.9
+    ],
+    "rotation": [
+     0,
+     0,
+     0
+    ],
+    "until": 5.281470588235294
+   },
+   "set": "cafeteria",
+   "visible": [
+    3.475294117647059,
+    1000000000.0
+   ]
+  },
+  {
+   "name": "food1_1",
+   "builder": "crate",
+   "args": {
+    "size": [
+     0.7,
+     0.5,
+     0.7
+    ],
+    "color": "#f5cd30"
+   },
+   "position": [
+    0.0,
+    0.0,
+    -16.7
+   ],
+   "rotation": [
+    0,
+    0,
+    0
+   ],
+   "scale": 1.0,
+   "keys": [
+    {
+     "t": 5.281470588235294,
+     "position": "attach",
+     "rotation": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "t": 5.831470588235294,
+     "position": [
+      0.4,
+      0.02,
+      -18.5
+     ],
+     "rotation": [
+      360,
+      90,
+      40
+     ],
+     "ease": "bounce_out"
+    },
+    {
+     "t": 6.481470588235294,
+     "position": [
+      0.5,
+      0.02,
+      -18.6
+     ],
+     "rotation": [
+      360,
+      90,
+      40
+     ]
+    }
+   ],
+   "attach": {
+    "to": "Milo",
+    "part": "Right Arm",
+    "offset": [
+     0.0,
+     -1.35,
+     -0.8
+    ],
+    "rotation": [
+     0,
+     0,
+     0
+    ],
+    "until": 5.281470588235294
+   },
+   "set": "cafeteria",
+   "visible": [
+    3.475294117647059,
+    1000000000.0
+   ]
+  },
+  {
+   "name": "food1_2",
+   "builder": "crate",
+   "args": {
+    "size": [
+     0.7,
+     0.5,
+     0.7
+    ],
+    "color": "#4caf50"
+   },
+   "position": [
+    0.0,
+    0.0,
+    -16.7
+   ],
+   "rotation": [
+    0,
+    0,
+    0
+   ],
+   "scale": 1.0,
+   "keys": [
+    {
+     "t": 5.281470588235294,
+     "position": "attach",
+     "rotation": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "t": 5.831470588235294,
+     "position": [
+      2.16,
+      0.02,
+      -19.099999999999998
+     ],
+     "rotation": [
+      540,
+      180,
+      40
+     ],
+     "ease": "bounce_out"
+    },
+    {
+     "t": 6.481470588235294,
+     "position": [
+      2.37,
+      0.02,
+      -19.2
+     ],
+     "rotation": [
+      540,
+      180,
+      40
+     ]
+    }
+   ],
+   "attach": {
+    "to": "Milo",
+    "part": "Right Arm",
+    "offset": [
+     0.44000000000000006,
+     -1.35,
+     -0.7
+    ],
+    "rotation": [
+     0,
+     0,
+     0
+    ],
+    "until": 5.281470588235294
+   },
+   "set": "cafeteria",
+   "visible": [
+    3.475294117647059,
+    1000000000.0
+   ]
+  }
+ ],
+ "shots": [
+  {
+   "t0": 0.0,
+   "t1": 2.0165,
+   "kind": "wide",
+   "set": "cafeteria",
+   "subject": "Milo",
+   "azimuth": 18.60361363247594,
+   "elevation": 6.479957032775534,
+   "fill": 0.4064868314640393,
+   "screen_y": 0.46,
+   "moves": [
+    {
+     "type": "push_in",
+     "rate": 0.06667013737952074
+    },
+    {
+     "type": "drift",
+     "amount": 0.3
+    }
+   ],
+   "label": "b0:establish"
+  },
+  {
+   "t0": 2.0165,
+   "t1": 3.4853,
+   "set": "cafeteria",
+   "subject": "Milo",
+   "azimuth": 20.428899183116997,
+   "elevation": -7.076196802553287,
+   "screen_y": 0.45,
+   "moves": [
+    {
+     "type": "push_in",
+     "rate": 0.0596557009335735
+    }
+   ],
+   "label": "b0:normal",
+   "kind": "medium"
+  },
+  {
+   "t0": 3.4853,
+   "t1": 4.8737,
+   "set": "cafeteria",
+   "subject": "Milo",
+   "azimuth": 14.00842393799139,
+   "elevation": -5.48075341075047,
+   "screen_y": 0.45,
+   "moves": [
+    {
+     "type": "push_in",
+     "rate": 0.0424044528029901
+    }
+   ],
+   "label": "b1:drop",
+   "kind": "medium"
+  },
+  {
+   "t0": 4.8737,
+   "t1": 5.3904,
+   "kind": "insert",
+   "set": "cafeteria",
+   "subject": "prop:tray1",
+   "azimuth": 25,
+   "elevation": 15,
+   "fov": 70,
+   "distance": 4.6,
+   "label": "b1:drop"
+  },
+  {
+   "t0": 5.3904,
+   "t1": 6.3824,
+   "kind": "extreme_closeup",
+   "set": "cafeteria",
+   "subject": "Milo",
+   "azimuth": 18.932404333290698,
+   "elevation": -3.330417540265941,
+   "fov": 82.0,
+   "screen_y": 0.42,
+   "moves": [
+    {
+     "type": "push_in",
+     "rate": 0.06330909218433674
+    },
+    {
+     "type": "dutch",
+     "degrees": -5.878438278071668,
+     "ramp": 0.35
+    },
+    {
+     "type": "shake",
+     "amp": 0.03,
+     "freq": 11.0
+    }
+   ],
+   "transition": [
+    {
+     "type": "zoom_punch",
+     "strength": 0.16
+    },
+    {
+     "type": "flash",
+     "dur": 0.08
+    }
+   ],
+   "label": "b1:drop"
+  },
+  {
+   "t0": 6.3824,
+   "t1": 7.6387,
+   "kind": "two_shot",
+   "set": "cafeteria",
+   "subject": "Ava",
+   "other": "Milo",
+   "azimuth": 4.6890756680954615,
+   "elevation": 6.0,
+   "fill": 0.4,
+   "moves": [
+    {
+     "type": "push_in",
+     "rate": 0.04
+    },
+    {
+     "type": "drift",
+     "amount": 0.2
+    }
+   ],
+   "label": "b2:dialogue"
+  },
+  {
+   "t0": 7.6387,
+   "t1": 8.6912,
+   "kind": "closeup",
+   "set": "cafeteria",
+   "subject": "Ava",
+   "azimuth": -17.91789739183868,
+   "elevation": -8.858270965287938,
+   "fov": 78.0,
+   "screen_y": 0.4,
+   "moves": [
+    {
+     "type": "push_in",
+     "rate": 0.061530394174814915
+    },
+    {
+     "type": "dutch",
+     "degrees": 4.327791234510535,
+     "ramp": 0.4
+    }
+   ],
+   "label": "b2:dialogue"
+  },
+  {
+   "t0": 8.6912,
+   "t1": 9.9138,
+   "kind": "two_shot",
+   "set": "cafeteria",
+   "subject": "Milo",
+   "other": "Ava",
+   "azimuth": -8.52011724726759,
+   "elevation": 6.0,
+   "fill": 0.4,
+   "moves": [
+    {
+     "type": "push_in",
+     "rate": 0.04
+    },
+    {
+     "type": "drift",
+     "amount": 0.2
+    }
+   ],
+   "label": "b3:dialogue"
+  },
+  {
+   "t0": 9.9138,
+   "t1": 11.0,
+   "kind": "closeup",
+   "set": "cafeteria",
+   "subject": "Milo",
+   "azimuth": 13.524751861962269,
+   "elevation": -6.548856789207521,
+   "fov": 78.0,
+   "screen_y": 0.4,
+   "moves": [
+    {
+     "type": "push_in",
+     "rate": 0.06383921395387936
+    },
+    {
+     "type": "dutch",
+     "degrees": 3.021897687429311,
+     "ramp": 0.4
+    }
+   ],
+   "label": "b3:dialogue"
+  },
+  {
+   "t0": 11.0,
+   "t1": 11.8683,
+   "kind": "insert",
+   "set": "school_hallway",
+   "subject": "Milo",
+   "follow": true,
+   "damping": 0.1,
+   "azimuth": -30,
+   "elevation": -10,
+   "distance": 3.4,
+   "focus": "feet",
+   "moves": [
+    {
+     "type": "drift",
+     "amount": 0.15
+    }
+   ],
+   "transition": {
+    "type": "dust_cover",
+    "dur": 0.42
+   },
+   "label": "b4:run"
+  },
+  {
+   "t0": 11.8683,
+   "t1": 13.3088,
+   "set": "school_hallway",
+   "subject": "Milo",
+   "follow": true,
+   "damping": 0.08,
+   "azimuth": -8.962002816552564,
+   "elevation": -4.0,
+   "screen_y": 0.45,
+   "moves": [
+    {
+     "type": "shake",
+     "amp": 0.05,
+     "freq": 7.0
+    }
+   ],
+   "label": "b4:run",
+   "kind": "medium"
+  },
+  {
+   "t0": 13.3088,
+   "t1": 14.5708,
+   "kind": "wide",
+   "set": "street@sunset",
+   "subject": "Milo",
+   "azimuth": -32.43492193820731,
+   "elevation": 5.514470559425743,
+   "fill": 0.39197541992280244,
+   "screen_y": 0.46,
+   "moves": [
+    {
+     "type": "push_in",
+     "rate": 0.07879348696976818
+    },
+    {
+     "type": "drift",
+     "amount": 0.3
+    }
+   ],
+   "transition": {
+    "type": "whip",
+    "direction": "left",
+    "dur": 0.17
+   },
+   "label": "b5:establish"
+  },
+  {
+   "t0": 14.5708,
+   "t1": 15.8509,
+   "kind": "extreme_closeup",
+   "set": "street@sunset",
+   "subject": "Milo",
+   "azimuth": 18.863518566560224,
+   "elevation": -8.989506577903983,
+   "fov": 82.0,
+   "screen_y": 0.42,
+   "moves": [
+    {
+     "type": "push_in",
+     "rate": 0.06809042208562828
+    },
+    {
+     "type": "dutch",
+     "degrees": 3.63823957424838,
+     "ramp": 0.35
+    }
+   ],
+   "label": "b5:normal"
+  },
+  {
+   "t0": 15.8509,
+   "t1": 17.0,
+   "kind": "wide",
+   "set": "street@sunset",
+   "subject": "Milo",
+   "azimuth": 20.47484917762837,
+   "elevation": 7.686729610154911,
+   "fill": 0.3765233371617291,
+   "screen_y": 0.46,
+   "moves": [
+    {
+     "type": "push_in",
+     "rate": 0.08562414649173268
+    },
+    {
+     "type": "drift",
+     "amount": 0.3
+    }
+   ],
+   "label": "b5:normal"
+  }
+ ],
+ "captions": [
+  {
+   "style": "storytime",
+   "y": 0.64,
+   "font_scale": 1.0,
+   "words": [
+    [
+     "Lunch",
+     0.04,
+     0.3292
+    ],
+    [
+     "period",
+     0.3292,
+     0.6667
+    ],
+    [
+     "at",
+     0.6667,
+     0.8595
+    ],
+    [
+     "my",
+     0.8595,
+     1.0524
+    ],
+    [
+     "school",
+     1.0524,
+     1.3898
+    ],
+    [
+     "was",
+     1.3898,
+     1.5826
+    ],
+    [
+     "supposed",
+     1.5826,
+     2.0165
+    ],
+    [
+     "to",
+     2.0165,
+     2.2093
+    ],
+    [
+     "be",
+     2.2093,
+     2.4022
+    ],
+    [
+     "totally",
+     2.4022,
+     2.7878
+    ],
+    [
+     "normal.",
+     2.7878,
+     3.4253
+    ]
+   ]
+  },
+  {
+   "style": "storytime",
+   "y": 0.64,
+   "font_scale": 1.0,
+   "words": [
+    [
+     "Then",
+     3.5253,
+     3.775
+    ],
+    [
+     "Milo",
+     3.775,
+     4.0247
+    ],
+    [
+     "dropped",
+     4.0247,
+     4.4242
+    ],
+    [
+     "his",
+     4.4242,
+     4.624
+    ],
+    [
+     "tray",
+     4.624,
+     4.8737
+    ],
+    [
+     "in",
+     4.8737,
+     5.0735
+    ],
+    [
+     "front",
+     5.0735,
+     5.3731
+    ],
+    [
+     "of",
+     5.3731,
+     5.5729
+    ],
+    [
+     "everyone.",
+     5.5729,
+     6.3224
+    ]
+   ]
+  },
+  {
+   "style": "storytime",
+   "y": 0.64,
+   "font_scale": 1.0,
+   "words": [
+    [
+     "Ava",
+     6.4224,
+     6.6014
+    ],
+    [
+     "laughed",
+     6.6014,
+     6.9596
+    ],
+    [
+     "so",
+     6.9596,
+     7.1387
+    ],
+    [
+     "hard.",
+     7.1387,
+     7.6387
+    ],
+    [
+     "Nice",
+     7.6387,
+     7.8626
+    ],
+    [
+     "one",
+     7.8626,
+     8.0417
+    ],
+    [
+     "genius!",
+     8.0417,
+     8.6312
+    ]
+   ]
+  },
+  {
+   "style": "storytime",
+   "y": 0.64,
+   "font_scale": 1.0,
+   "words": [
+    [
+     "Milo",
+     8.7312,
+     8.9383
+    ],
+    [
+     "turned",
+     8.9383,
+     9.2282
+    ],
+    [
+     "bright",
+     9.2282,
+     9.5181
+    ],
+    [
+     "red.",
+     9.5181,
+     9.9138
+    ],
+    [
+     "It",
+     9.9138,
+     10.0795
+    ],
+    [
+     "slipped,",
+     10.0795,
+     10.5028
+    ],
+    [
+     "okay?",
+     10.5028,
+     10.94
+    ]
+   ]
+  },
+  {
+   "style": "storytime",
+   "y": 0.64,
+   "font_scale": 1.0,
+   "words": [
+    [
+     "So",
+     11.04,
+     11.2099
+    ],
+    [
+     "Milo",
+     11.2099,
+     11.4223
+    ],
+    [
+     "ran.",
+     11.4223,
+     11.8683
+    ],
+    [
+     "Straight",
+     11.8683,
+     12.2506
+    ],
+    [
+     "down",
+     12.2506,
+     12.463
+    ],
+    [
+     "the",
+     12.463,
+     12.6329
+    ],
+    [
+     "hallway.",
+     12.6329,
+     13.2488
+    ]
+   ]
+  },
+  {
+   "style": "storytime",
+   "y": 0.64,
+   "font_scale": 1.0,
+   "words": [
+    [
+     "And",
+     13.3488,
+     13.5816
+    ],
+    [
+     "that",
+     13.5816,
+     13.8725
+    ],
+    [
+     "is",
+     13.8725,
+     14.1053
+    ],
+    [
+     "why",
+     14.1053,
+     14.338
+    ],
+    [
+     "he",
+     14.338,
+     14.5708
+    ],
+    [
+     "never",
+     14.5708,
+     14.9199
+    ],
+    [
+     "ate",
+     14.9199,
+     15.1526
+    ],
+    [
+     "lunch",
+     15.1526,
+     15.5018
+    ],
+    [
+     "there",
+     15.5018,
+     15.8509
+    ],
+    [
+     "again.",
+     15.8509,
+     16.5
+    ]
+   ]
+  }
+ ],
+ "fx": [
+  {
+   "type": "dust",
+   "t": 5.681470588235294,
+   "pos": [
+    0.5,
+    0.0,
+    -17.599999999999998
+   ],
+   "size": 0.7,
+   "count": 5
+  },
+  {
+   "type": "footsteps",
+   "character": "Milo",
+   "t0": 11.1,
+   "t1": 13.208823529411765,
+   "y": 0.0,
+   "set": null
+  },
+  {
+   "type": "footsteps",
+   "character": "Ava",
+   "t0": 11.4,
+   "t1": 13.208823529411765,
+   "y": 0.0,
+   "set": null
+  }
+ ],
+ "post": {},
+ "meta": {
+  "director": {
+   "seed": 7,
+   "pace": "normal",
+   "style": {
+    "style": "storytime",
+    "y": 0.64,
+    "font_scale": 1.0
+   },
+   "beats": 6
+  }
+ }
+}

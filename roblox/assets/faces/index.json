@@ -1,0 +1,637 @@
+[
+ {
+  "id": "classic_smile",
+  "name": "Smile",
+  "file": "decal/classic_smile.png",
+  "tags": [
+   "happy",
+   "smile",
+   "default"
+  ],
+  "kind": "decal",
+  "source": "drawn (classic style)",
+  "asset_id": null
+ },
+ {
+  "id": "classic_grin",
+  "name": "Grin",
+  "file": "decal/classic_grin.png",
+  "tags": [
+   "happy",
+   "smile",
+   "open_mouth"
+  ],
+  "kind": "decal",
+  "source": "drawn (classic style)",
+  "asset_id": null
+ },
+ {
+  "id": "classic_joy",
+  "name": "Joy",
+  "file": "decal/classic_joy.png",
+  "tags": [
+   "happy",
+   "closed_eyes",
+   "smile"
+  ],
+  "kind": "decal",
+  "source": "drawn (classic style)",
+  "asset_id": null
+ },
+ {
+  "id": "classic_laugh_open",
+  "name": "Laugh Open",
+  "file": "decal/classic_laugh_open.png",
+  "tags": [
+   "laughing",
+   "happy",
+   "open_mouth"
+  ],
+  "kind": "decal",
+  "source": "drawn (classic style)",
+  "asset_id": null
+ },
+ {
+  "id": "classic_laugh_xd",
+  "name": "Laugh Xd",
+  "file": "decal/classic_laugh_xd.png",
+  "tags": [
+   "laughing",
+   "closed_eyes",
+   "open_mouth"
+  ],
+  "kind": "decal",
+  "source": "drawn (classic style)",
+  "asset_id": null
+ },
+ {
+  "id": "classic_laugh_tears",
+  "name": "Laugh Tears",
+  "file": "decal/classic_laugh_tears.png",
+  "tags": [
+   "laughing",
+   "crying",
+   "closed_eyes"
+  ],
+  "kind": "decal",
+  "source": "drawn (classic style)",
+  "asset_id": null
+ },
+ {
+  "id": "classic_wink",
+  "name": "Wink",
+  "file": "decal/classic_wink.png",
+  "tags": [
+   "happy",
+   "wink",
+   "smirk"
+  ],
+  "kind": "decal",
+  "source": "drawn (classic style)",
+  "asset_id": null
+ },
+ {
+  "id": "classic_shocked",
+  "name": "Shocked",
+  "file": "decal/classic_shocked.png",
+  "tags": [
+   "shocked",
+   "surprised",
+   "open_mouth"
+  ],
+  "kind": "decal",
+  "source": "drawn (classic style)",
+  "asset_id": null
+ },
+ {
+  "id": "classic_scream",
+  "name": "Scream",
+  "file": "decal/classic_scream.png",
+  "tags": [
+   "shocked",
+   "scared",
+   "open_mouth"
+  ],
+  "kind": "decal",
+  "source": "drawn (classic style)",
+  "asset_id": null
+ },
+ {
+  "id": "classic_scared",
+  "name": "Scared",
+  "file": "decal/classic_scared.png",
+  "tags": [
+   "scared",
+   "worried",
+   "nervous"
+  ],
+  "kind": "decal",
+  "source": "drawn (classic style)",
+  "asset_id": null
+ },
+ {
+  "id": "classic_angry",
+  "name": "Angry",
+  "file": "decal/classic_angry.png",
+  "tags": [
+   "angry",
+   "serious"
+  ],
+  "kind": "decal",
+  "source": "drawn (classic style)",
+  "asset_id": null
+ },
+ {
+  "id": "classic_furious",
+  "name": "Furious",
+  "file": "decal/classic_furious.png",
+  "tags": [
+   "angry",
+   "open_mouth"
+  ],
+  "kind": "decal",
+  "source": "drawn (classic style)",
+  "asset_id": null
+ },
+ {
+  "id": "classic_sad",
+  "name": "Sad",
+  "file": "decal/classic_sad.png",
+  "tags": [
+   "sad"
+  ],
+  "kind": "decal",
+  "source": "drawn (classic style)",
+  "asset_id": null
+ },
+ {
+  "id": "classic_crying",
+  "name": "Crying",
+  "file": "decal/classic_crying.png",
+  "tags": [
+   "crying",
+   "sad"
+  ],
+  "kind": "decal",
+  "source": "drawn (classic style)",
+  "asset_id": null
+ },
+ {
+  "id": "classic_sob",
+  "name": "Sob",
+  "file": "decal/classic_sob.png",
+  "tags": [
+   "crying",
+   "sad",
+   "open_mouth"
+  ],
+  "kind": "decal",
+  "source": "drawn (classic style)",
+  "asset_id": null
+ },
+ {
+  "id": "classic_confused",
+  "name": "Confused",
+  "file": "decal/classic_confused.png",
+  "tags": [
+   "confused",
+   "worried"
+  ],
+  "kind": "decal",
+  "source": "drawn (classic style)",
+  "asset_id": null
+ },
+ {
+  "id": "classic_bored",
+  "name": "Bored",
+  "file": "decal/classic_bored.png",
+  "tags": [
+   "bored",
+   "neutral"
+  ],
+  "kind": "decal",
+  "source": "drawn (classic style)",
+  "asset_id": null
+ },
+ {
+  "id": "classic_deadpan",
+  "name": "Deadpan",
+  "file": "decal/classic_deadpan.png",
+  "tags": [
+   "neutral",
+   "serious",
+   "bored"
+  ],
+  "kind": "decal",
+  "source": "drawn (classic style)",
+  "asset_id": null
+ },
+ {
+  "id": "classic_smirk",
+  "name": "Smirk",
+  "file": "decal/classic_smirk.png",
+  "tags": [
+   "smirk",
+   "happy"
+  ],
+  "kind": "decal",
+  "source": "drawn (classic style)",
+  "asset_id": null
+ },
+ {
+  "id": "classic_worried",
+  "name": "Worried",
+  "file": "decal/classic_worried.png",
+  "tags": [
+   "worried",
+   "nervous",
+   "sad"
+  ],
+  "kind": "decal",
+  "source": "drawn (classic style)",
+  "asset_id": null
+ },
+ {
+  "id": "classic_nervous",
+  "name": "Nervous",
+  "file": "decal/classic_nervous.png",
+  "tags": [
+   "nervous",
+   "embarrassed",
+   "scared"
+  ],
+  "kind": "decal",
+  "source": "drawn (classic style)",
+  "asset_id": null
+ },
+ {
+  "id": "classic_embarrassed",
+  "name": "Embarrassed",
+  "file": "decal/classic_embarrassed.png",
+  "tags": [
+   "embarrassed",
+   "blush",
+   "cute"
+  ],
+  "kind": "decal",
+  "source": "drawn (classic style)",
+  "asset_id": null
+ },
+ {
+  "id": "classic_cool",
+  "name": "Cool",
+  "file": "decal/classic_cool.png",
+  "tags": [
+   "cool",
+   "smirk"
+  ],
+  "kind": "decal",
+  "source": "drawn (classic style)",
+  "asset_id": null
+ },
+ {
+  "id": "classic_silly",
+  "name": "Silly",
+  "file": "decal/classic_silly.png",
+  "tags": [
+   "silly",
+   "happy",
+   "tongue"
+  ],
+  "kind": "decal",
+  "source": "drawn (classic style)",
+  "asset_id": null
+ },
+ {
+  "id": "classic_derp",
+  "name": "Derp",
+  "file": "decal/classic_derp.png",
+  "tags": [
+   "silly",
+   "confused",
+   "tongue"
+  ],
+  "kind": "decal",
+  "source": "drawn (classic style)",
+  "asset_id": null
+ },
+ {
+  "id": "classic_love",
+  "name": "Love",
+  "file": "decal/classic_love.png",
+  "tags": [
+   "love",
+   "happy"
+  ],
+  "kind": "decal",
+  "source": "drawn (classic style)",
+  "asset_id": null
+ },
+ {
+  "id": "classic_dizzy",
+  "name": "Dizzy",
+  "file": "decal/classic_dizzy.png",
+  "tags": [
+   "dizzy",
+   "confused",
+   "sick"
+  ],
+  "kind": "decal",
+  "source": "drawn (classic style)",
+  "asset_id": null
+ },
+ {
+  "id": "classic_sleepy",
+  "name": "Sleepy",
+  "file": "decal/classic_sleepy.png",
+  "tags": [
+   "sleepy",
+   "bored",
+   "closed_eyes"
+  ],
+  "kind": "decal",
+  "source": "drawn (classic style)",
+  "asset_id": null
+ },
+ {
+  "id": "classic_evil",
+  "name": "Evil",
+  "file": "decal/classic_evil.png",
+  "tags": [
+   "evil",
+   "smirk",
+   "angry"
+  ],
+  "kind": "decal",
+  "source": "drawn (classic style)",
+  "asset_id": null
+ },
+ {
+  "id": "classic_sick",
+  "name": "Sick",
+  "file": "decal/classic_sick.png",
+  "tags": [
+   "sick",
+   "worried"
+  ],
+  "kind": "decal",
+  "source": "drawn (classic style)",
+  "asset_id": null
+ },
+ {
+  "id": "13901722666",
+  "name": "Happy Smile Face - Brown",
+  "file": "decal/13901722666.png",
+  "tags": [
+   "happy",
+   "laughing",
+   "open_mouth"
+  ],
+  "kind": "decal",
+  "source": "roblox catalog (decalized from thumbnail)",
+  "asset_id": 13901722666
+ },
+ {
+  "id": "137088540042153",
+  "name": "[OblivousHD/TLGR] Happy Face (Light Tone)",
+  "file": "decal/137088540042153.png",
+  "tags": [
+   "happy",
+   "smile"
+  ],
+  "kind": "decal",
+  "source": "roblox catalog (decalized from thumbnail)",
+  "asset_id": 137088540042153
+ },
+ {
+  "id": "12726630608",
+  "name": "\u2705Cute Cartoon Derp Smile (Face Mask) | Light Skin",
+  "file": "decal/12726630608.png",
+  "tags": [
+   "happy",
+   "silly",
+   "big_eyes"
+  ],
+  "kind": "decal",
+  "source": "roblox catalog (decalized from thumbnail)",
+  "asset_id": 12726630608
+ },
+ {
+  "id": "12926714862",
+  "name": "Dark Grinning Wink Face",
+  "file": "decal/12926714862.png",
+  "tags": [
+   "happy",
+   "wink",
+   "smirk"
+  ],
+  "kind": "decal",
+  "source": "roblox catalog (decalized from thumbnail)",
+  "asset_id": 12926714862
+ },
+ {
+  "id": "115309146778843",
+  "name": "Joyful Laughing Face",
+  "file": "decal/115309146778843.png",
+  "tags": [
+   "laughing",
+   "happy",
+   "blush",
+   "closed_eyes"
+  ],
+  "kind": "decal",
+  "source": "roblox catalog (decalized from thumbnail)",
+  "asset_id": 115309146778843
+ },
+ {
+  "id": "13175875363",
+  "name": "Cute Simple Laugh Face",
+  "file": "decal/13175875363.png",
+  "tags": [
+   "laughing",
+   "closed_eyes"
+  ],
+  "kind": "decal",
+  "source": "roblox catalog (decalized from thumbnail)",
+  "asset_id": 13175875363
+ },
+ {
+  "id": "102575444610438",
+  "name": "Silly Laugh Face",
+  "file": "decal/102575444610438.png",
+  "tags": [
+   "laughing",
+   "happy",
+   "open_mouth"
+  ],
+  "kind": "decal",
+  "source": "roblox catalog (decalized from thumbnail)",
+  "asset_id": 102575444610438
+ },
+ {
+  "id": "100292563951612",
+  "name": "Laughing Fun",
+  "file": "decal/100292563951612.png",
+  "tags": [
+   "laughing",
+   "happy",
+   "open_mouth"
+  ],
+  "kind": "decal",
+  "source": "roblox catalog (decalized from thumbnail)",
+  "asset_id": 100292563951612
+ },
+ {
+  "id": "115419813639188",
+  "name": "Shocked Surprised",
+  "file": "decal/115419813639188.png",
+  "tags": [
+   "shocked",
+   "surprised"
+  ],
+  "kind": "decal",
+  "source": "roblox catalog (decalized from thumbnail)",
+  "asset_id": 115419813639188
+ },
+ {
+  "id": "15755608041",
+  "name": "Shocked Scared Face Mask Brown",
+  "file": "decal/15755608041.png",
+  "tags": [
+   "shocked",
+   "surprised",
+   "open_mouth"
+  ],
+  "kind": "decal",
+  "source": "roblox catalog (decalized from thumbnail)",
+  "asset_id": 15755608041
+ },
+ {
+  "id": "136857111924984",
+  "name": "goofy shocked chibi face",
+  "file": "decal/136857111924984.png",
+  "tags": [
+   "scared",
+   "shocked",
+   "big_eyes"
+  ],
+  "kind": "decal",
+  "source": "roblox catalog (decalized from thumbnail)",
+  "asset_id": 136857111924984
+ },
+ {
+  "id": "13522790471",
+  "name": "Timid Face Mask",
+  "file": "decal/13522790471.png",
+  "tags": [
+   "scared",
+   "shocked",
+   "big_eyes"
+  ],
+  "kind": "decal",
+  "source": "roblox catalog (decalized from thumbnail)",
+  "asset_id": 13522790471
+ },
+ {
+  "id": "13280698394",
+  "name": "Rage Emoji",
+  "file": "decal/13280698394.png",
+  "tags": [
+   "angry",
+   "serious"
+  ],
+  "kind": "decal",
+  "source": "roblox catalog (decalized from thumbnail)",
+  "asset_id": 13280698394
+ },
+ {
+  "id": "12926690577",
+  "name": "Tan Extreme Rage Face",
+  "file": "decal/12926690577.png",
+  "tags": [
+   "angry",
+   "evil"
+  ],
+  "kind": "decal",
+  "source": "roblox catalog (decalized from thumbnail)",
+  "asset_id": 12926690577
+ },
+ {
+  "id": "12613463984",
+  "name": "\u2705Cartoon Evil Smile Imp [Simplistic] | Light Skin",
+  "file": "decal/12613463984.png",
+  "tags": [
+   "angry",
+   "evil",
+   "smirk"
+  ],
+  "kind": "decal",
+  "source": "roblox catalog (decalized from thumbnail)",
+  "asset_id": 12613463984
+ },
+ {
+  "id": "107957560919729",
+  "name": "\u2661 confused dizzy happy face mask (white)",
+  "file": "decal/107957560919729.png",
+  "tags": [
+   "dizzy",
+   "confused"
+  ],
+  "kind": "decal",
+  "source": "roblox catalog (decalized from thumbnail)",
+  "asset_id": 107957560919729
+ },
+ {
+  "id": "112720360955664",
+  "name": "Cute Bored Face",
+  "file": "decal/112720360955664.png",
+  "tags": [
+   "bored",
+   "blush"
+  ],
+  "kind": "decal",
+  "source": "roblox catalog (decalized from thumbnail)",
+  "asset_id": 112720360955664
+ },
+ {
+  "id": "110573821809386",
+  "name": "\u2661 (Tan) Shy Small Kitty Frowning Face",
+  "file": "decal/110573821809386.png",
+  "tags": [
+   "embarrassed",
+   "cute",
+   "blush",
+   "closed_eyes"
+  ],
+  "kind": "decal",
+  "source": "roblox catalog (decalized from thumbnail)",
+  "asset_id": 110573821809386
+ },
+ {
+  "id": "101709994331643",
+  "name": "Silly Derp Face - Tan",
+  "file": "decal/101709994331643.png",
+  "tags": [
+   "silly",
+   "tongue",
+   "cute"
+  ],
+  "kind": "decal",
+  "source": "roblox catalog (decalized from thumbnail)",
+  "asset_id": 101709994331643
+ },
+ {
+  "id": "17602649143",
+  "name": "Classic Silly Noob Face",
+  "file": "decal/17602649143.png",
+  "tags": [
+   "silly",
+   "happy",
+   "tongue",
+   "closed_eyes"
+  ],
+  "kind": "decal",
+  "source": "roblox catalog (decalized from thumbnail)",
+  "asset_id": 17602649143
+ }
+]
