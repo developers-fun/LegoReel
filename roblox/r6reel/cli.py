@@ -132,6 +132,28 @@ def cmd_contact(a):
     print("wrote", a.out, img.size)
 
 
+def cmd_storyboard(a):
+    from .scene import Scene
+    from .storyboard import Storyboard
+    if a.scene.lower().endswith(".txt"):
+        from .director import Director
+        with open(a.scene) as f:
+            sc = Director(f.read(), seed=a.seed, pace=a.pace).build()
+    else:
+        sc = Scene.from_json(a.scene)
+    times = [float(x) for x in a.times.split(",")] if a.times else None
+    sb = Storyboard(sc, max_panels=a.max, cols=a.cols, tile_h=a.tile_h, minimap=not a.no_minimap,
+                    captions=a.captions, times=times)
+    paths = sb.save(a.out)
+    for p in paths:
+        print("wrote", p)
+    ws = sb.warnings()
+    print(f"{len(sb.panels())} panels, {len(ws)} warning(s)")
+    for i, t, w in ws:
+        print(f"  panel {i} ({t:.2f}s): {w}")
+    sc.close()
+
+
 def main(argv=None):
     p = argparse.ArgumentParser(prog="r6reel", description="Roblox R6 storytime video renderer")
     sub = p.add_subparsers(dest="cmd", required=True)
@@ -164,6 +186,13 @@ def main(argv=None):
     c.add_argument("--step", type=float, default=0.5), c.add_argument("--cols", type=int, default=6)
     c.add_argument("--tile-h", dest="tile_h", type=int, default=240)
     c.set_defaults(fn=cmd_contact)
+    sb = sub.add_parser("storyboard", help="storyboard sheet (key frames + motion annotations + checks)")
+    sb.add_argument("scene", help="scene.json or Director script .txt"), sb.add_argument("--out", default="out/storyboard.png")
+    sb.add_argument("--max", type=int, default=12), sb.add_argument("--cols", type=int, default=4)
+    sb.add_argument("--tile-h", dest="tile_h", type=int, default=480), sb.add_argument("--times")
+    sb.add_argument("--no-minimap", dest="no_minimap", action="store_true"), sb.add_argument("--captions", action="store_true")
+    sb.add_argument("--seed", type=int, default=0), sb.add_argument("--pace", default="normal")
+    sb.set_defaults(fn=cmd_storyboard)
     a = p.parse_args(argv)
     return a.fn(a) or 0
 

@@ -1,0 +1,13 @@
+---
+name: robloxstoryboard
+description: Make a storyboard sheet (key frames, motion arrows, footprints, a description under each frame, automatic weirdness checks) for a Roblox R6 storytime scene before rendering it. Use for /robloxstoryboard, "storyboard", "block this out", "check the movement", or before any big r6reel render.
+---
+A storyboard is the cheap check before a render: the key frames of a scene with arrows for movement, footprints for walking, and a plain description under each frame. The owner uses it to get the idea down and to catch weird things (backward walking, characters off-screen, overlaps, sliding feet, the camera stuck behind a wall). It uses the `r6reel` library in the LegoReel repo, branch `robloxAnimation`, folder `roblox/`. Do these in order:
+1. Read the vault hub note "Project - Roblox animation renderer (r6reel)" (vault folder `work/active/Promo Engine/`) and the linked storyboard note. If the vault is not reachable, read `roblox/AGENTS.md` and `roblox/docs/STORYBOARD.md` and say so in one line.
+2. Get the code the same way as /robloxmotion: `add_repo` developers-fun/LegoReel if missing, one `git clone --depth 1 --branch robloxAnimation https://github.com/developers-fun/legoreel /home/claude/legoreel`, then `pip install --break-system-packages numpy pillow scipy moderngl` (ffmpeg on PATH). Work in `roblox/`.
+3. Get a scene: a scene JSON (`docs/SCENE_SCHEMA.md`), or a beats script for the Director (`examples/script.txt`). If the owner only gave an idea, write the script first, keep it short.
+4. Make the sheet: `python -m r6reel storyboard scene.json --out out/storyboard.png` (a `.txt` script works too). Useful flags: `--max 12` panels, `--cols 4`, `--times 0.5,2.0,3.4` for exact moments, `--no-minimap`, `--captions`. It also writes `storyboard.md` (the panel text) and `storyboard.json`.
+5. Look at the sheet yourself (shrink it first if it is huge) and read the red `!` lines. Fix real problems in the scene (positions, facing, gait, shot kind, camera distance), re-run the storyboard, and repeat until the warnings are gone or understood. Do not fix them by editing the renderer.
+6. Send the PNG to the owner with SendUserFile, then three lines at most: what happens, what you fixed, what is still odd. Do not start the final render unless the owner asked for it or the task says to carry on unattended; if so, say that you rendered without their sign-off.
+7. Rules: R6 avatars only. Ask which app (Sand Blast! or Lazy Blocks) before any promo work. Plain copy, no hype. Never post. Say what was not tested (the checks are heuristics, so a clean sheet does not prove the video is right).
+8. Save what you learned to the vault (storyboard note, gotchas) and keep `roblox/AGENTS.md` current.

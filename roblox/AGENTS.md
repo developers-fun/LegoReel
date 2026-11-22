@@ -32,3 +32,6 @@
 - Prop attach uses the arm part frame (offset in studs); sit/seat clips need manual `place` with y = seat_top - 1.
 - faces library optional (lazy import); blink micro-animation not implemented (only mid-shot face swaps).
 - Final quality ~0.21 s/frame at 720x1280 on llvmpipe.
+
+## Storyboard
+`python -m r6reel storyboard scene.json --out out/storyboard.png` (see docs/STORYBOARD.md): key frames + arrows + footprints + checks. Run it before any big render. Skill: `/robloxstoryboard`. Code: r6reel/storyboard.py, tests/test_storyboard.py.
