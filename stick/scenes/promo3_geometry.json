@@ -1,0 +1,30 @@
+[
+ {
+  "video": "promo3_a_one_more_game",
+  "hold_start": 8.3,
+  "centre_px": [
+   540,
+   960
+  ],
+  "screen_px": [
+   548,
+   1181
+  ],
+  "angle_deg": -12,
+  "corner_radius_px": 75
+ },
+ {
+  "video": "promo3_b_cozy_ipad",
+  "hold_start": 7.6,
+  "centre_px": [
+   540,
+   960
+  ],
+  "screen_px": [
+   724,
+   994
+  ],
+  "angle_deg": -10,
+  "corner_radius_px": 24
+ }
+]
