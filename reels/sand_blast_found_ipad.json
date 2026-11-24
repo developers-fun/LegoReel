@@ -1,0 +1,801 @@
+{
+ "meta": {
+  "title": "Sand Blast! found iPad",
+  "style": "house",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "supersample": 2,
+  "ground": {
+   "zones": [
+    {
+     "rect": [
+      -20,
+      -16,
+      20,
+      16
+     ],
+     "colors": [
+      "#d3d5db",
+      "#c9ccd3"
+     ],
+     "tile": 1.164,
+     "variation": 0.01,
+     "line_strength": 0.0,
+     "studs": 0.3
+    },
+    {
+     "rect": [
+      -20,
+      -314.0,
+      20,
+      -282.0
+     ],
+     "colors": [
+      "#d3d5db",
+      "#c9ccd3"
+     ],
+     "tile": 1.164,
+     "variation": 0.01,
+     "line_strength": 0.0,
+     "studs": 0.3
+    },
+    {
+     "rect": [
+      -20,
+      -614.0,
+      20,
+      -582.0
+     ],
+     "colors": [
+      "#d3d5db",
+      "#c9ccd3"
+     ],
+     "tile": 1.164,
+     "variation": 0.01,
+     "line_strength": 0.0,
+     "studs": 0.3
+    }
+   ]
+  },
+  "look": {
+   "vignette": 0.0,
+   "bloom": 0.0,
+   "dof": null,
+   "saturation": 1.0,
+   "contrast": 1.0,
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "gloss": 0.0
+  },
+  "light": {
+   "spec_strength": 0.0
+  },
+  "export": {
+   "crf": 18,
+   "preset": "medium"
+  }
+ },
+ "characters": {
+  "hero": {
+   "avatar": "main",
+   "position": [
+    -4.5,
+    0,
+    -6.0
+   ],
+   "yaw": 25
+  }
+ },
+ "props": [
+  {
+   "id": "wall",
+   "position": [
+    0,
+    8,
+    -14
+   ],
+   "size": [
+    44,
+    16,
+    0.5
+   ],
+   "color": "#2b2d33",
+   "cast_shadow": false
+  },
+  {
+   "id": "stripe",
+   "position": [
+    0,
+    1.7,
+    -13.7
+   ],
+   "size": [
+    44,
+    0.5,
+    0.1
+   ],
+   "color": "#ff5e4d",
+   "cast_shadow": false
+  },
+  {
+   "id": "bench_seat",
+   "position": [
+    -6.5,
+    1.1,
+    -9
+   ],
+   "size": [
+    4.6,
+    0.4,
+    1.4
+   ],
+   "color": "#8a5a2b",
+   "cast_shadow": true
+  },
+  {
+   "id": "bench_back",
+   "position": [
+    -6.5,
+    2.3,
+    -9.6
+   ],
+   "size": [
+    4.6,
+    1.6,
+    0.3
+   ],
+   "color": "#8a5a2b",
+   "cast_shadow": false
+  },
+  {
+   "id": "bench_l",
+   "position": [
+    -8.4,
+    0.5,
+    -9
+   ],
+   "size": [
+    0.4,
+    1.0,
+    1.2
+   ],
+   "color": "#44454d",
+   "cast_shadow": false
+  },
+  {
+   "id": "bench_r",
+   "position": [
+    -4.6,
+    0.5,
+    -9
+   ],
+   "size": [
+    0.4,
+    1.0,
+    1.2
+   ],
+   "color": "#44454d",
+   "cast_shadow": false
+  },
+  {
+   "id": "lamp",
+   "type": "cylinder",
+   "position": [
+    7.0,
+    4.0,
+    -9
+   ],
+   "size": [
+    0.5,
+    8.0,
+    0.5
+   ],
+   "color": "#44454d",
+   "cast_shadow": false
+  },
+  {
+   "id": "lamp_head",
+   "position": [
+    7.0,
+    8.2,
+    -9
+   ],
+   "size": [
+    1.6,
+    0.6,
+    1.6
+   ],
+   "color": "#ffe9b0",
+   "cast_shadow": false
+  },
+  {
+   "id": "glow_plate",
+   "position": [
+    1.4,
+    0.05,
+    0.8
+   ],
+   "size": [
+    2.4,
+    0.06,
+    3.1
+   ],
+   "color": "#ffe3a0",
+   "cast_shadow": false,
+   "rotation_y": 20,
+   "track": {
+    "shot": "s4",
+    "keys": [
+     {
+      "t": 0,
+      "position": [
+       1.4,
+       0.05,
+       0.8
+      ]
+     },
+     {
+      "t": 0.3,
+      "position": [
+       1.4,
+       -60,
+       0.8
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "ground_ipad",
+   "position": [
+    1.4,
+    0.2,
+    0.8
+   ],
+   "size": [
+    1.9,
+    0.25,
+    2.5
+   ],
+   "color": "#2a2a30",
+   "cast_shadow": true,
+   "bevel": 0.05,
+   "rotation_y": 20,
+   "track": {
+    "shot": "s4",
+    "keys": [
+     {
+      "t": 0,
+      "position": [
+       1.4,
+       0.2,
+       0.8
+      ]
+     },
+     {
+      "t": 0.3,
+      "position": [
+       1.4,
+       0.2,
+       0.8
+      ]
+     },
+     {
+      "t": 0.85,
+      "position": [
+       1.4,
+       9.0,
+       1.6
+      ],
+      "ease": "ease_in"
+     }
+    ]
+   }
+  },
+  {
+   "id": "b_wall_back",
+   "position": [
+    0,
+    8,
+    -312.0
+   ],
+   "size": [
+    44,
+    16,
+    0.5
+   ],
+   "color": "#2b2d33",
+   "cast_shadow": false
+  },
+  {
+   "id": "b_stripe",
+   "position": [
+    0,
+    1.7,
+    -311.7
+   ],
+   "size": [
+    44,
+    0.5,
+    0.1
+   ],
+   "color": "#ff5e4d",
+   "cast_shadow": false
+  },
+  {
+   "id": "b_wall_front",
+   "position": [
+    0,
+    8,
+    -288.0
+   ],
+   "size": [
+    44,
+    16,
+    0.5
+   ],
+   "color": "#33363d",
+   "cast_shadow": false
+  },
+  {
+   "id": "b_bench_seat",
+   "position": [
+    0,
+    0.9,
+    -300.0
+   ],
+   "size": [
+    5.0,
+    0.4,
+    1.8
+   ],
+   "color": "#8a5a2b",
+   "cast_shadow": true
+  },
+  {
+   "id": "b_bench_l",
+   "position": [
+    -2.3,
+    0.4,
+    -300.0
+   ],
+   "size": [
+    0.4,
+    0.8,
+    1.5
+   ],
+   "color": "#44454d",
+   "cast_shadow": false
+  },
+  {
+   "id": "b_bench_r",
+   "position": [
+    2.3,
+    0.4,
+    -300.0
+   ],
+   "size": [
+    0.4,
+    0.8,
+    1.5
+   ],
+   "color": "#44454d",
+   "cast_shadow": false
+  },
+  {
+   "id": "h_ipad",
+   "position": [
+    0,
+    1.75,
+    -298.55
+   ],
+   "size": [
+    1.9,
+    2.5,
+    0.16
+   ],
+   "color": "#2a2a30",
+   "cast_shadow": false,
+   "bevel": 0.05
+  },
+  {
+   "id": "h_screen",
+   "position": [
+    0,
+    1.75,
+    -298.65
+   ],
+   "size": [
+    1.65,
+    2.2,
+    0.05
+   ],
+   "color": "#e6eefc",
+   "cast_shadow": false,
+   "bevel": 0.0
+  },
+  {
+   "id": "h_rim_l",
+   "position": [
+    -1.12,
+    1.75,
+    -298.55
+   ],
+   "size": [
+    0.3,
+    2.9,
+    0.12
+   ],
+   "color": "#ffe3a0",
+   "cast_shadow": false
+  },
+  {
+   "id": "h_rim_r",
+   "position": [
+    1.12,
+    1.75,
+    -298.55
+   ],
+   "size": [
+    0.3,
+    2.9,
+    0.12
+   ],
+   "color": "#ffe3a0",
+   "cast_shadow": false
+  },
+  {
+   "id": "h_rim_t",
+   "position": [
+    0,
+    3.17,
+    -298.55
+   ],
+   "size": [
+    2.54,
+    0.3,
+    0.12
+   ],
+   "color": "#ffe3a0",
+   "cast_shadow": false
+  },
+  {
+   "id": "h_rim_b",
+   "position": [
+    0,
+    0.33,
+    -298.55
+   ],
+   "size": [
+    2.54,
+    0.3,
+    0.12
+   ],
+   "color": "#ffe3a0",
+   "cast_shadow": false
+  },
+  {
+   "id": "f_wall",
+   "position": [
+    0,
+    8,
+    -603.2
+   ],
+   "size": [
+    40,
+    16,
+    0.5
+   ],
+   "color": "#2b2d33",
+   "cast_shadow": false
+  },
+  {
+   "id": "f_stripe",
+   "position": [
+    0,
+    1.7,
+    -602.9
+   ],
+   "size": [
+    40,
+    0.5,
+    0.1
+   ],
+   "color": "#ff5e4d",
+   "cast_shadow": false
+  },
+  {
+   "id": "f_pedestal",
+   "position": [
+    0,
+    0.5,
+    -600.0
+   ],
+   "size": [
+    2.8,
+    1.0,
+    2.0
+   ],
+   "color": "#fff4e0",
+   "cast_shadow": false,
+   "studs": true
+  },
+  {
+   "id": "f_ipad",
+   "position": [
+    0,
+    3.25,
+    -600.0
+   ],
+   "size": [
+    3.4,
+    4.5,
+    0.4
+   ],
+   "color": "#2a2a30",
+   "cast_shadow": false,
+   "bevel": 0.1
+  },
+  {
+   "id": "f_screen",
+   "position": [
+    0,
+    3.25,
+    -599.78
+   ],
+   "size": [
+    3.0,
+    4.0,
+    0.05
+   ],
+   "color": "#00ff00",
+   "cast_shadow": false,
+   "bevel": 0.0
+  }
+ ],
+ "shots": [
+  {
+   "id": "s1",
+   "duration": 1.6,
+   "camera": {
+    "preset": "wide",
+    "focus": [
+     -0.5,
+     0,
+     -1.5
+    ],
+    "yaw": 14
+   },
+   "actions": [
+    {
+     "t": 0,
+     "character": "hero",
+     "pose": "idle"
+    },
+    {
+     "t": 0.1,
+     "character": "hero",
+     "move_to": [
+      -1.2,
+      0,
+      -1.8
+     ],
+     "duration": 1.5,
+     "then_pose": "idle"
+    }
+   ],
+   "overlays": [
+    {
+     "t": 0.05,
+     "duration": 1.5,
+     "text": "LEFT THEIR IPAD.",
+     "style": "hook"
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "duration": 0.9,
+   "camera": {
+    "position": [
+     3.6,
+     1.7,
+     7.5
+    ],
+    "look_at": [
+     1.4,
+     0.2,
+     0.8
+    ],
+    "fov": 40
+   },
+   "actions": [
+    {
+     "t": 0,
+     "character": "hero",
+     "teleport": [
+      -14,
+      0,
+      -1.0
+     ]
+    }
+   ],
+   "overlays": [
+    {
+     "t": 0.0,
+     "duration": 0.9,
+     "text": "LEFT THEIR IPAD.",
+     "style": "hook"
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "duration": 1.1,
+   "camera": {
+    "position": [
+     3.5,
+     3.4,
+     11.0
+    ],
+    "look_at": [
+     0.5,
+     2.3,
+     0.0
+    ],
+    "fov": 40
+   },
+   "actions": [
+    {
+     "t": 0,
+     "character": "hero",
+     "teleport": [
+      0.4,
+      0,
+      -0.6
+     ]
+    },
+    {
+     "t": 0,
+     "character": "hero",
+     "face": 30,
+     "turn": 0.0
+    },
+    {
+     "t": 0.1,
+     "character": "hero",
+     "pose": "look_down"
+    }
+   ],
+   "overlays": [
+    {
+     "t": 0.0,
+     "duration": 1.1,
+     "text": "LEFT THEIR IPAD.",
+     "style": "hook"
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "duration": 0.9,
+   "camera": {
+    "position": [
+     1.0,
+     1.0,
+     6.0
+    ],
+    "look_at": [
+     1.4,
+     2.2,
+     0.8
+    ],
+    "fov": 50
+   },
+   "actions": [
+    {
+     "t": 0,
+     "character": "hero",
+     "teleport": [
+      40,
+      0,
+      0
+     ]
+    }
+   ],
+   "overlays": [
+    {
+     "t": 0.0,
+     "duration": 0.9,
+     "text": "LEFT THEIR IPAD.",
+     "style": "hook"
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "duration": 2.6,
+   "camera": {
+    "position": [
+     0.0,
+     3.6,
+     -291.5
+    ],
+    "look_at": [
+     0,
+     2.9,
+     -300.0
+    ],
+    "fov": 42
+   },
+   "actions": [
+    {
+     "t": 0,
+     "character": "hero",
+     "teleport": [
+      0.0,
+      -0.5,
+      -299.8
+     ]
+    },
+    {
+     "t": 0,
+     "character": "hero",
+     "face": 0,
+     "turn": 0.0
+    },
+    {
+     "t": 0,
+     "character": "hero",
+     "pose": "phone",
+     "snap": true
+    },
+    {
+     "t": 0.1,
+     "character": "hero",
+     "expression": "surprised"
+    }
+   ],
+   "overlays": [
+    {
+     "t": 0.05,
+     "duration": 2.5,
+     "text": "UHH. ITS STILL ON.",
+     "style": "hook"
+    }
+   ]
+  },
+  {
+   "id": "s7",
+   "duration": 4.3,
+   "camera": {
+    "position": [
+     0,
+     3.45,
+     -588.5
+    ],
+    "look_at": [
+     0,
+     3.4,
+     -600.0
+    ],
+    "fov": 38
+   },
+   "actions": [
+    {
+     "t": 0,
+     "character": "hero",
+     "teleport": [
+      60,
+      0,
+      -600.0
+     ]
+    }
+   ]
+  }
+ ]
+}
