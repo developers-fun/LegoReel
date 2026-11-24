@@ -154,6 +154,28 @@ def cmd_storyboard(a):
     sc.close()
 
 
+def cmd_sfx(a):
+    from . import sfx
+    if a.test:
+        return sfx._selftest()
+    for k, v in sfx.describe().items():
+        print(f"{k:<9} {v}")
+
+
+def cmd_audio(a):
+    from .scene import Scene
+    from . import audio as A
+    sc = Scene.from_json(a.scene)
+    if not isinstance(sc.audio, dict):
+        print("scene has no \"audio\" section (dict)")
+        return 1
+    sc._ensure_built()
+    m = A.mix(sc, sc.audio)
+    os.makedirs(os.path.dirname(os.path.abspath(a.out)), exist_ok=True)
+    A.write_wav(a.out, m)
+    print(f"wrote {a.out}: {len(m) / 44100:.2f}s, peak {abs(m).max():.2f}, {len(sc.audio.get('cues', []))} cue lines")
+
+
 def main(argv=None):
     p = argparse.ArgumentParser(prog="r6reel", description="Roblox R6 storytime video renderer")
     sub = p.add_subparsers(dest="cmd", required=True)
@@ -193,6 +215,12 @@ def main(argv=None):
     sb.add_argument("--no-minimap", dest="no_minimap", action="store_true"), sb.add_argument("--captions", action="store_true")
     sb.add_argument("--seed", type=int, default=0), sb.add_argument("--pace", default="normal")
     sb.set_defaults(fn=cmd_storyboard)
+    sf = sub.add_parser("sfx", help="list the built-in synthesised sounds (or --test to check them)")
+    sf.add_argument("--test", action="store_true")
+    sf.set_defaults(fn=cmd_sfx)
+    au = sub.add_parser("audio", help="mix only the scene's sound to a wav (no video)")
+    au.add_argument("scene"), au.add_argument("--out", default="out/mix.wav")
+    au.set_defaults(fn=cmd_audio)
     a = p.parse_args(argv)
     return a.fn(a) or 0
 

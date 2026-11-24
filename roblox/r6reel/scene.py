@@ -629,6 +629,14 @@ class Scene:
         w, h = self._size(preview, size)
         r = self._renderer(w, h, preview)
         audio = audio or self.audio
+        tmp_wav = None
+        if isinstance(audio, dict):                         # synthesised sound from the "audio" section
+            import tempfile
+            from . import audio as A
+            fd, tmp_wav = tempfile.mkstemp(suffix=".wav")
+            os.close(fd)
+            A.write_wav(tmp_wav, A.mix(self, audio, start=t0, end=t1))
+            audio = tmp_wav
         vw = VideoWriter(path, w, h, fps=fps, crf=crf if crf is not None else (24 if preview else 18),
                          preset="veryfast", audio=audio, audio_offset=0.0)
         try:
@@ -639,6 +647,8 @@ class Scene:
                     progress(i + 1, n)
         finally:
             vw.close()
+            if tmp_wav and os.path.exists(tmp_wav):
+                os.remove(tmp_wav)
         return str(path)
 
     def contact_sheet(self, times=None, cols=6, tile_h=240, preview=True, step=None, labels=True):
@@ -691,6 +701,15 @@ class Scene:
             for tr in _tr_list(s.transition):
                 if tr.get("type", "cut") not in TRANSITION_TYPES:
                     W.append(f"shot {s.t0:.2f}: unknown transition {tr.get('type')!r}")
+        if isinstance(self.audio, dict):
+            from . import audio as A
+            W += A.validate(self.audio)
+            for i, c in enumerate(self.audio.get("cues", [])):
+                try:
+                    if "times" in c and not A.resolve_times(self, c["times"]):
+                        W.append(f"audio cue {i}: times {c['times']!r} matches nothing in this scene")
+                except Exception as e:                      # noqa: BLE001
+                    W.append(f"audio cue {i}: {e}")
         # clips / faces
         for a in self.actions:
             if a["character"] not in self._animators:

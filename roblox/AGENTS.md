@@ -35,3 +35,11 @@
 
 ## Storyboard
 `python -m r6reel storyboard scene.json --out out/storyboard.png` (see docs/STORYBOARD.md): key frames + arrows + footprints + checks. Run it before any big render. Skill: `/robloxstoryboard`. Code: r6reel/storyboard.py, tests/test_storyboard.py.
+
+## Sound (added 2026-11-24, ported from stickreel)
+- `r6reel/sfx.py` is the stickreel synthesised-sound library (14 sounds, numpy only, no files): `python3 -m r6reel sfx` lists them, `--test` checks them.
+- A scene's `"audio"` can now be a dict (cues, optional music, master); a string path still muxes a file. `render` mixes it to a temp wav for the rendered range and muxes it in (also for `--start/--end` chunks).
+- Cue times: list | `{from,to,every}` | `"shots"` | `"transition:whip"` | `"steps:<character>"` (walk/run `move_to`) | `"words"` (caption word starts). Docs at the top of `r6reel/audio.py`.
+- `python3 -m r6reel audio scene.json --out mix.wav` mixes the sound alone. `validate` warns on unknown sounds and on `times` that match nothing.
+- Owner taste: soft sound on hard cuts, a whoosh before a blur (use a negative `delay`). Sounds have not been auditioned by a person yet.
+- `world.plate(size, color, material)` is a plain flat-coloured box with no bands. `neon` blows out to white under bloom, so use a dark blue (`#2a3a6e`) for a lit screen.
