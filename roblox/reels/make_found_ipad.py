@@ -81,7 +81,7 @@ def build():
         "audio": {"master": 0.85, "cues": [
             {"sfx": "step", "times": "steps:Jay", "gain": 0.5, "pitch_jitter": 0.08},
             {"sfx": "whoosh", "times": "transition:whip", "delay": -0.15, "gain": 0.7},
-            {"sfx": "shimmer", "t": 6.2, "gain": 0.5},
+            {"sfx": "whoosh", "times": "transition:zoom_punch", "delay": -0.15, "gain": 0.7},
             {"sfx": "sparkle", "t": 4.3, "gain": 0.4},
             {"sfx": "thump", "t": 3.9, "gain": 0.6},
             {"sfx": "tick", "times": "words", "gain": 0.25},

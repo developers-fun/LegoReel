@@ -501,9 +501,10 @@
     "gain": 0.7
    },
    {
-    "sfx": "shimmer",
-    "t": 6.2,
-    "gain": 0.5
+    "sfx": "whoosh",
+    "times": "transition:zoom_punch",
+    "delay": -0.15,
+    "gain": 0.7
    },
    {
     "sfx": "sparkle",
