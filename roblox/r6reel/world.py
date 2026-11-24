@@ -700,3 +700,8 @@ def crowd_positions(n, area=(20.0, 20.0), seed=0, min_dist=1.0) -> list:
                 break
         pts.append(p)
     return pts
+
+
+def plate(size=(1.0, 1.0, 1.0), color=WHITE, material="plastic", name="plate") -> Prop:
+    """A plain flat-coloured box centred on its own origin (no bands). material 'neon' is unlit flat colour."""
+    return _single(name, _box_part(tuple(size), (0, 0, 0), color, material, name="box"))
